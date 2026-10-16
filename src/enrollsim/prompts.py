@@ -41,7 +41,8 @@ SYSTEM = {
         "enrollment request and extract structured fields. " + COMMON + "\n"
         'Return JSON: {"fields": {<field>: string or null}, "confidence": {<field>: number 0..1}, '
         '"evidence": {<field>: verbatim quote from raw_text or null}, "notes": string}. '
-        "Use exactly the field names in field_list. Rules: never invent a value; if unreadable use null "
+        "Use exactly the field names in field_list; field_help says where each tricky field is on the form "
+        "(election_date is the 'Received:' line). Rules: never invent a value; if unreadable use null "
         "and confidence 0; every non-null field needs an evidence quote copied VERBATIM from raw_text; "
         "OCR confuses 0/O, 1/l, 5/S, 8/B, 2/Z - you may correct an obvious confusion but then set "
         "confidence to 0.6 or lower. Dates are YYYY-MM-DD. signature is Y when the form says signed, else N."
@@ -71,18 +72,23 @@ SYSTEM = {
         "You write short, plain-language member letters for a SYNTHETIC enrollment simulator. " + COMMON + "\n"
         'Return JSON: {"subject": string, "body": string}. Rules: address the member by name; under 180 '
         "words; include EVERY phrase in required_phrases verbatim (they are checked by code); use the "
-        "contact_placeholder text exactly as given; state only the facts provided; no legal or medical advice."
+        "contact_placeholder text exactly as given; state only the facts provided; no legal or medical advice. "
+        "The letter must match `outcome` exactly: for an approval never use words like could not, unable, "
+        "denied or not approved; only a DENY letter gives a reason."
     ),
     "auditor_review": (
         "You are an independent Auditor reviewing one enrollment case timeline. " + COMMON + "\n"
         'Return JSON: {"verdict": "PASS"|"FAIL", "findings": [{"severity": "S2"|"S3", "text": string, '
         '"event_seqs": [number]}]}. Only report a problem you can tie to event seq numbers shown in the '
         "timeline. If every change is supported by quoted evidence and the outcome follows from the "
-        "events, return PASS with no findings. Deterministic code makes the pass/fail gate; your review "
+        "events, return PASS with no findings. A plan_id change is supported when its quote contains the "
+        "catalog plan NAME (the original ID was incomplete or wrong, e.g. ending in X); do not report that. Deterministic code makes the pass/fail gate; your review "
         "is advisory."
     ),
     "letter_review": (
-        "You review one member letter for plain language, politeness and consistency with the case facts. "
+        "You review one member letter for plain language, politeness and consistency with the case facts "
+        "(state ACCEPTED = approval letter, DENIED = denial, PENDING_MEMBER = request for information). "
+        "The text [PLAN CONTACT NUMBER] is an intentional placeholder in this simulator: do not report it. "
         + COMMON + "\n" 'Return JSON: {"pass": boolean, "issues": [string]}.'
     ),
 }

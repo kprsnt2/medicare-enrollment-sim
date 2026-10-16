@@ -69,6 +69,13 @@ def cmd_verify(a):
     return 0 if ok else 2
 
 
+def cmd_dashboard(a):
+    from .dashboard import write_dashboard
+    path, size = write_dashboard(_root(a), Path(a.out) if Path(a.out).is_absolute() else _root(a) / a.out)
+    print(f"wrote {path} ({size:,} bytes)")
+    return 0
+
+
 def cmd_reset(a):
     if not a.yes:
         print("this deletes state/, workspace/ and audit/. Re-run with --yes to confirm.")
@@ -93,6 +100,9 @@ def main(argv=None):
                                ("audit", cmd_audit, "re-run the audit on the current state"),
                                ("verify-ledger", cmd_verify, "check the hash chain")):
         sub.add_parser(name, help=helptext).set_defaults(fn=fn)
+    d = sub.add_parser("dashboard", help="build the static dashboard (docs/index.html)")
+    d.add_argument("--out", default="docs")
+    d.set_defaults(fn=cmd_dashboard)
     x = sub.add_parser("reset", help="delete all state, workspace and audit data")
     x.add_argument("--yes", action="store_true")
     x.set_defaults(fn=cmd_reset)

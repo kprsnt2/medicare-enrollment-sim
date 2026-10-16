@@ -21,8 +21,31 @@ DENY_TEXT = {
 }
 
 
+OUTCOME_TEXT = {
+    "ACCEPT": "APPROVED: the enrollment request was accepted. Say so clearly and give the plan and effective date.",
+    "DENY": "DENIED: the enrollment request could not be processed. Give the reason and mention the right to ask for a review.",
+    "RFI": "NOT DECIDED YET: we need more information from the member. List the missing items and the respond-by date.",
+    "CLOSED_INCOMPLETE": "CLOSED: no reply was received in time, so the request was closed without a decision.",
+}
+# Words that must never appear in an approval letter / must appear in a denial letter.
+NEGATIVE_WORDS = ["could not", "unable", "not approved", "cannot", "denied", "not be approved", "will not start"]
+
+
 def member_name(f):
     return f"{f.get('first_name', '').title()} {f.get('last_name', '').title()}".strip()
+
+
+FIELD_HELP = {
+    "election_date": "the date the request was received/submitted: use the 'Received:' line of the form",
+    "plan_name": "the plan name written on the 'Plan selected:' line (without the ID in brackets)",
+    "plan_id": "the ID in brackets on the 'Plan selected:' line, copied exactly even if it looks incomplete",
+    "election_type": "AEP, OEP, IEP or SEP, from the 'Election:' line",
+    "sep_reason": "special-election reason from the 'Sep reason:' line; a lone dash means there is none, return null",
+    "pcp_name": "primary care provider from the 'PCP:' line; a lone dash means none, return null",
+    "requested_effective_date": "the 'Requested effective date:' line",
+    "signature": "Y when the 'Signed:' line says Yes, otherwise N",
+}
+BLANKS = {"-", "--", "\u2014", "n/a", "na", "none", "null", "nil"}
 
 
 class PaperIntakeAgent:
@@ -33,13 +56,16 @@ class PaperIntakeAgent:
 
     def parse(self, case):
         h = self.h
-        out = h.gw.call(self.name, "paper_intake", {"raw_text": case["source_text"], "field_list": FIELDS},
+        out = h.gw.call(self.name, "paper_intake", {"raw_text": case["source_text"], "field_list": FIELDS,
+                                                  "field_help": FIELD_HELP, "form_received_stamp": case["received_date"]},
                         case_id=case["case_id"], keep=h.reserve)
         src, thr = norm(case["source_text"]), h.policy["ocr_confidence_threshold"]
         exempt = set(h.policy["low_confidence_exempt"])
         fields, flags, issues = {}, [], []
         for k in FIELDS:
             v = str(out["fields"].get(k) or "").strip()
+            if v.lower() in BLANKS:                       # a dash on the form means "blank", not a value
+                v = ""
             conf = float(out["confidence"].get(k, 0.0))
             quote = out["evidence"].get(k)
             if v:
@@ -51,6 +77,11 @@ class PaperIntakeAgent:
             fields[k] = v
             if v and conf < thr and k not in exempt:
                 flags.append(k)
+        if not fields.get("election_date"):
+            # The mail-room received stamp IS the election date for a paper request. Logged, never silent.
+            fields["election_date"] = case["received_date"]
+            h.log(self.name, "intake_defaulted", case["case_id"], field="election_date",
+                  value=case["received_date"], basis="received-date stamp (model returned no value)")
         return fields, flags, issues
 
 
@@ -198,13 +229,16 @@ class NoticeAgent:
     def payload(self, case, kind):
         h, f = self.h, case["fields"]
         plan = h.ref["plans"].get(f.get("plan_id", ""), {})
-        return {"kind": kind, "member_name": member_name(f), "received_date": case["received_date"],
-                "plan_name": plan.get("name", f.get("plan_name", "")),
-                "effective_date": f.get("requested_effective_date", ""),
-                "reason_text": DENY_TEXT.get(case.get("deny_code"), "we could not meet the enrollment requirements"),
-                "missing_items": case.get("missing_info", []), "respond_by": case.get("rfi_deadline", ""),
-                "contact_placeholder": h.policy["contact_placeholder"],
-                "required_phrases": h.policy["letter_required_phrases"][kind]}
+        p = {"kind": kind, "outcome": OUTCOME_TEXT[kind], "member_name": member_name(f),
+             "received_date": case["received_date"],
+             "plan_name": plan.get("name", f.get("plan_name", "")),
+             "effective_date": f.get("requested_effective_date", ""),
+             "missing_items": case.get("missing_info", []), "respond_by": case.get("rfi_deadline", ""),
+             "contact_placeholder": h.policy["contact_placeholder"],
+             "required_phrases": h.policy["letter_required_phrases"][kind]}
+        if kind == "DENY":      # only a DENY letter is ever given a reason, so no other letter can read like a denial
+            p["reason_text"] = DENY_TEXT.get(case.get("deny_code"), "we could not meet the enrollment requirements")
+        return p
 
     def issue(self, case, kind):
         h, cid = self.h, case["case_id"]
@@ -220,7 +254,7 @@ class NoticeAgent:
                 except LLMError as e:
                     h.log(self.name, "llm_failed", cid, error=str(e)[:200])
                     break
-                issues = h.compliance.check_letter(kind, out["subject"], out["body"], payload["member_name"])
+                issues = h.compliance.check_letter(kind, out["subject"], out["body"], payload["member_name"], payload)
                 if not issues:
                     result, source = out, h.gw.backend.name
                     break
@@ -245,15 +279,23 @@ class ComplianceAgent:
     def __init__(self, h):
         self.h = h
 
-    def check_letter(self, kind, subject, body, name):
+    def check_letter(self, kind, subject, body, name, payload=None):
         text = norm(subject + " " + body)
+        extra = []
+        if kind == "ACCEPT" and payload:
+            extra += [f"approval letter uses negative wording: '{w}'" for w in NEGATIVE_WORDS if w in text]
+            for label, key in (("plan name", "plan_name"), ("effective date", "effective_date")):
+                if payload.get(key) and norm(payload[key]) not in text:
+                    extra.append(f"approval letter is missing the {label} '{payload[key]}'")
+        if kind == "DENY" and payload and norm(payload.get("reason_text", "")) not in text:
+            extra.append("denial letter does not state the reason")
         issues = [f"missing required phrase: '{p}'" for p in self.h.policy["letter_required_phrases"][kind]
                   if norm(p) not in text]
         if norm(name) and norm(name) not in text:
             issues.append("member name is missing")
         if "{{" in body or "}}" in body:
             issues.append("unfilled template placeholder")
-        return issues
+        return issues + extra
 
     def sweep(self):
         h = self.h
@@ -293,7 +335,9 @@ class ComplianceAgent:
             text = (h.root / l["file"]).read_text(encoding="utf-8")
             try:
                 r = h.gw.call(self.name, "letter_review", {"kind": l["kind"], "letter": text,
-                              "facts": {"state": c["state"], "received": c["received_date"]}}, case_id=c["case_id"])
+                              "facts": {"state": c["state"], "received": c["received_date"],
+                                        "plan_name": c["fields"].get("plan_name"), "effective_date": c["fields"].get("requested_effective_date"),
+                                        "deny_code": c.get("deny_code")}}, case_id=c["case_id"])
             except BudgetExceeded:
                 h.halted = True
                 break

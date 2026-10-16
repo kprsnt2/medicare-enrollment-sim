@@ -1,6 +1,6 @@
 {
   "_note": "Edit freely. 'model' is passed to the API exactly as written - if the API answers 'model not found', change it here.",
-  "model": "gpt-5.4",
+  "model": "gpt-5.4-mini",
   "openai_base_url": "https://api.openai.com/v1",
   "api_key_env": "OPENAI_API_KEY",
   "extra_params": {},

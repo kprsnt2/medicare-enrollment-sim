@@ -54,11 +54,15 @@ jobs:
           fi
           python -m enrollsim run --mode "$MODE" $ARGS
 
-      - name: Commit state, letters and audit log
+      - name: Build dashboard (docs/index.html)
+        if: always()                # shows the failing audit too
+        run: PYTHONPATH=src python -m enrollsim dashboard
+
+      - name: Commit state, letters, audit log and dashboard
         if: always()                # keep the evidence even when the audit gate fails the run
         run: |
           git config user.name "enrollment-sim-bot"
           git config user.email "enrollment-sim-bot@users.noreply.github.com"
-          git add state workspace audit
-          git diff --cached --quiet || git commit -m "sim: run $(date -u +%F) [skip ci]"
+          git add state workspace audit docs
+          git diff --cached --quiet || git commit -m "sim: run $(date -u +%F)"   # no [skip ci]: Vercel would skip the redeploy
           git push

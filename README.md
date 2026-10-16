@@ -51,7 +51,7 @@ auditor ◀── reads audit/ and state/ (read-only) ── re-derives the outc
 ## Quick start (free, offline)
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests        # 29 tests, no network
+PYTHONPATH=src python -m unittest discover -s tests        # 34 tests, no network
 PYTHONPATH=src python -m enrollsim run --days 5            # mock mode, one simulated day per day
 PYTHONPATH=src python -m enrollsim status                  # queue, oldest first
 PYTHONPATH=src python -m enrollsim audit                   # re-audit current state
@@ -92,6 +92,18 @@ PYTHONPATH=src python -m enrollsim run --mode live --new 10     # start small
 
 Runs are serialised (`concurrency`), so the token ledger never races. `state/cases.json` grows with the case count;
 trim old terminal cases if the repo gets heavy.
+
+## Dashboard (Vercel or GitHub Pages)
+
+`python -m enrollsim dashboard` writes one self-contained file, `docs/index.html` (no server, no libraries). It shows
+KPIs, accuracy and tokens by day, accuracy by defect, who did the work, the work basket, audit findings, and a case
+explorer with each case's ledger timeline and letters. The daily workflow rebuilds and commits it.
+
+* **Vercel (works with a private repo on the free plan):** New Project -> import the repo -> Framework "Other",
+  leave the build command empty, set **Output Directory** to `docs`. Every daily commit redeploys it.
+  Vercel's default URL is public, so turn on Vercel Authentication if you do not want it open. The data is synthetic, but the
+  ledger shows model outputs.
+* **GitHub Pages:** free accounts need a *public* repo. Settings -> Pages -> Deploy from branch -> `main` / `/docs`.
 
 ## Make it yours
 

@@ -370,5 +370,71 @@ class OpenAIPathTests(Base):
         os.environ["OPENAI_API_KEY"] = "test-key-not-real"
 
 
+class LetterTests(Base):
+    """Regression: live run produced 'could not be approved' letters for ACCEPTED cases."""
+
+    def setUp(self):
+        super().setUp()
+        self.h = Harness(self.root, mode="mock")
+
+    def test_accept_payload_carries_no_denial_reason(self):
+        case = {"case_id": "X", "received_date": "2026-10-15", "fields": {"first_name": "A", "last_name": "B",
+                "plan_id": "SYN-H0001-001", "requested_effective_date": "2027-01-01"}}
+        self.assertNotIn("reason_text", self.h.notice.payload(case, "ACCEPT"))
+        self.assertIn("reason_text", self.h.notice.payload(case, "DENY"))
+
+    def test_denial_wording_in_approval_letter_is_rejected(self):
+        p = {"plan_name": "Sunrise Care HMO", "effective_date": "2027-01-01"}
+        bad = self.h.compliance.check_letter("ACCEPT", "Update", "Dear A B, we received your enrollment request. "
+            "Your enrollment could not be approved. effective date 2027-01-01 Sunrise Care HMO [PLAN CONTACT NUMBER]", "A B", p)
+        self.assertTrue(any("negative wording" in i for i in bad))
+        good = self.h.compliance.check_letter("ACCEPT", "Accepted", "Dear A B, we received your enrollment request for "
+            "Sunrise Care HMO. The effective date is 2027-01-01. Call [PLAN CONTACT NUMBER].", "A B", p)
+        self.assertEqual(good, [])
+
+    def test_plan_fix_quote_must_contain_plan_name(self):
+        ref, pol = self.h.ref, self.h.policy
+        src = "Plan selected: Sunrise Care HMO (SYN-H0001-00X)"
+        after = {"plan_id": "SYN-H0001-001", "election_type": "AEP", "election_date": "2026-10-15"}
+        self.assertFalse(validate_change("plan_id", "SYN-H0001-001", "(SYN-H0001-00X)", after, src, ref, pol)[0])
+        self.assertTrue(validate_change("plan_id", "SYN-H0001-001", "Sunrise Care HMO (SYN-H0001-00X)", after, src, ref, pol)[0])
+
+
+class IntakeTests(Base):
+    """Regression: live model left election_date empty (form says 'Received:') and returned '-' for blanks."""
+
+    def test_defaults_and_blank_dash(self):
+        from enrollsim.synth import FIELDS
+        h = Harness(self.root, mode="mock")
+        text = "Received: 2026-10-15\nPCP: -\nName: DOE, JANE"
+        out = {"fields": {k: None for k in FIELDS}, "confidence": {k: 0.9 for k in FIELDS},
+               "evidence": {k: None for k in FIELDS}, "notes": ""}
+        out["fields"].update({"pcp_name": "-", "sep_reason": "N/A", "last_name": "DOE"})
+        out["evidence"].update({"pcp_name": "PCP: -", "last_name": "Name: DOE, JANE"})
+        h.gw.call = lambda *a, **k: out
+        case = {"case_id": "T-1", "source_text": text, "received_date": "2026-10-15"}
+        fields, flags, issues = h.paper.parse(case)
+        self.assertEqual(fields["election_date"], "2026-10-15")
+        self.assertEqual(fields["pcp_name"], "")
+        self.assertEqual(fields["sep_reason"], "")
+        logged = [e for e in Ledger(self.root / "audit" / "ledger.jsonl").read_all() if e["action"] == "intake_defaulted"]
+        self.assertEqual(len(logged), 1)
+
+
+class DashboardTests(Base):
+    def test_dashboard_builds_and_escapes(self):
+        from enrollsim.dashboard import build_data, write_dashboard
+        h = Harness(self.root, mode="mock")
+        h.run_day(10)
+        d = build_data(self.root)
+        self.assertEqual(len(d["cases"]), 10)
+        self.assertTrue(d["generated_from"]["ledger_ok"])
+        path, size = write_dashboard(self.root, self.root / "docs")
+        html = path.read_text(encoding="utf-8")
+        self.assertIn("APP-", html)
+        self.assertNotIn("</script><script>alert", html)
+        self.assertEqual(html.count("</script>"), 2)     # data blob cannot close its own script tag
+
+
 if __name__ == "__main__":
     unittest.main()

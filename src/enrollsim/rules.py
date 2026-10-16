@@ -108,7 +108,9 @@ def validate_change(field, new_value, quote, after, source_text, ref, policy):
             return False, "plan id is not in the catalog"
         if norm(plan["name"]) not in norm(source_text):
             return False, "the plan's name does not appear in the source document"
-        return True, "plan name found in source"
+        if norm(plan["name"]) not in norm(quote):
+            return False, "evidence quote must contain the plan's name"
+        return True, "plan name found in source and quoted"
     if field == "pcp_name":
         plan = ref["plans"].get(after.get("plan_id", ""))
         if not plan or new_value not in plan["network"]:
