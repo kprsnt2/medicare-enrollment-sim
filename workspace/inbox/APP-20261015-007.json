@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Smith",
+  "dob": "1954-04-22",
+  "sex": "F",
+  "mbi": "SYNBTF8PU7",
+  "part_a_eff": "2019-04-01",
+  "part_b_eff": "2019-04-01",
+  "address": "58 Cedar Ln",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "602-555-2421",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-15",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "SMITH CHARLES / DOB 1954-04-22 / SEX F / MBI SYNBTF8PU7 / PART A 2019-04-01 / PART B 2019-04-01",
+  "address_proof": "58 Cedar Ln Miami FL 33102"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Wilson",
+  "dob": "1931-04-11",
+  "sex": "M",
+  "mbi": "SYN23S6CFL",
+  "part_a_eff": "1996-04-01",
+  "part_b_eff": "1996-04-01",
+  "address": "658 Pine Rd",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "512-555-4593",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-15",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {}
+}

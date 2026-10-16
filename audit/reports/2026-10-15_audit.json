@@ -1,0 +1,67 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261015-003",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261015-004",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261015-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261015-010",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261015-012",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      161,
+      162
+     ],
+     "severity": "S3",
+     "text": "The submitted source text explicitly lists plan_id as SYN-H0003-00X, but it was changed to SYN-H0003-001 based only on plan_name matching a catalog, without quoted source evidence showing the applicant intended or selected the new plan ID. This alters applicant-submitted enrollment data rather than correcting from source-document evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261015-023",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      196,
+      197,
+      198,
+      199
+     ],
+     "severity": "S3",
+     "text": "The accepted enrollment changed plan_id from the applicant-selected value to a different value, but the timeline provides no quoted documentary evidence tying SYN-H0001-002 to the source form or any catalog record. The only cited evidence repeats the original submitted plan selection '(SYN-H0001-00X)', so the correction is unsupported by the recorded case evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  }
+ ],
+ "cases_checked": 30,
+ "findings": [],
+ "ledger_entries": 275,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-15"
+}

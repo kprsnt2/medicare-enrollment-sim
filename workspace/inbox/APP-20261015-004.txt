@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-15
+Name: JONES, HELEN
+DOB: 1953-10-05   Sex: F
+Medicare No: SYNDJZF4YH
+Part A effective: 2018-10-01   Part B effective: 2018-10-01
+Address: 844 Hill St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 512-555-5860
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyre
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Maya Iyer at the clinic.
+Attachment A (Medicare card copy): JONES HELEN / DOB 1953-10-05 / SEX F / MBI SYNDJZF4YH / PART A 2018-10-01 / PART B 2018-10-01
+Attachment B (proof of address): 844 Hill St Houston TX 77001

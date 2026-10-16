@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-15
+Name: MILLER, KAREN
+DOB: 1937-l1-15   Sex: M
+Medicare No: SYNLGGCQKR
+Part A effective: 2002-11-01   Part B effective: 2002-11-01
+Address: 500 Oak St
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-0877
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER KAREN / DOB 1937-11-15 / SEX M / MBI SYNLGGCQKR / PART A 2002-11-01 / PART B 2002-11-01
+Attachment B (proof of address): 500 Oak St Chicago IL 60603
