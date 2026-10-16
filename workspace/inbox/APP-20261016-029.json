@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Martin",
+  "dob": "1943-01-25",
+  "sex": "F",
+  "mbi": "SYNKHSRWHH",
+  "part_a_eff": "2008-01-01",
+  "part_b_eff": "2008-01-01",
+  "address": "831 Oak St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "33102",
+  "county": "Harris",
+  "phone": "713-555-1784",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-16",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "address_proof": "831 Oak St Houston TX 77003"
+ }
+}

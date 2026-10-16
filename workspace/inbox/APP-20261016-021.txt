@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: WILSON, DOROTHY
+DOB: l948-1Z-13   Sex: M
+Medicare No: SYNLZQNWJU
+Part A effective: 2013-12-01   Part B effective: 2013-12-01
+Address: 388 Elm St
+City: Chicago   State: IL   ZIP: 6O6OZ   County: Cook
+Phone: 305-555-3049
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON DOROTHY / DOB 1948-12-13 / SEX M / MBI SYNLZQNWJU / PART A 2013-12-01 / PART B 2013-12-01
+Attachment B (proof of address): 388 Elm St Chicago IL 60602

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: MILLER, ROBERT
+DOB: 1941-07-12   Sex: M
+Medicare No: SYNQLG7M3A
+Part A effective: 2006-07-01   Part B effective: 2006-07-01
+Address: 194 Hill St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-9646
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER ROBERT / DOB 1941-07-12 / SEX M / MBI SYNQLG7M3A / PART A 2006-07-01 / PART B 2006-07-01
+Attachment B (proof of address): 194 Hill St Miami FL 33102

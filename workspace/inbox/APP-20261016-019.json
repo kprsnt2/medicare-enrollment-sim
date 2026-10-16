@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Williams",
+  "dob": "1949-10-01",
+  "sex": "F",
+  "mbi": "SYNXX2AVG4",
+  "part_a_eff": "2014-10-01",
+  "part_b_eff": "2014-10-01",
+  "address": "240 Elm St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "713-555-7951",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-16",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILLIAMS DAVID / DOB 1949-10-01 / SEX F / MBI SYNXX2AVG4 / PART A 2014-10-01 / PART B 2014-10-01",
+  "address_proof": "240 Elm St Miami FL 33101"
+ }
+}

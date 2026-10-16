@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: ANDERSON, MARY
+DOB: 1954-09-02   Sex: F
+Medicare No: SYNLARHV2J
+Part A effective: 2019-09-01   Part B effective: 2019-09-01
+Address: 730 Oak St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-6048
+Plan selected: Palmetto Gold PPO (SYN-H0003-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON MARY / DOB 1954-09-02 / SEX F / MBI SYNLARHV2J / PART A 2019-09-01 / PART B 2019-09-01
+Attachment B (proof of address): 730 Oak St Phoenix AZ 85002

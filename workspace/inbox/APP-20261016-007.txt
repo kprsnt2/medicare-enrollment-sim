@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: SMITH, DOROTHY
+DOB: 1952-11-23   Sex: F
+Medicare No: SYNC3RJ7GY
+Part A effective: 2017-11-01   Part B effective: 2017-11-01
+Address: 840 Cedar Ln
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 713-555-7757
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): SMITH DOROTHY / DOB 1952-11-23 / SEX F / MBI SYNC3RJ7GY / PART A 2017-11-01 / PART B 2017-11-01
+Attachment B (proof of address): 840 Cedar Ln Chicago IL 60601

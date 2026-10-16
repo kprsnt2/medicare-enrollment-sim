@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: LOPEZ, WILLIAM
+DOB: 1943-12-03   Sex: F
+Medicare No: SYNLWSN257
+Part A effective: 2008-12-01   Part B effective: 2008-12-01
+Address: 297 Oak St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 602-555-0319
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Oritz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): LOPEZ WILLIAM / DOB 1943-12-03 / SEX F / MBI SYNLWSN257 / PART A 2008-12-01 / PART B 2008-12-01
+Attachment B (proof of address): 297 Oak St Phoenix AZ 85003

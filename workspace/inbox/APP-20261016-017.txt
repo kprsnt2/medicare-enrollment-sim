@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: ANDERSON, MICHAEL
+DOB: 1930-04-11   Sex: M
+Medicare No: SYNASWEWHA
+Part A effective: 1995-04-01   Part B effective: 1995-04-01
+Address: 306 Oak St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-9165
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON MICHAEL / DOB 1930-04-11 / SEX M / MBI SYNASWEWHA / PART A 1995-04-01 / PART B 1995-04-01
+Attachment B (proof of address): 306 Oak St Phoenix AZ 85001

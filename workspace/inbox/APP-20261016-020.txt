@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: JOHNSON, ROBERT
+DOB: 1946-11-19   Sex: M
+Medicare No: SYN8L8UU8Q
+Part A effective: 2011-11-01   Part B effective: 2011-11-01
+Address: 597 Elm St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-5411
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 597 Elm St Chicago IL 60602

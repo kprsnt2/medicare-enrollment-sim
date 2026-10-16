@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: MARTIN, HELEN
+DOB: 1956-12-01   Sex: M
+Medicare No: SYNMYCXPQP
+Part A effective: 2021-12-01   Part B effective: 2021-12-01
+Address: 849 Cedar Ln
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 713-555-5327
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN HELEN / DOB 1956-12-01 / SEX M / MBI SYNMYCXPQP / PART A 2021-12-01 / PART B 2021-12-01
+Attachment B (proof of address): 849 Cedar Ln Miami FL 33101

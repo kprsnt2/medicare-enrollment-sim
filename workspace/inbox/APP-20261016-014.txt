@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: MILLER, PATRICIA
+DOB: 1947-11-05   Sex: M
+Medicare No: SYNBPFWLGG
+Part A effective: 2012-11-01   Part B effective: 2012-11-01
+Address: 995 Park Ave
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-7564
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER PATRICIA / DOB 1947-11-05 / SEX M / MBI SYNBPFWLGG / PART A 2012-11-01 / PART B 2012-11-01

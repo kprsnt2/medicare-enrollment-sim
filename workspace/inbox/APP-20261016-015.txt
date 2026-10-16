@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: MOORE, WILLIAM
+DOB: 1946-12-20   Sex: F
+Medicare No: SYNJUHJHXL
+Part A effective: 2011-12-01   Part B effective: 2011-12-01
+Address: 628 Lakeview Dr
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-9631
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE WILLIAM / DOB 1946-12-20 / SEX F / MBI SYNJUHJHXL / PART A 2011-12-01 / PART B 2011-12-01
+Attachment B (proof of address): 628 Lakeview Dr Houston TX 77003
