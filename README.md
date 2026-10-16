@@ -51,7 +51,7 @@ auditor ◀── reads audit/ and state/ (read-only) ── re-derives the outc
 ## Quick start (free, offline)
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests        # 34 tests, no network
+PYTHONPATH=src python -m unittest discover -s tests        # 35 tests, no network
 PYTHONPATH=src python -m enrollsim run --days 5            # mock mode, one simulated day per day
 PYTHONPATH=src python -m enrollsim status                  # queue, oldest first
 PYTHONPATH=src python -m enrollsim audit                   # re-audit current state
