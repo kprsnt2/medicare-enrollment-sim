@@ -1,0 +1,47 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261016-002",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261016-005",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261016-006",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261016-011",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261016-012",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261016-016",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 60,
+ "findings": [],
+ "ledger_entries": 560,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-16"
+}

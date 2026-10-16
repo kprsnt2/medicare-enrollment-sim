@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: JOHNSON, MARY
+DOB: 1956-04-28   Sex: M
+Medicare No: SYNR9BJR25
+Part A effective: 2021-04-01   Part B effective: 2021-04-01
+Address: 183 Oak St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-1155
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON MARY / DOB 1956-04-28 / SEX M / MBI SYNR9BJR25 / PART A 2021-04-01 / PART B 2021-04-01
+Attachment B (proof of address): 183 Oak St Phoenix AZ 85002

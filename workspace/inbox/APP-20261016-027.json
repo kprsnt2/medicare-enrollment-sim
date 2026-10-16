@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Thomas",
+  "dob": "1961-11-12",
+  "sex": "M",
+  "mbi": "SYN4XTVAHD",
+  "part_a_eff": "2026-11-01",
+  "part_b_eff": "2026-11-01",
+  "address": "727 Cedar Ln",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "713-555-0330",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-16",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMAS MARY / DOB 1961-11-12 / SEX M / MBI SYN4XTVAHD / PART A 2026-11-01 / PART B 2026-11-01"
+ }
+}

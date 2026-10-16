@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: HERNANDEZ, SUSAN
+DOB: 1951-01-21   Sex: F
+Medicare No: SYN5VYNFGA
+Part A effective: 2016-01-01   Part B effective: 2016-01-01
+Address: 695 Pine Rd
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-0698
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

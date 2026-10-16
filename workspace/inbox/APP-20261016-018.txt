@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-16
+Name: MOORE, MICHAEL
+DOB: 1931-09-02   Sex: F
+Medicare No: SYNR6E3UMT
+Part A effective: 1996-09-01   Part B effective: 1996-09-01
+Address: 734 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: BS0O1   County: Maricopa
+Phone: 312-555-7307
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE MICHAEL / DOB 1931-09-02 / SEX F / MBI SYNR6E3UMT / PART A 1996-09-01 / PART B 1996-09-01
+Attachment B (proof of address): 734 Lakeview Dr Phoenix AZ 85001
