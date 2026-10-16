@@ -1,0 +1,27 @@
+{
+  "_note": "Edit freely. 'model' is passed to the API exactly as written - if the API answers 'model not found', change it here.",
+  "model": "gpt-5.4",
+  "openai_base_url": "https://api.openai.com/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "extra_params": {},
+  "max_completion_tokens": {
+    "paper_intake": 3000,
+    "resolver": 4000,
+    "notice": 2000,
+    "auditor_review": 3000,
+    "letter_review": 1500
+  },
+  "daily_token_cap": 2000000,
+  "audit_reserve_tokens": 150000,
+  "budget_day_offset_minutes": 330,
+  "http_timeout_seconds": 120,
+  "http_retries": 3,
+  "sim_start_date": "2026-10-15",
+  "new_applications_per_day": 30,
+  "paper_share": 0.6,
+  "resolver_daily_capacity": 20,
+  "audit_llm_sample": 6,
+  "letter_review_sample": 3,
+  "seed": 20261015,
+  "mock_usage": false
+}

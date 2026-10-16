@@ -1,0 +1,45 @@
+{
+  "_note": "SYNTHETIC simplification for a simulator. These reply codes, windows and notice phrases are NOT the real CMS transaction reply codes, election rules or model notice language. Replace them with your own knowledge or approved sources before treating any output as realistic.",
+  "tat_days": 10,
+  "tat_warning_days": 8,
+  "rfi_wait_days": 5,
+  "resolver_max_attempts": 4,
+  "ocr_confidence_threshold": 0.75,
+  "required_fields": [
+    "first_name", "last_name", "dob", "sex", "mbi", "address", "city", "state",
+    "zip", "county", "plan_id", "election_type", "election_date", "requested_effective_date"
+  ],
+  "low_confidence_exempt": ["phone", "pcp_name", "sep_reason", "plan_name", "signature"],
+  "election_windows": {
+    "AEP": ["10-15", "12-07"],
+    "OEP": ["01-01", "03-31"]
+  },
+  "iep_window_months": 3,
+  "sep_reasons": [
+    "MOVED_TO_NEW_SERVICE_AREA", "LOST_EMPLOYER_COVERAGE", "DUAL_ELIGIBLE", "PLAN_CONTRACT_ENDED"
+  ],
+  "effective_date_rules": {
+    "AEP": "JAN_1_NEXT_YEAR",
+    "OEP": "FIRST_OF_NEXT_MONTH",
+    "IEP": "FIRST_OF_NEXT_MONTH",
+    "SEP": "FIRST_OF_NEXT_MONTH"
+  },
+  "deniable_codes": ["REJ-AREA", "REJ-ELECTION"],
+  "sep_cue_keywords": ["moved", "relocat", "employer", "coverage ended", "lost coverage", "discontinued", "terminated", "medicaid", "dual"],
+  "fixable_fields": [
+    "first_name", "last_name", "dob", "sex", "mbi", "part_a_eff", "part_b_eff", "address",
+    "city", "state", "zip", "county", "phone", "plan_id", "pcp_name", "election_type",
+    "sep_reason", "requested_effective_date"
+  ],
+  "contact_placeholder": "[PLAN CONTACT NUMBER]",
+  "letter_required_phrases": {
+    "ACCEPT": ["we received your enrollment request", "effective date", "[PLAN CONTACT NUMBER]"],
+    "DENY": ["we are unable to process your enrollment request", "reason", "you have the right to ask us to review this decision", "[PLAN CONTACT NUMBER]"],
+    "RFI": ["we need more information", "please respond by", "[PLAN CONTACT NUMBER]"],
+    "CLOSED_INCOMPLETE": ["we have closed your enrollment request", "[PLAN CONTACT NUMBER]"]
+  },
+  "allowed_agents": [
+    "applicant_simulator", "paper_intake", "digital_intake", "processor", "resolver",
+    "notice", "compliance", "auditor", "harness"
+  ]
+}

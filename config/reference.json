@@ -1,0 +1,29 @@
+{
+  "_note": "SYNTHETIC plan catalog, service areas and provider networks. Not real plans, contracts or providers.",
+  "plans": {
+    "SYN-H0001-001": {"name": "Sunrise Care HMO", "type": "HMO", "counties": ["Travis", "Harris"],
+      "network": ["Dr. Alan Rao", "Dr. Maya Iyer", "Dr. Chris Doyle", "Dr. Neha Kulkarni"]},
+    "SYN-H0001-002": {"name": "Sunrise Choice PPO", "type": "PPO", "counties": ["Travis", "Harris", "Maricopa"],
+      "network": []},
+    "SYN-H0002-001": {"name": "Lakeshore Prime HMO", "type": "HMO", "counties": ["Cook"],
+      "network": ["Dr. Priya Nair", "Dr. Tom Becker", "Dr. Laura Weiss"]},
+    "SYN-H0003-001": {"name": "Palmetto Gold PPO", "type": "PPO", "counties": ["Miami-Dade", "Maricopa"],
+      "network": []},
+    "SYN-H0003-002": {"name": "Desert Bloom HMO", "type": "HMO", "counties": ["Maricopa"],
+      "network": ["Dr. Sam Ortiz", "Dr. Hana Kim", "Dr. Joel Park"]}
+  },
+  "zip_to_county": {
+    "78701": "Travis", "78702": "Travis", "78703": "Travis",
+    "77001": "Harris", "77002": "Harris", "77003": "Harris",
+    "85001": "Maricopa", "85002": "Maricopa", "85003": "Maricopa",
+    "60601": "Cook", "60602": "Cook", "60603": "Cook",
+    "33101": "Miami-Dade", "33102": "Miami-Dade", "33103": "Miami-Dade"
+  },
+  "county_info": {
+    "Travis": ["Austin", "TX"],
+    "Harris": ["Houston", "TX"],
+    "Maricopa": ["Phoenix", "AZ"],
+    "Cook": ["Chicago", "IL"],
+    "Miami-Dade": ["Miami", "FL"]
+  }
+}

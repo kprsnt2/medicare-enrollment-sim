@@ -1,0 +1,64 @@
+name: daily-enrollment-sim
+
+on:
+  schedule:
+    - cron: "30 3 * * *"          # 03:30 UTC = 09:00 IST, once a day (one simulated business day per run)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "live = OpenAI API (uses tokens), mock = offline"
+        type: choice
+        options: [live, mock]
+        default: live
+      new_applications:
+        description: "New applications for this run (blank = value in config/settings.json)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write                  # lets the job commit state/, workspace/ and audit/ back
+
+concurrency:
+  group: enrollment-sim            # never two runs at once: the daily token ledger is a single file
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests (offline, no API calls, no cost)
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests
+
+      - name: Run one simulated day
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+          INPUT_NEW: ${{ github.event.inputs.new_applications }}
+          PYTHONPATH: src
+        run: |
+          MODE="${INPUT_MODE:-live}"
+          case "$MODE" in live|mock) ;; *) echo "bad mode"; exit 1 ;; esac
+          ARGS=""
+          if [ -n "$INPUT_NEW" ]; then
+            case "$INPUT_NEW" in (*[!0-9]*) echo "new_applications must be a number"; exit 1 ;; esac
+            ARGS="--new $INPUT_NEW"
+          fi
+          python -m enrollsim run --mode "$MODE" $ARGS
+
+      - name: Commit state, letters and audit log
+        if: always()                # keep the evidence even when the audit gate fails the run
+        run: |
+          git config user.name "enrollment-sim-bot"
+          git config user.email "enrollment-sim-bot@users.noreply.github.com"
+          git add state workspace audit
+          git diff --cached --quiet || git commit -m "sim: run $(date -u +%F) [skip ci]"
+          git push
