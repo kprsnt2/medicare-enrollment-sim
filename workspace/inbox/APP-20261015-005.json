@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Williams",
+  "dob": "1948-11-04",
+  "sex": "F",
+  "mbi": "SYNE26BZ5V",
+  "part_a_eff": "2013-11-01",
+  "part_b_eff": "2013-11-01",
+  "address": "741 Lakeview Dr",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60602",
+  "county": "Cook",
+  "phone": "312-555-3287",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-15",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "address_proof": "741 Lakeview Dr Chicago IL 60602"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "audit_s1": 0,
+ "audit_s2": 0,
+ "basket_at_resolve_start": 19,
+ "compliance": {},
+ "evaluation": {
+  "by_defect": {
+   "clean": {
+    "correct": 9,
+    "open": 0,
+    "terminal": 9
+   },
+   "demo_mismatch": {
+    "correct": 2,
+    "open": 0,
+    "terminal": 2
+   },
+   "duplicate": {
+    "correct": 2,
+    "open": 0,
+    "terminal": 2
+   },
+   "elig_date": {
+    "correct": 1,
+    "open": 0,
+    "terminal": 1
+   },
+   "missing_signature": {
+    "correct": 0,
+    "open": 3,
+    "terminal": 0
+   },
+   "ocr_noise": {
+    "correct": 2,
+    "open": 0,
+    "terminal": 2
+   },
+   "out_of_area": {
+    "correct": 3,
+    "open": 0,
+    "terminal": 3
+   },
+   "pcp_mismatch": {
+    "correct": 2,
+    "open": 1,
+    "terminal": 2
+   },
+   "wrong_plan": {
+    "correct": 2,
+    "open": 0,
+    "terminal": 2
+   },
+   "zip_typo": {
+    "correct": 3,
+    "open": 0,
+    "terminal": 3
+   }
+  },
+  "correct": 26,
+  "false_accepts": 0,
+  "false_denials": 0,
+  "missed_accepts": 0,
+  "open": 4,
+  "outcome_accuracy": 1.0,
+  "terminal": 26,
+  "wrong_fields_on_accept": 0
+ },
+ "gate_ok": true,
+ "halted_for_budget": false,
+ "ledger_ok": true,
+ "mode": "live",
+ "model": "gpt-5.4",
+ "new_applications": 30,
+ "oldest_open": [
+  {
+   "case_id": "APP-20261015-007",
+   "reason": "INCOMPLETE",
+   "received": "2026-10-15",
+   "state": "PENDING_MEMBER"
+  },
+  {
+   "case_id": "APP-20261015-017",
+   "reason": "INCOMPLETE",
+   "received": "2026-10-15",
+   "state": "PENDING_MEMBER"
+  },
+  {
+   "case_id": "APP-20261015-021",
+   "reason": "REJ-PCP",
+   "received": "2026-10-15",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261015-028",
+   "reason": "INCOMPLETE",
+   "received": "2026-10-15",
+   "state": "PENDING_MEMBER"
+  }
+ ],
+ "sim_date": "2026-10-15",
+ "states": {
+  "ACCEPTED": 21,
+  "CLOSED_DUPLICATE": 2,
+  "DENIED": 3,
+  "ESCALATED": 1,
+  "PENDING_MEMBER": 3
+ },
+ "token_cap": 2000000,
+ "tokens_used_today": 85136
+}

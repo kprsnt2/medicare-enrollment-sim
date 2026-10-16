@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-15
+Name: MOORE, NANCY
+DOB: 1950-10-11   Sex: F
+Medicare No: SYNDU5HJGD
+Part A effective: 2015-10-01   Part B effective: 2015-10-01
+Address: 48 Oak St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-5302
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): MOORE NANCY / DOB 1950-10-11 / SEX F / MBI SYNDU5HJGD / PART A 2015-10-01 / PART B 2015-10-01
+Attachment B (proof of address): 48 Oak St Houston TX 77002
