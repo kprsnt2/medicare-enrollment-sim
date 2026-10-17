@@ -51,7 +51,7 @@ auditor ◀── reads audit/ and state/ (read-only) ── re-derives the outc
 ## Quick start (free, offline)
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests        # 42 tests, no network
+PYTHONPATH=src python -m unittest discover -s tests        # 46 tests, no network
 PYTHONPATH=src python -m enrollsim run --days 5            # mock mode, one simulated day per day
 PYTHONPATH=src python -m enrollsim status                  # queue, oldest first
 PYTHONPATH=src python -m enrollsim audit                   # re-audit current state
@@ -60,6 +60,29 @@ PYTHONPATH=src python -m enrollsim reset --yes             # start over
 ```
 Reports land in `audit/reports/<date>_summary.md`. Mock mode uses deterministic parsers that were written
 against the same defect list, so it scores ~100%. **That proves the plumbing, guards and audit, not model quality.**
+
+## When a case and the answer key disagree
+
+`diagnose.py` compares every case against the hidden key and says *why* each one differs - the gold
+outcome, the state the run reached, the CMS reply code behind the basket reason, and that case's ledger
+timeline. It writes `why_cases.txt` and prints a summary.
+
+```bash
+PYTHONPATH=src python diagnose.py                           # summary + every miss, explained
+PYTHONPATH=src python diagnose.py --case APP-20261017-010   # one case, in full
+PYTHONPATH=src python diagnose.py --all                     # also list the cases that agreed
+```
+
+Read the output in two parts. A case that is **still open** (`PENDING_MEMBER`, `ESCALATED`) is not wrong
+yet - it is waiting on the RFI clock or a human, and the daily summary already counts it as open. Only a
+**terminal** case that differs from gold is a real defect. An empty miss-list means every outcome and
+every stored field matched.
+
+The generator guarantees each case's expected outcome is reachable from its own paperwork: a `zip_typo`
+always ships the proof-of-address attachment that proves the right ZIP, an `mbi_typo` always ships the
+card, and an attachment only ever repeats the form's own values - a card showing the *correct* MBI would
+quietly undo an MBI typo. `SynthGoldTests` enforces all of that, so a later tweak to the defect
+catalogue cannot reintroduce a case nobody could have got right.
 
 ## Where the time goes, and why it is fast now
 

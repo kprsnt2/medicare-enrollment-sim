@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 os.environ["ENROLLSIM_FAST_RETRY"] = "1"
 
+from enrollsim import synth                                   # noqa: E402
 from enrollsim.budget import BudgetExceeded, TokenBudget          # noqa: E402
 from enrollsim.ledger import Ledger                               # noqa: E402
 from enrollsim.llm import LLMError, MockBackend                   # noqa: E402
@@ -610,6 +611,98 @@ class LiveModeTests(Base):
         self.assertEqual(s1["states"], s2["states"])
         self.assertEqual(s1["evaluation"], s2["evaluation"])
         self.assertTrue(s1["gate_ok"] and s2["gate_ok"])
+
+
+class SynthGoldTests(unittest.TestCase):
+    """The hidden answer key must always be reachable from the document the agent is given.
+
+    A case whose expected outcome cannot be derived from its own paperwork is not a test of the
+    pipeline, it is a coin flip. Two of those existed: zip_typo cases that drew no proof-of-address
+    attachment (the correct ZIP was nowhere in the document, yet gold expected the case to be
+    corrected) and mbi_typo cases whose Medicare card showed the TRUE number (so the typo was
+    contradicted by the attachment). Both surfaced in a live run as diagnose.py mismatches.
+    """
+
+    def setUp(self):
+        self.pol = load_json(ROOT / "config" / "policy.json")
+        self.ref = load_json(ROOT / "config" / "reference.json")
+        self.S = load_json(ROOT / "config" / "settings.json")
+
+    def cases(self, days=14, n=30):
+        out = []
+        for d in range(days):
+            day = (datetime(2026, 10, 15) + timedelta(days=d)).strftime("%Y-%m-%d")
+            out += synth.generate_day(day, n, self.S, self.ref, self.pol)
+        return out
+
+    def test_a_zip_typo_always_ships_the_proof_that_can_correct_it(self):
+        cases = [c for c in self.cases() if c["gold"]["defect"] == "zip_typo"]
+        self.assertTrue(cases, "no zip_typo cases generated")
+        for c in cases:
+            proof = _attachments(c).get("address_proof")
+            self.assertIsNotNone(proof, f"{c['case_id']}: zip typo with no proof of address")
+            self.assertIn(c["gold"]["true_fields"]["zip"], proof, c["case_id"])
+
+    def test_a_card_copy_never_contradicts_the_form_it_belongs_to(self):
+        cases = [c for c in self.cases() if c["gold"]["defect"] == "mbi_typo"]
+        self.assertTrue(cases, "no mbi_typo cases generated")
+        for c in cases:
+            card = _attachments(c).get("card_text")
+            self.assertIsNotNone(card, f"{c['case_id']}: an MBI typo with no card to prove it")
+            self.assertIn(_form_of(c)["mbi"], card, c["case_id"])
+            self.assertNotIn(c["gold"]["true_fields"]["mbi"], card,
+                             f"{c['case_id']}: the card leaks the correct MBI")
+
+    def test_no_case_expects_a_correction_it_never_provides_evidence_for(self):
+        for c in self.cases(days=20):
+            defect, expected, truth = c["gold"]["defect"], c["gold"]["expected_final"], c["gold"]["true_fields"]
+            if defect == "zip_typo":
+                self.assertNotEqual(expected, "CLOSED_INCOMPLETE",
+                                    f"{c['case_id']}: a zip typo with no way to find the right ZIP")
+            if defect == "mbi_typo":
+                self.assertNotEqual(expected, "CLOSED_INCOMPLETE",
+                                    f"{c['case_id']}: an MBI typo with no way to find the right MBI")
+
+    def test_attachments_agree_with_the_document_they_belong_to(self):
+        """An attachment may only ever repeat the form's own values. It must never leak the hidden
+        truth: a card showing the CORRECT MBI would silently undo an mbi_typo defect."""
+        for c in self.cases(days=20):
+            att, truth, form = _attachments(c), c["gold"]["true_fields"], _form_of(c)
+            if "card_text" in att:
+                if c["gold"]["defect"] == "ocr_noise":
+                    continue          # the card is deliberately printed from the CLEAN truth
+                form_mbi = form.get("mbi", "")
+                self.assertIn(form_mbi, att["card_text"], c["case_id"])
+                if c["gold"]["defect"] == "mbi_typo":
+                    self.assertNotIn(truth["mbi"], att["card_text"],
+                                     f"{c['case_id']}: the card leaks the correct MBI")
+                if c["gold"]["defect"] != "demo_mismatch":
+                    self.assertIn(truth["dob"], att["card_text"], c["case_id"])
+            if "address_proof" in att:
+                self.assertIn(truth["zip"], att["address_proof"], c["case_id"])
+                self.assertIn(truth["county"], c["source_text"], c["case_id"])
+
+
+def _attachments(case):
+    """Read the attachments back out of the rendered document (paper cases carry no payload)."""
+    out = {}
+    for line in case["source_text"].splitlines():
+        if line.startswith("Attachment A (Medicare card copy): "):
+            out["card_text"] = line.split(": ", 1)[1]
+        elif line.startswith("Attachment B (proof of address): "):
+            out["address_proof"] = line.split(": ", 1)[1]
+    return out
+
+
+def _form_of(case):
+    """The values as they appear on the form (digital cases carry a payload; paper cases are text)."""
+    if "payload" in case:
+        return case["payload"]["form"]
+    out = {}
+    for line in case["source_text"].splitlines():
+        if line.startswith("Medicare No: "):
+            out["mbi"] = line.split(": ", 1)[1].strip()
+    return out
 
 
 if __name__ == "__main__":

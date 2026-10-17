@@ -59,6 +59,9 @@ def _ocr_noise(value, rng):
 
 
 def card_text(t):
+    """The Medicare card copy. `t` is the FORM data, not the hidden truth: when the defect is a
+    mistyped MBI the card has to carry the same mistyped number, or the typo would be visible on
+    the attachment and the case would stop being the defect it claims to be."""
     return (f"{t['last_name'].upper()} {t['first_name'].upper()} / DOB {t['dob']} / SEX {t['sex']} / "
             f"MBI {t['mbi']} / PART A {t['part_a_eff']} / PART B {t['part_b_eff']}")
 
@@ -166,7 +169,7 @@ def generate_case(sim_date, idx, S, ref, pol):
 
     app, notes, noise, variant = dict(true), rng.choice(FILLER) if rng.random() < .3 else "", None, None
     has_card = rng.random() < (0.7 if defect in ("demo_mismatch", "mbi_typo") else 0.85)
-    has_proof = rng.random() < (0.7 if defect == "zip_typo" else 0.85)
+    has_proof = rng.random() < 0.85
     expected = "ACCEPTED"
 
     if defect == "demo_mismatch":
@@ -189,8 +192,12 @@ def generate_case(sim_date, idx, S, ref, pol):
         else:
             app["requested_effective_date"] = D.replace(day=1).isoformat()
     elif defect == "zip_typo":
+        # The proof of address is what proves the correct ZIP. Without it the right ZIP is nowhere
+        # in the document and the case could only ever be closed, never corrected - so the typo has
+        # to come with its own proof.
         app["zip"] = rng.choice(sorted(z for z, c in z2c.items() if c != county))
-        expected = "ACCEPTED" if has_proof else "CLOSED_INCOMPLETE"
+        has_proof = True
+        expected = "ACCEPTED"
     elif defect == "out_of_area":
         expected = "DENIED"
     elif defect == "wrong_plan":
@@ -219,9 +226,13 @@ def generate_case(sim_date, idx, S, ref, pol):
     elif defect == "duplicate":
         expected = "CLOSED_DUPLICATE"
     elif defect == "mbi_typo":
+        # Only the LAST character is mistyped, so the card is what proves the correct number. With
+        # no card in the file the answer is nowhere in the document and the case could only ever be
+        # closed - so the typo has to come with its own proof.
         wrong = rng.choice([c for c in ALPHA if c != true["mbi"][-1]])
         app["mbi"] = true["mbi"][:-1] + wrong
-        expected = "ACCEPTED" if has_card else "CLOSED_INCOMPLETE"
+        has_card = True
+        expected = "ACCEPTED"
     elif defect == "missing_signature":
         app["signature"], expected = "N", "CLOSED_INCOMPLETE"
     elif defect == "ocr_noise":
@@ -230,7 +241,7 @@ def generate_case(sim_date, idx, S, ref, pol):
 
     att = {}
     if has_card:
-        att["card_text"] = card_text(true)
+        att["card_text"] = card_text(app)
     if has_proof:
         att["address_proof"] = f"{true['address']} {true['city']} {true['state']} {true['zip']}"
 
