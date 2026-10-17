@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Brown",
+  "dob": "1932-03-19",
+  "sex": "F",
+  "mbi": "SYN9ZGJL8T",
+  "part_a_eff": "1997-03-01",
+  "part_b_eff": "1998-03-01",
+  "address": "709 Park Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "602-555-6333",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "BROWN RICHARD / DOB 1932-03-19 / SEX F / MBI SYN9ZGJL8T / PART A 1997-03-01 / PART B 1997-03-01",
+  "address_proof": "709 Park Ave Phoenix AZ 85002"
+ }
+}

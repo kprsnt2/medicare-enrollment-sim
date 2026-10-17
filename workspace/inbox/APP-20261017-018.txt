@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: ANDERSON, PATRICIA
+DOB: 1961-12-28   Sex: M
+Medicare No: SYN58WJMAB
+Part A effective: 2026-12-01   Part B effective: 2026-12-01
+Address: 210 Cedar Ln
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-4671
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON PATRICIA / DOB 1961-12-28 / SEX M / MBI SYN58WJMAB / PART A 2026-12-01 / PART B 2026-12-01

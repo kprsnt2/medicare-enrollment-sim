@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: DAVIS, BETTY
+DOB: 1946-01-15   Sex: M
+Medicare No: SYNH6227UX
+Part A effective: 2011-01-01   Part B effective: 2011-01-01
+Address: 647 Lakeview Dr
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 713-555-8170
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS BETTY / DOB 1946-01-15 / SEX M / MBI SYNH6227UX / PART A 2011-01-01 / PART B 2011-01-01
+Attachment B (proof of address): 647 Lakeview Dr Austin TX 78701

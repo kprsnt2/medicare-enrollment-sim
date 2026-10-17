@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Davis",
+  "dob": "1949-05-14",
+  "sex": "M",
+  "mbi": "SYNAXRUFYR",
+  "part_a_eff": "2014-05-01",
+  "part_b_eff": "2014-05-01",
+  "address": "664 Lakeview Dr",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "713-555-4741",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "DAVIS THOMAS / DOB 1949-05-14 / SEX M / MBI SYNAXRUFYR / PART A 2014-05-01 / PART B 2014-05-01"
+ }
+}

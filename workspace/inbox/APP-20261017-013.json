@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Jones",
+  "dob": "1947-05-24",
+  "sex": "M",
+  "mbi": "SYNKDM94TK",
+  "part_a_eff": "2012-05-01",
+  "part_b_eff": "2012-05-01",
+  "address": "410 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-0567",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Alan aRo",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Alan Rao at the clinic.",
+ "attachments": {
+  "card_text": "JONES JAMES / DOB 1947-05-24 / SEX M / MBI SYNKDM94TK / PART A 2012-05-01 / PART B 2012-05-01",
+  "address_proof": "410 Lakeview Dr Houston TX 77002"
+ }
+}

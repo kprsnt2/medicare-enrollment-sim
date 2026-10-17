@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Brown",
+  "dob": "1961-12-13",
+  "sex": "M",
+  "mbi": "SYNARURE3E",
+  "part_a_eff": "2026-12-01",
+  "part_b_eff": "2026-12-01",
+  "address": "463 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "602-555-6283",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "BROWN DAVID / DOB 1961-12-13 / SEX M / MBI SYNARURE3E / PART A 2026-12-01 / PART B 2026-12-01",
+  "address_proof": "463 Oak St Phoenix AZ 85003"
+ }
+}

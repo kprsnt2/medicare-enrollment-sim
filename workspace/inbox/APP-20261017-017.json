@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Moore",
+  "dob": "1958-09-22",
+  "sex": "M",
+  "mbi": "SYN5M32TH2",
+  "part_a_eff": "2023-09-01",
+  "part_b_eff": "2023-09-01",
+  "address": "120 Hill St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "512-555-5748",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "MOORE PATRICIA / DOB 1958-09-22 / SEX M / MBI SYN5M32THW / PART A 2023-09-01 / PART B 2023-09-01",
+  "address_proof": "120 Hill St Austin TX 78703"
+ }
+}

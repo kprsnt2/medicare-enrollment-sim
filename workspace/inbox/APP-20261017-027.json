@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Lopez",
+  "dob": "1948-04-19",
+  "sex": "M",
+  "mbi": "SYNSBMZFN8",
+  "part_a_eff": "2013-04-01",
+  "part_b_eff": "2013-04-01",
+  "address": "125 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "602-555-2019",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "LOPEZ MICHAEL / DOB 1948-04-19 / SEX M / MBI SYNSBMZFN8 / PART A 2013-04-01 / PART B 2013-04-01",
+  "address_proof": "125 Lakeview Dr Phoenix AZ 85003"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: MARTINEZ, MICHAEL
+DOB: 1950-03-05   Sex: M
+Medicare No: SYN9CKYLRM
+Part A effective: 2015-03-01   Part B effective: 2015-03-01
+Address: 127 Elm St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-7420
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: My old plan was discontinued.
+Attachment A (Medicare card copy): MARTINEZ MICHAEL / DOB 1950-03-05 / SEX M / MBI SYN9CKYLRM / PART A 2015-03-01 / PART B 2015-03-01
+Attachment B (proof of address): 127 Elm St Austin TX 78703

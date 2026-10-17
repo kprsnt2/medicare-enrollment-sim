@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: WILSON, KAREN
+DOB: 1957-03-07   Sex: M
+Medicare No: SYN9VJ3HRR
+Part A effective: 2022-03-01   Part B effective: 2022-03-01
+Address: 459 Cedar Ln
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 312-555-7136
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 459 Cedar Ln Chicago IL 60601

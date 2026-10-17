@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: MARTIN, NANCY
+DOB: 1950-09-01   Sex: F
+Medicare No: SYNFRDWGK9
+Part A effective: 2015-09-01   Part B effective: 2015-09-01
+Address: 99 Hill St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 602-555-0644
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MARTIN NANCY / DOB 1950-09-01 / SEX F / MBI SYNFRDWGK9 / PART A 2015-09-01 / PART B 2015-09-01
+Attachment B (proof of address): 99 Hill St Austin TX 78703

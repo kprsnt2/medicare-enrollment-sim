@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: WILLIAMS, BARBARA
+DOB: 1935-12-26   Sex: F
+Medicare No: SYNMCSFJYJ
+Part A effective: 2000-12-01   Part B effective: 2000-12-01
+Address: 109 Park Ave
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-8517
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Garcia",
+  "dob": "1938-07-26",
+  "sex": "M",
+  "mbi": "SYN4Q893BS",
+  "part_a_eff": "2003-07-01",
+  "part_b_eff": "2003-07-01",
+  "address": "685 Elm St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78702",
+  "county": "Travis",
+  "phone": "312-555-2118",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA WILLIAM / DOB 1938-07-26 / SEX M / MBI SYN4Q893BS / PART A 2003-07-01 / PART B 2003-07-01"
+ }
+}

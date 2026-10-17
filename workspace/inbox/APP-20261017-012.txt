@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: JOHNSON, LINDA
+DOB: 1945-11-17   Sex: M
+Medicare No: SYNR38MVQ2
+Part A effective: 2010-11-01   Part B effective: 2010-11-01
+Address: 282 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 602-555-4328
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Oritz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Sam Ortiz at the clinic.
+Attachment A (Medicare card copy): JOHNSON LINDA / DOB 1945-11-17 / SEX M / MBI SYNR38MVQ2 / PART A 2010-11-01 / PART B 2010-11-01
+Attachment B (proof of address): 282 Lakeview Dr Phoenix AZ 85002

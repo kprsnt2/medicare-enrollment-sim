@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: LOPEZ, BARBARA
+DOB: 1951-01-10   Sex: M
+Medicare No: SYNGMEVZT2
+Part A effective: 2016-01-01   Part B effective: 2016-01-01
+Address: 519 Lakeview Dr
+City: Austin   State: TX   ZIP: 33101   County: Travis
+Phone: 312-555-3577
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ BARBARA / DOB 1951-01-10 / SEX M / MBI SYNGMEVZT2 / PART A 2016-01-01 / PART B 2016-01-01

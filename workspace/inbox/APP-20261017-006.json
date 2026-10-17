@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Susan",
+  "last_name": "Jackson",
+  "dob": "1950-12-17",
+  "sex": "M",
+  "mbi": "SYNFQ7LU57",
+  "part_a_eff": "2015-12-01",
+  "part_b_eff": "2015-12-01",
+  "address": "161 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "305-555-1201",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JACKSON SUSAN / DOB 1950-12-17 / SEX M / MBI SYNFQ7LU57 / PART A 2015-12-01 / PART B 2015-12-01",
+  "address_proof": "161 Lakeview Dr Phoenix AZ 85003"
+ }
+}

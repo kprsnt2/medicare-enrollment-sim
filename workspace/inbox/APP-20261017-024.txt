@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: HERNANDEZ, ROBERT
+DOB: 1943-10-05   Sex: F
+Medicare No: SYN2RPWA2R
+Part A effective: 2008-10-01   Part B effective: 2008-10-01
+Address: 973 Maple Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 312-555-1808
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Ieyr
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Maya Iyer at the clinic.
+Attachment B (proof of address): 973 Maple Ave Houston TX 77001

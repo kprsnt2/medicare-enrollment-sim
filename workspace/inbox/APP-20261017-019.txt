@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-17
+Name: MOORE, THOMAS
+DOB: 1961-08-28   Sex: M
+Medicare No: SYNP6XEWEP
+Part A effective: 2026-08-01   Part B effective: 2026-08-01
+Address: 106 Pine Rd
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 512-555-5544
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MOORE THOMAS / DOB 1961-08-28 / SEX M / MBI SYNP6XEWEP / PART A 2026-08-01 / PART B 2026-08-01
+Attachment B (proof of address): 106 Pine Rd Houston TX 77001
