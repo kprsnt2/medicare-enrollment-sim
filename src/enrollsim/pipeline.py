@@ -1,5 +1,13 @@
-"""The harness: owns state, the audit ledger, the token budget, and runs one simulated day."""
+"""The harness: owns state, the audit ledger, the token budget, and runs one simulated day.
+
+Wall-clock is dominated by model calls waiting on the network, and those calls are independent
+per case. So the stages below fan the per-case work out over a small thread pool
+(`settings.llm_concurrency`, default 8) and apply the results in the original case order. The
+ledger, the token budget and the audit gate are all concurrency-safe; the day is still
+reproducible case by case, only faster.
+"""
 import shutil
+import time
 from datetime import timedelta
 from pathlib import Path
 
@@ -9,10 +17,11 @@ from .agents import (OPEN, TERMINAL, AuditorAgent, ComplianceAgent, DigitalIntak
 from .budget import BudgetExceeded, TokenBudget
 from .ledger import Ledger
 from .llm import LLMError, LLMGateway, MockBackend, OpenAIBackend
-from .util import load_json, norm, pdate, save_json
+from .util import load_json, norm, parallel_map, pdate, save_json
 
 CRITICAL = ["first_name", "last_name", "dob", "sex", "mbi", "part_a_eff", "part_b_eff", "zip", "plan_id",
             "pcp_name", "election_type", "sep_reason", "requested_effective_date"]
+DEFAULT_CONCURRENCY = 8
 
 
 class Harness:
@@ -28,6 +37,7 @@ class Harness:
         for d in (self.p_state, self.p_inbox, self.p_letters, self.p_reports, self.p_gold.parent):
             d.mkdir(parents=True, exist_ok=True)
         self.mode = mode
+        self.progress = lambda message: None            # the CLI replaces this; tests stay quiet
         # the reserve for compliance/audit can never swallow more than 10% of the cap
         self.reserve = min(int(self.settings["audit_reserve_tokens"]), int(self.settings["daily_token_cap"]) // 10)
         self.ledger = Ledger(self.p_ledger)
@@ -37,8 +47,14 @@ class Harness:
         self.gold = load_json(self.p_gold, {})
         self.budget = TokenBudget(self.p_state / "tokens.json", self.settings["daily_token_cap"],
                                   self.settings["budget_day_offset_minutes"])
+        self.budget.release_all()                       # drop holds left by a run that was killed
         if backend is None:
             backend = MockBackend(self.settings) if mode == "mock" else OpenAIBackend(self.settings)
+        # Concurrency only buys anything when a call waits on the network. A backend that answers
+        # instantly (mock mode) is left sequential unless the caller asked for workers explicitly.
+        self.workers = max(1, int(self.settings.get("llm_concurrency", DEFAULT_CONCURRENCY)))
+        if not (overrides or {}).get("llm_concurrency") and not getattr(backend, "io_bound", True):
+            self.workers = 1
         self.gw = LLMGateway(backend, self.ledger, self.budget, self.settings, lambda: self.sim_date)
         self.halted = False
         self.paper, self.digital = PaperIntakeAgent(self), DigitalIntakeAgent(self)
@@ -96,32 +112,43 @@ class Harness:
     def stage_intake(self):
         queue = sorted((c for c in self.cases.values() if c["state"] == "AWAITING_INTAKE"),
                        key=lambda c: (c["received_date"], c["case_id"]))
-        for c in queue:
+        for case, ok, value in parallel_map(queue, self._intake_one, self.workers):
             if self.halted:
                 break
-            agent = self.paper if c["channel"] == "paper" else self.digital
-            try:
-                fields, flags, issues = agent.parse(c)
-            except BudgetExceeded:
-                self.halted = True
-                break
-            except LLMError as e:
-                c["intake_failures"] += 1
-                self.log(agent.name, "llm_failed", c["case_id"], error=str(e)[:200])
-                if c["intake_failures"] >= 3:
-                    self.escalate(c, "intake failed three times")
-                continue
-            c["fields"], c["original_fields"], c["flags"] = fields, dict(fields), flags
-            self.log(agent.name, "intake_parsed", c["case_id"], flagged=flags, issues=issues)
-            self.processor.route(c)
+            if not ok:
+                if isinstance(value, BudgetExceeded):
+                    self.halted = True
+                    break
+                raise value
+            if value is not None:                     # None = this case failed intake and was logged
+                self.processor.route(value)
+
+    def _intake_one(self, case):
+        """Parse one application. Runs on a worker thread; only this case is touched."""
+        agent = self.paper if case["channel"] == "paper" else self.digital
+        try:
+            fields, flags, issues = agent.parse(case)
+        except BudgetExceeded:
+            raise                                     # the caller halts the day
+        except LLMError as e:
+            case["intake_failures"] += 1
+            self.log(agent.name, "llm_failed", case["case_id"], error=str(e)[:200])
+            if case["intake_failures"] >= 3:
+                self.escalate(case, "intake failed three times")
+            return None
+        case["fields"], case["original_fields"], case["flags"] = fields, dict(fields), flags
+        self.log(agent.name, "intake_parsed", case["case_id"], flagged=flags, issues=issues)
+        return case
 
     def stage_resolve(self):
         queue = sorted((c for c in self.cases.values() if c["state"] == "IN_BASKET"),
                        key=lambda c: (c["received_date"], c["case_id"]))      # oldest first
-        for c in queue[: int(self.settings["resolver_daily_capacity"])]:
+        selected = queue[: int(self.settings["resolver_daily_capacity"])]
+        for _, ok, value in parallel_map(selected, self.resolver.work, self.workers):
+            if not ok:
+                raise value
             if self.halted:
                 break
-            self.resolver.work(c)
         return len(queue)
 
     def stage_rfi_expiry(self):
@@ -132,10 +159,16 @@ class Harness:
 
     def stage_notices(self):
         need = {"ACCEPTED": "ACCEPT", "DENIED": "DENY", "PENDING_MEMBER": "RFI", "CLOSED_INCOMPLETE": "CLOSED_INCOMPLETE"}
+        jobs = []
         for c in sorted(self.cases.values(), key=lambda c: (c["received_date"], c["case_id"])):
             kind = need.get(c["state"])
             if kind and kind not in {l["kind"] for l in c["letters"]}:
-                self.notice.issue(c, kind)
+                jobs.append((c, kind))
+        for _, ok, value in parallel_map(jobs, lambda job: self.notice.issue(job[0], job[1]), self.workers):
+            if not ok:
+                raise value
+            if self.halted:
+                break
 
     # ---- evaluation against the hidden answer key ------------------------
     def evaluate_gold(self):
@@ -170,19 +203,32 @@ class Harness:
         return s
 
     # ---- one simulated day -----------------------------------------------
+    def _stage(self, label, fn, timings):
+        """Run one stage, time it, and report it. A long live run is otherwise a silent terminal."""
+        started = time.perf_counter()
+        self.progress(f"  {label} ...")
+        out = fn()
+        timings[label] = round(time.perf_counter() - started, 2)
+        self.progress(f"  {label}: {timings[label]:.1f}s")
+        return out
+
     def run_day(self, new_n=None):
         n = int(self.settings["new_applications_per_day"] if new_n is None else new_n)
         self.halted = False
         day = self.sim_date
-        self.log("harness", "day_start", None, new_applications=n, mode=self.mode, model=self.settings.get("model"))
-        self.stage_applicants(n)
-        self.stage_intake()
-        basket_before = self.stage_resolve()
-        self.stage_rfi_expiry()
-        self.stage_notices()
-        comp = self.compliance.sweep()
-        audit = self.auditor.audit()
-        gold = self.evaluate_gold()
+        timings, started = {}, time.perf_counter()
+        self.progress(f"[{day}] {self.mode} mode, {n} new applications, {self.workers} concurrent model calls")
+        self.log("harness", "day_start", None, new_applications=n, mode=self.mode, model=self.settings.get("model"),
+                 workers=self.workers)
+        self._stage("applicants", lambda: self.stage_applicants(n), timings)
+        self._stage("intake", self.stage_intake, timings)
+        basket_before = self._stage("resolve", self.stage_resolve, timings)
+        self._stage("rfi_expiry", self.stage_rfi_expiry, timings)
+        self._stage("notices", self.stage_notices, timings)
+        comp = self._stage("compliance", self.compliance.sweep, timings)
+        audit = self._stage("audit", self.auditor.audit, timings)
+        gold = self._stage("evaluate", self.evaluate_gold, timings)
+        timings["total"] = round(time.perf_counter() - started, 2)
         states = {}
         for c in self.cases.values():
             states[c["state"]] = states.get(c["state"], 0) + 1
@@ -193,10 +239,14 @@ class Harness:
                    "tokens_used_today": self.budget.used(), "token_cap": self.budget.cap,
                    "halted_for_budget": self.halted, "compliance": comp["counts"], "audit_s1": audit["s1"],
                    "audit_s2": audit["s2"], "ledger_ok": audit["ledger_ok"], "evaluation": gold,
+                   "llm_calls_today": self.budget.calls(), "workers": self.workers, "timings_seconds": timings,
                    "oldest_open": [{"case_id": c["case_id"], "state": c["state"], "received": c["received_date"],
                                     "reason": c["basket_reason"]} for c in open_items[:8]],
                    "gate_ok": bool(audit["ledger_ok"] and audit["s1"] == 0)}
-        self.log("harness", "day_end", None, gate_ok=summary["gate_ok"], tokens_used_today=summary["tokens_used_today"])
+        self.progress(f"[{day}] done in {timings['total']:.1f}s  "
+                      f"({self.budget.calls()} model calls today, {self.budget.used():,} tokens)")
+        self.log("harness", "day_end", None, gate_ok=summary["gate_ok"], tokens_used_today=summary["tokens_used_today"],
+                 seconds=timings["total"], timings=timings)
         save_json(self.p_reports / f"{day}_audit.json", audit)
         save_json(self.p_reports / f"{day}_compliance.json", comp)
         save_json(self.p_reports / f"{day}_eval.json", gold)
@@ -218,6 +268,7 @@ class Harness:
 
 def render_summary(s, audit, comp):
     e = s["evaluation"]
+    t = s.get("timings_seconds") or {}
     lines = [f"# Day {s['sim_date']} - {s['mode']} mode", "",
              f"- Tokens used today: **{s['tokens_used_today']:,} / {s['token_cap']:,}**"
              + ("  (STOPPED EARLY: cap reached; remaining work carries over)" if s["halted_for_budget"] else ""),
@@ -226,6 +277,10 @@ def render_summary(s, audit, comp):
              f"- **Audit gate: {'PASS' if s['gate_ok'] else 'FAIL'}**  (S1 {s['audit_s1']}, S2 {s['audit_s2']}, "
              f"ledger {'intact' if s['ledger_ok'] else 'BROKEN'})",
              f"- Compliance: " + (", ".join(f"{k} {v}" for k, v in sorted(s["compliance"].items())) or "no findings"), "",
+             "## Where the time went",
+             f"- Wall clock for the day: **{t.get('total', '?')}s** across {s.get('llm_calls_today', '?')} model calls "
+             f"({s.get('workers', '?')} concurrent)",
+             "- " + "   ".join(f"{k} {v}s" for k, v in t.items() if k != "total"), "",
              "## Outcome accuracy against the hidden answer key",
              f"- Terminal cases: {e['terminal']}   Still open: {e['open']}   Correct: {e['correct']}"
              f"   Accuracy: {e['outcome_accuracy']}",

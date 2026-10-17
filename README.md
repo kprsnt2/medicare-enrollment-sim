@@ -51,7 +51,7 @@ auditor ◀── reads audit/ and state/ (read-only) ── re-derives the outc
 ## Quick start (free, offline)
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests        # 35 tests, no network
+PYTHONPATH=src python -m unittest discover -s tests        # 42 tests, no network
 PYTHONPATH=src python -m enrollsim run --days 5            # mock mode, one simulated day per day
 PYTHONPATH=src python -m enrollsim status                  # queue, oldest first
 PYTHONPATH=src python -m enrollsim audit                   # re-audit current state
@@ -61,11 +61,52 @@ PYTHONPATH=src python -m enrollsim reset --yes             # start over
 Reports land in `audit/reports/<date>_summary.md`. Mock mode uses deterministic parsers that were written
 against the same defect list, so it scores ~100%. **That proves the plumbing, guards and audit, not model quality.**
 
+## Where the time goes, and why it is fast now
+
+A live day is ~73 model calls. Each one is seconds of waiting on the network, and in the first version
+they ran strictly one after another, so the day cost the sum of every call. Measured from the audit
+ledger of the GitHub Actions runs on 2026-10-15/16: **228s and 262s of wall clock, 100% of it spent
+inside `gw.call`** - intake 108s, resolver 60s, notices 52s, audit sample 8s. Nothing else in the day
+(synthesis, CMS rules, letters, audit, dashboard) takes measurable time.
+
+The calls are independent per case, so they now overlap:
+
+* `config/settings.json` -> `llm_concurrency` (default **8**) is how many calls may be in flight at once.
+  `--workers N` overrides it for one run; `--workers 1` gives the old strictly sequential behaviour.
+* Results are still applied in the original case order, so the day decides the same things - only the
+  clock changes. `ConcurrencyTests` and `LiveModeTests` assert that: one worker and eight workers must
+  produce the same states, fields, letters, accuracy and audit gate.
+* The ledger is still a single hash chain (one writer, one lock) and the token cap is still a hard
+  ceiling: `TokenBudget.reserve` checks *and* holds the estimate atomically before the call, so N calls
+  in flight cannot together cross the cap. Holds are released in `settle` (and on any exception).
+* Mock mode stays sequential on purpose - an instant backend has nothing to wait for, and threads would
+  only add overhead.
+* Progress goes to stderr per stage (`--quiet` turns it off), because a silent four-minute terminal
+  looks like a hang.
+
+Reproduce the numbers locally with no API key and no cost - a fake backend with real-API latency:
+
+```bash
+PYTHONPATH=src python tools/bench_speed.py --workers 1,8,16   # 30 applications, 3.1s per call
+```
+
+Measured on this machine (3.1s per call, the average the Actions runs showed):
+
+| concurrent calls | wall clock for the day | model calls | audit gate | accuracy |
+|---|---|---|---|---|
+| 1 (old behaviour) | 227.1s | 73 | PASS | 1.0 |
+| 8 (new default)   | 40.7s  | 73 | PASS | 1.0 |
+| 16                | 25.2s  | 73 | PASS | 1.0 |
+
+The same day, the same decisions, 5.6x faster at the default setting - so the daily Actions job drops
+from about 5 minutes to about 1.
+
 ## Live mode with the OpenAI API and a 2M-token daily cap
 
 ```bash
 export OPENAI_API_KEY=sk-...
 PYTHONPATH=src python -m enrollsim run --mode live --new 10     # start small
+PYTHONPATH=src python -m enrollsim run --mode live --workers 8  # explicit concurrency
 ```
 
 * Model name and endpoint are in `config/settings.json` (`"model": "gpt-5.4"`). I could not verify that
@@ -109,6 +150,7 @@ explorer with each case's ledger timeline and letters. The daily workflow rebuil
 
 * `config/policy.json`: reply codes, windows, TAT days, letter phrases, which fields an agent may change.
 * `config/reference.json`: plans, service areas, networks.
+* `config/settings.json`: `llm_concurrency` (calls in flight), `new_applications_per_day`, the token cap.
 * `src/enrollsim/synth.py`: the defect catalogue and how often each occurs.
 * Add a new work-basket reason: add a CMS check in `rules.evaluate`, a defect in `synth.py`, and a branch in
   `mock_brain.resolver` (live mode needs no code: the model reads the same payload).

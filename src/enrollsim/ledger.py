@@ -2,8 +2,13 @@
 
 Only the harness holds a handle to this file. Agents never get a path or a writer:
 they return values, and the harness records what they did. The auditor reads it.
+
+One writer, one lock: independent model calls may run in parallel (see util.parallel_map), so
+`append` takes a lock around "take the next sequence number, hash it onto the previous entry,
+write the line". Without it two threads could claim the same seq or chain onto a stale hash.
 """
 import json
+import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -24,6 +29,7 @@ class Ledger:
     def __init__(self, path):
         self.path = Path(path)
         self.path.parent.mkdir(parents=True, exist_ok=True)
+        self._lock = threading.Lock()
         self.seq, self.prev = self._tail()
 
     def _tail(self):
@@ -40,24 +46,25 @@ class Ledger:
         return rec["seq"], rec["hash"]
 
     def append(self, *, sim_date, agent, action, case_id=None, data=None, tokens=0, model=None):
-        self.seq += 1
-        body = {
-            "seq": self.seq,
-            "sim_date": sim_date,
-            "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "agent": agent,
-            "action": action,
-            "case_id": case_id,
-            "tokens": int(tokens or 0),
-            "model": model,
-            "data": _clip(data if data is not None else {}),
-            "prev": self.prev,
-        }
-        body["hash"] = sha(body)
-        with open(self.path, "a", encoding="utf-8") as fh:
-            fh.write(canon(body) + "\n")
-        self.prev = body["hash"]
-        return body
+        with self._lock:                       # one writer at a time: seq and hash stay a chain
+            self.seq += 1
+            body = {
+                "seq": self.seq,
+                "sim_date": sim_date,
+                "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "agent": agent,
+                "action": action,
+                "case_id": case_id,
+                "tokens": int(tokens or 0),
+                "model": model,
+                "data": _clip(data if data is not None else {}),
+                "prev": self.prev,
+            }
+            body["hash"] = sha(body)
+            with open(self.path, "a", encoding="utf-8") as fh:
+                fh.write(canon(body) + "\n")
+            self.prev = body["hash"]
+            return body
 
     def read_all(self):
         return read_ledger(self.path)

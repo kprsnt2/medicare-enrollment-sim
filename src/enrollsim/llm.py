@@ -1,8 +1,11 @@
 """Every model call goes through LLMGateway.
 
-The gateway (1) checks the daily token cap BEFORE the call, (2) calls a backend (OpenAI or mock),
-(3) validates the JSON against a schema, (4) records usage and the output in the audit ledger.
-Agents never talk to the API or the ledger themselves.
+The gateway (1) reserves room under the daily token cap BEFORE the call, (2) calls a backend
+(OpenAI or mock), (3) validates the JSON against a schema, (4) records usage and the output in
+the audit ledger. Agents never talk to the API or the ledger themselves.
+
+The gateway is safe to call from several threads at once: the budget reservation is atomic and
+the ledger serialises its own appends.
 """
 import json
 import os
@@ -63,6 +66,7 @@ def check(obj, spec, path="$"):
 class MockBackend:
     """Offline stand-in. Deterministic; costs nothing. NOT evidence of how a real model performs."""
     name = "mock"
+    io_bound = False        # instant and CPU-only: overlapping calls would only add thread overhead
 
     def __init__(self, settings):
         self.count_usage = bool(settings.get("mock_usage", False))
@@ -77,6 +81,7 @@ class MockBackend:
 class OpenAIBackend:
     """Chat Completions over plain urllib (no third-party packages)."""
     name = "openai"
+    io_bound = True         # every call is seconds of waiting: overlap them
 
     def __init__(self, settings):
         self.s = settings
@@ -145,19 +150,21 @@ class LLMGateway:
         estimate = (len(system) + len(canon(payload))) // 3 + max_tokens
         last_err = None
         for attempt in range(2):
-            self.budget.check(estimate, keep)           # raises BudgetExceeded before any spend
+            held = self.budget.reserve(estimate, keep)  # raises BudgetExceeded before any spend
             sent = payload if attempt == 0 else dict(payload, _previous_output_was_invalid=last_err)
             try:
                 text, tokens, model = self.backend.complete(task, system, sent, max_tokens)
             except LLMError as e:
                 spent = getattr(e, "tokens", 0)
-                if spent:
-                    self.budget.add(spent)
+                self.budget.settle(held, spent, counted=bool(spent))
                 self.ledger.append(sim_date=self.sim_date(), agent=agent, action=f"llm_error:{task}",
                                    case_id=case_id, tokens=spent, model=self.settings.get("model"),
                                    data={"input_sha": sha(payload), "error": str(e)[:300]})
                 raise
-            self.budget.add(tokens)
+            except BaseException:
+                self.budget.settle(held, 0, counted=False)   # never leave a hold behind
+                raise
+            self.budget.settle(held, tokens)
             try:
                 out = json.loads(text)
                 errs = check(out, SCHEMAS[task])

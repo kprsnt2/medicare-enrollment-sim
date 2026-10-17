@@ -10,6 +10,7 @@ import shutil
 import sys
 import tempfile
 import threading
+import time
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -434,6 +435,181 @@ class DashboardTests(Base):
         self.assertIn("APP-", html)
         self.assertNotIn("</script><script>alert", html)
         self.assertEqual(html.count("</script>"), 2)     # data blob cannot close its own script tag
+
+
+class _SlowBackend(MockBackend):
+    """Mock answers, but every call takes `latency` seconds like a real round trip, and it
+    records how many calls were ever in flight at the same time."""
+
+    name = "slow-mock"
+    io_bound = True
+
+    def __init__(self, latency=0.05, settings=None):
+        super().__init__(settings or {})
+        self.latency = latency
+        self.inflight = self.peak = self.calls = 0
+        self._lock = threading.Lock()
+
+    def complete(self, task, system, payload, max_tokens):
+        with self._lock:
+            self.inflight += 1
+            self.calls += 1
+            self.peak = max(self.peak, self.inflight)
+        try:
+            time.sleep(self.latency)
+            return super().complete(task, system, payload, max_tokens)
+        finally:
+            with self._lock:
+                self.inflight -= 1
+
+
+class ConcurrencyTests(Base):
+    """The stages overlap independent model calls. That must not change what the day decides,
+    must not corrupt the hash chain, and must not weaken the token cap."""
+
+    def test_independent_calls_overlap_and_the_gate_still_passes(self):
+        slow = _SlowBackend(latency=0.05)
+        h = Harness(self.root, mode="mock", backend=slow, overrides={"llm_concurrency": 8})
+        s = h.run_day(30)
+        self.assertGreater(slow.peak, 1, "independent model calls should be in flight together")
+        self.assertTrue(s["gate_ok"])
+        self.assertTrue(Ledger.verify(self.root / "audit" / "ledger.jsonl")[0])
+
+    def test_concurrency_1_and_8_produce_the_same_day(self):
+        seq_root, par_root = make_root(), make_root()
+        self.addCleanup(shutil.rmtree, seq_root, True)
+        self.addCleanup(shutil.rmtree, par_root, True)
+        h1 = Harness(seq_root, mode="mock", overrides={"llm_concurrency": 1})
+        h2 = Harness(par_root, mode="mock", overrides={"llm_concurrency": 8})
+        s1, s2 = h1.run_day(30), h2.run_day(30)
+        self.assertEqual(s1["states"], s2["states"])
+        self.assertEqual(s1["evaluation"], s2["evaluation"])
+        self.assertEqual((s1["audit_s1"], s1["audit_s2"]), (s2["audit_s1"], s2["audit_s2"]))
+        self.assertEqual(s1["compliance"], s2["compliance"])
+        self.assertEqual(sorted(h1.cases), sorted(h2.cases))
+        for cid, c in h1.cases.items():
+            self.assertEqual(c["state"], h2.cases[cid]["state"], cid)
+            self.assertEqual(c["fields"], h2.cases[cid]["fields"], cid)
+            self.assertEqual([l["kind"] for l in c["letters"]], [l["kind"] for l in h2.cases[cid]["letters"]], cid)
+
+    def test_ledger_stays_a_chain_when_many_threads_append(self):
+        path = self.root / "audit" / "ledger.jsonl"
+        led = Ledger(path)
+
+        def worker(i):
+            for j in range(25):
+                led.append(sim_date="2026-10-15", agent="harness", action="race", case_id=f"C{i}-{j}")
+
+        threads = [threading.Thread(target=worker, args=(i,)) for i in range(8)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        ok, n, msg = Ledger.verify(path)
+        self.assertTrue(ok, msg)
+        self.assertEqual(n, 200)
+        self.assertEqual(sorted(e["seq"] for e in led.read_all()), list(range(1, 201)))
+
+    def test_budget_reservations_are_atomic_and_released(self):
+        b = TokenBudget(self.root / "t.json", 1000)
+        held = [b.reserve(400), b.reserve(400)]
+        with self.assertRaises(BudgetExceeded):
+            b.reserve(400)                     # 400 used-room + 800 held + 400 > 1000
+        self.assertEqual((b.reserved(), b.used()), (800, 0))
+        b.settle(held[0], 100)
+        b.settle(held[1], 150)
+        self.assertEqual((b.reserved(), b.used()), (0, 250))
+        b.check(750)                           # exactly at the cap is allowed
+        b.release_all()
+        self.assertEqual(b.reserved(), 0)
+
+    def test_a_killed_run_cannot_wedge_the_cap(self):
+        h = Harness(self.root, mode="mock")
+        h.budget.reserve(500_000)              # a hold left behind by a process that died
+        h2 = Harness(self.root, mode="mock")   # a new harness clears stale holds
+        self.assertEqual(h2.budget.reserved(), 0)
+
+
+class _FakeModelAPI(http.server.BaseHTTPRequestHandler):
+    """An OpenAI-shaped endpoint that answers with the deterministic mock brain, so the whole
+    pipeline can run in live mode over real HTTP: real urllib client, real JSON, real threads."""
+
+    latency = 0.05
+    inflight = peak = calls = 0
+    _lock = threading.Lock()
+
+    def log_message(self, *a):
+        pass
+
+    def do_POST(self):
+        from enrollsim import mock_brain
+        from enrollsim.prompts import SYSTEM
+        with type(self)._lock:
+            type(self).inflight += 1
+            type(self).calls += 1
+            type(self).peak = max(type(self).peak, type(self).inflight)
+        try:
+            body = json.loads(self.rfile.read(int(self.headers["Content-Length"])).decode())
+            system, user = body["messages"][0]["content"], body["messages"][1]["content"]
+            task = next((t for t, prompt in SYSTEM.items() if prompt == system), None)
+            payload = json.loads(user)
+            payload.pop("_previous_output_was_invalid", None)
+            out = mock_brain.dispatch(task, payload)
+            text = json.dumps(out)
+            time.sleep(type(self).latency)
+            data = json.dumps({"model": "gpt-5.4-test", "choices": [{"message": {"content": text},
+                              "finish_reason": "stop"}], "usage": {"total_tokens": 40}}).encode()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Content-Length", str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+        finally:
+            with type(self)._lock:
+                type(self).inflight -= 1
+
+
+class LiveModeTests(Base):
+    """End to end in live mode: real HTTP client, concurrent calls, and the same audit gate."""
+
+    def setUp(self):
+        super().setUp()
+        _FakeModelAPI.inflight = _FakeModelAPI.peak = _FakeModelAPI.calls = 0
+        self.srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), _FakeModelAPI)
+        threading.Thread(target=self.srv.serve_forever, daemon=True).start()
+        self.addCleanup(self.srv.server_close)
+        self.addCleanup(self.srv.shutdown)
+        os.environ["OPENAI_API_KEY"] = "test-key-not-real"
+
+    def harness(self, workers):
+        return Harness(self.root, mode="live", overrides={
+            "openai_base_url": f"http://127.0.0.1:{self.srv.server_address[1]}/v1",
+            "llm_concurrency": workers, "http_timeout_seconds": 10})
+
+    def test_a_live_day_runs_concurrently_and_keeps_the_audit_gate(self):
+        h = self.harness(8)
+        s = h.run_day(30)
+        self.assertGreater(_FakeModelAPI.peak, 1, "live calls should overlap")
+        self.assertTrue(s["gate_ok"], s["audit_s1"])
+        self.assertTrue(Ledger.verify(self.root / "audit" / "ledger.jsonl")[0])
+        self.assertNotIn("TOKEN_ACCOUNTING_MISMATCH", {f["code"] for f in h.auditor.audit()["findings"]})
+        self.assertEqual(h.budget.reserved(), 0, "no hold may survive the day")
+        self.assertEqual(s["tokens_used_today"], _FakeModelAPI.calls * 40)
+
+    def test_live_day_with_one_worker_decides_the_same_thing(self):
+        seq_root, par_root = make_root(), make_root()
+        self.addCleanup(shutil.rmtree, seq_root, True)
+        self.addCleanup(shutil.rmtree, par_root, True)
+        h1 = Harness(seq_root, mode="live", overrides={
+            "openai_base_url": f"http://127.0.0.1:{self.srv.server_address[1]}/v1",
+            "llm_concurrency": 1, "http_timeout_seconds": 10})
+        h2 = Harness(par_root, mode="live", overrides={
+            "openai_base_url": f"http://127.0.0.1:{self.srv.server_address[1]}/v1",
+            "llm_concurrency": 8, "http_timeout_seconds": 10})
+        s1, s2 = h1.run_day(20), h2.run_day(20)
+        self.assertEqual(s1["states"], s2["states"])
+        self.assertEqual(s1["evaluation"], s2["evaluation"])
+        self.assertTrue(s1["gate_ok"] and s2["gate_ok"])
 
 
 if __name__ == "__main__":

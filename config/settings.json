@@ -14,6 +14,7 @@
   "daily_token_cap": 2000000,
   "audit_reserve_tokens": 150000,
   "budget_day_offset_minutes": 330,
+  "llm_concurrency": 8,
   "http_timeout_seconds": 120,
   "http_retries": 3,
   "sim_start_date": "2026-10-15",

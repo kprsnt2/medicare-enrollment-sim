@@ -11,7 +11,7 @@ from .ledger import Ledger
 from .llm import LLMError
 from .rules import completeness_issues, denial_check, evaluate, validate_change
 from .synth import FIELDS
-from .util import contains_value, derive_effective_date, norm, pdate, sha
+from .util import contains_value, derive_effective_date, norm, parallel_map, pdate, sha
 
 TERMINAL = {"ACCEPTED", "DENIED", "CLOSED_DUPLICATE", "CLOSED_INCOMPLETE"}
 OPEN = {"AWAITING_INTAKE", "IN_BASKET", "PENDING_MEMBER", "ESCALATED"}
@@ -329,22 +329,29 @@ class ComplianceAgent:
     def _letter_review(self):
         h, out = self.h, []
         todays = [(c, l) for c in h.cases.values() for l in c["letters"] if l["date"] == h.sim_date]
-        for c, l in todays[: int(h.settings.get("letter_review_sample", 0))]:
+        sample = todays[: int(h.settings.get("letter_review_sample", 0))]
+
+        def review(job):
+            c, l = job
+            text = (h.root / l["file"]).read_text(encoding="utf-8")
+            r = h.gw.call(self.name, "letter_review", {"kind": l["kind"], "letter": text,
+                          "facts": {"state": c["state"], "received": c["received_date"],
+                                    "plan_name": c["fields"].get("plan_name"), "effective_date": c["fields"].get("requested_effective_date"),
+                                    "deny_code": c.get("deny_code")}}, case_id=c["case_id"])
+            return {"case_id": c["case_id"], "pass": r["pass"], "issues": r["issues"]}
+
+        for (c, _), ok, value in parallel_map(sample, review, h.workers):
             if h.halted:
                 break
-            text = (h.root / l["file"]).read_text(encoding="utf-8")
-            try:
-                r = h.gw.call(self.name, "letter_review", {"kind": l["kind"], "letter": text,
-                              "facts": {"state": c["state"], "received": c["received_date"],
-                                        "plan_name": c["fields"].get("plan_name"), "effective_date": c["fields"].get("requested_effective_date"),
-                                        "deny_code": c.get("deny_code")}}, case_id=c["case_id"])
-            except BudgetExceeded:
-                h.halted = True
-                break
-            except LLMError as e:
-                h.log(self.name, "llm_failed", c["case_id"], error=str(e)[:200])
-                continue
-            out.append({"case_id": c["case_id"], "pass": r["pass"], "issues": r["issues"]})
+            if not ok:
+                if isinstance(value, BudgetExceeded):
+                    h.halted = True
+                    break
+                if isinstance(value, LLMError):
+                    h.log(self.name, "llm_failed", c["case_id"], error=str(value)[:200])
+                    continue
+                raise value
+            out.append(value)
         return out
 
 
@@ -439,22 +446,28 @@ class AuditorAgent:
                    if any(e["sim_date"] == h.sim_date for e in by_case.get(c["case_id"], []))
                    and (c["changes"] or c["state"] == "DENIED")]
         touched.sort(key=lambda c: (-len(c["changes"]), c["case_id"]))
-        for c in touched[: int(h.settings.get("audit_llm_sample", 0))]:
-            if h.halted:
-                break
+        sample = touched[: int(h.settings.get("audit_llm_sample", 0))]
+
+        def review(c):
             tl = [{"seq": e["seq"], "agent": e["agent"], "action": e["action"], "data": e["data"]}
                   for e in by_case.get(c["case_id"], []) if not e["action"].startswith("llm")][:40]
             payload = {"case_id": c["case_id"], "final_state": c["state"], "original_fields": c.get("original_fields"),
                        "final_fields": c.get("fields"), "timeline": tl, "source_text": c["source_text"][:2500]}
-            try:
-                r = h.gw.call(self.name, "auditor_review", payload, case_id=c["case_id"])
-            except BudgetExceeded:
-                h.halted = True
-                break
-            except LLMError as e:
-                h.log(self.name, "llm_failed", c["case_id"], error=str(e)[:200])
-                continue
+            r = h.gw.call(self.name, "auditor_review", payload, case_id=c["case_id"])
             valid = [f for f in r["findings"] if f["event_seqs"] and all(int(s) in by_seq for s in f["event_seqs"])]
-            out.append({"case_id": c["case_id"], "verdict": r["verdict"], "findings": valid,
-                        "dropped_unreferenced": len(r["findings"]) - len(valid)})
+            return {"case_id": c["case_id"], "verdict": r["verdict"], "findings": valid,
+                    "dropped_unreferenced": len(r["findings"]) - len(valid)}
+
+        for c, ok, value in parallel_map(sample, review, h.workers):
+            if h.halted:
+                break
+            if not ok:
+                if isinstance(value, BudgetExceeded):
+                    h.halted = True
+                    break
+                if isinstance(value, LLMError):
+                    h.log(self.name, "llm_failed", c["case_id"], error=str(value)[:200])
+                    continue
+                raise value
+            out.append(value)
         return out

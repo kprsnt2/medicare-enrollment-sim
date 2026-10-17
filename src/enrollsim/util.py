@@ -4,6 +4,8 @@ import json
 import os
 import re
 import tempfile
+from collections import deque
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime
 from pathlib import Path
 
@@ -89,3 +91,50 @@ def save_json(path, obj):
         if os.path.exists(tmp):
             os.unlink(tmp)
         raise
+
+
+def parallel_map(items, fn, workers=1):
+    """Yield (item, ok, value_or_exception) for each item, in the input order.
+
+    At most `workers` calls run at once; with workers <= 1 this is a plain in-order loop.
+    After the first item that raises, no further items are started (work already in flight is
+    drained and its results are dropped), so a token-cap halt stops the stage instead of
+    racing ahead. Exceptions are handed back to the caller rather than raised here, because
+    the caller knows whether the failure is fatal (LLMError) or a normal stop (BudgetExceeded).
+
+    Wall-clock matters: every model call is dead time, so independent calls overlap instead of
+    queueing one behind the other. Results are applied in the original order, so the pipeline
+    still behaves like the sequential one.
+    """
+    items = list(items)
+    if workers <= 1 or len(items) <= 1:
+        for it in items:
+            try:
+                yield it, True, fn(it)
+            except Exception as e:                       # noqa: BLE001 - handed to the caller
+                yield it, False, e
+        return
+    with ThreadPoolExecutor(max_workers=int(workers), thread_name_prefix="enrollsim") as pool:
+        queue = deque()
+        pending = iter(items)
+
+        def fill():
+            while len(queue) < int(workers):
+                nxt = next(pending, None)
+                if nxt is None:
+                    return
+                queue.append((nxt, pool.submit(fn, nxt)))
+
+        fill()
+        while queue:
+            item, fut = queue.popleft()
+            try:
+                value, ok = fut.result(), True
+            except Exception as e:                       # noqa: BLE001 - handed to the caller
+                value, ok = e, False
+            yield item, ok, value
+            if not ok:
+                for _, f in queue:
+                    f.cancel()
+                return
+            fill()

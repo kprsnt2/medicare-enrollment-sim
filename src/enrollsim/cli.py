@@ -18,18 +18,24 @@ def cmd_run(a):
         over["daily_token_cap"] = a.cap
     if a.mock_usage:
         over["mock_usage"] = True
+    if a.workers:
+        over["llm_concurrency"] = a.workers
     try:
         h = Harness(_root(a), mode=a.mode, overrides=over)
     except LLMError as e:
         print(f"error: {e}", file=sys.stderr)
         return 1
+    if not a.quiet:                      # a live day is minutes of waiting: say what is happening
+        h.progress = lambda message: print(message, file=sys.stderr, flush=True)
     worst = 0
     for _ in range(a.days):
         s = h.run_day(a.new)
         e = s["evaluation"]
+        t = s.get("timings_seconds", {})
         print(f"[{s['sim_date']}] tokens {s['tokens_used_today']:,}/{s['token_cap']:,}  states {s['states']}  "
               f"audit {'PASS' if s['gate_ok'] else 'FAIL'} (S1 {s['audit_s1']} S2 {s['audit_s2']})  "
-              f"accuracy {e['outcome_accuracy']}  false-accepts {e['false_accepts']}"
+              f"accuracy {e['outcome_accuracy']}  false-accepts {e['false_accepts']}  "
+              f"{t.get('total', 0)}s/{s.get('llm_calls_today', 0)} calls"
               + ("  ** stopped early: token cap **" if s["halted_for_budget"] else ""))
         if not s["gate_ok"]:
             worst = 2
@@ -94,6 +100,9 @@ def main(argv=None):
     r.add_argument("--days", type=int, default=1)
     r.add_argument("--new", type=int, default=None, help="new applications per day (default: from settings)")
     r.add_argument("--cap", type=int, default=None, help="override the daily token cap")
+    r.add_argument("--workers", type=int, default=None,
+                   help="how many model calls may be in flight at once (default: settings.llm_concurrency)")
+    r.add_argument("--quiet", action="store_true", help="no per-stage progress on stderr")
     r.add_argument("--mock-usage", action="store_true", help="make the mock backend report estimated token use")
     r.set_defaults(fn=cmd_run)
     for name, fn, helptext in (("status", cmd_status, "show queue and token use"),
