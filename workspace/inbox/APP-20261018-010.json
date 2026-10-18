@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Garcia",
+  "dob": "1951-01-17",
+  "sex": "F",
+  "mbi": "SYNQA2T554",
+  "part_a_eff": "2016-01-01",
+  "part_b_eff": "2016-01-01",
+  "address": "816 Pine Rd",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "312-555-1195",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel aPrk",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-18",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "address_proof": "816 Pine Rd Phoenix AZ 85002"
+ }
+}

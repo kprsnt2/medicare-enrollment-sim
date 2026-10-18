@@ -1,0 +1,74 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261018-009",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261018-012",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      1015
+     ],
+     "severity": "S3",
+     "text": "The requested effective date was changed from 2026-10-01 to 2027-01-01 without any quoted documentary evidence in the fix event. The source document explicitly shows 'Election: AEP' and 'Requested effective date: 2026-10-01', but the applied change at seq 1015 has empty evidence, so the modification is not tied to supporting evidence in the timeline."
+    },
+    {
+     "event_seqs": [
+      933,
+      1015,
+      1016,
+      1017
+     ],
+     "severity": "S3",
+     "text": "The acceptance outcome depends on the unsupported effective date correction after CMS rejected the original date as inconsistent with the election period. Because the only corrective change leading to acceptance lacks tied evidence, the final accepted disposition is not fully supported by documented evidence in the timeline."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261018-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261018-026",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      1047,
+      1048
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without any quoted documentary evidence on the fix event. The only support shown is an internal policy diagnosis, not source-form evidence tied to the change."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261018-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261018-022",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 120,
+ "findings": [],
+ "ledger_entries": 1108,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-18"
+}

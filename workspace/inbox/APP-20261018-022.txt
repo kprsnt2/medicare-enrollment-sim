@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: MARTIN, JOHN
+DOB: 1946-08-28   Sex: M
+Medicare No: SYNM728JF6
+Part A effective: 2011-08-01   Part B effective: 2011-08-01
+Address: 513 Park Ave
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-3212
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN JOHN / DOB 1946-08-28 / SEX M / MBI SYNM728JF6 / PART A 2011-08-01 / PART B 2011-08-01
+Attachment B (proof of address): 513 Park Ave Miami FL 33103

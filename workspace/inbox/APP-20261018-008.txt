@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: WILLIAMS, JOHN
+DOB: 1942-03-04   Sex: F
+Medicare No: SYNNCSUEH6
+Part A effective: 2007-03-01   Part B effective: 2007-03-01
+Address: 407 Cedar Ln
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-6198
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): WILLIAMS JOHN / DOB 1942-03-04 / SEX F / MBI SYNNCSUEH6 / PART A 2007-03-01 / PART B 2007-03-01
+Attachment B (proof of address): 407 Cedar Ln Houston TX 77002

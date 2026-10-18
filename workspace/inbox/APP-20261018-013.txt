@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: MARTINEZ, RICHARD
+DOB: 1961-09-12   Sex: M
+Medicare No: SYNWUABATW
+Part A effective: 2026-09-01   Part B effective: 2026-09-01
+Address: 569 Pine Rd
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 713-555-8087
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Thank you for your help.
+Attachment B (proof of address): 569 Pine Rd Austin TX 78703

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: JACKSON, JOHN
+DOB: 1949-12-22   Sex: M
+Medicare No: SYNSA6ZKWU
+Part A effective: 2014-12-01   Part B effective: 2014-12-01
+Address: 980 Oak St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-5617
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON JOHN / DOB 1949-12-22 / SEX M / MBI SYNSA6ZKWU / PART A 2014-12-01 / PART B 2014-12-01
+Attachment B (proof of address): 980 Oak St Chicago IL 60602

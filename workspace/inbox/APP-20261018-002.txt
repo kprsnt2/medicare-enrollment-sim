@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: MILLER, BETTY
+DOB: 1940-11-02   Sex: F
+Medicare No: SYNU6GYSMD
+Part A effective: 2005-11-01   Part B effective: 2005-11-01
+Address: 245 Lakeview Dr
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 305-555-2310
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER BETTY / DOB 1940-11-02 / SEX F / MBI SYNU6GYSMD / PART A 2005-11-01 / PART B 2005-11-01
+Attachment B (proof of address): 245 Lakeview Dr Austin TX 78701

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: JOHNSON, MICHAEL
+DOB: l9S4-O2-Z4   Sex: F
+Medicare No: SYNTCG6CR4
+Part A effective: 2019-02-01   Part B effective: 2019-02-01
+Address: 663 Lakeview Dr
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 713-555-8923
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON MICHAEL / DOB 1954-02-24 / SEX F / MBI SYNTCG6CR4 / PART A 2019-02-01 / PART B 2019-02-01
+Attachment B (proof of address): 663 Lakeview Dr Austin TX 78701

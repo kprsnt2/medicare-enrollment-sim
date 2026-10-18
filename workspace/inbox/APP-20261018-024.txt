@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: DAVIS, ROBERT
+DOB: 1946-06-03   Sex: F
+Medicare No: SYNS2DGBSN
+Part A effective: 2011-06-01   Part B effective: 2011-06-01
+Address: 371 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-1788
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): DAVIS ROBERT / DOB 1946-06-03 / SEX F / MBI SYNS2DGBSN / PART A 2011-06-01 / PART B 2011-06-01
+Attachment B (proof of address): 371 Maple Ave Chicago IL 60603

@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: JONES, JAMES
+DOB: 1954-11-03   Sex: M
+Medicare No: SYNYUQ4CQ2
+Part A effective: 2019-11-01   Part B effective: 2019-11-01
+Address: 919 Lakeview Dr
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-5141
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES JAMES / DOB 1954-11-03 / SEX M / MBI SYNYUQ4CQ2 / PART A 2019-11-01 / PART B 2019-11-01

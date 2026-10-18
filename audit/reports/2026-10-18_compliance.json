@@ -1,0 +1,21 @@
+{
+ "counts": {},
+ "findings": [],
+ "letter_review": [
+  {
+   "case_id": "APP-20261018-001",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261018-002",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261018-003",
+   "issues": [],
+   "pass": true
+  }
+ ]
+}

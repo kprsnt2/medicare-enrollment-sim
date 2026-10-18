@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Garcia",
+  "dob": "1932-07-25",
+  "sex": "M",
+  "mbi": "SYNZV3VXU2",
+  "part_a_eff": "1997-07-01",
+  "part_b_eff": "1997-07-01",
+  "address": "773 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "602-555-6551",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-18",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "GARCIA BETTY / DOB 1932-07-25 / SEX M / MBI SYNZV3VXU2 / PART A 1997-07-01 / PART B 1997-07-01",
+  "address_proof": "773 Lakeview Dr Houston TX 77003"
+ }
+}

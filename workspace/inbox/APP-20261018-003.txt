@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: MARTINEZ, JAMES
+DOB: 1939-10-06   Sex: M
+Medicare No: SYNVTBSMTJ
+Part A effective: 2004-10-01   Part B effective: 2004-10-01
+Address: 587 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-5740
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ JAMES / DOB 1939-10-06 / SEX M / MBI SYNVTBSMTJ / PART A 2004-10-01 / PART B 2004-10-01
+Attachment B (proof of address): 587 Hill St Phoenix AZ 85001

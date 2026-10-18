@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-18
+Name: MOORE, THOMAS
+DOB: 1953-01-19   Sex: F
+Medicare No: SYNPJMRASZ
+Part A effective: 2018-01-01   Part B effective: 2018-01-01
+Address: 57 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 60603   County: Maricopa
+Phone: 713-555-5815
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE THOMAS / DOB 1953-01-19 / SEX F / MBI SYNPJMRASZ / PART A 2018-01-01 / PART B 2018-01-01
+Attachment B (proof of address): 57 Lakeview Dr Phoenix AZ 85002
