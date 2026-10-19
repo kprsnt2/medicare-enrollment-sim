@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: JACKSON, MICHAEL
+DOB: 1952-04-12   Sex: F
+Medicare No: SYNSJ66MYG
+Part A effective: 2017-04-01   Part B effective: 2017-04-01
+Address: 581 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 512-555-7449
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura eWiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 581 Park Ave Chicago IL 60603

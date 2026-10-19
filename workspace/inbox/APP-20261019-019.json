@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Jackson",
+  "dob": "1930-10-10",
+  "sex": "F",
+  "mbi": "SYNG6DWEAM",
+  "part_a_eff": "1995-10-01",
+  "part_b_eff": "1996-10-01",
+  "address": "178 Cedar Ln",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60602",
+  "county": "Cook",
+  "phone": "312-555-1518",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-19",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "JACKSON JOHN / DOB 1930-10-10 / SEX F / MBI SYNG6DWEAM / PART A 1995-10-01 / PART B 1996-10-01",
+  "address_proof": "178 Cedar Ln Chicago IL 60602"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: JACKSON, JOSEPH
+DOB: 1951-10-11   Sex: F
+Medicare No: SYNMSS7BUJ
+Part A effective: 2016-10-01   Part B effective: 2016-10-01
+Address: 265 Elm St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-3901
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON JOSEPH / DOB 1951-10-11 / SEX F / MBI SYNMSS7BUJ / PART A 2016-10-01 / PART B 2016-10-01
+Attachment B (proof of address): 265 Elm St Houston TX 77002

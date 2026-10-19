@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: WILLIAMS, SUSAN
+DOB: 1944-05-14   Sex: F
+Medicare No: SYNSQX5YYC
+Part A effective: 2009-05-01   Part B effective: 2009-05-01
+Address: 253 Hill St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 305-555-0896
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): WILLIAMS SUSAN / DOB 1944-05-14 / SEX F / MBI SYNSQX5YYC / PART A 2009-05-01 / PART B 2009-05-01

@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: JACKSON, DAVID
+DOB: 1952-01-03   Sex: M
+Medicare No: SYNFSZSFKT
+Part A effective: 2017-01-01   Part B effective: 2017-01-01
+Address: 471 Pine Rd
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 602-555-1404
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.

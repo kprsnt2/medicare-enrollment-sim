@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Martin",
+  "dob": "1956-10-18",
+  "sex": "F",
+  "mbi": "SYNPYY5DYP",
+  "part_a_eff": "2021-10-01",
+  "part_b_eff": "2021-10-01",
+  "address": "729 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-7480",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-19",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "MARTIN MICHAEL / DOB 1956-10-18 / SEX F / MBI SYNPYY5DYP / PART A 2021-10-01 / PART B 2021-10-01",
+  "address_proof": "729 Lakeview Dr Houston TX 77002"
+ }
+}

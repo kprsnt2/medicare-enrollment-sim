@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: THOMPSON, SUSAN
+DOB: 1930-10-10   Sex: F
+Medicare No: SYNYJ7B3CZ
+Part A effective: 1995-10-01   Part B effective: 1996-10-01
+Address: 74 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-0834
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON SUSAN / DOB 1930-10-10 / SEX F / MBI SYNYJ7B3CZ / PART A 1995-10-01 / PART B 1996-10-01
+Attachment B (proof of address): 74 Lakeview Dr Phoenix AZ 85002

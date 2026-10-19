@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: SMITH, ROBERT
+DOB: 1944-04-09   Sex: F
+Medicare No: SYN4LNBG6P
+Part A effective: 2009-04-01   Part B effective: 2009-04-01
+Address: 920 Elm St
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 512-555-5929
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH ROBERT / DOB 1944-04-09 / SEX F / MBI SYN4LNBG6P / PART A 2009-04-01 / PART B 2009-04-01
+Attachment B (proof of address): 920 Elm St Miami FL 33101

@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: WILSON, THOMAS
+DOB: 1961-11-07   Sex: F
+Medicare No: SYNSDKD99M
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 531 Hill St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 512-555-8733
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): WILSON THOMAS / DOB 1961-11-07 / SEX F / MBI SYNSDKD99M / PART A 2026-11-01 / PART B 2026-11-01

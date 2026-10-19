@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: LEE, SUSAN
+DOB: l931-l1-O7   Sex: M
+Medicare No: SYN3HDJ7UE
+Part A effective: 1996-11-01   Part B effective: 1996-11-01
+Address: 220 Pine Rd
+City: Austin   State: TX   ZIP: 787O3   County: Travis
+Phone: 713-555-9381
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE SUSAN / DOB 1931-11-07 / SEX M / MBI SYN3HDJ7UE / PART A 1996-11-01 / PART B 1996-11-01
+Attachment B (proof of address): 220 Pine Rd Austin TX 78703

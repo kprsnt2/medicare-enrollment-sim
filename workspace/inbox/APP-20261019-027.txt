@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-19
+Name: WILLIAMS, JOSEPH
+DOB: 1949-09-22   Sex: F
+Medicare No: SYNAGC3L2Y
+Part A effective: 2014-09-01   Part B effective: 2014-09-01
+Address: 298 Elm St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-4712
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya aNir
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Priya Nair at the clinic.
+Attachment A (Medicare card copy): WILLIAMS JOSEPH / DOB 1949-09-22 / SEX F / MBI SYNAGC3L2Y / PART A 2014-09-01 / PART B 2014-09-01
+Attachment B (proof of address): 298 Elm St Chicago IL 60602

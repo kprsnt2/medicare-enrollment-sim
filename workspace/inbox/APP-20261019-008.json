@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Martin",
+  "dob": "1950-01-22",
+  "sex": "F",
+  "mbi": "SYNRJESWJ9",
+  "part_a_eff": "2015-01-01",
+  "part_b_eff": "2015-01-01",
+  "address": "114 Cedar Ln",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "512-555-8619",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-19",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTIN CHARLES / DOB 1950-01-22 / SEX F / MBI SYNRJESWJ9 / PART A 2015-01-01 / PART B 2015-01-01",
+  "address_proof": "114 Cedar Ln Miami FL 33103"
+ }
+}
