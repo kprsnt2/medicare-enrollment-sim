@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Davis",
+  "dob": "1952-08-15",
+  "sex": "F",
+  "mbi": "SYNLZR9E8D",
+  "part_a_eff": "2017-08-01",
+  "part_b_eff": "2017-08-01",
+  "address": "52 Maple Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "512-555-3299",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-20",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "DAVIS BARBARA / DOB 1952-08-15 / SEX F / MBI SYNLZR9E8D / PART A 2017-08-01 / PART B 2017-08-01",
+  "address_proof": "52 Maple Ave Phoenix AZ 85001"
+ }
+}

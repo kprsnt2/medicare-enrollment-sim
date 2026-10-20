@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: WILSON, CHARLES
+DOB: 1949-06-11   Sex: F
+Medicare No: SYNRTHGC5H
+Part A effective: 2014-06-01   Part B effective: 2014-06-01
+Address: 245 Elm St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-4949
+Plan selected: Desert Bloom HMO (SYN-H0003-00X)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): WILSON CHARLES / DOB 1949-06-11 / SEX F / MBI SYNRTHGC5H / PART A 2014-06-01 / PART B 2014-06-01
+Attachment B (proof of address): 245 Elm St Phoenix AZ 85002

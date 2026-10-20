@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: GARCIA, WILLIAM
+DOB: 1939-11-13   Sex: M
+Medicare No: SYN36KF3LD
+Part A effective: 2004-11-01   Part B effective: 2004-11-01
+Address: 986 Cedar Ln
+City: Austin   State: TX   ZIP: 85002   County: Travis
+Phone: 713-555-5219
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA WILLIAM / DOB 1939-11-13 / SEX M / MBI SYN36KF3LD / PART A 2004-11-01 / PART B 2004-11-01
+Attachment B (proof of address): 986 Cedar Ln Austin TX 78702

@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: LEE, JOHN
+DOB: 1930-11-15   Sex: M
+Medicare No: SYNXNZBYWP
+Part A effective: 1995-11-01   Part B effective: 1995-11-01
+Address: 844 Elm St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 602-555-7947
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment B (proof of address): 844 Elm St Houston TX 77001

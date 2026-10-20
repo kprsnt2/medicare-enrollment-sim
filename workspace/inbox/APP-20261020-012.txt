@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: LOPEZ, JAMES
+DOB: l93S-06-03   Sex: M
+Medicare No: SYN7V6Q6JS
+Part A effective: 2000-06-01   Part B effective: 2000-06-01
+Address: 44 Hill St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-7683
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ JAMES / DOB 1935-06-03 / SEX M / MBI SYN7V6Q6JS / PART A 2000-06-01 / PART B 2000-06-01
+Attachment B (proof of address): 44 Hill St Phoenix AZ 85002

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: TAYLOR, HELEN
+DOB: 1938-02-16   Sex: F
+Medicare No: SYNUMX2EFN
+Part A effective: 2003-02-01   Part B effective: 2003-02-01
+Address: 639 Park Ave
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-2368
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): TAYLOR HELEN / DOB 1938-02-16 / SEX F / MBI SYNUMX2EFN / PART A 2003-02-01 / PART B 2003-02-01
+Attachment B (proof of address): 639 Park Ave Houston TX 77003

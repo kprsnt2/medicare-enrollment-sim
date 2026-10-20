@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Wilson",
+  "dob": "1942-01-17",
+  "sex": "F",
+  "mbi": "SYN478LVPW",
+  "part_a_eff": "2007-01-01",
+  "part_b_eff": "2007-01-01",
+  "address": "467 Park Ave",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "312-555-7706",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-20",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON DAVID / DOB 1942-01-17 / SEX F / MBI SYN478LVPW / PART A 2007-01-01 / PART B 2007-01-01",
+  "address_proof": "467 Park Ave Chicago IL 60603"
+ }
+}

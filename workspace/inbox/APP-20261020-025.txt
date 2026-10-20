@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: THOMPSON, SUSAN
+DOB: 1955-12-03   Sex: F
+Medicare No: SYN6F3DS7A
+Part A effective: 2020-12-01   Part B effective: 2020-12-01
+Address: 590 Maple Ave
+City: Houston   State: TX   ZIP: 33102   County: Harris
+Phone: 312-555-2591
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON SUSAN / DOB 1955-12-03 / SEX F / MBI SYN6F3DS7A / PART A 2020-12-01 / PART B 2020-12-01
+Attachment B (proof of address): 590 Maple Ave Houston TX 77003

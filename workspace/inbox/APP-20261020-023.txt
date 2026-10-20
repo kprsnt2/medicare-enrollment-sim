@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: HERNANDEZ, JAMES
+DOB: 1954-08-09   Sex: F
+Medicare No: SYNHBNYYZ7
+Part A effective: 2019-08-01   Part B effective: 2019-08-01
+Address: 853 Park Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 512-555-0604
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ JAMES / DOB 1954-08-09 / SEX F / MBI SYNHBNYYZ7 / PART A 2019-08-01 / PART B 2019-08-01
+Attachment B (proof of address): 853 Park Ave Austin TX 78703

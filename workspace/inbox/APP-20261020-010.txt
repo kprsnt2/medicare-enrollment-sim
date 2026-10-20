@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: LOPEZ, BETTY
+DOB: 1930-10-20   Sex: M
+Medicare No: SYNLJGK65W
+Part A effective: 1995-10-01   Part B effective: 1995-10-01
+Address: 799 Hill St
+City: Chicago   State: IL   ZIP: 85003   County: Cook
+Phone: 305-555-7359
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ BETTY / DOB 1930-10-20 / SEX M / MBI SYNLJGK65W / PART A 1995-10-01 / PART B 1995-10-01
+Attachment B (proof of address): 799 Hill St Chicago IL 60602

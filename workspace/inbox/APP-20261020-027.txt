@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: TAYLOR, DAVID
+DOB: 1961-11-19   Sex: F
+Medicare No: SYN3NBCFTC
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 347 Elm St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-9512
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR DAVID / DOB 1961-11-19 / SEX F / MBI SYN3NBCFTC / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 347 Elm St Austin TX 78702

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: THOMAS, THOMAS
+DOB: 1947-07-19   Sex: F
+Medicare No: SYNDZTSNUH
+Part A effective: 2012-07-01   Part B effective: 2012-07-01
+Address: 584 Elm St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-2825
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS THOMAS / DOB 1947-07-19 / SEX F / MBI SYNDZTSNUH / PART A 2012-07-01 / PART B 2012-07-01
+Attachment B (proof of address): 584 Elm St Chicago IL 60602

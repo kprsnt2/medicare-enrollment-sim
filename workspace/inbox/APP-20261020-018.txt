@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: BROWN, JOHN
+DOB: 1953-12-08   Sex: M
+Medicare No: SYNTGCGC82
+Part A effective: 2018-12-01   Part B effective: 2018-12-01
+Address: 694 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 713-555-4246
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-10-01
+Notes: -
+Attachment B (proof of address): 694 Cedar Ln Phoenix AZ 85003

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Moore",
+  "dob": "1961-11-10",
+  "sex": "F",
+  "mbi": "SYNR7NERXC",
+  "part_a_eff": "2026-11-01",
+  "part_b_eff": "2026-11-01",
+  "address": "484 Elm St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-3161",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-20",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE KAREN / DOB 1961-11-10 / SEX F / MBI SYNR7NERXC / PART A 2026-11-01 / PART B 2026-11-01",
+  "address_proof": "484 Elm St Houston TX 77002"
+ }
+}

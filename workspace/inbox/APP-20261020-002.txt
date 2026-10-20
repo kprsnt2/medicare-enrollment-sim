@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-20
+Name: DAVIS, LINDA
+DOB: 1961-11-16   Sex: M
+Medicare No: SYNVN7GXTT
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 59 Hill St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-6842
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS LINDA / DOB 1961-11-16 / SEX M / MBI SYNVN7GXTT / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 59 Hill St Houston TX 77003
