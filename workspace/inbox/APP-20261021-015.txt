@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: BROWN, THOMAS
+DOB: 1933-03-17   Sex: F
+Medicare No: SYNUEAG3VW
+Part A effective: 1998-03-01   Part B effective: 1998-03-01
+Address: 774 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 312-555-8497
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN THOMAS / DOB 1933-03-17 / SEX F / MBI SYNUEAG3VW / PART A 1998-03-01 / PART B 1998-03-01
+Attachment B (proof of address): 774 Park Ave Chicago IL 60603

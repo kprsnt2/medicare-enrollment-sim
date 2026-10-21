@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Wilson",
+  "dob": "1942-06-20",
+  "sex": "F",
+  "mbi": "SYNAMK4HZ8",
+  "part_a_eff": "2007-06-01",
+  "part_b_eff": "2007-06-01",
+  "address": "105 Oak St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "305-555-0905",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-21",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON WILLIAM / DOB 1942-06-20 / SEX F / MBI SYNAMK4HZ8 / PART A 2007-06-01 / PART B 2007-06-01",
+  "address_proof": "105 Oak St Chicago IL 60603"
+ }
+}

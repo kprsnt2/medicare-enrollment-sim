@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Moore",
+  "dob": "1932-03-05",
+  "sex": "M",
+  "mbi": "SYN9AVTD5X",
+  "part_a_eff": "1997-03-01",
+  "part_b_eff": "1997-03-01",
+  "address": "819 Cedar Ln",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "512-555-5794",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-21",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE WILLIAM / DOB 1932-03-05 / SEX M / MBI SYN9AVTD5X / PART A 1997-03-01 / PART B 1997-03-01",
+  "address_proof": "819 Cedar Ln Chicago IL 60601"
+ }
+}

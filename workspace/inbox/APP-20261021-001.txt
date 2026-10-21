@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: WILLIAMS, BETTY
+DOB: 1952-02-03   Sex: F
+Medicare No: SYND97E7EN
+Part A effective: 2017-02-01   Part B effective: 2017-02-01
+Address: 938 Oak St
+City: Houston   State: TX   ZIP: 78701   County: Harris
+Phone: 305-555-7208
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS BETTY / DOB 1952-02-03 / SEX F / MBI SYND97E7EN / PART A 2017-02-01 / PART B 2017-02-01
+Attachment B (proof of address): 938 Oak St Houston TX 77001

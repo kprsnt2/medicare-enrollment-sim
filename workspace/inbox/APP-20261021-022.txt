@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: WILSON, JAMES
+DOB: 1942-07-12   Sex: F
+Medicare No: SYN83U6J64
+Part A effective: 2007-07-01   Part B effective: 2007-07-01
+Address: 179 Maple Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 305-555-4318
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): WILSON JAMES / DOB 1942-07-12 / SEX F / MBI SYN83U6J64 / PART A 2007-07-01 / PART B 2007-07-01
+Attachment B (proof of address): 179 Maple Ave Austin TX 78702

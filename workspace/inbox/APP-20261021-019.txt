@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: BROWN, LINDA
+DOB: 1931-05-03   Sex: M
+Medicare No: SYN656TZD9
+Part A effective: 1996-05-01   Part B effective: 1996-05-01
+Address: 679 Park Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-1868
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN LINDA / DOB 1931-05-03 / SEX M / MBI SYN656TZD9 / PART A 1996-05-01 / PART B 1996-05-01

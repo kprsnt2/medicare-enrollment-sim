@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Garcia",
+  "dob": "1945-09-18",
+  "sex": "F",
+  "mbi": "SYNWRT28M4",
+  "part_a_eff": "2010-09-01",
+  "part_b_eff": "2010-09-01",
+  "address": "204 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "512-555-4837",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-10-21",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA BETTY / DOB 1945-09-18 / SEX F / MBI SYNWRT28M4 / PART A 2010-09-01 / PART B 2010-09-01",
+  "address_proof": "204 Oak St Phoenix AZ 85001"
+ }
+}

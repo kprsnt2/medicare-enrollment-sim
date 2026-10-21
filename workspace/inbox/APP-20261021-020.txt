@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: WILSON, CHARLES
+DOB: 1938-07-01   Sex: M
+Medicare No: SYNKYUC5PC
+Part A effective: 2003-07-01   Part B effective: 2003-07-01
+Address: 60 Hill St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 713-555-7926
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 60 Hill St Austin TX 78703

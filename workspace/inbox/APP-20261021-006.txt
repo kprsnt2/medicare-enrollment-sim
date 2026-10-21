@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: GARCIA, MARY
+DOB: 1930-12-17   Sex: M
+Medicare No: SYN8LFN8A9
+Part A effective: 1995-12-01   Part B effective: 1995-12-01
+Address: 283 Cedar Ln
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-3869
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA MARY / DOB 1930-12-17 / SEX M / MBI SYN8LFN8A9 / PART A 1995-12-01 / PART B 1995-12-01
+Attachment B (proof of address): 283 Cedar Ln Houston TX 77002

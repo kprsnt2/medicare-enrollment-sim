@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-21
+Name: WILSON, BETTY
+DOB: 1940-05-25   Sex: F
+Medicare No: SYNKQAKN4N
+Part A effective: 2005-05-01   Part B effective: 2005-05-01
+Address: 704 Pine Rd
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-2438
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON BETTY / DOB 1940-05-25 / SEX F / MBI SYNKQAKN4N / PART A 2005-05-01 / PART B 2005-05-01
+Attachment B (proof of address): 704 Pine Rd Houston TX 77003
