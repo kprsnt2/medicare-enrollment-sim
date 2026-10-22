@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Moore",
+  "dob": "1954-10-20",
+  "sex": "F",
+  "mbi": "SYN98YMHTY",
+  "part_a_eff": "2019-10-01",
+  "part_b_eff": "2019-10-01",
+  "address": "205 Park Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "713-555-0922",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE THOMAS / DOB 1954-10-20 / SEX F / MBI SYN98YMHTY / PART A 2019-10-01 / PART B 2019-10-01"
+ }
+}

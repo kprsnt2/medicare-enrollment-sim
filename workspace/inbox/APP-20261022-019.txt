@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: DAVIS, ROBERT
+DOB: 1951-01-23   Sex: F
+Medicare No: SYNFNAXDA9
+Part A effective: 2016-01-01   Part B effective: 2016-01-01
+Address: 606 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 305-555-8144
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS ROBERT / DOB 1951-01-23 / SEX F / MBI SYNFNAXDA9 / PART A 2016-01-01 / PART B 2016-01-01
+Attachment B (proof of address): 606 Hill St Phoenix AZ 85003

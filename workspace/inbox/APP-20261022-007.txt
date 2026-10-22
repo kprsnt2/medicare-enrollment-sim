@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: MOORE, MICHAEL
+DOB: 1937-05-10   Sex: F
+Medicare No: SYNGMBAYHS
+Part A effective: 2002-05-01   Part B effective: 2002-05-01
+Address: 565 Park Ave
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 312-555-6337
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MOORE MICHAEL / DOB 1937-05-10 / SEX F / MBI SYNGMBAYHS / PART A 2002-05-01 / PART B 2002-05-01
+Attachment B (proof of address): 565 Park Ave Austin TX 78701

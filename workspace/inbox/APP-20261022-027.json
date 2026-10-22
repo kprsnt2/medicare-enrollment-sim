@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Wilson",
+  "dob": "1955-02-24",
+  "sex": "M",
+  "mbi": "SYNU37HQNJ",
+  "part_a_eff": "2020-02-01",
+  "part_b_eff": "2020-02-01",
+  "address": "223 Lakeview Dr",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "77003",
+  "county": "Cook",
+  "phone": "602-555-9080",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON DAVID / DOB 1955-02-24 / SEX M / MBI SYNU37HQNJ / PART A 2020-02-01 / PART B 2020-02-01",
+  "address_proof": "223 Lakeview Dr Chicago IL 60601"
+ }
+}

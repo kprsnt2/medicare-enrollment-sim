@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: TAYLOR, BARBARA
+DOB: 1958-12-18   Sex: F
+Medicare No: SYN48HUA58
+Part A effective: 2023-12-01   Part B effective: 2023-12-01
+Address: 857 Park Ave
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 305-555-9506
+Plan selected: Palmetto Gold PPO (SYN-H0003-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): TAYLOR BARBARA / DOB 1958-12-18 / SEX F / MBI SYN48HUA58 / PART A 2023-12-01 / PART B 2023-12-01
+Attachment B (proof of address): 857 Park Ave Miami FL 33101

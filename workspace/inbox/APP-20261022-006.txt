@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: LOPEZ, MICHAEL
+DOB: 1943-08-18   Sex: M
+Medicare No: SYNX6VEGHF
+Part A effective: 2008-08-01   Part B effective: 2008-08-01
+Address: 762 Pine Rd
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-2500
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: My employer coverage ended last month.
+Attachment A (Medicare card copy): LOPEZ MICHAEL / DOB 1943-08-18 / SEX M / MBI SYNX6VEGHF / PART A 2008-08-01 / PART B 2008-08-01
+Attachment B (proof of address): 762 Pine Rd Austin TX 78702

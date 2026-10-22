@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Lopez",
+  "dob": "1939-04-24",
+  "sex": "F",
+  "mbi": "SYNAMB3MA6",
+  "part_a_eff": "2004-04-01",
+  "part_b_eff": "2004-04-01",
+  "address": "237 Maple Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-3167",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LOPEZ MARY / DOB 1939-04-24 / SEX F / MBI SYNAMB3MA6 / PART A 2004-04-01 / PART B 2004-04-01",
+  "address_proof": "237 Maple Ave Houston TX 77002"
+ }
+}

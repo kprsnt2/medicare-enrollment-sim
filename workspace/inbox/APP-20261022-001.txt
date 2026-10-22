@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: MOORE, PATRICIA
+DOB: 1962-01-01   Sex: F
+Medicare No: SYNLTU2D2B
+Part A effective: 2027-01-01   Part B effective: 2027-01-01
+Address: 568 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 512-555-4463
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kmi
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MOORE PATRICIA / DOB 1962-01-01 / SEX F / MBI SYNLTU2D2B / PART A 2027-01-01 / PART B 2027-01-01
+Attachment B (proof of address): 568 Hill St Phoenix AZ 85003

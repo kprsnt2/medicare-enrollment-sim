@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Robert",
+  "last_name": "Hernandez",
+  "dob": "1955-04-28",
+  "sex": "F",
+  "mbi": "SYNK9ZFG6W",
+  "part_a_eff": "2020-04-01",
+  "part_b_eff": "2021-04-01",
+  "address": "264 Park Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "713-555-2701",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "HERNANDEZ ROBERT / DOB 1955-04-28 / SEX F / MBI SYNK9ZFG6W / PART A 2020-04-01 / PART B 2021-04-01",
+  "address_proof": "264 Park Ave Phoenix AZ 85003"
+ }
+}

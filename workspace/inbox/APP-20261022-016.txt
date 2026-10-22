@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: MARTINEZ, ROBERT
+DOB: 1951-10-14   Sex: M
+Medicare No: SYN7S7GBU4
+Part A effective: 2016-10-01   Part B effective: 2016-10-01
+Address: 780 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-3733
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ ROBERT / DOB 1951-10-14 / SEX M / MBI SYN7S7GBU4 / PART A 2016-10-01 / PART B 2016-10-01
+Attachment B (proof of address): 780 Lakeview Dr Chicago IL 60602

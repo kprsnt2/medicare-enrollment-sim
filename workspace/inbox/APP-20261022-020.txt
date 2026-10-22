@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: WILSON, BARBARA
+DOB: 1956-09-16   Sex: F
+Medicare No: SYNWGCCF6U
+Part A effective: 2021-09-01   Part B effective: 2021-09-01
+Address: 186 Oak St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-2177
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: My old plan was discontinued.
+Attachment A (Medicare card copy): WILSON BARBARA / DOB 1956-09-16 / SEX F / MBI SYNWGCCF6U / PART A 2021-09-01 / PART B 2021-09-01
+Attachment B (proof of address): 186 Oak St Austin TX 78702

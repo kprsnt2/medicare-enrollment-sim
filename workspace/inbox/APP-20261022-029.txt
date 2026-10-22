@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: TAYLOR, ROBERT
+DOB: 1940-01-23   Sex: F
+Medicare No: SYNN2YS9FT
+Part A effective: 2005-01-01   Part B effective: 2005-01-01
+Address: 901 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-2450
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR ROBERT / DOB 1940-01-23 / SEX F / MBI SYNN2YS9FT / PART A 2005-01-01 / PART B 2005-01-01
+Attachment B (proof of address): 901 Hill St Chicago IL 60602

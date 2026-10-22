@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Nancy",
+  "last_name": "Williams",
+  "dob": "1948-02-27",
+  "sex": "F",
+  "mbi": "SYNF53LHD3",
+  "part_a_eff": "2013-02-01",
+  "part_b_eff": "2013-02-01",
+  "address": "489 Cedar Ln",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "602-555-8082",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILLIAMS NANCY / DOB 1948-02-27 / SEX F / MBI SYNF53LHD3 / PART A 2013-02-01 / PART B 2013-02-01",
+  "address_proof": "489 Cedar Ln Miami FL 33103"
+ }
+}

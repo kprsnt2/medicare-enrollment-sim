@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-22
+Name: HERNANDEZ, BARBARA
+DOB: 1941-01-24   Sex: F
+Medicare No: SYNPJDNWKY
+Part A effective: 2006-01-01   Part B effective: 2006-01-01
+Address: 394 Elm St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-7459
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya aNir
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ BARBARA / DOB 1941-01-24 / SEX F / MBI SYNPJDNWKY / PART A 2006-01-01 / PART B 2006-01-01
+Attachment B (proof of address): 394 Elm St Chicago IL 60602
