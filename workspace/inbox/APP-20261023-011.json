@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Thompson",
+  "dob": "1934-04-24",
+  "sex": "M",
+  "mbi": "SYN79MBZXZ",
+  "part_a_eff": "1999-04-01",
+  "part_b_eff": "1999-04-01",
+  "address": "201 Park Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "512-555-9830",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMPSON DAVID / DOB 1934-04-24 / SEX M / MBI SYN79MBZXZ / PART A 1999-04-01 / PART B 1999-04-01",
+  "address_proof": "201 Park Ave Phoenix AZ 85003"
+ }
+}

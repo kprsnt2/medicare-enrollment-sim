@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: TAYLOR, BARBARA
+DOB: 1957-04-04   Sex: F
+Medicare No: SYN3FBD4JR
+Part A effective: 2022-04-01   Part B effective: 2022-04-01
+Address: 98 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-7756
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR BARBARA / DOB 1957-04-04 / SEX F / MBI SYN3FBD4JR / PART A 2022-04-01 / PART B 2022-04-01
+Attachment B (proof of address): 98 Cedar Ln Phoenix AZ 85001

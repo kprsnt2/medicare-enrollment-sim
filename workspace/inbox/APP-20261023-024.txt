@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: JONES, CHARLES
+DOB: 1958-03-06   Sex: F
+Medicare No: SYNP2WTSMW
+Part A effective: 2023-03-01   Part B effective: 2023-03-01
+Address: 742 Oak St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-6129
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JONES CHARLES / DOB 1958-03-06 / SEX F / MBI SYNP2WTSMW / PART A 2023-03-01 / PART B 2023-03-01
+Attachment B (proof of address): 742 Oak St Houston TX 77002

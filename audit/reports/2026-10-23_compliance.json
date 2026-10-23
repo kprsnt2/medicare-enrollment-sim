@@ -1,0 +1,29 @@
+{
+ "counts": {
+  "TAT_AT_RISK": 1
+ },
+ "findings": [
+  {
+   "case_id": "APP-20261015-021",
+   "code": "TAT_AT_RISK",
+   "detail": "8 days"
+  }
+ ],
+ "letter_review": [
+  {
+   "case_id": "APP-20261018-004",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261022-022",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261022-023",
+   "issues": [],
+   "pass": true
+  }
+ ]
+}

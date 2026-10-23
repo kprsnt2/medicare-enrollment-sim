@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: SMITH, THOMAS
+DOB: 1934-05-25   Sex: M
+Medicare No: SYNNFCNBG2
+Part A effective: 1999-05-01   Part B effective: 1999-05-01
+Address: 231 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 305-555-2353
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya aNir
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Priya Nair at the clinic.
+Attachment A (Medicare card copy): SMITH THOMAS / DOB 1934-05-25 / SEX M / MBI SYNNFCNBG2 / PART A 1999-05-01 / PART B 1999-05-01
+Attachment B (proof of address): 231 Park Ave Chicago IL 60603

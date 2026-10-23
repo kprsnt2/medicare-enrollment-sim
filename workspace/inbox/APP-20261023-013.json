@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Johnson",
+  "dob": "1932-02-21",
+  "sex": "F",
+  "mbi": "SYNST9ZYMU",
+  "part_a_eff": "1997-02-01",
+  "part_b_eff": "1997-02-01",
+  "address": "228 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "33101",
+  "county": "Harris",
+  "phone": "312-555-2720",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "JOHNSON CHARLES / DOB 1932-02-21 / SEX F / MBI SYNST9ZYMU / PART A 1997-02-01 / PART B 1997-02-01",
+  "address_proof": "228 Pine Rd Houston TX 77003"
+ }
+}

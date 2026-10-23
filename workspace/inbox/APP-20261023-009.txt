@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: TAYLOR, PATRICIA
+DOB: 1952-10-28   Sex: M
+Medicare No: SYNKBTGNDW
+Part A effective: 2017-10-01   Part B effective: 2017-10-01
+Address: 157 Maple Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-9088
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura eWiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Laura Weiss at the clinic.
+Attachment A (Medicare card copy): TAYLOR PATRICIA / DOB 1952-10-28 / SEX M / MBI SYNKBTGNDW / PART A 2017-10-01 / PART B 2017-10-01
+Attachment B (proof of address): 157 Maple Ave Chicago IL 60602

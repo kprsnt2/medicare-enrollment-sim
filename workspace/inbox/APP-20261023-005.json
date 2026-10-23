@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Anderson",
+  "dob": "1954-08-19",
+  "sex": "F",
+  "mbi": "SYNERYKKWV",
+  "part_a_eff": "2019-08-01",
+  "part_b_eff": "2019-08-01",
+  "address": "27 Maple Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "602-555-8439",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "ANDERSON MICHAEL / DOB 1954-08-19 / SEX F / MBI SYNERYKKWV / PART A 2019-08-01 / PART B 2019-08-01",
+  "address_proof": "27 Maple Ave Miami FL 33101"
+ }
+}

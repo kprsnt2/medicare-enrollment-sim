@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: THOMPSON, BARBARA
+DOB: 1961-10-03   Sex: F
+Medicare No: SYNBHS9QPC
+Part A effective: 2026-10-01   Part B effective: 2027-10-01
+Address: 768 Cedar Ln
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-2975
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON BARBARA / DOB 1961-10-03 / SEX F / MBI SYNBHS9QPC / PART A 2026-10-01 / PART B 2027-10-01

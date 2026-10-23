@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-23
+Name: MILLER, CHARLES
+DOB: 1962-01-06   Sex: F
+Medicare No: SYNHSDC5BJ
+Part A effective: 2027-01-01   Part B effective: 2028-01-01
+Address: 823 Hill St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 305-555-3183
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MILLER CHARLES / DOB 1962-01-06 / SEX F / MBI SYNHSDC5BJ / PART A 2027-01-01 / PART B 2028-01-01
+Attachment B (proof of address): 823 Hill St Austin TX 78702

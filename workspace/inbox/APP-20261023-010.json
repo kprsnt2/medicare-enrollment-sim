@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Thompson",
+  "dob": "1937-07-27",
+  "sex": "F",
+  "mbi": "SYNF4BDPDP",
+  "part_a_eff": "2002-07-01",
+  "part_b_eff": "2002-07-01",
+  "address": "111 Maple Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "512-555-7344",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMPSON DAVID / DOB 1937-07-27 / SEX F / MBI SYNF4BDPDP / PART A 2002-07-01 / PART B 2002-07-01",
+  "address_proof": "111 Maple Ave Miami FL 33103"
+ }
+}
