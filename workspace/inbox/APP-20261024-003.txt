@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: BROWN, NANCY
+DOB: 1934-02-15   Sex: M
+Medicare No: SYNJ5UZAKH
+Part A effective: 1999-02-01   Part B effective: 1999-02-01
+Address: 31 Cedar Ln
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-1500
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN NANCY / DOB 1934-02-15 / SEX M / MBI SYNJ5UZAKH / PART A 1999-02-01 / PART B 1999-02-01
+Attachment B (proof of address): 31 Cedar Ln Austin TX 78702

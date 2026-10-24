@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: WILLIAMS, DAVID
+DOB: 1957-08-11   Sex: M
+Medicare No: SYNDN64LSJ
+Part A effective: 2022-08-01   Part B effective: 2022-08-01
+Address: 362 Park Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 713-555-3137
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS DAVID / DOB 1957-08-11 / SEX M / MBI SYNDN64LSJ / PART A 2022-08-01 / PART B 2022-08-01
+Attachment B (proof of address): 362 Park Ave Austin TX 78703

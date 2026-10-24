@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: ANDERSON, THOMAS
+DOB: 1933-08-17   Sex: M
+Medicare No: SYNFNKUDUD
+Part A effective: 1998-08-01   Part B effective: 1998-08-01
+Address: 51 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 602-555-9243
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): ANDERSON THOMAS / DOB 1933-08-17 / SEX M / MBI SYNFNKUDUD / PART A 1998-08-01 / PART B 1998-08-01
+Attachment B (proof of address): 51 Oak St Houston TX 77003

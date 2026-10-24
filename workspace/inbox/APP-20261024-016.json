@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Garcia",
+  "dob": "1961-12-20",
+  "sex": "M",
+  "mbi": "SYNWPWJSCZ",
+  "part_a_eff": "2026-12-01",
+  "part_b_eff": "2026-12-01",
+  "address": "254 Pine Rd",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "512-555-8998",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-24",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA JAMES / DOB 1961-12-20 / SEX M / MBI SYNWPWJSCZ / PART A 2026-12-01 / PART B 2026-12-01",
+  "address_proof": "254 Pine Rd Miami FL 33101"
+ }
+}

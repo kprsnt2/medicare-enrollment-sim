@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: JOHNSON, BARBARA
+DOB: 1951-12-10   Sex: M
+Medicare No: SYN4UD59KM
+Part A effective: 2016-12-01   Part B effective: 2016-12-01
+Address: 302 Lakeview Dr
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-2251
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON BARBARA / DOB 1951-12-10 / SEX M / MBI SYN4UD59KM / PART A 2016-12-01 / PART B 2016-12-01
+Attachment B (proof of address): 302 Lakeview Dr Miami FL 33103

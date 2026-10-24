@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: MILLER, MARY
+DOB: 1961-10-02   Sex: F
+Medicare No: SYN6N3232N
+Part A effective: 2026-10-01   Part B effective: 2026-10-01
+Address: 823 Pine Rd
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-8591
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-10-01
+Notes: -
+Attachment A (Medicare card copy): MILLER MARY / DOB 1961-10-02 / SEX F / MBI SYN6N3232N / PART A 2026-10-01 / PART B 2026-10-01
+Attachment B (proof of address): 823 Pine Rd Chicago IL 60601

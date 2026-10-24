@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Hernandez",
+  "dob": "1948-04-09",
+  "sex": "F",
+  "mbi": "SYNT43VGFK",
+  "part_a_eff": "2013-04-01",
+  "part_b_eff": "2013-04-01",
+  "address": "697 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "713-555-2593",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "HERNANDEZ RICHARD / DOB 1948-04-09 / SEX F / MBI SYNT43VGFK / PART A 2013-04-01 / PART B 2013-04-01",
+  "address_proof": "697 Lakeview Dr Phoenix AZ 85001"
+ }
+}

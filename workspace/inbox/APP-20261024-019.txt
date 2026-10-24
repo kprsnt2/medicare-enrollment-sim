@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: MARTINEZ, KAREN
+DOB: 1932-08-21   Sex: M
+Medicare No: SYNLHEVH47
+Part A effective: 1997-08-01   Part B effective: 1997-08-01
+Address: 583 Lakeview Dr
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 602-555-9166
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ KAREN / DOB 1932-08-21 / SEX M / MBI SYNLHEVH47 / PART A 1997-08-01 / PART B 1997-08-01
+Attachment B (proof of address): 583 Lakeview Dr Houston TX 77003

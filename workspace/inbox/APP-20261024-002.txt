@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: TAYLOR, ROBERT
+DOB: 1949-07-15   Sex: F
+Medicare No: SYN9FYDU8S
+Part A effective: 2014-07-01   Part B effective: 2014-07-01
+Address: 205 Elm St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-2074
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR ROBERT / DOB 1949-07-15 / SEX F / MBI SYN9FYDU8S / PART A 2014-07-01 / PART B 2014-07-01
+Attachment B (proof of address): 205 Elm St Austin TX 78703

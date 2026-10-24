@@ -1,0 +1,64 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261024-006",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261024-009",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      1725,
+      1726
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without any quoted supporting evidence in the fix event. The resolver rationale references AEP rules, but the applied change itself has empty evidence, so the field change is not directly supported by documented evidence in the timeline."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261024-012",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      1721
+     ],
+     "severity": "S2",
+     "text": "Requested effective date was changed from 2026-10-01 to 2027-01-01 without any supporting quoted evidence in the record. The source form shows AEP and the original requested effective date, but the fix event provides empty evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261024-020",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261024-026",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261024-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 190,
+ "findings": [],
+ "ledger_entries": 1837,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-24"
+}

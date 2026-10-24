@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Smith",
+  "dob": "1961-10-11",
+  "sex": "F",
+  "mbi": "SYNHDS939R",
+  "part_a_eff": "2026-10-01",
+  "part_b_eff": "2026-10-01",
+  "address": "373 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "312-555-4427",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-24",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "SMITH CHARLES / DOB 1961-10-11 / SEX F / MBI SYNHDS939R / PART A 2026-10-01 / PART B 2026-10-01",
+  "address_proof": "373 Oak St Phoenix AZ 85002"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: THOMAS, KAREN
+DOB: 1953-03-13   Sex: M
+Medicare No: SYNN7HBPHV
+Part A effective: 2018-03-01   Part B effective: 2018-03-01
+Address: 534 Park Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 713-555-2712
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS KAREN / DOB 1953-03-13 / SEX M / MBI SYNN7HBPHV / PART A 2018-03-01 / PART B 2018-03-01
+Attachment B (proof of address): 534 Park Ave Austin TX 78703

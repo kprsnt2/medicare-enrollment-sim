@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: LEE, MICHAEL
+DOB: 1942-04-17   Sex: M
+Medicare No: SYN4KCLBJ8
+Part A effective: 2007-04-01   Part B effective: 2007-04-01
+Address: 626 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-6956
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE MICHAEL / DOB 1942-04-17 / SEX M / MBI SYN4KCLBJ8 / PART A 2007-04-01 / PART B 2007-04-01

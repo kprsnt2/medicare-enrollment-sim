@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Martin",
+  "dob": "1939-08-10",
+  "sex": "M",
+  "mbi": "SYN73LG3CL",
+  "part_a_eff": "2004-08-01",
+  "part_b_eff": "2004-08-01",
+  "address": "46 Maple Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "602-555-2723",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "MARTIN RICHARD / DOB 1939-08-10 / SEX M / MBI SYN73LG3CL / PART A 2004-08-01 / PART B 2004-08-01",
+  "address_proof": "46 Maple Ave Houston TX 77001"
+ }
+}

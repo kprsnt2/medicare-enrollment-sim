@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: MILLER, SUSAN
+DOB: 1945-05-12   Sex: M
+Medicare No: SYN564XW89
+Part A effective: 2010-05-01   Part B effective: 2010-05-01
+Address: 25 Lakeview Dr
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-6359
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER SUSAN / DOB 1945-05-12 / SEX M / MBI SYN564XW89 / PART A 2010-05-01 / PART B 2010-05-01
+Attachment B (proof of address): 25 Lakeview Dr Austin TX 78702

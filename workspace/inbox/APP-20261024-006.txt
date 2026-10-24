@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: JONES, JAMES
+DOB: 1933-05-14   Sex: M
+Medicare No: SYNFDX3W2Q
+Part A effective: 1998-05-01   Part B effective: 1998-05-01
+Address: 162 Maple Ave
+City: Houston   State: TX   ZIP: 60602   County: Harris
+Phone: 512-555-4840
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES JAMES / DOB 1933-05-14 / SEX M / MBI SYNFDX3W2Q / PART A 1998-05-01 / PART B 1998-05-01
+Attachment B (proof of address): 162 Maple Ave Houston TX 77003

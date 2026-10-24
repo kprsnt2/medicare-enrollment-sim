@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-24
+Name: LEE, JOSEPH
+DOB: 1950-12-19   Sex: F
+Medicare No: SYN8QCUWMN
+Part A effective: 2015-12-01   Part B effective: 2015-12-01
+Address: 115 Maple Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 512-555-0670
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE JOSEPH / DOB 1950-12-19 / SEX F / MBI SYN8QCUWMN / PART A 2015-12-01 / PART B 2015-12-01
+Attachment B (proof of address): 115 Maple Ave Austin TX 78702

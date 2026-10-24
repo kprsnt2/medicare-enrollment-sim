@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Jones",
+  "dob": "1930-08-17",
+  "sex": "F",
+  "mbi": "SYNH54RSJ4",
+  "part_a_eff": "1995-08-01",
+  "part_b_eff": "1995-08-01",
+  "address": "959 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "602-555-4546",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JONES RICHARD / DOB 1930-08-17 / SEX F / MBI SYNH54RSJ4 / PART A 1995-08-01 / PART B 1995-08-01",
+  "address_proof": "959 Pine Rd Houston TX 77001"
+ }
+}
