@@ -7,25 +7,13 @@
    "verdict": "PASS"
   },
   {
-   "case_id": "APP-20261022-014",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
-   "case_id": "APP-20261022-020",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
-   "case_id": "APP-20261021-028",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
    "case_id": "APP-20261022-002",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261022-005",
    "dropped_unreferenced": 0,
    "findings": [],
    "verdict": "PASS"
@@ -35,11 +23,17 @@
    "dropped_unreferenced": 0,
    "findings": [],
    "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261022-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
   }
  ],
- "cases_checked": 240,
+ "cases_checked": 130,
  "findings": [],
- "ledger_entries": 2274,
+ "ledger_entries": 1283,
  "ledger_ok": true,
  "s1": 0,
  "s2": 0,

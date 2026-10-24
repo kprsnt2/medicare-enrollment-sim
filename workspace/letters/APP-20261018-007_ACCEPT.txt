@@ -1,12 +1,7 @@
-Subject: Susan Brown, your enrollment request was accepted
+Subject: Your enrollment request was accepted
 
 Dear Susan Brown,
 
-We received your enrollment request on 2026-10-18, and it was accepted.
+We received your enrollment request on 2026-10-18 and it has been accepted for Lakeshore Prime HMO. The effective date is 2027-01-01.
 
-Your plan is Lakeshore Prime HMO. Your effective date is 2027-01-01.
-
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Your Plan
+If you have questions, call [PLAN CONTACT NUMBER].

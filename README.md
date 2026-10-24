@@ -185,3 +185,29 @@ explorer with each case's ledger timeline and letters. The daily workflow rebuil
 * The denial gate is a keyword list. It is a safety net for the simulation, not a substitute for human review.
 * Live accuracy is unmeasured until you run it: compare `evaluation.outcome_accuracy` and `false_accepts` in the daily report.
 * The OpenAI client is tested against a local fake server, not the real API.
+
+## Showing the workflow
+
+`python -m enrollsim workflow_export --root . --out workflow_export.json` writes one JSON file
+that describes the pipeline as it actually ran. It reads only what the harness already wrote
+(`config/`, `state/`, `workspace/`, `audit/`), verifies the ledger chain, and takes under a second.
+No network, no model calls, no third-party packages.
+
+* `meta` - simulated date and next run date, days run, mode and model, token cap and use, ledger
+  status and entry count. `days` - one row per simulated day: new applications, states, accuracy,
+  false accepts, audit gate S1/S2, tokens and stage timings.
+* `stages` - the eight stages `Harness.run_day` executes (applicants, intake, processor + mock CMS,
+  CMS reply, work basket, resolver, notices, compliance and audit), with the engine behind each one
+  (model or deterministic), the artifact it writes, counts from the ledger, and one real example
+  line. `loops` records that the work basket hands a fixed case back to submission.
+* `cases` - a deterministic spread (the two most recent days plus the oldest open items) with the
+  field changes, the evidence quote behind each fix, the letters as issued, and the ledger timeline.
+  `kpis`, `agents`, `codes`, `before_after` and `audit_evidence` carry the totals, the per-agent
+  ledger load, the reply-code catalogue, one before/after case, and the latest audit and compliance
+  reports.
+* The answer key in `audit/gold/gold.json` is read for `defect` and `expected_final` only - the same
+  comparison `docs/index.html` publishes. `true_fields` is never read, so no answer value can reach
+  the file.
+
+This export is what the MEOP site's `/workflow` page renders as its second project tile. Re-run it
+after each simulated day (the dashboard and the workflow page share the same source files).

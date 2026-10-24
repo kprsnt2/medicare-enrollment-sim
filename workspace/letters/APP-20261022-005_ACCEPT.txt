@@ -1,10 +1,7 @@
-Subject: Enrollment request approved for Mary Martin
+Subject: Your enrollment request was accepted
 
 Dear Mary Martin,
 
-We received your enrollment request on 2026-10-22, and it was accepted. Your plan is Sunrise Choice PPO. Your effective date is 2027-01-01.
+We received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.
 
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Enrollment Team
+If you have questions, call [PLAN CONTACT NUMBER].

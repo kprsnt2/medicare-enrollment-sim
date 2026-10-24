@@ -1,34 +1,34 @@
 {
  "audit_s1": 0,
  "audit_s2": 0,
- "basket_at_resolve_start": 22,
+ "basket_at_resolve_start": 6,
  "compliance": {},
  "evaluation": {
   "by_defect": {
    "clean": {
-    "correct": 47,
+    "correct": 32,
     "open": 0,
-    "terminal": 47
+    "terminal": 32
    },
    "demo_mismatch": {
     "correct": 3,
-    "open": 9,
+    "open": 5,
     "terminal": 3
    },
    "duplicate": {
-    "correct": 9,
+    "correct": 8,
     "open": 0,
-    "terminal": 9
+    "terminal": 8
    },
    "election_invalid": {
-    "correct": 10,
+    "correct": 5,
     "open": 1,
-    "terminal": 10
+    "terminal": 5
    },
    "elig_date": {
-    "correct": 10,
-    "open": 3,
-    "terminal": 10
+    "correct": 6,
+    "open": 0,
+    "terminal": 6
    },
    "mbi_typo": {
     "correct": 1,
@@ -37,23 +37,23 @@
    },
    "missing_signature": {
     "correct": 0,
-    "open": 7,
+    "open": 6,
     "terminal": 0
    },
    "ocr_noise": {
-    "correct": 8,
-    "open": 1,
-    "terminal": 8
+    "correct": 5,
+    "open": 0,
+    "terminal": 5
    },
    "out_of_area": {
-    "correct": 8,
+    "correct": 6,
     "open": 0,
-    "terminal": 8
+    "terminal": 6
    },
    "pcp_mismatch": {
-    "correct": 9,
-    "open": 5,
-    "terminal": 9
+    "correct": 7,
+    "open": 3,
+    "terminal": 7
    },
    "wrong_plan": {
     "correct": 8,
@@ -61,27 +61,27 @@
     "terminal": 8
    },
    "zip_typo": {
-    "correct": 7,
+    "correct": 6,
     "open": 1,
-    "terminal": 7
+    "terminal": 6
    }
   },
-  "correct": 120,
+  "correct": 87,
   "false_accepts": 0,
   "false_denials": 0,
   "missed_accepts": 0,
-  "open": 30,
+  "open": 19,
   "outcome_accuracy": 1.0,
-  "terminal": 120,
+  "terminal": 87,
   "wrong_fields_on_accept": 0
  },
  "gate_ok": true,
  "halted_for_budget": false,
  "ledger_ok": true,
- "llm_calls_today": 69,
- "mode": "live",
+ "llm_calls_today": 42,
+ "mode": "mock",
  "model": "gpt-5.4",
- "new_applications": 30,
+ "new_applications": 8,
  "oldest_open": [
   {
    "case_id": "APP-20261015-007",
@@ -134,25 +134,24 @@
  ],
  "sim_date": "2026-10-19",
  "states": {
-  "ACCEPTED": 97,
-  "CLOSED_DUPLICATE": 9,
-  "DENIED": 14,
-  "ESCALATED": 17,
-  "IN_BASKET": 2,
-  "PENDING_MEMBER": 11
+  "ACCEPTED": 70,
+  "CLOSED_DUPLICATE": 8,
+  "DENIED": 9,
+  "ESCALATED": 5,
+  "PENDING_MEMBER": 14
  },
  "timings_seconds": {
   "applicants": 0.01,
-  "audit": 1.75,
-  "compliance": 1.07,
+  "audit": 0.09,
+  "compliance": 0.05,
   "evaluate": 0.0,
-  "intake": 26.94,
-  "notices": 6.14,
-  "resolve": 21.3,
+  "intake": 0.04,
+  "notices": 0.03,
+  "resolve": 0.03,
   "rfi_expiry": 0.0,
-  "total": 57.21
+  "total": 0.25
  },
  "token_cap": 2000000,
- "tokens_used_today": 84460,
- "workers": 8
+ "tokens_used_today": 0,
+ "workers": 1
 }

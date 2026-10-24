@@ -1,9 +1,7 @@
-Subject: Enrollment approved for William Lopez
+Subject: Your enrollment request was accepted
 
 Dear William Lopez,
 
-We received your enrollment request on 2026-10-23. Your enrollment has been approved for the Palmetto Gold PPO plan. Your effective date is 2027-01-01.
+We received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.
 
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
+If you have questions, call [PLAN CONTACT NUMBER].

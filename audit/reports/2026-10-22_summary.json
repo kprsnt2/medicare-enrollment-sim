@@ -1,87 +1,87 @@
 {
  "audit_s1": 0,
  "audit_s2": 0,
- "basket_at_resolve_start": 26,
+ "basket_at_resolve_start": 7,
  "compliance": {},
  "evaluation": {
   "by_defect": {
    "clean": {
-    "correct": 72,
+    "correct": 40,
     "open": 0,
-    "terminal": 72
+    "terminal": 40
    },
    "demo_mismatch": {
     "correct": 3,
-    "open": 16,
+    "open": 6,
     "terminal": 3
    },
    "duplicate": {
-    "correct": 10,
+    "correct": 9,
     "open": 0,
-    "terminal": 10
+    "terminal": 9
    },
    "election_invalid": {
-    "correct": 18,
+    "correct": 7,
     "open": 0,
-    "terminal": 19
+    "terminal": 8
    },
    "elig_date": {
-    "correct": 13,
-    "open": 9,
-    "terminal": 13
+    "correct": 6,
+    "open": 0,
+    "terminal": 6
    },
    "mbi_typo": {
     "correct": 3,
-    "open": 5,
+    "open": 2,
     "terminal": 3
    },
    "missing_signature": {
     "correct": 5,
-    "open": 6,
+    "open": 2,
     "terminal": 5
    },
    "ocr_noise": {
-    "correct": 13,
+    "correct": 6,
     "open": 0,
-    "terminal": 13
+    "terminal": 6
    },
    "out_of_area": {
-    "correct": 15,
+    "correct": 7,
     "open": 0,
-    "terminal": 15
+    "terminal": 7
    },
    "pcp_mismatch": {
-    "correct": 10,
-    "open": 8,
-    "terminal": 10
+    "correct": 7,
+    "open": 4,
+    "terminal": 7
    },
    "wrong_plan": {
-    "correct": 17,
+    "correct": 12,
     "open": 0,
-    "terminal": 17
+    "terminal": 12
    },
    "zip_typo": {
-    "correct": 14,
-    "open": 2,
-    "terminal": 14
+    "correct": 10,
+    "open": 0,
+    "terminal": 10
    }
   },
-  "correct": 193,
+  "correct": 115,
   "false_accepts": 0,
   "false_denials": 0,
   "missed_accepts": 0,
-  "open": 46,
-  "outcome_accuracy": 0.9948,
-  "terminal": 194,
+  "open": 14,
+  "outcome_accuracy": 0.9914,
+  "terminal": 116,
   "wrong_fields_on_accept": 0
  },
  "gate_ok": true,
  "halted_for_budget": false,
  "ledger_ok": true,
- "llm_calls_today": 78,
- "mode": "live",
+ "llm_calls_today": 128,
+ "mode": "mock",
  "model": "gpt-5.4",
- "new_applications": 30,
+ "new_applications": 8,
  "oldest_open": [
   {
    "case_id": "APP-20261015-021",
@@ -123,37 +123,36 @@
    "case_id": "APP-20261018-006",
    "reason": "REJ-NOENT",
    "received": "2026-10-18",
-   "state": "ESCALATED"
+   "state": "PENDING_MEMBER"
   },
   {
-   "case_id": "APP-20261018-010",
-   "reason": "REJ-PCP",
-   "received": "2026-10-18",
-   "state": "ESCALATED"
+   "case_id": "APP-20261019-002",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-19",
+   "state": "PENDING_MEMBER"
   }
  ],
  "sim_date": "2026-10-22",
  "states": {
-  "ACCEPTED": 151,
-  "CLOSED_DUPLICATE": 10,
+  "ACCEPTED": 88,
+  "CLOSED_DUPLICATE": 9,
   "CLOSED_INCOMPLETE": 9,
-  "DENIED": 24,
-  "ESCALATED": 32,
-  "IN_BASKET": 6,
-  "PENDING_MEMBER": 8
+  "DENIED": 10,
+  "ESCALATED": 5,
+  "PENDING_MEMBER": 9
  },
  "timings_seconds": {
-  "applicants": 0.01,
-  "audit": 1.22,
-  "compliance": 1.26,
-  "evaluate": 0.0,
-  "intake": 26.32,
-  "notices": 7.22,
-  "resolve": 18.09,
+  "applicants": 0.02,
+  "audit": 0.11,
+  "compliance": 0.06,
+  "evaluate": 0.01,
+  "intake": 0.05,
+  "notices": 0.08,
+  "resolve": 0.04,
   "rfi_expiry": 0.0,
-  "total": 54.13
+  "total": 0.38
  },
  "token_cap": 2000000,
- "tokens_used_today": 95155,
- "workers": 8
+ "tokens_used_today": 0,
+ "workers": 1
 }

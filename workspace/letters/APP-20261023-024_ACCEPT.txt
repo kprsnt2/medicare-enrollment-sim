@@ -1,10 +1,7 @@
-Subject: Enrollment approved for Charles Jones
+Subject: Your enrollment request was accepted
 
 Dear Charles Jones,
 
-We received your enrollment request on 2026-10-23. Your enrollment in Sunrise Care HMO has been approved. Your effective date is 2027-01-01.
+We received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.
 
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Member Services
+If you have questions, call [PLAN CONTACT NUMBER].

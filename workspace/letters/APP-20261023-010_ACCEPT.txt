@@ -1,12 +1,7 @@
-Subject: Enrollment approved for David Thompson
+Subject: Your enrollment request was accepted
 
 Dear David Thompson,
 
-We received your enrollment request on 2026-10-23. Your enrollment has been approved for Palmetto Gold PPO.
+We received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.
 
-Your effective date is 2027-01-01.
-
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Enrollment Team
+If you have questions, call [PLAN CONTACT NUMBER].

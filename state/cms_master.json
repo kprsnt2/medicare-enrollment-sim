@@ -79,26 +79,6 @@
   "part_b_eff": "2022-04-01",
   "sex": "F"
  },
- "SYN3G4CF22": {
-  "current_plan": null,
-  "dob": "1943-07-10",
-  "first_name": "Michael",
-  "last_name": "Jackson",
-  "mbi": "SYN3G4CF22",
-  "part_a_eff": "2008-07-01",
-  "part_b_eff": "2008-07-01",
-  "sex": "F"
- },
- "SYN3HDJ7UE": {
-  "current_plan": null,
-  "dob": "1931-11-07",
-  "first_name": "Susan",
-  "last_name": "Lee",
-  "mbi": "SYN3HDJ7UE",
-  "part_a_eff": "1996-11-01",
-  "part_b_eff": "1996-11-01",
-  "sex": "M"
- },
  "SYN3LYA7VJ": {
   "current_plan": null,
   "dob": "1961-11-18",
@@ -109,26 +89,6 @@
   "part_b_eff": "2026-11-01",
   "sex": "F"
  },
- "SYN3NBCFTC": {
-  "current_plan": null,
-  "dob": "1961-11-19",
-  "first_name": "David",
-  "last_name": "Taylor",
-  "mbi": "SYN3NBCFTC",
-  "part_a_eff": "2026-11-01",
-  "part_b_eff": "2026-11-01",
-  "sex": "F"
- },
- "SYN3WH8BKE": {
-  "current_plan": null,
-  "dob": "1943-01-21",
-  "first_name": "John",
-  "last_name": "Williams",
-  "mbi": "SYN3WH8BKE",
-  "part_a_eff": "2008-01-01",
-  "part_b_eff": "2008-01-01",
-  "sex": "F"
- },
  "SYN44LFU4Q": {
   "current_plan": null,
   "dob": "1947-07-15",
@@ -137,46 +97,6 @@
   "mbi": "SYN44LFU4Q",
   "part_a_eff": "2012-07-01",
   "part_b_eff": "2012-07-01",
-  "sex": "F"
- },
- "SYN44W5MZB": {
-  "current_plan": null,
-  "dob": "1934-02-24",
-  "first_name": "John",
-  "last_name": "Jackson",
-  "mbi": "SYN44W5MZB",
-  "part_a_eff": "1999-02-01",
-  "part_b_eff": "1999-02-01",
-  "sex": "F"
- },
- "SYN478LVPW": {
-  "current_plan": null,
-  "dob": "1942-01-17",
-  "first_name": "David",
-  "last_name": "Wilson",
-  "mbi": "SYN478LVPW",
-  "part_a_eff": "2007-01-01",
-  "part_b_eff": "2007-01-01",
-  "sex": "F"
- },
- "SYN48HUA58": {
-  "current_plan": null,
-  "dob": "1958-12-18",
-  "first_name": "Barbara",
-  "last_name": "Taylor",
-  "mbi": "SYN48HUA58",
-  "part_a_eff": "2023-12-01",
-  "part_b_eff": "2023-12-01",
-  "sex": "F"
- },
- "SYN4K89559": {
-  "current_plan": null,
-  "dob": "1947-12-11",
-  "first_name": "Patricia",
-  "last_name": "Hernandez",
-  "mbi": "SYN4K89559",
-  "part_a_eff": "2012-12-01",
-  "part_b_eff": "2012-12-01",
   "sex": "F"
  },
  "SYN4LNBG6P": {
@@ -219,16 +139,6 @@
   "part_b_eff": "2005-11-01",
   "sex": "M"
  },
- "SYN4VUU2PS": {
-  "current_plan": null,
-  "dob": "1955-09-04",
-  "first_name": "Patricia",
-  "last_name": "Brown",
-  "mbi": "SYN4VUU2PS",
-  "part_a_eff": "2020-09-01",
-  "part_b_eff": "2020-09-01",
-  "sex": "M"
- },
  "SYN4XTVAHD": {
   "current_plan": "SYN-H0001-002",
   "dob": "1961-11-12",
@@ -269,16 +179,6 @@
   "part_b_eff": "2010-01-01",
   "sex": "M"
  },
- "SYN5KWNMEY": {
-  "current_plan": null,
-  "dob": "1936-01-02",
-  "first_name": "Robert",
-  "last_name": "Thompson",
-  "mbi": "SYN5KWNMEY",
-  "part_a_eff": "2001-01-01",
-  "part_b_eff": "2001-01-01",
-  "sex": "F"
- },
  "SYN5M32THW": {
   "current_plan": null,
   "dob": "1958-09-22",
@@ -287,26 +187,6 @@
   "mbi": "SYN5M32THW",
   "part_a_eff": "2023-09-01",
   "part_b_eff": "2023-09-01",
-  "sex": "M"
- },
- "SYN5NB9P98": {
-  "current_plan": null,
-  "dob": "1937-11-26",
-  "first_name": "Charles",
-  "last_name": "Lee",
-  "mbi": "SYN5NB9P98",
-  "part_a_eff": "2002-11-01",
-  "part_b_eff": "2002-11-01",
-  "sex": "M"
- },
- "SYN5NFFSKL": {
-  "current_plan": null,
-  "dob": "1949-11-02",
-  "first_name": "Helen",
-  "last_name": "Jones",
-  "mbi": "SYN5NFFSKL",
-  "part_a_eff": "2014-11-01",
-  "part_b_eff": "2014-11-01",
   "sex": "M"
  },
  "SYN5P49E2L": {
@@ -329,16 +209,6 @@
   "part_b_eff": "2016-01-01",
   "sex": "F"
  },
- "SYN5ZNEAQ8": {
-  "current_plan": null,
-  "dob": "1933-06-05",
-  "first_name": "Betty",
-  "last_name": "Williams",
-  "mbi": "SYN5ZNEAQ8",
-  "part_a_eff": "1998-06-01",
-  "part_b_eff": "1998-06-01",
-  "sex": "F"
- },
  "SYN63AWT6F": {
   "current_plan": "SYN-H0001-002",
   "dob": "1957-08-20",
@@ -348,26 +218,6 @@
   "part_a_eff": "2022-08-01",
   "part_b_eff": "2022-08-01",
   "sex": "M"
- },
- "SYN656TZD9": {
-  "current_plan": null,
-  "dob": "1931-05-03",
-  "first_name": "Linda",
-  "last_name": "Brown",
-  "mbi": "SYN656TZD9",
-  "part_a_eff": "1996-05-01",
-  "part_b_eff": "1996-05-01",
-  "sex": "M"
- },
- "SYN6F3DS7A": {
-  "current_plan": null,
-  "dob": "1955-12-03",
-  "first_name": "Susan",
-  "last_name": "Thompson",
-  "mbi": "SYN6F3DS7A",
-  "part_a_eff": "2020-12-01",
-  "part_b_eff": "2020-12-01",
-  "sex": "F"
  },
  "SYN6LXHEHP": {
   "current_plan": null,
@@ -439,46 +289,6 @@
   "part_b_eff": "2021-03-01",
   "sex": "F"
  },
- "SYN7RTS8XD": {
-  "current_plan": null,
-  "dob": "1961-11-02",
-  "first_name": "Mary",
-  "last_name": "Hernandez",
-  "mbi": "SYN7RTS8XD",
-  "part_a_eff": "2026-11-01",
-  "part_b_eff": "2026-11-01",
-  "sex": "F"
- },
- "SYN7S7GBU4": {
-  "current_plan": null,
-  "dob": "1951-10-13",
-  "first_name": "Robert",
-  "last_name": "Martinez",
-  "mbi": "SYN7S7GBU4",
-  "part_a_eff": "2016-10-01",
-  "part_b_eff": "2016-10-01",
-  "sex": "M"
- },
- "SYN7V6Q6JS": {
-  "current_plan": null,
-  "dob": "1935-06-03",
-  "first_name": "James",
-  "last_name": "Lopez",
-  "mbi": "SYN7V6Q6JS",
-  "part_a_eff": "2000-06-01",
-  "part_b_eff": "2000-06-01",
-  "sex": "M"
- },
- "SYN83U6J64": {
-  "current_plan": null,
-  "dob": "1942-07-12",
-  "first_name": "James",
-  "last_name": "Wilson",
-  "mbi": "SYN83U6J64",
-  "part_a_eff": "2007-07-01",
-  "part_b_eff": "2007-07-01",
-  "sex": "F"
- },
  "SYN84WP798": {
   "current_plan": null,
   "dob": "1936-07-13",
@@ -519,16 +329,6 @@
   "part_b_eff": "1995-12-01",
   "sex": "M"
  },
- "SYN8NPC4M7": {
-  "current_plan": null,
-  "dob": "1951-04-02",
-  "first_name": "William",
-  "last_name": "Martinez",
-  "mbi": "SYN8NPC4M7",
-  "part_a_eff": "2016-04-01",
-  "part_b_eff": "2016-04-01",
-  "sex": "M"
- },
  "SYN8TEUEYB": {
   "current_plan": null,
   "dob": "1951-09-22",
@@ -549,16 +349,6 @@
   "part_b_eff": "2007-05-01",
   "sex": "M"
  },
- "SYN98YMHTY": {
-  "current_plan": null,
-  "dob": "1954-10-20",
-  "first_name": "Thomas",
-  "last_name": "Moore",
-  "mbi": "SYN98YMHTY",
-  "part_a_eff": "2019-10-01",
-  "part_b_eff": "2019-10-01",
-  "sex": "F"
- },
  "SYN9AREKBJ": {
   "current_plan": null,
   "dob": "1961-12-05",
@@ -568,16 +358,6 @@
   "part_a_eff": "2026-12-01",
   "part_b_eff": "2026-12-01",
   "sex": "F"
- },
- "SYN9AVTD5X": {
-  "current_plan": null,
-  "dob": "1932-03-05",
-  "first_name": "William",
-  "last_name": "Moore",
-  "mbi": "SYN9AVTD5X",
-  "part_a_eff": "1997-03-01",
-  "part_b_eff": "1997-03-01",
-  "sex": "M"
  },
  "SYN9CKYLRM": {
   "current_plan": null,
@@ -589,36 +369,6 @@
   "part_b_eff": "2015-03-01",
   "sex": "M"
  },
- "SYN9G6SSBF": {
-  "current_plan": "SYN-H0002-001",
-  "dob": "1936-12-04",
-  "first_name": "Robert",
-  "last_name": "Jackson",
-  "mbi": "SYN9G6SSBF",
-  "part_a_eff": "2001-12-01",
-  "part_b_eff": "2001-12-01",
-  "sex": "F"
- },
- "SYN9HYP7QZ": {
-  "current_plan": null,
-  "dob": "1942-08-08",
-  "first_name": "Robert",
-  "last_name": "Smith",
-  "mbi": "SYN9HYP7QZ",
-  "part_a_eff": "2007-08-01",
-  "part_b_eff": "2007-08-01",
-  "sex": "F"
- },
- "SYN9PGNWB3": {
-  "current_plan": null,
-  "dob": "1954-11-06",
-  "first_name": "Karen",
-  "last_name": "Thomas",
-  "mbi": "SYN9PGNWB3",
-  "part_a_eff": "2019-11-01",
-  "part_b_eff": "2019-11-01",
-  "sex": "F"
- },
  "SYN9VJ3HRR": {
   "current_plan": null,
   "dob": "1957-03-07",
@@ -627,16 +377,6 @@
   "mbi": "SYN9VJ3HRR",
   "part_a_eff": "2022-03-01",
   "part_b_eff": "2022-03-01",
-  "sex": "F"
- },
- "SYN9VZ8W52": {
-  "current_plan": null,
-  "dob": "1947-01-12",
-  "first_name": "Richard",
-  "last_name": "Martin",
-  "mbi": "SYN9VZ8W52",
-  "part_a_eff": "2012-01-01",
-  "part_b_eff": "2012-01-01",
   "sex": "F"
  },
  "SYN9ZGJL8T": {
@@ -669,16 +409,6 @@
   "part_b_eff": "2026-11-01",
   "sex": "F"
  },
- "SYNA78GJ8V": {
-  "current_plan": null,
-  "dob": "1932-10-11",
-  "first_name": "Michael",
-  "last_name": "Thompson",
-  "mbi": "SYNA78GJ8V",
-  "part_a_eff": "1997-10-01",
-  "part_b_eff": "1997-10-01",
-  "sex": "F"
- },
  "SYNA9XJAJM": {
   "current_plan": null,
   "dob": "1935-05-15",
@@ -688,46 +418,6 @@
   "part_a_eff": "2000-05-01",
   "part_b_eff": "2000-05-01",
   "sex": "M"
- },
- "SYNAGC3L2Y": {
-  "current_plan": null,
-  "dob": "1949-09-22",
-  "first_name": "Joseph",
-  "last_name": "Williams",
-  "mbi": "SYNAGC3L2Y",
-  "part_a_eff": "2014-09-01",
-  "part_b_eff": "2014-09-01",
-  "sex": "F"
- },
- "SYNAGYHKCG": {
-  "current_plan": null,
-  "dob": "1961-10-04",
-  "first_name": "Karen",
-  "last_name": "Miller",
-  "mbi": "SYNAGYHKCG",
-  "part_a_eff": "2026-10-01",
-  "part_b_eff": "2026-10-01",
-  "sex": "F"
- },
- "SYNAMB3MA6": {
-  "current_plan": null,
-  "dob": "1939-04-24",
-  "first_name": "Mary",
-  "last_name": "Lopez",
-  "mbi": "SYNAMB3MA6",
-  "part_a_eff": "2004-04-01",
-  "part_b_eff": "2004-04-01",
-  "sex": "F"
- },
- "SYNAMK4HZ8": {
-  "current_plan": null,
-  "dob": "1942-06-20",
-  "first_name": "William",
-  "last_name": "Wilson",
-  "mbi": "SYNAMK4HZ8",
-  "part_a_eff": "2007-06-01",
-  "part_b_eff": "2007-06-01",
-  "sex": "F"
  },
  "SYNARURE3E": {
   "current_plan": null,
@@ -769,16 +459,6 @@
   "part_b_eff": "2016-05-01",
   "sex": "M"
  },
- "SYNAXN2XUN": {
-  "current_plan": null,
-  "dob": "1961-08-25",
-  "first_name": "Thomas",
-  "last_name": "Smith",
-  "mbi": "SYNAXN2XUN",
-  "part_a_eff": "2026-08-01",
-  "part_b_eff": "2026-08-01",
-  "sex": "F"
- },
  "SYNAXRUFYR": {
   "current_plan": null,
   "dob": "1949-05-14",
@@ -808,16 +488,6 @@
   "part_a_eff": "2016-02-01",
   "part_b_eff": "2016-02-01",
   "sex": "M"
- },
- "SYNBEMRPSF": {
-  "current_plan": null,
-  "dob": "1957-10-16",
-  "first_name": "Joseph",
-  "last_name": "Brown",
-  "mbi": "SYNBEMRPSF",
-  "part_a_eff": "2022-10-01",
-  "part_b_eff": "2022-10-01",
-  "sex": "F"
  },
  "SYNBHS9QPC": {
   "current_plan": null,
@@ -869,16 +539,6 @@
   "part_b_eff": "2005-10-01",
   "sex": "M"
  },
- "SYNBZN6D6W": {
-  "current_plan": null,
-  "dob": "1961-12-05",
-  "first_name": "Dorothy",
-  "last_name": "Lopez",
-  "mbi": "SYNBZN6D6W",
-  "part_a_eff": "2026-12-01",
-  "part_b_eff": "2026-12-01",
-  "sex": "M"
- },
  "SYNC3RJ7GY": {
   "current_plan": null,
   "dob": "1952-11-23",
@@ -918,16 +578,6 @@
   "part_a_eff": "2017-02-01",
   "part_b_eff": "2017-02-01",
   "sex": "F"
- },
- "SYND26VSS9": {
-  "current_plan": null,
-  "dob": "1944-10-04",
-  "first_name": "Helen",
-  "last_name": "Martinez",
-  "mbi": "SYND26VSS9",
-  "part_a_eff": "2009-10-01",
-  "part_b_eff": "2009-10-01",
-  "sex": "M"
  },
  "SYND97E7EN": {
   "current_plan": null,
@@ -969,26 +619,6 @@
   "part_b_eff": "2018-10-01",
   "sex": "F"
  },
- "SYNDLQDYAK": {
-  "current_plan": null,
-  "dob": "1952-11-26",
-  "first_name": "Karen",
-  "last_name": "Lopez",
-  "mbi": "SYNDLQDYAK",
-  "part_a_eff": "2017-11-01",
-  "part_b_eff": "2017-11-01",
-  "sex": "M"
- },
- "SYNDPBW546": {
-  "current_plan": null,
-  "dob": "1940-12-24",
-  "first_name": "Helen",
-  "last_name": "Lopez",
-  "mbi": "SYNDPBW546",
-  "part_a_eff": "2005-12-01",
-  "part_b_eff": "2005-12-01",
-  "sex": "F"
- },
  "SYNDTXD3NC": {
   "current_plan": null,
   "dob": "1952-10-26",
@@ -1019,26 +649,6 @@
   "part_b_eff": "2010-07-01",
   "sex": "F"
  },
- "SYNDZ7BYFD": {
-  "current_plan": null,
-  "dob": "1934-12-01",
-  "first_name": "Richard",
-  "last_name": "Brown",
-  "mbi": "SYNDZ7BYFD",
-  "part_a_eff": "1999-12-01",
-  "part_b_eff": "1999-12-01",
-  "sex": "M"
- },
- "SYNDZTSNUT": {
-  "current_plan": null,
-  "dob": "1947-07-19",
-  "first_name": "Thomas",
-  "last_name": "Thomas",
-  "mbi": "SYNDZTSNUT",
-  "part_a_eff": "2012-07-01",
-  "part_b_eff": "2012-07-01",
-  "sex": "F"
- },
  "SYNE26BZ5V": {
   "current_plan": null,
   "dob": "1948-11-04",
@@ -1059,46 +669,6 @@
   "part_b_eff": "2026-11-01",
   "sex": "M"
  },
- "SYNEFALNCQ": {
-  "current_plan": null,
-  "dob": "1940-04-09",
-  "first_name": "Betty",
-  "last_name": "Hernandez",
-  "mbi": "SYNEFALNCQ",
-  "part_a_eff": "2005-04-01",
-  "part_b_eff": "2005-04-01",
-  "sex": "F"
- },
- "SYNEHB7LYG": {
-  "current_plan": null,
-  "dob": "1937-07-16",
-  "first_name": "Charles",
-  "last_name": "Thomas",
-  "mbi": "SYNEHB7LYG",
-  "part_a_eff": "2002-07-01",
-  "part_b_eff": "2002-07-01",
-  "sex": "M"
- },
- "SYNEP3239V": {
-  "current_plan": null,
-  "dob": "1933-06-27",
-  "first_name": "Joseph",
-  "last_name": "Miller",
-  "mbi": "SYNEP3239V",
-  "part_a_eff": "1998-06-01",
-  "part_b_eff": "1998-06-01",
-  "sex": "M"
- },
- "SYNEPMUUTN": {
-  "current_plan": null,
-  "dob": "1950-07-05",
-  "first_name": "Patricia",
-  "last_name": "Taylor",
-  "mbi": "SYNEPMUUTN",
-  "part_a_eff": "2015-07-01",
-  "part_b_eff": "2015-07-01",
-  "sex": "M"
- },
  "SYNERYKKWV": {
   "current_plan": null,
   "dob": "1954-08-19",
@@ -1109,16 +679,6 @@
   "part_b_eff": "2019-08-01",
   "sex": "F"
  },
- "SYNEVA6EGA": {
-  "current_plan": null,
-  "dob": "1961-10-11",
-  "first_name": "Helen",
-  "last_name": "Jones",
-  "mbi": "SYNEVA6EGA",
-  "part_a_eff": "2026-10-01",
-  "part_b_eff": "2026-10-01",
-  "sex": "F"
- },
  "SYNF4BDPDP": {
   "current_plan": null,
   "dob": "1937-07-27",
@@ -1127,56 +687,6 @@
   "mbi": "SYNF4BDPDP",
   "part_a_eff": "2002-07-01",
   "part_b_eff": "2002-07-01",
-  "sex": "F"
- },
- "SYNF53LHD3": {
-  "current_plan": null,
-  "dob": "1948-02-27",
-  "first_name": "Nancy",
-  "last_name": "Williams",
-  "mbi": "SYNF53LHD3",
-  "part_a_eff": "2013-02-01",
-  "part_b_eff": "2013-02-01",
-  "sex": "F"
- },
- "SYNF9GWGMT": {
-  "current_plan": null,
-  "dob": "1957-06-28",
-  "first_name": "David",
-  "last_name": "Jackson",
-  "mbi": "SYNF9GWGMT",
-  "part_a_eff": "2022-06-01",
-  "part_b_eff": "2022-06-01",
-  "sex": "M"
- },
- "SYNFAQG9MG": {
-  "current_plan": null,
-  "dob": "1935-07-25",
-  "first_name": "Linda",
-  "last_name": "Brown",
-  "mbi": "SYNFAQG9MG",
-  "part_a_eff": "2000-07-01",
-  "part_b_eff": "2000-07-01",
-  "sex": "M"
- },
- "SYNFFM2FCF": {
-  "current_plan": null,
-  "dob": "1951-01-16",
-  "first_name": "Joseph",
-  "last_name": "Smith",
-  "mbi": "SYNFFM2FCF",
-  "part_a_eff": "2016-01-01",
-  "part_b_eff": "2016-01-01",
-  "sex": "M"
- },
- "SYNFNAXDA9": {
-  "current_plan": null,
-  "dob": "1951-01-22",
-  "first_name": "Robert",
-  "last_name": "Davis",
-  "mbi": "SYNFNAXDA9",
-  "part_a_eff": "2016-01-01",
-  "part_b_eff": "2016-01-01",
   "sex": "F"
  },
  "SYNFQ7LU57": {
@@ -1229,16 +739,6 @@
   "part_b_eff": "2003-06-01",
   "sex": "M"
  },
- "SYNG6DWEAM": {
-  "current_plan": null,
-  "dob": "1930-10-10",
-  "first_name": "John",
-  "last_name": "Jackson",
-  "mbi": "SYNG6DWEAM",
-  "part_a_eff": "1995-10-01",
-  "part_b_eff": "1995-10-01",
-  "sex": "F"
- },
  "SYNGBZP9LT": {
   "current_plan": null,
   "dob": "1930-10-07",
@@ -1257,16 +757,6 @@
   "mbi": "SYNGGTHJ5W",
   "part_a_eff": "2019-08-01",
   "part_b_eff": "2019-08-01",
-  "sex": "M"
- },
- "SYNGJLM5AW": {
-  "current_plan": null,
-  "dob": "1961-08-20",
-  "first_name": "Joseph",
-  "last_name": "Wilson",
-  "mbi": "SYNGJLM5AW",
-  "part_a_eff": "2026-08-01",
-  "part_b_eff": "2026-08-01",
   "sex": "M"
  },
  "SYNGLRZYLB": {
@@ -1299,26 +789,6 @@
   "part_b_eff": "2016-01-01",
   "sex": "M"
  },
- "SYNGRLWKKU": {
-  "current_plan": null,
-  "dob": "1958-10-27",
-  "first_name": "Barbara",
-  "last_name": "Williams",
-  "mbi": "SYNGRLWKKU",
-  "part_a_eff": "2023-10-01",
-  "part_b_eff": "2023-10-01",
-  "sex": "F"
- },
- "SYNGVS5HDA": {
-  "current_plan": null,
-  "dob": "1946-04-22",
-  "first_name": "David",
-  "last_name": "Moore",
-  "mbi": "SYNGVS5HDA",
-  "part_a_eff": "2011-04-01",
-  "part_b_eff": "2011-04-01",
-  "sex": "F"
- },
  "SYNGX44P59": {
   "current_plan": null,
   "dob": "1940-03-07",
@@ -1339,26 +809,6 @@
   "part_b_eff": "2011-01-01",
   "sex": "M"
  },
- "SYNH7AHA3J": {
-  "current_plan": null,
-  "dob": "1951-05-09",
-  "first_name": "Susan",
-  "last_name": "Davis",
-  "mbi": "SYNH7AHA3J",
-  "part_a_eff": "2016-05-01",
-  "part_b_eff": "2016-05-01",
-  "sex": "F"
- },
- "SYNHBNYYZ7": {
-  "current_plan": null,
-  "dob": "1954-08-09",
-  "first_name": "James",
-  "last_name": "Hernandez",
-  "mbi": "SYNHBNYYZ7",
-  "part_a_eff": "2019-08-01",
-  "part_b_eff": "2019-08-01",
-  "sex": "F"
- },
  "SYNHME4YCM": {
   "current_plan": null,
   "dob": "1961-11-28",
@@ -1377,36 +827,6 @@
   "mbi": "SYNHSDC5BJ",
   "part_a_eff": "2027-01-01",
   "part_b_eff": "2027-01-01",
-  "sex": "F"
- },
- "SYNHTUEG9G": {
-  "current_plan": null,
-  "dob": "1957-12-08",
-  "first_name": "David",
-  "last_name": "Lopez",
-  "mbi": "SYNHTUEG9G",
-  "part_a_eff": "2022-12-01",
-  "part_b_eff": "2022-12-01",
-  "sex": "F"
- },
- "SYNJ3GFHJ8": {
-  "current_plan": null,
-  "dob": "1956-01-10",
-  "first_name": "Helen",
-  "last_name": "Jackson",
-  "mbi": "SYNJ3GFHJ8",
-  "part_a_eff": "2021-01-01",
-  "part_b_eff": "2021-01-01",
-  "sex": "F"
- },
- "SYNJ7DGFE3": {
-  "current_plan": null,
-  "dob": "1961-11-15",
-  "first_name": "Nancy",
-  "last_name": "Martin",
-  "mbi": "SYNJ7DGFE3",
-  "part_a_eff": "2026-11-01",
-  "part_b_eff": "2026-11-01",
   "sex": "F"
  },
  "SYNJJWZ9KU": {
@@ -1437,26 +857,6 @@
   "mbi": "SYNJUHJHXL",
   "part_a_eff": "2011-12-01",
   "part_b_eff": "2011-12-01",
-  "sex": "F"
- },
- "SYNJX93XNB": {
-  "current_plan": null,
-  "dob": "1930-08-16",
-  "first_name": "James",
-  "last_name": "Moore",
-  "mbi": "SYNJX93XNB",
-  "part_a_eff": "1995-08-01",
-  "part_b_eff": "1995-08-01",
-  "sex": "M"
- },
- "SYNK9ZFG6W": {
-  "current_plan": null,
-  "dob": "1955-04-28",
-  "first_name": "Robert",
-  "last_name": "Hernandez",
-  "mbi": "SYNK9ZFG6W",
-  "part_a_eff": "2020-04-01",
-  "part_b_eff": "2020-04-01",
   "sex": "F"
  },
  "SYNKBTGNDW": {
@@ -1519,16 +919,6 @@
   "part_b_eff": "2003-03-01",
   "sex": "M"
  },
- "SYNKQAKN4N": {
-  "current_plan": null,
-  "dob": "1940-05-25",
-  "first_name": "Betty",
-  "last_name": "Wilson",
-  "mbi": "SYNKQAKN4N",
-  "part_a_eff": "2005-05-01",
-  "part_b_eff": "2005-05-01",
-  "sex": "F"
- },
  "SYNKTR899J": {
   "current_plan": null,
   "dob": "1939-11-18",
@@ -1537,16 +927,6 @@
   "mbi": "SYNKTR899J",
   "part_a_eff": "2004-11-01",
   "part_b_eff": "2004-11-01",
-  "sex": "F"
- },
- "SYNKYUC5PC": {
-  "current_plan": null,
-  "dob": "1938-07-01",
-  "first_name": "Charles",
-  "last_name": "Wilson",
-  "mbi": "SYNKYUC5PC",
-  "part_a_eff": "2003-07-01",
-  "part_b_eff": "2003-07-01",
   "sex": "F"
  },
  "SYNLARHV2J": {
@@ -1567,16 +947,6 @@
   "mbi": "SYNLGGCQKR",
   "part_a_eff": "2002-11-01",
   "part_b_eff": "2002-11-01",
-  "sex": "M"
- },
- "SYNLJGK65W": {
-  "current_plan": null,
-  "dob": "1930-10-20",
-  "first_name": "Betty",
-  "last_name": "Lopez",
-  "mbi": "SYNLJGK65W",
-  "part_a_eff": "1995-10-01",
-  "part_b_eff": "1995-10-01",
   "sex": "M"
  },
  "SYNLJZGSXY": {
@@ -1649,16 +1019,6 @@
   "part_b_eff": "2016-02-01",
   "sex": "F"
  },
- "SYNM728JF6": {
-  "current_plan": null,
-  "dob": "1946-08-28",
-  "first_name": "John",
-  "last_name": "Martin",
-  "mbi": "SYNM728JF6",
-  "part_a_eff": "2011-08-01",
-  "part_b_eff": "2011-08-01",
-  "sex": "M"
- },
  "SYNM7QGZAA": {
   "current_plan": null,
   "dob": "1942-01-10",
@@ -1678,16 +1038,6 @@
   "part_a_eff": "2001-11-01",
   "part_b_eff": "2001-11-01",
   "sex": "M"
- },
- "SYNMA2ZK8M": {
-  "current_plan": null,
-  "dob": "1945-12-21",
-  "first_name": "Karen",
-  "last_name": "Lee",
-  "mbi": "SYNMA2ZK8M",
-  "part_a_eff": "2010-12-01",
-  "part_b_eff": "2010-12-01",
-  "sex": "F"
  },
  "SYNMCSFJYJ": {
   "current_plan": null,
@@ -1709,16 +1059,6 @@
   "part_b_eff": "2026-11-01",
   "sex": "F"
  },
- "SYNMSS7BUJ": {
-  "current_plan": null,
-  "dob": "1951-10-11",
-  "first_name": "Joseph",
-  "last_name": "Jackson",
-  "mbi": "SYNMSS7BUJ",
-  "part_a_eff": "2016-10-01",
-  "part_b_eff": "2016-10-01",
-  "sex": "F"
- },
  "SYNMUWP8QG": {
   "current_plan": null,
   "dob": "1954-09-13",
@@ -1738,16 +1078,6 @@
   "part_a_eff": "2021-12-01",
   "part_b_eff": "2021-12-01",
   "sex": "M"
- },
- "SYNN2YS9FT": {
-  "current_plan": null,
-  "dob": "1940-01-23",
-  "first_name": "Robert",
-  "last_name": "Taylor",
-  "mbi": "SYNN2YS9FT",
-  "part_a_eff": "2005-01-01",
-  "part_b_eff": "2005-01-01",
-  "sex": "F"
  },
  "SYNN9YZ4MY": {
   "current_plan": null,
@@ -1779,16 +1109,6 @@
   "part_b_eff": "2007-03-01",
   "sex": "F"
  },
- "SYNNDNF2K4": {
-  "current_plan": null,
-  "dob": "1947-05-20",
-  "first_name": "Karen",
-  "last_name": "Lopez",
-  "mbi": "SYNNDNF2K4",
-  "part_a_eff": "2012-05-01",
-  "part_b_eff": "2012-05-01",
-  "sex": "M"
- },
  "SYNNFCNBG2": {
   "current_plan": null,
   "dob": "1934-05-25",
@@ -1799,16 +1119,6 @@
   "part_b_eff": "1999-05-01",
   "sex": "M"
  },
- "SYNNN5R52V": {
-  "current_plan": null,
-  "dob": "1937-03-01",
-  "first_name": "John",
-  "last_name": "Johnson",
-  "mbi": "SYNNN5R52V",
-  "part_a_eff": "2002-03-01",
-  "part_b_eff": "2002-03-01",
-  "sex": "F"
- },
  "SYNNRY9CVV": {
   "current_plan": null,
   "dob": "1936-03-20",
@@ -1817,16 +1127,6 @@
   "mbi": "SYNNRY9CVV",
   "part_a_eff": "2001-03-01",
   "part_b_eff": "2001-03-01",
-  "sex": "F"
- },
- "SYNNYU4DSQ": {
-  "current_plan": null,
-  "dob": "1933-11-11",
-  "first_name": "Thomas",
-  "last_name": "Garcia",
-  "mbi": "SYNNYU4DSQ",
-  "part_a_eff": "1998-11-01",
-  "part_b_eff": "1998-11-01",
   "sex": "F"
  },
  "SYNP2WTSMW": {
@@ -1878,46 +1178,6 @@
   "part_a_eff": "2020-11-01",
   "part_b_eff": "2020-11-01",
   "sex": "M"
- },
- "SYNPJDNWKY": {
-  "current_plan": null,
-  "dob": "1941-01-24",
-  "first_name": "Barbara",
-  "last_name": "Hernandez",
-  "mbi": "SYNPJDNWKY",
-  "part_a_eff": "2006-01-01",
-  "part_b_eff": "2006-01-01",
-  "sex": "F"
- },
- "SYNPJMRASZ": {
-  "current_plan": null,
-  "dob": "1953-01-19",
-  "first_name": "Thomas",
-  "last_name": "Moore",
-  "mbi": "SYNPJMRASZ",
-  "part_a_eff": "2018-01-01",
-  "part_b_eff": "2018-01-01",
-  "sex": "F"
- },
- "SYNPYY5DYP": {
-  "current_plan": null,
-  "dob": "1956-10-18",
-  "first_name": "Michael",
-  "last_name": "Martin",
-  "mbi": "SYNPYY5DYP",
-  "part_a_eff": "2021-10-01",
-  "part_b_eff": "2021-10-01",
-  "sex": "F"
- },
- "SYNQA2T554": {
-  "current_plan": null,
-  "dob": "1951-01-17",
-  "first_name": "Helen",
-  "last_name": "Garcia",
-  "mbi": "SYNQA2T554",
-  "part_a_eff": "2016-01-01",
-  "part_b_eff": "2016-01-01",
-  "sex": "F"
  },
  "SYNQCCGXE4": {
   "current_plan": null,
@@ -1989,16 +1249,6 @@
   "part_b_eff": "1996-09-01",
   "sex": "F"
  },
- "SYNR7NERXC": {
-  "current_plan": null,
-  "dob": "1961-11-10",
-  "first_name": "Karen",
-  "last_name": "Moore",
-  "mbi": "SYNR7NERXC",
-  "part_a_eff": "2026-11-01",
-  "part_b_eff": "2026-11-01",
-  "sex": "M"
- },
  "SYNR9BJR25": {
   "current_plan": null,
   "dob": "1956-04-28",
@@ -2017,16 +1267,6 @@
   "mbi": "SYNRBGYCJ8",
   "part_a_eff": "1998-08-01",
   "part_b_eff": "1998-08-01",
-  "sex": "F"
- },
- "SYNRBJKFSL": {
-  "current_plan": null,
-  "dob": "1954-10-09",
-  "first_name": "Joseph",
-  "last_name": "Lopez",
-  "mbi": "SYNRBJKFSL",
-  "part_a_eff": "2019-10-01",
-  "part_b_eff": "2019-10-01",
   "sex": "F"
  },
  "SYNRBL329A": {
@@ -2049,16 +1289,6 @@
   "part_b_eff": "2015-01-01",
   "sex": "F"
  },
- "SYNRTHGC5H": {
-  "current_plan": null,
-  "dob": "1949-06-11",
-  "first_name": "Charles",
-  "last_name": "Wilson",
-  "mbi": "SYNRTHGC5H",
-  "part_a_eff": "2014-06-01",
-  "part_b_eff": "2014-06-01",
-  "sex": "F"
- },
  "SYNRV7252M": {
   "current_plan": null,
   "dob": "1931-04-01",
@@ -2068,16 +1298,6 @@
   "part_a_eff": "1996-04-01",
   "part_b_eff": "1996-04-01",
   "sex": "M"
- },
- "SYNS2DGBSN": {
-  "current_plan": null,
-  "dob": "1946-06-03",
-  "first_name": "Robert",
-  "last_name": "Davis",
-  "mbi": "SYNS2DGBSN",
-  "part_a_eff": "2011-06-01",
-  "part_b_eff": "2011-06-01",
-  "sex": "F"
  },
  "SYNSA6ZKWU": {
   "current_plan": null,
@@ -2098,46 +1318,6 @@
   "part_a_eff": "2013-04-01",
   "part_b_eff": "2013-04-01",
   "sex": "M"
- },
- "SYNSD3W8KF": {
-  "current_plan": null,
-  "dob": "1940-05-26",
-  "first_name": "David",
-  "last_name": "Jackson",
-  "mbi": "SYNSD3W8KF",
-  "part_a_eff": "2005-05-01",
-  "part_b_eff": "2005-05-01",
-  "sex": "M"
- },
- "SYNSDKD99M": {
-  "current_plan": null,
-  "dob": "1961-11-07",
-  "first_name": "Thomas",
-  "last_name": "Wilson",
-  "mbi": "SYNSDKD99M",
-  "part_a_eff": "2026-11-01",
-  "part_b_eff": "2026-11-01",
-  "sex": "F"
- },
- "SYNSE39NC7": {
-  "current_plan": null,
-  "dob": "1941-04-04",
-  "first_name": "Linda",
-  "last_name": "Johnson",
-  "mbi": "SYNSE39NC7",
-  "part_a_eff": "2006-04-01",
-  "part_b_eff": "2006-04-01",
-  "sex": "F"
- },
- "SYNSJ66MYG": {
-  "current_plan": null,
-  "dob": "1952-04-12",
-  "first_name": "Michael",
-  "last_name": "Jackson",
-  "mbi": "SYNSJ66MYG",
-  "part_a_eff": "2017-04-01",
-  "part_b_eff": "2017-04-01",
-  "sex": "F"
  },
  "SYNSQFXSGZ": {
   "current_plan": null,
@@ -2189,16 +1369,6 @@
   "part_b_eff": "2007-05-01",
   "sex": "M"
  },
- "SYNSY8NTKS": {
-  "current_plan": null,
-  "dob": "1944-07-08",
-  "first_name": "Dorothy",
-  "last_name": "Davis",
-  "mbi": "SYNSY8NTKS",
-  "part_a_eff": "2009-07-01",
-  "part_b_eff": "2009-07-01",
-  "sex": "F"
- },
  "SYNT6AHQQL": {
   "current_plan": null,
   "dob": "1961-11-25",
@@ -2208,16 +1378,6 @@
   "part_a_eff": "2026-11-01",
   "part_b_eff": "2026-11-01",
   "sex": "M"
- },
- "SYNTCG6CR4": {
-  "current_plan": null,
-  "dob": "1954-02-24",
-  "first_name": "Michael",
-  "last_name": "Johnson",
-  "mbi": "SYNTCG6CR4",
-  "part_a_eff": "2019-02-01",
-  "part_b_eff": "2019-02-01",
-  "sex": "F"
  },
  "SYNTFFW4J7": {
   "current_plan": null,
@@ -2229,66 +1389,6 @@
   "part_b_eff": "2026-09-01",
   "sex": "M"
  },
- "SYNTGCGC82": {
-  "current_plan": null,
-  "dob": "1953-12-08",
-  "first_name": "John",
-  "last_name": "Brown",
-  "mbi": "SYNTGCGC82",
-  "part_a_eff": "2018-12-01",
-  "part_b_eff": "2018-12-01",
-  "sex": "M"
- },
- "SYNTKTB2WE": {
-  "current_plan": null,
-  "dob": "1952-06-08",
-  "first_name": "Betty",
-  "last_name": "Garcia",
-  "mbi": "SYNTKTB2WE",
-  "part_a_eff": "2017-06-01",
-  "part_b_eff": "2017-06-01",
-  "sex": "F"
- },
- "SYNTLG3E2P": {
-  "current_plan": null,
-  "dob": "1931-09-03",
-  "first_name": "Betty",
-  "last_name": "Martinez",
-  "mbi": "SYNTLG3E2P",
-  "part_a_eff": "1996-09-01",
-  "part_b_eff": "1996-09-01",
-  "sex": "M"
- },
- "SYNTZVQCWC": {
-  "current_plan": null,
-  "dob": "1942-02-11",
-  "first_name": "Joseph",
-  "last_name": "Thomas",
-  "mbi": "SYNTZVQCWC",
-  "part_a_eff": "2007-02-01",
-  "part_b_eff": "2007-02-01",
-  "sex": "M"
- },
- "SYNU24K323": {
-  "current_plan": null,
-  "dob": "1941-06-07",
-  "first_name": "Linda",
-  "last_name": "Williams",
-  "mbi": "SYNU24K323",
-  "part_a_eff": "2006-06-01",
-  "part_b_eff": "2006-06-01",
-  "sex": "M"
- },
- "SYNU37HQNJ": {
-  "current_plan": null,
-  "dob": "1955-02-24",
-  "first_name": "David",
-  "last_name": "Wilson",
-  "mbi": "SYNU37HQNJ",
-  "part_a_eff": "2020-02-01",
-  "part_b_eff": "2020-02-01",
-  "sex": "M"
- },
  "SYNU6GYSMD": {
   "current_plan": null,
   "dob": "1940-11-02",
@@ -2298,26 +1398,6 @@
   "part_a_eff": "2005-11-01",
   "part_b_eff": "2005-11-01",
   "sex": "F"
- },
- "SYNUEAG3VW": {
-  "current_plan": null,
-  "dob": "1933-03-17",
-  "first_name": "Thomas",
-  "last_name": "Brown",
-  "mbi": "SYNUEAG3VW",
-  "part_a_eff": "1998-03-01",
-  "part_b_eff": "1998-03-01",
-  "sex": "F"
- },
- "SYNUK8ZLY5": {
-  "current_plan": null,
-  "dob": "1954-03-15",
-  "first_name": "James",
-  "last_name": "Brown",
-  "mbi": "SYNUK8ZLY5",
-  "part_a_eff": "2019-03-01",
-  "part_b_eff": "2019-03-01",
-  "sex": "M"
  },
  "SYNUKSTXFZ": {
   "current_plan": null,
@@ -2379,16 +1459,6 @@
   "part_b_eff": "2004-10-01",
   "sex": "M"
  },
- "SYNVX3MK4B": {
-  "current_plan": null,
-  "dob": "1949-10-09",
-  "first_name": "Betty",
-  "last_name": "Lopez",
-  "mbi": "SYNVX3MK4B",
-  "part_a_eff": "2014-10-01",
-  "part_b_eff": "2014-10-01",
-  "sex": "F"
- },
  "SYNVXCVGJC": {
   "current_plan": null,
   "dob": "1937-10-27",
@@ -2399,46 +1469,6 @@
   "part_b_eff": "2002-10-01",
   "sex": "M"
  },
- "SYNW8RUAFQ": {
-  "current_plan": null,
-  "dob": "1957-06-24",
-  "first_name": "Robert",
-  "last_name": "Lopez",
-  "mbi": "SYNW8RUAFQ",
-  "part_a_eff": "2022-06-01",
-  "part_b_eff": "2022-06-01",
-  "sex": "F"
- },
- "SYNWGCCF6U": {
-  "current_plan": null,
-  "dob": "1956-09-16",
-  "first_name": "Barbara",
-  "last_name": "Wilson",
-  "mbi": "SYNWGCCF6U",
-  "part_a_eff": "2021-09-01",
-  "part_b_eff": "2021-09-01",
-  "sex": "F"
- },
- "SYNWNA5NE2": {
-  "current_plan": null,
-  "dob": "1941-06-18",
-  "first_name": "Mary",
-  "last_name": "Anderson",
-  "mbi": "SYNWNA5NE2",
-  "part_a_eff": "2006-06-01",
-  "part_b_eff": "2006-06-01",
-  "sex": "M"
- },
- "SYNWRT28M4": {
-  "current_plan": null,
-  "dob": "1945-09-18",
-  "first_name": "Betty",
-  "last_name": "Garcia",
-  "mbi": "SYNWRT28M4",
-  "part_a_eff": "2010-09-01",
-  "part_b_eff": "2010-09-01",
-  "sex": "F"
- },
  "SYNWSPQFK8": {
   "current_plan": "SYN-H0003-001",
   "dob": "1953-03-14",
@@ -2447,16 +1477,6 @@
   "mbi": "SYNWSPQFK8",
   "part_a_eff": "2018-03-01",
   "part_b_eff": "2018-03-01",
-  "sex": "M"
- },
- "SYNWUABATW": {
-  "current_plan": null,
-  "dob": "1961-09-12",
-  "first_name": "Richard",
-  "last_name": "Martinez",
-  "mbi": "SYNWUABATW",
-  "part_a_eff": "2026-09-01",
-  "part_b_eff": "2026-09-01",
   "sex": "M"
  },
  "SYNX6VEGHF": {
@@ -2469,16 +1489,6 @@
   "part_b_eff": "2008-08-01",
   "sex": "M"
  },
- "SYNX7GFCAG": {
-  "current_plan": null,
-  "dob": "1936-07-05",
-  "first_name": "Susan",
-  "last_name": "Thomas",
-  "mbi": "SYNX7GFCAG",
-  "part_a_eff": "2001-07-01",
-  "part_b_eff": "2001-07-01",
-  "sex": "M"
- },
  "SYNXA8D3DE": {
   "current_plan": null,
   "dob": "1961-12-19",
@@ -2487,26 +1497,6 @@
   "mbi": "SYNXA8D3DE",
   "part_a_eff": "2026-12-01",
   "part_b_eff": "2026-12-01",
-  "sex": "M"
- },
- "SYNXMJFNYW": {
-  "current_plan": null,
-  "dob": "1930-03-01",
-  "first_name": "Betty",
-  "last_name": "Taylor",
-  "mbi": "SYNXMJFNYW",
-  "part_a_eff": "1995-03-01",
-  "part_b_eff": "1995-03-01",
-  "sex": "M"
- },
- "SYNXNZBYWP": {
-  "current_plan": null,
-  "dob": "1930-11-15",
-  "first_name": "John",
-  "last_name": "Lee",
-  "mbi": "SYNXNZBYWP",
-  "part_a_eff": "1995-11-01",
-  "part_b_eff": "1995-11-01",
   "sex": "M"
  },
  "SYNXX2AVG4": {
@@ -2527,36 +1517,6 @@
   "mbi": "SYNY2WKGJZ",
   "part_a_eff": "2006-03-01",
   "part_b_eff": "2006-03-01",
-  "sex": "M"
- },
- "SYNYDUMZMD": {
-  "current_plan": null,
-  "dob": "1938-09-23",
-  "first_name": "John",
-  "last_name": "Martin",
-  "mbi": "SYNYDUMZMD",
-  "part_a_eff": "2003-09-01",
-  "part_b_eff": "2003-09-01",
-  "sex": "M"
- },
- "SYNYJ7B3CZ": {
-  "current_plan": null,
-  "dob": "1930-10-10",
-  "first_name": "Susan",
-  "last_name": "Thompson",
-  "mbi": "SYNYJ7B3CZ",
-  "part_a_eff": "1995-10-01",
-  "part_b_eff": "1995-10-01",
-  "sex": "F"
- },
- "SYNYUQ4CQ2": {
-  "current_plan": null,
-  "dob": "1954-11-03",
-  "first_name": "James",
-  "last_name": "Jones",
-  "mbi": "SYNYUQ4CQ2",
-  "part_a_eff": "2019-11-01",
-  "part_b_eff": "2019-11-01",
   "sex": "M"
  },
  "SYNYVL79F6": {
@@ -2589,36 +1549,6 @@
   "part_b_eff": "2005-12-01",
   "sex": "F"
  },
- "SYNYYXNGJF": {
-  "current_plan": null,
-  "dob": "1939-02-13",
-  "first_name": "Patricia",
-  "last_name": "Martinez",
-  "mbi": "SYNYYXNGJF",
-  "part_a_eff": "2004-02-01",
-  "part_b_eff": "2004-02-01",
-  "sex": "M"
- },
- "SYNYZASGC7": {
-  "current_plan": null,
-  "dob": "1934-04-07",
-  "first_name": "Susan",
-  "last_name": "Williams",
-  "mbi": "SYNYZASGC7",
-  "part_a_eff": "1999-04-01",
-  "part_b_eff": "1999-04-01",
-  "sex": "F"
- },
- "SYNYZY7A75": {
-  "current_plan": null,
-  "dob": "1944-07-23",
-  "first_name": "Linda",
-  "last_name": "Taylor",
-  "mbi": "SYNYZY7A75",
-  "part_a_eff": "2009-07-01",
-  "part_b_eff": "2009-07-01",
-  "sex": "F"
- },
  "SYNZD4TUTC": {
   "current_plan": null,
   "dob": "1942-03-19",
@@ -2627,16 +1557,6 @@
   "mbi": "SYNZD4TUTC",
   "part_a_eff": "2007-03-01",
   "part_b_eff": "2007-03-01",
-  "sex": "M"
- },
- "SYNZE6UZVN": {
-  "current_plan": null,
-  "dob": "1947-04-25",
-  "first_name": "Richard",
-  "last_name": "Johnson",
-  "mbi": "SYNZE6UZVN",
-  "part_a_eff": "2012-04-01",
-  "part_b_eff": "2012-04-01",
   "sex": "M"
  },
  "SYNZFBW8SG": {
@@ -2648,16 +1568,6 @@
   "part_a_eff": "2021-03-01",
   "part_b_eff": "2021-03-01",
   "sex": "F"
- },
- "SYNZFL7DNU": {
-  "current_plan": null,
-  "dob": "1955-06-27",
-  "first_name": "Dorothy",
-  "last_name": "Martinez",
-  "mbi": "SYNZFL7DNU",
-  "part_a_eff": "2020-06-01",
-  "part_b_eff": "2020-06-01",
-  "sex": "M"
  },
  "SYNZJNQULL": {
   "current_plan": null,
@@ -2688,15 +1598,5 @@
   "part_a_eff": "2021-03-01",
   "part_b_eff": "2021-03-01",
   "sex": "F"
- },
- "SYNZV3VXU2": {
-  "current_plan": null,
-  "dob": "1932-07-24",
-  "first_name": "Betty",
-  "last_name": "Garcia",
-  "mbi": "SYNZV3VXU2",
-  "part_a_eff": "1997-07-01",
-  "part_b_eff": "1997-07-01",
-  "sex": "M"
  }
 }

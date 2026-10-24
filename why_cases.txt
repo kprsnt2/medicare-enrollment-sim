@@ -1,0 +1,174 @@
+APP-20261015-007  defect missing_signature  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason INCOMPLETE
+    ledger:
+  #51 digital_intake intake_parsed {"flagged": [], "issues": []}
+  #52 processor to_basket {"missing_items": ["signature"], "reason": "INCOMPLETE"}
+  #146 resolver llm:resolver {"errors": [], "input_sha": "edb7027340677fcf67285e9228dacb73f6bda0287aee2e614fb16e89bbc27635", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Application is incomplete because the required signature is missing.", "missing_info": ["Applicant signatu
+  #147 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Application is incomplete because the required signature is missing.", "n_changes": 0}
+  #148 resolver rfi_requested {"deadline": "2026-10-20", "missing": ["Applicant signature on the enrollment request"]}
+
+APP-20261015-017  defect missing_signature  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason INCOMPLETE
+    ledger:
+  #85 paper_intake llm:paper_intake {"errors": [], "input_sha": "bd434bd77a4444926c818c8ff5b6e387f6f45acc81030285261c8b878f69250b", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #86 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #87 processor to_basket {"missing_items": ["signature"], "reason": "INCOMPLETE"}
+  #174 resolver llm:resolver {"errors": [], "input_sha": "80bde5d4cac30bd8b5e2ba1666cd117e6a71042e3eafbfae222158d245e37fda", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed.", "missing_info": ["Applicant signatu
+  #175 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed.", "n_changes": 0}
+  #176 resolver rfi_requested {"deadline": "2026-10-20", "missing": ["Applicant signature on the enrollment request form"]}
+
+APP-20261015-021  defect pcp_mismatch  expected CLOSED_INCOMPLETE  actual ESCALATED
+    - still open as ESCALATED; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-PCP, last CMS code REJ-PCP
+    ledger:
+  #97 paper_intake llm:paper_intake {"errors": [], "input_sha": "6a7d1e43c5752125408f5ee1ac42715eba5a73c77925bfd8e1aff0843581b3c6", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #98 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #99 processor cms_response {"code": "REJ-PCP", "fields_sha": "3ede27d68f460fa5b44a3433c77007b5025b0f7a3fcec55de136d43a0937134b", "message": "Primary care provider is not in the plan network"}
+  #100 processor to_basket {"reason": "REJ-PCP"}
+  #181 resolver llm:resolver {"errors": [], "input_sha": "d30c69477c0292d668a16e174baa6bb1a4398ed44cdf41f4dddab4c38ee0057f", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Chris Dyole", "field": "pcp_name", "new_value": "Dr. Chris Doyle"}], "confidence": 0.95, "diagnosis": "PCP listed on the ap
+  #182 resolver decision {"chosen": "FIX", "confidence": 0.95, "diagnosis": "PCP listed on the application does not match a PCP in the selected HMO plan network; likely OCR/spelling error on provider last name.", "n_changes": 1}
+  #183 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "PCP: Dr. Chris Dyole", "field": "pcp_name", "new_value": "Dr. Chris Doyle"}]}
+  #184 resolver llm:resolver {"errors": [], "input_sha": "d30c69477c0292d668a16e174baa6bb1a4398ed44cdf41f4dddab4c38ee0057f", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Chris Dyole", "field": "pcp_name", "new_value": "Dr. Chris Doyle"}], "confidence": 0.92, "diagnosis": "PCP name appears to 
+  #185 resolver decision {"chosen": "FIX", "confidence": 0.92, "diagnosis": "PCP name appears to be a misspelling on the application; the selected HMO plan network includes a matching in-network PCP with a different spelling.", "n_changes": 1}
+  #186 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "PCP: Dr. Chris Dyole", "field": "pcp_name", "new_value": "Dr. Chris Doyle"}]}
+  #187 resolver llm:resolver {"errors": [], "input_sha": "d30c69477c0292d668a16e174baa6bb1a4398ed44cdf41f4dddab4c38ee0057f", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Chris Dyole", "field": "pcp_name", "new_value": "Dr. Chris Doyle"}], "confidence": 0.9, "diagnosis": "CMS rejected the enro
+  #188 resolver decision {"chosen": "FIX", "confidence": 0.9, "diagnosis": "CMS rejected the enrollment because the submitted PCP name does not match a PCP in the selected HMO plan network. The source text lists 'Dr. Chris Dyole', while the selected plan network contains 'Dr. Chris Doyle', which is a provable correctable ty
+
+APP-20261015-028  defect missing_signature  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason INCOMPLETE
+    ledger:
+  #122 paper_intake llm:paper_intake {"errors": [], "input_sha": "aaff044860b6a9975d0e3fa95327398a22dae769f240019fb8e59ea92f563397", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #123 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #124 processor to_basket {"missing_items": ["signature"], "reason": "INCOMPLETE"}
+  #214 resolver llm:resolver {"errors": [], "input_sha": "2ee60ac18afe8ae7d4d94eaa981a38bf25d0f6f05a7ffa042e194a97a0a8a89d", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is unsigned. No fixable field correction is needed; 
+  #215 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is unsigned. No fixable field correction is needed; the missing signature must be obtained from the applicant.", "n_changes": 0}
+  #216 resolver rfi_requested {"deadline": "2026-10-20", "missing": ["Applicant signature on the enrollment request form"]}
+
+APP-20261016-004  defect election_invalid  expected DENIED  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects DENIED once it terminates
+    - basket reason REJ-ELECTION, last CMS code REJ-ELECTION
+    ledger:
+  #331 digital_intake intake_parsed {"flagged": [], "issues": []}
+  #332 processor cms_response {"code": "REJ-ELECTION", "fields_sha": "c4b045aa97e48af608ee12388f908c52d03de4193ebc907026a419e30ff90ad9", "message": "Election period is not valid for this request"}
+  #333 processor to_basket {"reason": "REJ-ELECTION"}
+  #432 resolver llm:resolver {"errors": [], "input_sha": "dd642f2ae6806a23f2a16bff90262a240dd6b2d3d0569fa22c50317f57c01d01", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.98, "diagnosis": "Election type OEP is invalid for the application date 2026-10-16 because OEP is only allowed from 01-01 to
+  #433 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.98, "diagnosis": "Election type OEP is invalid for the application date 2026-10-16 because OEP is only allowed from 01-01 to 03-31. No document evidence supports a different election type or SEP reason, so the rejection cannot be fixed from source documents
+  #434 resolver rfi_requested {"deadline": "2026-10-21", "missing": ["A valid election period basis for the 2026-10-16 application date, such as an AEP/SEP/IEP election selection", "If requesting SEP, the specific SEP reason"]}
+
+APP-20261016-008  defect mbi_typo  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-NOENT, last CMS code REJ-NOENT
+    ledger:
+  #344 digital_intake intake_parsed {"flagged": [], "issues": []}
+  #345 processor cms_response {"code": "REJ-NOENT", "fields_sha": "3e119bd4d49451dde23ee550a0dba735c87009ec5871f970c640f8113094e4d1", "message": "Member ID not found on the master file"}
+  #346 processor to_basket {"reason": "REJ-NOENT"}
+  #445 resolver llm:resolver {"errors": [], "input_sha": "33e3f0f0da5d6cbf77c29873bb1429c7e85a0b02ac68981a7ada990e2e1093d4", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.95, "diagnosis": "CMS rejected with REJ-NOENT because the submitted MBI is not found on the master file. All submitted enrol
+  #446 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.95, "diagnosis": "CMS rejected with REJ-NOENT because the submitted MBI is not found on the master file. All submitted enrollment data matches the source text, and there is no contradictory document evidence to fix any field.", "n_changes": 0}
+  #447 resolver rfi_requested {"deadline": "2026-10-21", "missing": ["A corrected Medicare Beneficiary Identifier (MBI) or a copy of the member's Medicare card"]}
+
+APP-20261016-009  defect pcp_mismatch  expected CLOSED_INCOMPLETE  actual ESCALATED
+    - still open as ESCALATED; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-PCP, last CMS code REJ-PCP
+    ledger:
+  #347 paper_intake llm:paper_intake {"errors": [], "input_sha": "1c53139796fd9043db989c5909d728f85e4cf6bc263a4c947a2d2e028ee594f1", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #348 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #349 processor cms_response {"code": "REJ-PCP", "fields_sha": "c99558c9e821bfbc99a05747c460665c805fed9589edb714b0628fb8ea796426", "message": "Primary care provider is not in the plan network"}
+  #350 processor to_basket {"reason": "REJ-PCP"}
+  #448 resolver llm:resolver {"errors": [], "input_sha": "3d498ae33a2b57052b849c137a6dc0c1536381ed4b27564ac433d04018b173e2", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Sam Oritz", "field": "pcp_name", "new_value": "Dr. Sam Ortiz"}], "confidence": 0.97, "diagnosis": "CMS rejected the enrollm
+  #449 resolver decision {"chosen": "FIX", "confidence": 0.97, "diagnosis": "CMS rejected the enrollment because the PCP name on the application is misspelled and therefore does not match a provider in the selected plan's HMO network. The selected plan is valid for the county, and the network contains the corrected PCP name
+  #450 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "PCP: Dr. Sam Oritz", "field": "pcp_name", "new_value": "Dr. Sam Ortiz"}]}
+  #451 resolver llm:resolver {"errors": [], "input_sha": "3d498ae33a2b57052b849c137a6dc0c1536381ed4b27564ac433d04018b173e2", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Sam Oritz", "field": "pcp_name", "new_value": "Dr. Sam Ortiz"}], "confidence": 0.97, "diagnosis": "PCP name appears misspel
+  #452 resolver decision {"chosen": "FIX", "confidence": 0.97, "diagnosis": "PCP name appears misspelled on the application, causing CMS rejection because the submitted PCP is not an exact match to the plan network. The selected plan is valid for Maricopa county, and the in-network PCP listed in the plan reference is Dr. Sa
+  #453 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "PCP: Dr. Sam Oritz", "field": "pcp_name", "new_value": "Dr. Sam Ortiz"}]}
+  #454 resolver llm:resolver {"errors": [], "input_sha": "3d498ae33a2b57052b849c137a6dc0c1536381ed4b27564ac433d04018b173e2", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "PCP: Dr. Sam Oritz", "field": "pcp_name", "new_value": "Dr. Sam Ortiz"}], "confidence": 0.98, "diagnosis": "CMS rejected the enrollm
+  #455 resolver decision {"chosen": "FIX", "confidence": 0.98, "diagnosis": "CMS rejected the enrollment because the PCP name on the application is misspelled and does not match a provider in the selected HMO network. The selected plan is valid for the member's county, and the network contains the correctly spelled PCP.", "
+
+APP-20261016-017  defect missing_signature  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason INCOMPLETE
+    ledger:
+  #375 paper_intake llm:paper_intake {"errors": [], "input_sha": "2166954a7522e018d251875955ff1d2b68bd1186aab75a69e9ec20049b7345d4", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #376 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #377 processor to_basket {"missing_items": ["signature"], "reason": "INCOMPLETE"}
+  #476 resolver llm:resolver {"errors": [], "input_sha": "965fe8e55a372b9a2ad3d7ce1ba153da0ed08014236b9cbeff4b0cd481e7ccf2", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed. All captured fields match the source 
+  #477 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed. All captured fields match the source text; no fixable discrepancy is present.", "n_changes": 0}
+  #478 resolver rfi_requested {"deadline": "2026-10-21", "missing": ["Applicant signature on the enrollment request form"]}
+
+APP-20261017-003  defect pcp_mismatch  expected CLOSED_INCOMPLETE  actual ESCALATED
+    - still open as ESCALATED; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-PCP, last CMS code REJ-PCP
+    ledger:
+  #601 digital_intake intake_parsed {"flagged": [], "issues": []}
+  #618 processor cms_response {"code": "REJ-PCP", "fields_sha": "826dda7f32a6d7cd143eb5f5c62b45ae628791b7a72836b715f6ce1fa85af0e3", "message": "Primary care provider is not in the plan network"}
+  #619 processor to_basket {"reason": "REJ-PCP"}
+  #719 resolver llm:resolver {"errors": [], "input_sha": "f3036839f049e2bf33feb485460f2503b05105be984b3fc92ad609f270913da5", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "pcp_name: Dr. Alan Roa", "field": "pcp_name", "new_value": "Dr. Alan Rao"}], "confidence": 0.96, "diagnosis": "PCP name appears to b
+  #720 resolver decision {"chosen": "FIX", "confidence": 0.96, "diagnosis": "PCP name appears to be a misspelling; the selected PCP on the application is not in the plan network, but a matching in-network PCP exists for the chosen HMO plan.", "n_changes": 1}
+  #721 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "pcp_name: Dr. Alan Roa", "field": "pcp_name", "new_value": "Dr. Alan Rao"}]}
+  #733 resolver llm:resolver {"errors": [], "input_sha": "f3036839f049e2bf33feb485460f2503b05105be984b3fc92ad609f270913da5", "ok": true, "output": {"action": "FIX", "changes": [{"evidence_quote": "pcp_name: Dr. Alan Roa", "field": "pcp_name", "new_value": "Dr. Alan Rao"}], "confidence": 0.91, "diagnosis": "CMS rejected the enro
+  #734 resolver decision {"chosen": "FIX", "confidence": 0.91, "diagnosis": "CMS rejected the enrollment because the submitted PCP name is not in the selected HMO plan network. The source shows 'Dr. Alan Roa' while the Sunrise Care HMO network contains 'Dr. Alan Rao', indicating a correctable spelling discrepancy.", "n_chan
+  #735 resolver fix_rejected {"errors": ["pcp_name: evidence quote does not contain the provider name"], "proposed": [{"evidence_quote": "pcp_name: Dr. Alan Roa", "field": "pcp_name", "new_value": "Dr. Alan Rao"}]}
+  #741 resolver llm:resolver {"errors": [], "input_sha": "f3036839f049e2bf33feb485460f2503b05105be984b3fc92ad609f270913da5", "ok": true, "output": {"action": "ESCALATE", "changes": [], "confidence": 0.94, "diagnosis": "PCP name appears to be a spelling mismatch causing the network rejection; source shows 'Dr. Alan Roa' while th
+  #742 resolver decision {"chosen": "ESCALATE", "confidence": 0.94, "diagnosis": "PCP name appears to be a spelling mismatch causing the network rejection; source shows 'Dr. Alan Roa' while the selected plan's in-network PCP list contains 'Dr. Alan Rao'.", "n_changes": 0}
+  #743 resolver escalated {"why": "The rejection is for PCP not in network. The selected plan is valid for the service area, but the application source text only supports 'pcp_name: Dr. Alan Roa' and does not prove the corrected in-net"}
+
+APP-20261017-005  defect missing_signature  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason INCOMPLETE
+    ledger:
+  #612 paper_intake llm:paper_intake {"errors": [], "input_sha": "c5fefe7c1ad80c0e3df10ab77ffd2148008761283fa87e3dcdfacf5f513f4431", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #613 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #623 processor to_basket {"missing_items": ["signature"], "reason": "INCOMPLETE"}
+  #705 resolver llm:resolver {"errors": [], "input_sha": "50d5d684e80bd73586c26c0b6ff314f4d89fbfda11e638703e1d194f00ee91c7", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed.", "missing_info": ["Applicant signatu
+  #706 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Application is incomplete because the enrollment form is not signed.", "n_changes": 0}
+  #707 resolver rfi_requested {"deadline": "2026-10-22", "missing": ["Applicant signature on the enrollment request form"]}
+
+APP-20261017-008  defect mbi_typo  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-NOENT, last CMS code REJ-NOENT
+    ledger:
+  #610 paper_intake llm:paper_intake {"errors": [], "input_sha": "2082bf3272f8ae1de27d3fbe7cfa706b98971a96b8f08cb42c761c36a8151180", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #611 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #629 processor cms_response {"code": "REJ-NOENT", "fields_sha": "165ff3f529fbe9ba464c8883e1711c118fe70493b3ba7db60a452402abaf59ca", "message": "Member ID not found on the master file"}
+  #630 processor to_basket {"reason": "REJ-NOENT"}
+  #727 resolver llm:resolver {"errors": [], "input_sha": "5b446f957385299d826ff03bd21a71b8854aff49081af1e550bb9cef1e327095", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.95, "diagnosis": "CMS rejected with REJ-NOENT because the Medicare/member ID on the application was not found on the master 
+  #728 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.95, "diagnosis": "CMS rejected with REJ-NOENT because the Medicare/member ID on the application was not found on the master file, and there is no contradictory source evidence or alternate ID available to fix.", "n_changes": 0}
+  #729 resolver rfi_requested {"deadline": "2026-10-22", "missing": ["A valid Medicare Beneficiary Identifier (MBI) or a copy of the member's Medicare card to verify the Medicare number."]}
+
+APP-20261017-010  defect zip_typo  expected CLOSED_INCOMPLETE  actual PENDING_MEMBER
+    - still open as PENDING_MEMBER; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-ADDR, last CMS code REJ-ADDR
+    ledger:
+  #635 paper_intake llm:paper_intake {"errors": [], "input_sha": "6dd3e1c733832701449ad3cbc2659eecbc694876edd6cea1dcc237cdf305448b", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #636 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #637 processor cms_response {"code": "REJ-ADDR", "fields_sha": "f901265c03e9099c8b684da23b2f95ed21f4ef9bbc776ca357570f0d2ec792b0", "message": "ZIP code does not match the stated county"}
+  #638 processor to_basket {"reason": "REJ-ADDR"}
+  #708 resolver llm:resolver {"errors": [], "input_sha": "2acc521a3b7bda84df9aa552b2f76ebc488377aa194a0faa52fbf4241d484ea9", "ok": true, "output": {"action": "REQUEST_INFO", "changes": [], "confidence": 0.99, "diagnosis": "Address data is internally inconsistent: ZIP 33101 maps to Miami-Dade, not Travis. The source documents re
+  #709 resolver decision {"chosen": "REQUEST_INFO", "confidence": 0.99, "diagnosis": "Address data is internally inconsistent: ZIP 33101 maps to Miami-Dade, not Travis. The source documents repeat the same conflicting ZIP and county, so no proven correction is available.", "n_changes": 0}
+  #710 resolver rfi_requested {"deadline": "2026-10-22", "missing": ["Correct residence ZIP code or county that matches the member's actual address/service area"]}
+
+APP-20261017-014  defect demo_mismatch  expected CLOSED_INCOMPLETE  actual ESCALATED
+    - still open as ESCALATED; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason OCR_LOW_CONFIDENCE
+    ledger:
+  #649 paper_intake llm:paper_intake {"errors": [], "input_sha": "47039b496f57d36d1a61facbf2c81c445501135ec253af52ad120332f5062b1d", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.6, "mbi": 0.99, "part_a_e
+  #650 paper_intake intake_parsed {"flagged": ["last_name"], "issues": []}
+  #651 processor to_basket {"reason": "OCR_LOW_CONFIDENCE"}
+  #769 resolver llm:resolver {"errors": [], "input_sha": "9bba8e0672e5107cecea395bdb3239e21337573509c0d066a7c0518357c7739c", "ok": true, "output": {"action": "ESCALATE", "changes": [], "confidence": 0.96, "diagnosis": "OCR low confidence on last_name; source text appears to contain an OCR/transposition error ('IWLLIAMS') while 
+  #770 resolver decision {"chosen": "ESCALATE", "confidence": 0.96, "diagnosis": "OCR low confidence on last_name; source text appears to contain an OCR/transposition error ('IWLLIAMS') while all other enrollment data consistently supports the existing value 'WILLIAMS'. No proven fix from source text is possible because FIX
+  #771 resolver escalated {"why": "The only flagged field is last_name. The current field value is 'WILLIAMS', but the source text says 'Name: IWLLIAMS, JOHN'. Because a FIX requires verbatim proof of the corrected value from source_te"}
+
+APP-20261017-026  defect demo_mismatch  expected CLOSED_INCOMPLETE  actual ESCALATED
+    - still open as ESCALATED; gold expects CLOSED_INCOMPLETE once it terminates
+    - basket reason REJ-DEMO, last CMS code REJ-DEMO
+    ledger:
+  #691 paper_intake llm:paper_intake {"errors": [], "input_sha": "103a9f0c1f2655b523f1209242b62de2c9dd2235e5b6f487a6d0c01b24f9e87a", "ok": true, "output": {"confidence": {"address": 0.99, "city": 0.99, "county": 0.99, "dob": 0.99, "election_date": 0.99, "election_type": 0.99, "first_name": 0.99, "last_name": 0.99, "mbi": 0.99, "part_a_
+  #692 paper_intake intake_parsed {"flagged": [], "issues": []}
+  #693 processor cms_response {"code": "REJ-DEMO", "fields_sha": "e2172d515a0a2b6645e586fe45e4be6359a2d1955241a45876f5f9da421d24e4", "message": "Name, date of birth or sex does not match the master file"}
+  #694 processor to_basket {"reason": "REJ-DEMO"}
+  #772 resolver llm:resolver {"errors": [], "input_sha": "2c39ffd8d384fb8a87f60ab35e644dedf9a5546e6c455c4edeef66d071f2f4a7", "ok": true, "output": {"action": "ESCALATE", "changes": [], "confidence": 0.9, "diagnosis": "CMS rejected for demographic mismatch, specifically likely sex mismatch against master file. The enrollment for
+  #773 resolver decision {"chosen": "ESCALATE", "confidence": 0.9, "diagnosis": "CMS rejected for demographic mismatch, specifically likely sex mismatch against master file. The enrollment form itself also shows Sex: M for applicant Karen Wilson, but there is no independent source proving a correction, so no safe fix is ava
+  #774 resolver escalated {"why": "The rejection is for name/DOB/sex mismatch. All submitted demographic fields in the application are internally consistent with the source text, and sex is not low-confidence OCR; it is explicitly show"}
+

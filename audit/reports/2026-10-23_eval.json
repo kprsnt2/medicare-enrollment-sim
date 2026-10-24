@@ -1,72 +1,72 @@
 {
  "by_defect": {
   "clean": {
-   "correct": 81,
+   "correct": 49,
    "open": 0,
-   "terminal": 81
+   "terminal": 49
   },
   "demo_mismatch": {
    "correct": 3,
-   "open": 22,
+   "open": 12,
    "terminal": 3
   },
   "duplicate": {
-   "correct": 10,
+   "correct": 9,
    "open": 0,
-   "terminal": 10
+   "terminal": 9
   },
   "election_invalid": {
-   "correct": 19,
+   "correct": 8,
    "open": 0,
-   "terminal": 20
+   "terminal": 9
   },
   "elig_date": {
-   "correct": 14,
-   "open": 12,
-   "terminal": 14
+   "correct": 6,
+   "open": 4,
+   "terminal": 6
   },
   "mbi_typo": {
    "correct": 3,
-   "open": 5,
-   "terminal": 3
+   "open": 1,
+   "terminal": 4
   },
   "missing_signature": {
    "correct": 6,
-   "open": 7,
+   "open": 3,
    "terminal": 6
   },
   "ocr_noise": {
+   "correct": 6,
+   "open": 0,
+   "terminal": 6
+  },
+  "out_of_area": {
+   "correct": 8,
+   "open": 0,
+   "terminal": 8
+  },
+  "pcp_mismatch": {
+   "correct": 9,
+   "open": 4,
+   "terminal": 9
+  },
+  "wrong_plan": {
    "correct": 13,
    "open": 0,
    "terminal": 13
   },
-  "out_of_area": {
-   "correct": 15,
-   "open": 1,
-   "terminal": 15
-  },
-  "pcp_mismatch": {
-   "correct": 11,
-   "open": 9,
-   "terminal": 11
-  },
-  "wrong_plan": {
-   "correct": 18,
-   "open": 0,
-   "terminal": 18
-  },
   "zip_typo": {
-   "correct": 19,
-   "open": 1,
-   "terminal": 19
+   "correct": 14,
+   "open": 0,
+   "terminal": 14
   }
  },
- "correct": 212,
+ "correct": 134,
  "false_accepts": 0,
  "false_denials": 0,
- "missed_accepts": 0,
- "open": 57,
- "outcome_accuracy": 0.9953,
- "terminal": 213,
+ "missed_accepts": 1,
+ "open": 24,
+ "outcome_accuracy": 0.9853,
+ "terminal": 136,
  "wrong_fields_on_accept": 0
 }

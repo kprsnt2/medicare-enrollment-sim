@@ -1,34 +1,34 @@
 {
  "audit_s1": 0,
  "audit_s2": 0,
- "basket_at_resolve_start": 15,
+ "basket_at_resolve_start": 3,
  "compliance": {},
  "evaluation": {
   "by_defect": {
    "clean": {
-    "correct": 40,
+    "correct": 31,
     "open": 0,
-    "terminal": 40
+    "terminal": 31
    },
    "demo_mismatch": {
     "correct": 3,
-    "open": 5,
+    "open": 2,
     "terminal": 3
    },
    "duplicate": {
-    "correct": 8,
-    "open": 0,
-    "terminal": 8
-   },
-   "election_invalid": {
     "correct": 7,
-    "open": 1,
+    "open": 0,
     "terminal": 7
    },
+   "election_invalid": {
+    "correct": 5,
+    "open": 1,
+    "terminal": 5
+   },
    "elig_date": {
-    "correct": 9,
+    "correct": 6,
     "open": 0,
-    "terminal": 9
+    "terminal": 6
    },
    "mbi_typo": {
     "correct": 1,
@@ -41,18 +41,18 @@
     "terminal": 0
    },
    "ocr_noise": {
-    "correct": 6,
+    "correct": 5,
     "open": 0,
-    "terminal": 6
+    "terminal": 5
    },
    "out_of_area": {
-    "correct": 6,
+    "correct": 5,
     "open": 0,
-    "terminal": 6
+    "terminal": 5
    },
    "pcp_mismatch": {
     "correct": 7,
-    "open": 4,
+    "open": 3,
     "terminal": 7
    },
    "wrong_plan": {
@@ -61,27 +61,27 @@
     "terminal": 7
    },
    "zip_typo": {
-    "correct": 6,
+    "correct": 5,
     "open": 1,
-    "terminal": 6
+    "terminal": 5
    }
   },
-  "correct": 100,
+  "correct": 82,
   "false_accepts": 0,
   "false_denials": 0,
   "missed_accepts": 0,
-  "open": 20,
+  "open": 16,
   "outcome_accuracy": 1.0,
-  "terminal": 100,
+  "terminal": 82,
   "wrong_fields_on_accept": 0
  },
  "gate_ok": true,
  "halted_for_budget": false,
  "ledger_ok": true,
- "llm_calls_today": 70,
- "mode": "live",
+ "llm_calls_today": 19,
+ "mode": "mock",
  "model": "gpt-5.4",
- "new_applications": 30,
+ "new_applications": 8,
  "oldest_open": [
   {
    "case_id": "APP-20261015-007",
@@ -134,24 +134,24 @@
  ],
  "sim_date": "2026-10-18",
  "states": {
-  "ACCEPTED": 81,
-  "CLOSED_DUPLICATE": 8,
-  "DENIED": 11,
-  "ESCALATED": 10,
-  "PENDING_MEMBER": 10
+  "ACCEPTED": 67,
+  "CLOSED_DUPLICATE": 7,
+  "DENIED": 8,
+  "ESCALATED": 5,
+  "PENDING_MEMBER": 11
  },
  "timings_seconds": {
-  "applicants": 0.01,
-  "audit": 2.73,
-  "compliance": 0.81,
+  "applicants": 0.02,
+  "audit": 0.07,
+  "compliance": 0.09,
   "evaluate": 0.0,
-  "intake": 23.85,
-  "notices": 6.13,
-  "resolve": 12.23,
+  "intake": 0.05,
+  "notices": 0.04,
+  "resolve": 0.02,
   "rfi_expiry": 0.0,
-  "total": 45.75
+  "total": 0.33
  },
  "token_cap": 2000000,
- "tokens_used_today": 78582,
- "workers": 8
+ "tokens_used_today": 0,
+ "workers": 1
 }

@@ -1,12 +1,7 @@
-Subject: Enrollment request update for Joseph Jackson
+Subject: We could not process your enrollment request
 
 Dear Joseph Jackson,
 
-We are writing about your request for coverage under Palmetto Gold PPO, received on 2026-10-23, for an effective date of 2026-11-01.
+We are unable to process your enrollment request received on 2026-10-23. The reason: the date of your request is not within an enrollment period that applies to you.
 
-At this time, we are unable to process your enrollment request. The reason is: the date of your request is not within an enrollment period that applies to you.
-
-You have the right to ask us to review this decision. If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Palmetto Gold PPO
+You have the right to ask us to review this decision. Call [PLAN CONTACT NUMBER] for help.

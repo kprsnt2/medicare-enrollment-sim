@@ -1,9 +1,7 @@
-Subject: Enrollment approved for William Williams
+Subject: Your enrollment request was accepted
 
 Dear William Williams,
 
-We received your enrollment request on 2026-10-23. Your enrollment in Sunrise Care HMO was approved.
+We received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.
 
-Your effective date is 2027-01-01.
-
-If you have questions, please call [PLAN CONTACT NUMBER].
+If you have questions, call [PLAN CONTACT NUMBER].

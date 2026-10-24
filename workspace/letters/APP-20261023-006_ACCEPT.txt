@@ -1,12 +1,7 @@
-Subject: Enrollment approved for Lakeshore Prime HMO
+Subject: Your enrollment request was accepted
 
 Dear Richard Lopez,
 
-We received your enrollment request on 2026-10-23, and it was accepted.
+We received your enrollment request on 2026-10-23 and it has been accepted for Lakeshore Prime HMO. The effective date is 2027-01-01.
 
-Your plan is Lakeshore Prime HMO. Your effective date is 2027-01-01.
-
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Member Services
+If you have questions, call [PLAN CONTACT NUMBER].

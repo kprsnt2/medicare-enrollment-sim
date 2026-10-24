@@ -1,10 +1,7 @@
-Subject: Enrollment approved for Barbara Taylor
+Subject: Your enrollment request was accepted
 
 Dear Barbara Taylor,
 
-We received your enrollment request on 2026-10-23. Your enrollment has been approved for Sunrise Choice PPO. Your effective date is 2027-01-01.
+We received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.
 
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
-Member Services
+If you have questions, call [PLAN CONTACT NUMBER].

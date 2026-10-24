@@ -1,9 +1,7 @@
-Subject: Enrollment approved for Michael Lopez
+Subject: Your enrollment request was accepted
 
 Dear Michael Lopez,
 
-We received your enrollment request on 2026-10-22, and it was accepted. You are enrolled in Sunrise Choice PPO. Your effective date is 2026-11-01.
+We received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Choice PPO. The effective date is 2026-11-01.
 
-If you have questions, please call [PLAN CONTACT NUMBER].
-
-Sincerely,
+If you have questions, call [PLAN CONTACT NUMBER].

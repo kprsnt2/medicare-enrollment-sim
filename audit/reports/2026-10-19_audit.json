@@ -1,18 +1,6 @@
 {
  "advisory_llm_review": [
   {
-   "case_id": "APP-20261019-017",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
-   "case_id": "APP-20261019-023",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
    "case_id": "APP-20261019-001",
    "dropped_unreferenced": 0,
    "findings": [],
@@ -25,30 +13,15 @@
    "verdict": "PASS"
   },
   {
-   "case_id": "APP-20261019-018",
-   "dropped_unreferenced": 0,
-   "findings": [
-    {
-     "event_seqs": [
-      1289,
-      1290
-     ],
-     "severity": "S3",
-     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without quoted documentary evidence in the case file; the fix_applied event shows empty evidence."
-    }
-   ],
-   "verdict": "FAIL"
-  },
-  {
-   "case_id": "APP-20261019-027",
+   "case_id": "APP-20261019-005",
    "dropped_unreferenced": 0,
    "findings": [],
    "verdict": "PASS"
   }
  ],
- "cases_checked": 150,
+ "cases_checked": 106,
  "findings": [],
- "ledger_entries": 1384,
+ "ledger_entries": 1000,
  "ledger_ok": true,
  "s1": 0,
  "s2": 0,

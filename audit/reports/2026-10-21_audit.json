@@ -1,18 +1,6 @@
 {
  "advisory_llm_review": [
   {
-   "case_id": "APP-20261021-023",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
-   "case_id": "APP-20261020-029",
-   "dropped_unreferenced": 0,
-   "findings": [],
-   "verdict": "PASS"
-  },
-  {
    "case_id": "APP-20261021-001",
    "dropped_unreferenced": 0,
    "findings": [],
@@ -37,9 +25,9 @@
    "verdict": "PASS"
   }
  ],
- "cases_checked": 210,
+ "cases_checked": 122,
  "findings": [],
- "ledger_entries": 1972,
+ "ledger_entries": 1179,
  "ledger_ok": true,
  "s1": 0,
  "s2": 0,

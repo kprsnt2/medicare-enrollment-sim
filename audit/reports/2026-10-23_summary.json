@@ -1,87 +1,87 @@
 {
  "audit_s1": 0,
  "audit_s2": 0,
- "basket_at_resolve_start": 27,
+ "basket_at_resolve_start": 21,
  "compliance": {
   "TAT_AT_RISK": 1
  },
  "evaluation": {
   "by_defect": {
    "clean": {
-    "correct": 81,
+    "correct": 49,
     "open": 0,
-    "terminal": 81
+    "terminal": 49
    },
    "demo_mismatch": {
     "correct": 3,
-    "open": 22,
+    "open": 12,
     "terminal": 3
    },
    "duplicate": {
-    "correct": 10,
+    "correct": 9,
     "open": 0,
-    "terminal": 10
+    "terminal": 9
    },
    "election_invalid": {
-    "correct": 19,
+    "correct": 8,
     "open": 0,
-    "terminal": 20
+    "terminal": 9
    },
    "elig_date": {
-    "correct": 14,
-    "open": 12,
-    "terminal": 14
+    "correct": 6,
+    "open": 4,
+    "terminal": 6
    },
    "mbi_typo": {
     "correct": 3,
-    "open": 5,
-    "terminal": 3
+    "open": 1,
+    "terminal": 4
    },
    "missing_signature": {
     "correct": 6,
-    "open": 7,
+    "open": 3,
     "terminal": 6
    },
    "ocr_noise": {
+    "correct": 6,
+    "open": 0,
+    "terminal": 6
+   },
+   "out_of_area": {
+    "correct": 8,
+    "open": 0,
+    "terminal": 8
+   },
+   "pcp_mismatch": {
+    "correct": 9,
+    "open": 4,
+    "terminal": 9
+   },
+   "wrong_plan": {
     "correct": 13,
     "open": 0,
     "terminal": 13
    },
-   "out_of_area": {
-    "correct": 15,
-    "open": 1,
-    "terminal": 15
-   },
-   "pcp_mismatch": {
-    "correct": 11,
-    "open": 9,
-    "terminal": 11
-   },
-   "wrong_plan": {
-    "correct": 18,
-    "open": 0,
-    "terminal": 18
-   },
    "zip_typo": {
-    "correct": 19,
-    "open": 1,
-    "terminal": 19
+    "correct": 14,
+    "open": 0,
+    "terminal": 14
    }
   },
-  "correct": 212,
+  "correct": 134,
   "false_accepts": 0,
   "false_denials": 0,
-  "missed_accepts": 0,
-  "open": 57,
-  "outcome_accuracy": 0.9953,
-  "terminal": 213,
+  "missed_accepts": 1,
+  "open": 24,
+  "outcome_accuracy": 0.9853,
+  "terminal": 136,
   "wrong_fields_on_accept": 0
  },
  "gate_ok": true,
  "halted_for_budget": false,
  "ledger_ok": true,
- "llm_calls_today": 72,
- "mode": "live",
+ "llm_calls_today": 206,
+ "mode": "mock",
  "model": "gpt-5.4",
  "new_applications": 30,
  "oldest_open": [
@@ -116,46 +116,46 @@
    "state": "ESCALATED"
   },
   {
-   "case_id": "APP-20261018-006",
-   "reason": "REJ-NOENT",
-   "received": "2026-10-18",
-   "state": "ESCALATED"
-  },
-  {
-   "case_id": "APP-20261018-010",
-   "reason": "REJ-PCP",
-   "received": "2026-10-18",
-   "state": "ESCALATED"
-  },
-  {
-   "case_id": "APP-20261018-011",
+   "case_id": "APP-20261019-002",
    "reason": "REJ-DEMO",
-   "received": "2026-10-18",
-   "state": "ESCALATED"
+   "received": "2026-10-19",
+   "state": "PENDING_MEMBER"
+  },
+  {
+   "case_id": "APP-20261019-004",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-19",
+   "state": "PENDING_MEMBER"
+  },
+  {
+   "case_id": "APP-20261019-007",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-19",
+   "state": "PENDING_MEMBER"
   }
  ],
  "sim_date": "2026-10-23",
  "states": {
-  "ACCEPTED": 168,
-  "CLOSED_DUPLICATE": 10,
-  "CLOSED_INCOMPLETE": 10,
-  "DENIED": 25,
-  "ESCALATED": 37,
-  "IN_BASKET": 7,
-  "PENDING_MEMBER": 13
+  "ACCEPTED": 104,
+  "CLOSED_DUPLICATE": 9,
+  "CLOSED_INCOMPLETE": 11,
+  "DENIED": 12,
+  "ESCALATED": 5,
+  "IN_BASKET": 1,
+  "PENDING_MEMBER": 18
  },
  "timings_seconds": {
-  "applicants": 0.01,
-  "audit": 1.93,
-  "compliance": 0.95,
-  "evaluate": 0.0,
-  "intake": 26.28,
-  "notices": 9.12,
-  "resolve": 9.35,
+  "applicants": 0.08,
+  "audit": 0.15,
+  "compliance": 0.09,
+  "evaluate": 0.01,
+  "intake": 0.17,
+  "notices": 0.2,
+  "resolve": 0.13,
   "rfi_expiry": 0.0,
-  "total": 47.64
+  "total": 0.82
  },
  "token_cap": 2000000,
- "tokens_used_today": 82010,
- "workers": 8
+ "tokens_used_today": 0,
+ "workers": 1
 }
