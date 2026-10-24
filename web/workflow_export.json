@@ -1,0 +1,6754 @@
+{
+ "meta": {
+  "sim_date": "2026-10-23",
+  "next_run_date": "2026-10-24",
+  "day_index": 9,
+  "days_run": 9,
+  "first_day": "2026-10-15",
+  "modes": [
+   "live",
+   "mock"
+  ],
+  "latest_mode": "mock",
+  "model": "gpt-5.4",
+  "models_seen": [
+   "gpt-5.4-2026-03-05",
+   "mock"
+  ],
+  "token_cap": 2000000,
+  "letters_source": {
+   "mock": 78,
+   "openai": 78
+  },
+  "tokens_used_total": 250132,
+  "tokens_used_today": 0,
+  "tokens_by_day": {
+   "2026-10-15": 85136,
+   "2026-10-16": 80601,
+   "2026-10-17": 84395,
+   "2026-10-18": 0,
+   "2026-10-19": 0,
+   "2026-10-20": 0,
+   "2026-10-21": 0,
+   "2026-10-22": 0,
+   "2026-10-23": 0
+  },
+  "cases_total": 160,
+  "ledger_ok": true,
+  "ledger_message": "chain intact",
+  "entries": 1577,
+  "generated_at": "2026-10-24T06:52:42+00:00",
+  "source_files": {
+   "config": [
+    "config/policy.json",
+    "config/reference.json",
+    "config/settings.json"
+   ],
+   "state": [
+    "state/cases.json",
+    "state/clock.json",
+    "state/tokens.json"
+   ],
+   "audit": [
+    "audit/ledger.jsonl",
+    "audit/reports/*_summary.json",
+    "audit/reports/*_audit.json",
+    "audit/reports/*_compliance.json",
+    "audit/reports/*_eval.json"
+   ],
+   "workspace": [
+    "workspace/letters/*",
+    "workspace/inbox/*"
+   ],
+   "answer_key": "audit/gold/gold.json - only 'defect' and 'expected_final' are read"
+  }
+ },
+ "stages": [
+  {
+   "step_no": 1,
+   "title": "Applicants",
+   "owner": "applicant_simulator",
+   "engine": "system",
+   "artifact": "workspace/inbox/",
+   "short": "Synthesise a day of applications",
+   "what": "Deterministic generator turns a seed into fictional members: paper forms with OCR noise, digital JSON payloads, and one injected defect per applicant. Each application also gets a hidden answer key that only the evaluation stage reads.",
+   "counts": {
+    "applications": 270,
+    "channels": {
+     "paper": 169,
+     "digital": 101
+    },
+    "by_day": {
+     "2026-10-15": 30,
+     "2026-10-16": 30,
+     "2026-10-17": 30,
+     "2026-10-23": 30,
+     "2026-10-18": 8,
+     "2026-10-19": 8,
+     "2026-10-20": 8,
+     "2026-10-21": 8,
+     "2026-10-22": 8
+    }
+   },
+   "example": "APP-20261015-001 2026-10-15: submitted - digital application arrived",
+   "ledger_actions": [
+    "submitted"
+   ],
+   "ledger_events": 160,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 2,
+   "title": "Intake",
+   "owner": "paper_intake / digital_intake",
+   "engine": "LLM",
+   "artifact": "workspace/inbox/ + audit/ledger.jsonl (intake_parsed)",
+   "short": "Read the form into 21 fields",
+   "what": "Paper: a model reads the scanned text and must return a verbatim evidence quote for every value; a value it cannot quote is capped at low confidence and flagged. Digital: fields are copied as submitted, no model call.",
+   "counts": {
+    "paper_model_calls": 97,
+    "digital_deterministic": 63,
+    "intake_parsed": 160,
+    "defaulted_fields": 0,
+    "flags_raised": 1,
+    "flags_by_field": {
+     "last_name": 1
+    },
+    "failures": 0
+   },
+   "example": "APP-20261015-001 2026-10-15: intake_parsed - fields parsed, flagged none, 0 evidence issue(s)",
+   "ledger_actions": [
+    "intake_parsed",
+    "llm:paper_intake"
+   ],
+   "ledger_events": 257,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 3,
+   "title": "Processor and mock CMS",
+   "owner": "processor",
+   "engine": "deterministic",
+   "artifact": "audit/ledger.jsonl (cms_response)",
+   "short": "Completeness check, then submit",
+   "what": "Signature, required fields and PCP completeness are checked first. A complete application is submitted to the mock CMS, whose fixed-order checks answer with ACC, DUP or a REJ-* code.",
+   "counts": {
+    "cms_submissions": 197,
+    "completeness_rejections": 9,
+    "dispositions": 136,
+    "dispositions_by_state": {
+     "ACCEPTED": 104,
+     "DENIED": 12,
+     "CLOSED_INCOMPLETE": 11,
+     "CLOSED_DUPLICATE": 9
+    }
+   },
+   "example": "APP-20261015-001 2026-10-15: cms_response - REJ-AREA - Member's county is outside the plan's service area",
+   "ledger_actions": [
+    "cms_response",
+    "disposition",
+    "to_basket"
+   ],
+   "ledger_events": 434,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 4,
+   "title": "CMS reply",
+   "owner": "processor",
+   "engine": "system",
+   "artifact": "audit/ledger.jsonl (cms_response)",
+   "short": "Reply code decides the route",
+   "what": "ACC and DUP finalise the case; every other code routes it to the work basket with that code as the reason. Reply codes are simplified stand-ins, not real CMS transaction codes.",
+   "counts": {
+    "cms_calls": 197,
+    "cases_submitted": 150,
+    "codes": {
+     "ACC": 104,
+     "REJ-DEMO": 14,
+     "REJ-ADDR": 13,
+     "REJ-PLAN": 13,
+     "REJ-PCP": 12,
+     "REJ-ELIG-DATE": 10,
+     "DUP": 9,
+     "REJ-ELECTION": 9,
+     "REJ-AREA": 8,
+     "REJ-NOENT": 5
+    },
+    "accepted_by_cms": 104,
+    "returned_to_basket": 84,
+    "closed_duplicate_by_cms": 9
+   },
+   "example": "APP-20261015-001 2026-10-15: cms_response - REJ-AREA - Member's county is outside the plan's service area",
+   "ledger_actions": [
+    "cms_response"
+   ],
+   "ledger_events": 197,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 5,
+   "title": "Work basket",
+   "owner": "processor",
+   "engine": "system",
+   "artifact": "state/cases.json + audit/ledger.jsonl (to_basket)",
+   "short": "Route the case to a queue",
+   "what": "Cases land in one queue with the reason printed on them: missing information, low-confidence OCR fields, or the CMS reply code. The queue is worked oldest first under a daily capacity.",
+   "counts": {
+    "routed_to_basket": 101,
+    "reasons": {
+     "REJ-DEMO": 14,
+     "REJ-ADDR": 13,
+     "REJ-PLAN": 13,
+     "REJ-PCP": 12,
+     "REJ-ELIG-DATE": 10,
+     "INCOMPLETE": 9,
+     "REJ-ELECTION": 9,
+     "OCR_LOW_CONFIDENCE": 8,
+     "REJ-AREA": 8,
+     "REJ-NOENT": 5
+    },
+    "currently_in_basket": 1,
+    "resolver_daily_capacity": 20
+   },
+   "example": "APP-20261015-001 2026-10-15: to_basket - reason REJ-AREA",
+   "ledger_actions": [
+    "to_basket"
+   ],
+   "ledger_events": 101,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 6,
+   "title": "Resolver",
+   "owner": "resolver",
+   "engine": "LLM",
+   "artifact": "audit/ledger.jsonl (decision, fix_applied, rfi_requested, escalated)",
+   "short": "Fix it, ask for it, or deny it",
+   "what": "A model picks FIX, CONFIRM, REQUEST_INFO, DENY or ESCALATE. A fix only lands if its evidence quote is really in the document; a denial needs a second deterministic gate and is blocked when the paperwork hints the member may qualify.",
+   "counts": {
+    "decisions": {
+     "FIX": 59,
+     "REQUEST_INFO": 29,
+     "DENY": 12,
+     "CONFIRM": 5,
+     "ESCALATE": 3
+    },
+    "decision_rounds": 108,
+    "resolver_model_calls": 108,
+    "cases_worked": 100,
+    "fixes_applied": 53,
+    "fixes_rejected_by_guard": 10,
+    "rfi_requested": 29,
+    "denied_by_resolver": 12,
+    "denial_blocked": 0,
+    "escalations_logged": 5,
+    "action_rejected": 0,
+    "escalated_states": 5,
+    "pending_member_states": 18
+   },
+   "example": "APP-20261015-001 2026-10-15: decision - chose DENY (confidence 0.98): Application was rejected because the selected plan's service area does not include the me…",
+   "ledger_actions": [
+    "decision",
+    "fix_applied",
+    "fix_rejected",
+    "rfi_requested",
+    "escalated",
+    "llm:resolver"
+   ],
+   "ledger_events": 313,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 7,
+   "title": "Notices",
+   "owner": "notice",
+   "engine": "LLM",
+   "artifact": "workspace/letters/",
+   "short": "Write the member letter",
+   "what": "One letter per outcome (ACCEPT, DENY, RFI, CLOSED_INCOMPLETE). The compliance agent checks the required phrases and rejects the letter for a redo; a fallback template is used if the model keeps failing.",
+   "counts": {
+    "model_calls": 156,
+    "letters_issued": 156,
+    "kinds": {
+     "ACCEPT": 104,
+     "RFI": 29,
+     "DENY": 12,
+     "CLOSED_INCOMPLETE": 11
+    },
+    "letter_files": 245,
+    "sources": {
+     "mock": 78,
+     "openai": 78
+    },
+    "rejected_for_redo": 0
+   },
+   "example": "APP-20261015-001 2026-10-15: letter_issued - DENY letter from openai, workspace/letters/APP-20261015-001_DENY.txt",
+   "ledger_actions": [
+    "letter_issued",
+    "llm:notice"
+   ],
+   "ledger_events": 312,
+   "runs_per_day": 1
+  },
+  {
+   "step_no": 8,
+   "title": "Compliance and audit",
+   "owner": "compliance + auditor",
+   "engine": "deterministic",
+   "artifact": "audit/reports/ + audit/gold/",
+   "short": "Re-derive the day from the evidence",
+   "what": "Deterministic checks escalate the gate (S1 = zero tolerance); an LLM review of a sample is advisory only. Then every case is scored against the hidden answer key: accuracy, false accepts, false denials.",
+   "counts": {
+    "s1": 0,
+    "s2": 0,
+    "gate_ok": true,
+    "ledger_ok": true,
+    "cases_checked": 160,
+    "compliance_findings": 9,
+    "advisory_reviews": 38,
+    "letter_reviews": 27,
+    "accuracy": 0.9853,
+    "terminal": 136,
+    "correct": 134,
+    "false_accepts": 0,
+    "by_defect": {
+     "clean": {
+      "correct": 49,
+      "open": 0,
+      "terminal": 49
+     },
+     "demo_mismatch": {
+      "correct": 3,
+      "open": 12,
+      "terminal": 3
+     },
+     "duplicate": {
+      "correct": 9,
+      "open": 0,
+      "terminal": 9
+     },
+     "election_invalid": {
+      "correct": 8,
+      "open": 0,
+      "terminal": 9
+     },
+     "elig_date": {
+      "correct": 6,
+      "open": 4,
+      "terminal": 6
+     },
+     "mbi_typo": {
+      "correct": 3,
+      "open": 1,
+      "terminal": 4
+     },
+     "missing_signature": {
+      "correct": 6,
+      "open": 3,
+      "terminal": 6
+     },
+     "ocr_noise": {
+      "correct": 6,
+      "open": 0,
+      "terminal": 6
+     },
+     "out_of_area": {
+      "correct": 8,
+      "open": 0,
+      "terminal": 8
+     },
+     "pcp_mismatch": {
+      "correct": 9,
+      "open": 4,
+      "terminal": 9
+     },
+     "wrong_plan": {
+      "correct": 13,
+      "open": 0,
+      "terminal": 13
+     },
+     "zip_typo": {
+      "correct": 14,
+      "open": 0,
+      "terminal": 14
+     }
+    }
+   },
+   "example": "APP-20261015-001 2026-10-15: llm:letter_review - pass True",
+   "ledger_actions": [
+    "sweep",
+    "audit_report",
+    "llm:auditor_review",
+    "llm:letter_review"
+   ],
+   "ledger_events": 83,
+   "runs_per_day": 1
+  }
+ ],
+ "loops": [
+  {
+   "from_step": 5,
+   "to_step": 3,
+   "label": "resubmission after a fix or a replaced field"
+  }
+ ],
+ "codes": [
+  {
+   "code": "ACC",
+   "meaning": "Accepted",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 104
+  },
+  {
+   "code": "DUP",
+   "meaning": "Duplicate enrollment request",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 9
+  },
+  {
+   "code": "INCOMPLETE",
+   "meaning": "A required item (or the signature) is missing; the member is asked for it.",
+   "source": "basket reason (routing only, no CMS round trip)",
+   "deniable": false,
+   "used": true,
+   "seen": 9
+  },
+  {
+   "code": "OCR_LOW_CONFIDENCE",
+   "meaning": "Intake flagged one or more fields as low-confidence OCR; the work basket re-checks them against the attachments.",
+   "source": "basket reason (routing only, no CMS round trip)",
+   "deniable": false,
+   "used": true,
+   "seen": 8
+  },
+  {
+   "code": "REJ-ADDR",
+   "meaning": "ZIP code does not match the stated county",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 26
+  },
+  {
+   "code": "REJ-AREA",
+   "meaning": "Member's county is outside the plan's service area",
+   "source": "mock CMS reply code",
+   "deniable": true,
+   "used": true,
+   "seen": 16
+  },
+  {
+   "code": "REJ-DEMO",
+   "meaning": "Name, date of birth or sex does not match the master file",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 28
+  },
+  {
+   "code": "REJ-ELECTION",
+   "meaning": "Election period is not valid for this request",
+   "source": "mock CMS reply code",
+   "deniable": true,
+   "used": true,
+   "seen": 18
+  },
+  {
+   "code": "REJ-ELIG-DATE",
+   "meaning": "Entitlement or effective date problem",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 20
+  },
+  {
+   "code": "REJ-NOENT",
+   "meaning": "Member ID not found on the master file",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 10
+  },
+  {
+   "code": "REJ-PCP",
+   "meaning": "Primary care provider is not in the plan network",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 24
+  },
+  {
+   "code": "REJ-PLAN",
+   "meaning": "Plan ID is not offered",
+   "source": "mock CMS reply code",
+   "deniable": false,
+   "used": true,
+   "seen": 26
+  }
+ ],
+ "agents": {
+  "applicant_simulator": {
+   "actions": 160,
+   "tokens": 0,
+   "calls": 0
+  },
+  "auditor": {
+   "actions": 47,
+   "tokens": 25660,
+   "calls": 38
+  },
+  "compliance": {
+   "actions": 36,
+   "tokens": 2773,
+   "calls": 27
+  },
+  "digital_intake": {
+   "actions": 63,
+   "tokens": 0,
+   "calls": 0
+  },
+  "harness": {
+   "actions": 18,
+   "tokens": 0,
+   "calls": 0
+  },
+  "notice": {
+   "actions": 312,
+   "tokens": 31367,
+   "calls": 156
+  },
+  "paper_intake": {
+   "actions": 194,
+   "tokens": 75742,
+   "calls": 97
+  },
+  "processor": {
+   "actions": 434,
+   "tokens": 0,
+   "calls": 0
+  },
+  "resolver": {
+   "actions": 313,
+   "tokens": 114590,
+   "calls": 108
+  }
+ },
+ "actions": {
+  "cms_response": 197,
+  "intake_parsed": 160,
+  "submitted": 160,
+  "letter_issued": 156,
+  "llm:notice": 156,
+  "disposition": 136,
+  "decision": 108,
+  "llm:resolver": 108,
+  "to_basket": 101,
+  "llm:paper_intake": 97,
+  "fix_applied": 53,
+  "llm:auditor_review": 38,
+  "rfi_requested": 29,
+  "llm:letter_review": 27,
+  "fix_rejected": 10,
+  "audit_report": 9,
+  "day_end": 9,
+  "day_start": 9,
+  "sweep": 9,
+  "escalated": 5
+ },
+ "tokens_by_action": {
+  "llm:resolver": 114590,
+  "llm:paper_intake": 75742,
+  "llm:notice": 31367,
+  "llm:auditor_review": 25660,
+  "llm:letter_review": 2773
+ },
+ "days": [
+  {
+   "date": "2026-10-15",
+   "mode": "live",
+   "model": "gpt-5.4",
+   "new_applications": 30,
+   "basket_at_resolve_start": 19,
+   "states": {
+    "ACCEPTED": 21,
+    "CLOSED_DUPLICATE": 2,
+    "DENIED": 3,
+    "ESCALATED": 1,
+    "PENDING_MEMBER": 3
+   },
+   "accuracy": 1.0,
+   "terminal": 26,
+   "correct": 26,
+   "open": 4,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 85136,
+   "token_cap": 2000000,
+   "llm_calls": null,
+   "workers": null,
+   "timings": {},
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 9,
+     "open": 0,
+     "terminal": 9
+    },
+    "demo_mismatch": {
+     "correct": 2,
+     "open": 0,
+     "terminal": 2
+    },
+    "duplicate": {
+     "correct": 2,
+     "open": 0,
+     "terminal": 2
+    },
+    "elig_date": {
+     "correct": 1,
+     "open": 0,
+     "terminal": 1
+    },
+    "missing_signature": {
+     "correct": 0,
+     "open": 3,
+     "terminal": 0
+    },
+    "ocr_noise": {
+     "correct": 2,
+     "open": 0,
+     "terminal": 2
+    },
+    "out_of_area": {
+     "correct": 3,
+     "open": 0,
+     "terminal": 3
+    },
+    "pcp_mismatch": {
+     "correct": 2,
+     "open": 1,
+     "terminal": 2
+    },
+    "wrong_plan": {
+     "correct": 2,
+     "open": 0,
+     "terminal": 2
+    },
+    "zip_typo": {
+     "correct": 3,
+     "open": 0,
+     "terminal": 3
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-007",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261015-028",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "mode": "live",
+   "model": "gpt-5.4",
+   "new_applications": 30,
+   "basket_at_resolve_start": 17,
+   "states": {
+    "ACCEPTED": 42,
+    "CLOSED_DUPLICATE": 5,
+    "DENIED": 5,
+    "ESCALATED": 2,
+    "PENDING_MEMBER": 6
+   },
+   "accuracy": 1.0,
+   "terminal": 52,
+   "correct": 52,
+   "open": 8,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 165737,
+   "token_cap": 2000000,
+   "llm_calls": null,
+   "workers": null,
+   "timings": {},
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 19,
+     "open": 0,
+     "terminal": 19
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 0,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "election_invalid": {
+     "correct": 3,
+     "open": 1,
+     "terminal": 3
+    },
+    "elig_date": {
+     "correct": 3,
+     "open": 0,
+     "terminal": 3
+    },
+    "mbi_typo": {
+     "correct": 0,
+     "open": 1,
+     "terminal": 0
+    },
+    "missing_signature": {
+     "correct": 0,
+     "open": 4,
+     "terminal": 0
+    },
+    "ocr_noise": {
+     "correct": 4,
+     "open": 0,
+     "terminal": 4
+    },
+    "out_of_area": {
+     "correct": 3,
+     "open": 0,
+     "terminal": 3
+    },
+    "pcp_mismatch": {
+     "correct": 3,
+     "open": 2,
+     "terminal": 3
+    },
+    "wrong_plan": {
+     "correct": 4,
+     "open": 0,
+     "terminal": 4
+    },
+    "zip_typo": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-007",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261015-028",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-004",
+     "reason": "REJ-ELECTION",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "mode": "live",
+   "model": "gpt-5.4",
+   "new_applications": 30,
+   "basket_at_resolve_start": 20,
+   "states": {
+    "ACCEPTED": 61,
+    "CLOSED_DUPLICATE": 7,
+    "DENIED": 8,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 9
+   },
+   "accuracy": 1.0,
+   "terminal": 76,
+   "correct": 76,
+   "open": 14,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 84395,
+   "token_cap": 2000000,
+   "llm_calls": 73,
+   "workers": 8,
+   "timings": {
+    "applicants": 0.01,
+    "audit": 0.89,
+    "compliance": 0.75,
+    "evaluate": 0.0,
+    "intake": 23.19,
+    "notices": 7.2,
+    "resolve": 14.21,
+    "rfi_expiry": 0.0,
+    "total": 46.26
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 26,
+     "open": 0,
+     "terminal": 26
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 2,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 7
+    },
+    "election_invalid": {
+     "correct": 5,
+     "open": 1,
+     "terminal": 5
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 1,
+     "open": 2,
+     "terminal": 1
+    },
+    "missing_signature": {
+     "correct": 0,
+     "open": 5,
+     "terminal": 0
+    },
+    "ocr_noise": {
+     "correct": 4,
+     "open": 0,
+     "terminal": 4
+    },
+    "out_of_area": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 3,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 7
+    },
+    "zip_typo": {
+     "correct": 5,
+     "open": 1,
+     "terminal": 5
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-007",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261015-028",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-004",
+     "reason": "REJ-ELECTION",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 8,
+   "basket_at_resolve_start": 3,
+   "states": {
+    "ACCEPTED": 67,
+    "CLOSED_DUPLICATE": 7,
+    "DENIED": 8,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 11
+   },
+   "accuracy": 1.0,
+   "terminal": 82,
+   "correct": 82,
+   "open": 16,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 19,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.02,
+    "audit": 0.07,
+    "compliance": 0.09,
+    "evaluate": 0.0,
+    "intake": 0.05,
+    "notices": 0.04,
+    "resolve": 0.02,
+    "rfi_expiry": 0.0,
+    "total": 0.33
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 31,
+     "open": 0,
+     "terminal": 31
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 2,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 7
+    },
+    "election_invalid": {
+     "correct": 5,
+     "open": 1,
+     "terminal": 5
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 1,
+     "open": 3,
+     "terminal": 1
+    },
+    "missing_signature": {
+     "correct": 0,
+     "open": 6,
+     "terminal": 0
+    },
+    "ocr_noise": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "out_of_area": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 3,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 7
+    },
+    "zip_typo": {
+     "correct": 5,
+     "open": 1,
+     "terminal": 5
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-007",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261015-028",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-004",
+     "reason": "REJ-ELECTION",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 8,
+   "basket_at_resolve_start": 6,
+   "states": {
+    "ACCEPTED": 70,
+    "CLOSED_DUPLICATE": 8,
+    "DENIED": 9,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 14
+   },
+   "accuracy": 1.0,
+   "terminal": 87,
+   "correct": 87,
+   "open": 19,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 42,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.01,
+    "audit": 0.09,
+    "compliance": 0.05,
+    "evaluate": 0.0,
+    "intake": 0.04,
+    "notices": 0.03,
+    "resolve": 0.03,
+    "rfi_expiry": 0.0,
+    "total": 0.25
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 32,
+     "open": 0,
+     "terminal": 32
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 5,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 8
+    },
+    "election_invalid": {
+     "correct": 5,
+     "open": 1,
+     "terminal": 5
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 1,
+     "open": 3,
+     "terminal": 1
+    },
+    "missing_signature": {
+     "correct": 0,
+     "open": 6,
+     "terminal": 0
+    },
+    "ocr_noise": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "out_of_area": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 3,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 8
+    },
+    "zip_typo": {
+     "correct": 6,
+     "open": 1,
+     "terminal": 6
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-007",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261015-028",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-15",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-004",
+     "reason": "REJ-ELECTION",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-20",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 8,
+   "basket_at_resolve_start": 3,
+   "states": {
+    "ACCEPTED": 77,
+    "CLOSED_DUPLICATE": 8,
+    "CLOSED_INCOMPLETE": 3,
+    "DENIED": 9,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 12
+   },
+   "accuracy": 1.0,
+   "terminal": 97,
+   "correct": 97,
+   "open": 17,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 67,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.01,
+    "audit": 0.09,
+    "compliance": 0.05,
+    "evaluate": 0.0,
+    "intake": 0.05,
+    "notices": 0.05,
+    "resolve": 0.02,
+    "rfi_expiry": 0.0,
+    "total": 0.28
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 37,
+     "open": 0,
+     "terminal": 37
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 5,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 8
+    },
+    "election_invalid": {
+     "correct": 6,
+     "open": 1,
+     "terminal": 6
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 1,
+     "open": 4,
+     "terminal": 1
+    },
+    "missing_signature": {
+     "correct": 3,
+     "open": 3,
+     "terminal": 3
+    },
+    "ocr_noise": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "out_of_area": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 3,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 8
+    },
+    "zip_typo": {
+     "correct": 7,
+     "open": 1,
+     "terminal": 7
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-004",
+     "reason": "REJ-ELECTION",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-017",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-16",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261017-003",
+     "reason": "REJ-PCP",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-005",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-17",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261017-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-17",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 8,
+   "basket_at_resolve_start": 5,
+   "states": {
+    "ACCEPTED": 83,
+    "CLOSED_DUPLICATE": 9,
+    "CLOSED_INCOMPLETE": 6,
+    "DENIED": 9,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 10
+   },
+   "accuracy": 0.9907,
+   "terminal": 107,
+   "correct": 106,
+   "open": 15,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 95,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.01,
+    "audit": 0.09,
+    "compliance": 0.05,
+    "evaluate": 0.0,
+    "intake": 0.05,
+    "notices": 0.05,
+    "resolve": 0.03,
+    "rfi_expiry": 0.0,
+    "total": 0.29
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 39,
+     "open": 0,
+     "terminal": 39
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 5,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 9,
+     "open": 0,
+     "terminal": 9
+    },
+    "election_invalid": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 7
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 2,
+     "open": 3,
+     "terminal": 2
+    },
+    "missing_signature": {
+     "correct": 4,
+     "open": 3,
+     "terminal": 4
+    },
+    "ocr_noise": {
+     "correct": 5,
+     "open": 0,
+     "terminal": 5
+    },
+    "out_of_area": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 3,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 10,
+     "open": 0,
+     "terminal": 10
+    },
+    "zip_typo": {
+     "correct": 9,
+     "open": 1,
+     "terminal": 9
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-003",
+     "reason": "REJ-PCP",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-005",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-17",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261017-008",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-17",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261017-010",
+     "reason": "REJ-ADDR",
+     "received": "2026-10-17",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261017-014",
+     "reason": "OCR_LOW_CONFIDENCE",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-026",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-22",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 8,
+   "basket_at_resolve_start": 7,
+   "states": {
+    "ACCEPTED": 88,
+    "CLOSED_DUPLICATE": 9,
+    "CLOSED_INCOMPLETE": 9,
+    "DENIED": 10,
+    "ESCALATED": 5,
+    "PENDING_MEMBER": 9
+   },
+   "accuracy": 0.9914,
+   "terminal": 116,
+   "correct": 115,
+   "open": 14,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 128,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.02,
+    "audit": 0.11,
+    "compliance": 0.06,
+    "evaluate": 0.01,
+    "intake": 0.05,
+    "notices": 0.08,
+    "resolve": 0.04,
+    "rfi_expiry": 0.0,
+    "total": 0.38
+   },
+   "compliance": {},
+   "by_defect": {
+    "clean": {
+     "correct": 40,
+     "open": 0,
+     "terminal": 40
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 6,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 9,
+     "open": 0,
+     "terminal": 9
+    },
+    "election_invalid": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 8
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 3,
+     "open": 2,
+     "terminal": 3
+    },
+    "missing_signature": {
+     "correct": 5,
+     "open": 2,
+     "terminal": 5
+    },
+    "ocr_noise": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "out_of_area": {
+     "correct": 7,
+     "open": 0,
+     "terminal": 7
+    },
+    "pcp_mismatch": {
+     "correct": 7,
+     "open": 4,
+     "terminal": 7
+    },
+    "wrong_plan": {
+     "correct": 12,
+     "open": 0,
+     "terminal": 12
+    },
+    "zip_typo": {
+     "correct": 10,
+     "open": 0,
+     "terminal": 10
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-003",
+     "reason": "REJ-PCP",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-014",
+     "reason": "OCR_LOW_CONFIDENCE",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-026",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261018-004",
+     "reason": "INCOMPLETE",
+     "received": "2026-10-18",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261018-006",
+     "reason": "REJ-NOENT",
+     "received": "2026-10-18",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261019-002",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-19",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "mode": "mock",
+   "model": "gpt-5.4",
+   "new_applications": 30,
+   "basket_at_resolve_start": 21,
+   "states": {
+    "ACCEPTED": 104,
+    "CLOSED_DUPLICATE": 9,
+    "CLOSED_INCOMPLETE": 11,
+    "DENIED": 12,
+    "ESCALATED": 5,
+    "IN_BASKET": 1,
+    "PENDING_MEMBER": 18
+   },
+   "accuracy": 0.9853,
+   "terminal": 136,
+   "correct": 134,
+   "open": 24,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "wrong_fields_on_accept": 0,
+   "s1": 0,
+   "s2": 0,
+   "gate_ok": true,
+   "ledger_ok": true,
+   "halted_for_budget": false,
+   "tokens": 0,
+   "token_cap": 2000000,
+   "llm_calls": 206,
+   "workers": 1,
+   "timings": {
+    "applicants": 0.08,
+    "audit": 0.15,
+    "compliance": 0.09,
+    "evaluate": 0.01,
+    "intake": 0.17,
+    "notices": 0.2,
+    "resolve": 0.13,
+    "rfi_expiry": 0.0,
+    "total": 0.82
+   },
+   "compliance": {
+    "TAT_AT_RISK": 1
+   },
+   "by_defect": {
+    "clean": {
+     "correct": 49,
+     "open": 0,
+     "terminal": 49
+    },
+    "demo_mismatch": {
+     "correct": 3,
+     "open": 12,
+     "terminal": 3
+    },
+    "duplicate": {
+     "correct": 9,
+     "open": 0,
+     "terminal": 9
+    },
+    "election_invalid": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 9
+    },
+    "elig_date": {
+     "correct": 6,
+     "open": 4,
+     "terminal": 6
+    },
+    "mbi_typo": {
+     "correct": 3,
+     "open": 1,
+     "terminal": 4
+    },
+    "missing_signature": {
+     "correct": 6,
+     "open": 3,
+     "terminal": 6
+    },
+    "ocr_noise": {
+     "correct": 6,
+     "open": 0,
+     "terminal": 6
+    },
+    "out_of_area": {
+     "correct": 8,
+     "open": 0,
+     "terminal": 8
+    },
+    "pcp_mismatch": {
+     "correct": 9,
+     "open": 4,
+     "terminal": 9
+    },
+    "wrong_plan": {
+     "correct": 13,
+     "open": 0,
+     "terminal": 13
+    },
+    "zip_typo": {
+     "correct": 14,
+     "open": 0,
+     "terminal": 14
+    }
+   },
+   "oldest_open": [
+    {
+     "case_id": "APP-20261015-021",
+     "reason": "REJ-PCP",
+     "received": "2026-10-15",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261016-009",
+     "reason": "REJ-PCP",
+     "received": "2026-10-16",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-003",
+     "reason": "REJ-PCP",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-014",
+     "reason": "OCR_LOW_CONFIDENCE",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261017-026",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-17",
+     "state": "ESCALATED"
+    },
+    {
+     "case_id": "APP-20261019-002",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-19",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261019-004",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-19",
+     "state": "PENDING_MEMBER"
+    },
+    {
+     "case_id": "APP-20261019-007",
+     "reason": "REJ-DEMO",
+     "received": "2026-10-19",
+     "state": "PENDING_MEMBER"
+    }
+   ]
+  }
+ ],
+ "cases": [
+  {
+   "id": "APP-20261022-001",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-22",
+   "closed": null,
+   "defect": "pcp_mismatch",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": "REJ-PCP",
+   "last_message": "Primary care provider is not in the plan network",
+   "reason": "REJ-PCP",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "an in-network primary care provider"
+   ],
+   "rfi_deadline": "2026-10-27",
+   "plan": "Desert Bloom HMO",
+   "plan_id": "SYN-H0003-002",
+   "county": "Maricopa",
+   "election_type": "IEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-PCP",
+     "message": "Primary care provider is not in the plan network"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Patricia Moore,\n\nWe need more information to finish your enrollment request received on 2026-10-22: an in-network primary care provider.\n\nPlease respond by 2026-10-27. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1187,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1195,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1196,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1197,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PCP - Primary care provider is not in the plan network",
+     "tokens": 0
+    },
+    {
+     "seq": 1198,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PCP",
+     "tokens": 0
+    },
+    {
+     "seq": 1225,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Provider is not in the network",
+     "tokens": 0
+    },
+    {
+     "seq": 1226,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Provider is not in the network",
+     "tokens": 0
+    },
+    {
+     "seq": 1227,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for an in-network primary care provider, respond by 2026-10-27",
+     "tokens": 0
+    },
+    {
+     "seq": 1264,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1265,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261022-001_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261022-002",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "wrong_plan",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Harris",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-PLAN",
+     "message": "Plan ID is not offered"
+    },
+    {
+     "date": "2026-10-22",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "plan_id",
+     "old": "SYN-H0001-00X",
+     "new": "SYN-H0001-001",
+     "evidence": "Sunrise Care HMO",
+     "event_seq": 1230
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Richard Martinez,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1188,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1199,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1200,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1201,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PLAN - Plan ID is not offered",
+     "tokens": 0
+    },
+    {
+     "seq": 1202,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PLAN",
+     "tokens": 0
+    },
+    {
+     "seq": 1228,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1229,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1230,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "plan_id: 'SYN-H0001-00X' -> 'SYN-H0001-001', evidence 'Sunrise Care HMO'",
+     "tokens": 0
+    },
+    {
+     "seq": 1231,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1232,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1266,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1267,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-002_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1285,
+     "date": "2026-10-22",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 13
+  },
+  {
+   "id": "APP-20261022-003",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-22",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-27",
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Charles Jackson,\n\nWe need more information to finish your enrollment request received on 2026-10-22: a copy of the Medicare card.\n\nPlease respond by 2026-10-27. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1189,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1203,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1204,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1205,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1206,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1233,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1234,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1235,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-27",
+     "tokens": 0
+    },
+    {
+     "seq": 1268,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1269,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261022-003_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261022-004",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Robert Davis,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1190,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1207,
+     "date": "2026-10-22",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1208,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1209,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1270,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1271,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-004_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 6
+  },
+  {
+   "id": "APP-20261022-005",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "ocr_noise",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "mbi",
+     "old": "SYNCDKQBB7",
+     "new": "SYNCDKQB87",
+     "evidence": "MBI SYNCDKQB87",
+     "event_seq": 1238
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Mary Martin,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1191,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1210,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: mbi, pcp_name, sep_reason, zip",
+     "tokens": 0
+    },
+    {
+     "seq": 1211,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged mbi, zip, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1212,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason OCR_LOW_CONFIDENCE",
+     "tokens": 0
+    },
+    {
+     "seq": 1236,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: OCR doubt resolved from the attached documents",
+     "tokens": 0
+    },
+    {
+     "seq": 1237,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): OCR doubt resolved from the attached documents",
+     "tokens": 0
+    },
+    {
+     "seq": 1238,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "mbi: 'SYNCDKQBB7' -> 'SYNCDKQB87', evidence 'MBI SYNCDKQB87'",
+     "tokens": 0
+    },
+    {
+     "seq": 1239,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1240,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1272,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1273,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-005_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1286,
+     "date": "2026-10-22",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  },
+  {
+   "id": "APP-20261022-006",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "election_invalid",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Travis",
+   "election_type": "SEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-ELECTION",
+     "message": "Election period is not valid for this request"
+    },
+    {
+     "date": "2026-10-22",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "election_type",
+     "old": "OEP",
+     "new": "SEP",
+     "evidence": "My employer coverage ended last month.",
+     "event_seq": 1243
+    },
+    {
+     "field": "sep_reason",
+     "old": "",
+     "new": "LOST_EMPLOYER_COVERAGE",
+     "evidence": "My employer coverage ended last month.",
+     "event_seq": 1244
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Michael Lopez,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Choice PPO. The effective date is 2026-11-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1192,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1213,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1214,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1215,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELECTION - Election period is not valid for this request",
+     "tokens": 0
+    },
+    {
+     "seq": 1216,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELECTION",
+     "tokens": 0
+    },
+    {
+     "seq": 1241,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Notes describe a special election reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1242,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Notes describe a special election reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1243,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "election_type: 'OEP' -> 'SEP', evidence 'My employer coverage ended last month.'",
+     "tokens": 0
+    },
+    {
+     "seq": 1244,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "sep_reason: '' -> 'LOST_EMPLOYER_COVERAGE', evidence 'My employer coverage ended last month.'",
+     "tokens": 0
+    },
+    {
+     "seq": 1245,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1246,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1274,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1275,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-006_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1284,
+     "date": "2026-10-22",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 14
+  },
+  {
+   "id": "APP-20261022-007",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "wrong_plan",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Travis",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-PLAN",
+     "message": "Plan ID is not offered"
+    },
+    {
+     "date": "2026-10-22",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "plan_id",
+     "old": "SYN-H0001-00X",
+     "new": "SYN-H0001-001",
+     "evidence": "Sunrise Care HMO",
+     "event_seq": 1249
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Michael Moore,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1193,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1217,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1218,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1219,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PLAN - Plan ID is not offered",
+     "tokens": 0
+    },
+    {
+     "seq": 1220,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PLAN",
+     "tokens": 0
+    },
+    {
+     "seq": 1247,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1248,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1249,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "plan_id: 'SYN-H0001-00X' -> 'SYN-H0001-001', evidence 'Sunrise Care HMO'",
+     "tokens": 0
+    },
+    {
+     "seq": 1250,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1251,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1276,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1277,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-007_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1287,
+     "date": "2026-10-22",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 13
+  },
+  {
+   "id": "APP-20261022-008",
+   "channel": "paper",
+   "state": "DENIED",
+   "received": "2026-10-22",
+   "closed": "2026-10-22",
+   "defect": "out_of_area",
+   "expected": "DENIED",
+   "match": true,
+   "last_code": "REJ-AREA",
+   "last_message": "Member's county is outside the plan's service area",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-22",
+     "code": "REJ-AREA",
+     "message": "Member's county is outside the plan's service area"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "DENY",
+     "source": "mock",
+     "date": "2026-10-22",
+     "text": "Subject: We could not process your enrollment request\n\nDear Betty Jackson,\n\nWe are unable to process your enrollment request received on 2026-10-22. The reason: the county where you live is outside the service area of the plan you chose.\n\nYou have the right to ask us to review this decision. Call [PLAN CONTACT NUMBER] for help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1194,
+     "date": "2026-10-22",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1221,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1222,
+     "date": "2026-10-22",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1223,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-AREA - Member's county is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1224,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-AREA",
+     "tokens": 0
+    },
+    {
+     "seq": 1252,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "DENY: County is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1253,
+     "date": "2026-10-22",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose DENY (confidence 0.9): County is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1254,
+     "date": "2026-10-22",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as DENIED",
+     "tokens": 0
+    },
+    {
+     "seq": 1278,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We could not process your enrollment request'",
+     "tokens": 0
+    },
+    {
+     "seq": 1279,
+     "date": "2026-10-22",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "DENY letter from mock, workspace\\letters\\APP-20261022-008_DENY.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1288,
+     "date": "2026-10-22",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 11
+  },
+  {
+   "id": "APP-20261023-001",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "IEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Linda Williams,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Lakeshore Prime HMO. The effective date is 2026-11-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1292,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1322,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1323,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1324,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1325,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1508,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1509,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-001_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1568,
+     "date": "2026-10-23",
+     "agent": "compliance",
+     "action": "llm:letter_review",
+     "summary": "pass True",
+     "tokens": 0
+    }
+   ],
+   "event_count": 8
+  },
+  {
+   "id": "APP-20261023-002",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "zip_typo",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Travis",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ADDR",
+     "message": "ZIP code does not match the stated county"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "zip",
+     "old": "77002",
+     "new": "78703",
+     "evidence": "615 Oak St Austin TX 78703",
+     "event_seq": 1430
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Robert Anderson,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1293,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1326,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1327,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ADDR - ZIP code does not match the stated county",
+     "tokens": 0
+    },
+    {
+     "seq": 1328,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ADDR",
+     "tokens": 0
+    },
+    {
+     "seq": 1428,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1429,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1430,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "zip: '77002' -> '78703', evidence '615 Oak St Austin TX 78703'",
+     "tokens": 0
+    },
+    {
+     "seq": 1431,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1432,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1510,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1511,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-002_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1570,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  },
+  {
+   "id": "APP-20261023-003",
+   "channel": "paper",
+   "state": "DENIED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "election_invalid",
+   "expected": "DENIED",
+   "match": true,
+   "last_code": "REJ-ELECTION",
+   "last_message": "Election period is not valid for this request",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "OEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ELECTION",
+     "message": "Election period is not valid for this request"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "DENY",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We could not process your enrollment request\n\nDear Joseph Jackson,\n\nWe are unable to process your enrollment request received on 2026-10-23. The reason: the date of your request is not within an enrollment period that applies to you.\n\nYou have the right to ask us to review this decision. Call [PLAN CONTACT NUMBER] for help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1294,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1329,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1330,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1331,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELECTION - Election period is not valid for this request",
+     "tokens": 0
+    },
+    {
+     "seq": 1332,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELECTION",
+     "tokens": 0
+    },
+    {
+     "seq": 1433,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "DENY: No valid election period and no special reason given",
+     "tokens": 0
+    },
+    {
+     "seq": 1434,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose DENY (confidence 0.9): No valid election period and no special reason given",
+     "tokens": 0
+    },
+    {
+     "seq": 1435,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as DENIED",
+     "tokens": 0
+    },
+    {
+     "seq": 1512,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We could not process your enrollment request'",
+     "tokens": 0
+    },
+    {
+     "seq": 1513,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "DENY letter from mock, workspace\\letters\\APP-20261023-003_DENY.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-004",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Michael Ele,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1295,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1333,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1334,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1335,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1336,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1436,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1437,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1438,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1514,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1515,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-004_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-005",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "wrong_plan",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-PLAN",
+     "message": "Plan ID is not offered"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "plan_id",
+     "old": "SYN-H0003-00X",
+     "new": "SYN-H0003-001",
+     "evidence": "Palmetto Gold PPO",
+     "event_seq": 1441
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Michael Anderson,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1296,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1337,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1338,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PLAN - Plan ID is not offered",
+     "tokens": 0
+    },
+    {
+     "seq": 1339,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PLAN",
+     "tokens": 0
+    },
+    {
+     "seq": 1439,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1440,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Plan ID is not offered; the plan name on the form matches a catalog plan",
+     "tokens": 0
+    },
+    {
+     "seq": 1441,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "plan_id: 'SYN-H0003-00X' -> 'SYN-H0003-001', evidence 'Palmetto Gold PPO'",
+     "tokens": 0
+    },
+    {
+     "seq": 1442,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1443,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1516,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1517,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-005_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1571,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  },
+  {
+   "id": "APP-20261023-006",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "zip_typo",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ADDR",
+     "message": "ZIP code does not match the stated county"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "zip",
+     "old": "78702",
+     "new": "60601",
+     "evidence": "670 Cedar Ln Chicago IL 60601",
+     "event_seq": 1446
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Richard Lopez,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Lakeshore Prime HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1297,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1340,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1341,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1342,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ADDR - ZIP code does not match the stated county",
+     "tokens": 0
+    },
+    {
+     "seq": 1343,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ADDR",
+     "tokens": 0
+    },
+    {
+     "seq": 1444,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1445,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1446,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "zip: '78702' -> '60601', evidence '670 Cedar Ln Chicago IL 60601'",
+     "tokens": 0
+    },
+    {
+     "seq": 1447,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1448,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1518,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1519,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-006_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1572,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 13
+  },
+  {
+   "id": "APP-20261023-007",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Betty Jacksno,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1298,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1344,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1345,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1346,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1347,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1449,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1450,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1451,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1520,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1521,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-007_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-008",
+   "channel": "digital",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Harris",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Thomas Jackson,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1299,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1348,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1349,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1350,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1452,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1453,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1454,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1522,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1523,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-008_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 9
+  },
+  {
+   "id": "APP-20261023-009",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "pcp_mismatch",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-PCP",
+     "message": "Primary care provider is not in the plan network"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "pcp_name",
+     "old": "Dr. Laura eWiss",
+     "new": "Dr. Laura Weiss",
+     "evidence": "My regular doctor is Dr. Laura Weiss at the clinic.",
+     "event_seq": 1457
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Patricia Taylor,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Lakeshore Prime HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1300,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1351,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1352,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1353,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PCP - Primary care provider is not in the plan network",
+     "tokens": 0
+    },
+    {
+     "seq": 1354,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PCP",
+     "tokens": 0
+    },
+    {
+     "seq": 1455,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Notes name an in-network provider",
+     "tokens": 0
+    },
+    {
+     "seq": 1456,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Notes name an in-network provider",
+     "tokens": 0
+    },
+    {
+     "seq": 1457,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "pcp_name: 'Dr. Laura eWiss' -> 'Dr. Laura Weiss', evidence 'My regular doctor is Dr. Laura Weiss at the clinic.'",
+     "tokens": 0
+    },
+    {
+     "seq": 1458,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1459,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1524,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1525,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-009_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1573,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 13
+  },
+  {
+   "id": "APP-20261023-010",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear David Thompson,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1301,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1355,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1356,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1357,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1526,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1527,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-010_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 6
+  },
+  {
+   "id": "APP-20261023-011",
+   "channel": "digital",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "missing_signature",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": null,
+   "last_message": null,
+   "reason": "INCOMPLETE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "signature"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Desert Bloom HMO",
+   "plan_id": "SYN-H0003-002",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear David Thompson,\n\nWe need more information to finish your enrollment request received on 2026-10-23: signature.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1302,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1358,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1359,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason INCOMPLETE, {\"missing_items\": [\"signature\"]}",
+     "tokens": 0
+    },
+    {
+     "seq": 1460,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Required items are missing",
+     "tokens": 0
+    },
+    {
+     "seq": 1461,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Required items are missing",
+     "tokens": 0
+    },
+    {
+     "seq": 1462,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for signature, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1528,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1529,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-011_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 8
+  },
+  {
+   "id": "APP-20261023-012",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Robert Smith,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1303,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1360,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1361,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1362,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1363,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1463,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1464,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1465,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1530,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1531,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-012_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-013",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "zip_typo",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Harris",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ADDR",
+     "message": "ZIP code does not match the stated county"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "zip",
+     "old": "33101",
+     "new": "77003",
+     "evidence": "228 Pine Rd Houston TX 77003",
+     "event_seq": 1468
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Charles Johnson,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1304,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1364,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1365,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ADDR - ZIP code does not match the stated county",
+     "tokens": 0
+    },
+    {
+     "seq": 1366,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ADDR",
+     "tokens": 0
+    },
+    {
+     "seq": 1466,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1467,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1468,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "zip: '33101' -> '77003', evidence '228 Pine Rd Houston TX 77003'",
+     "tokens": 0
+    },
+    {
+     "seq": 1469,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1470,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1532,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1533,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-013_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1574,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  },
+  {
+   "id": "APP-20261023-014",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Miami-Dade",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear David Thompson,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1305,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1367,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1368,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1369,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1370,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1534,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1535,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-014_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 7
+  },
+  {
+   "id": "APP-20261023-015",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear William Lopez,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1306,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1371,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1372,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1373,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1536,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1537,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-015_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 6
+  },
+  {
+   "id": "APP-20261023-016",
+   "channel": "digital",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "zip_typo",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Travis",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ADDR",
+     "message": "ZIP code does not match the stated county"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "zip",
+     "old": "77002",
+     "new": "78702",
+     "evidence": "528 Pine Rd Austin TX 78702",
+     "event_seq": 1473
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear William Williams,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1307,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1374,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1375,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ADDR - ZIP code does not match the stated county",
+     "tokens": 0
+    },
+    {
+     "seq": 1376,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ADDR",
+     "tokens": 0
+    },
+    {
+     "seq": 1471,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1472,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): ZIP differs from the proof of address",
+     "tokens": 0
+    },
+    {
+     "seq": 1473,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "zip: '77002' -> '78702', evidence '528 Pine Rd Austin TX 78702'",
+     "tokens": 0
+    },
+    {
+     "seq": 1474,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1475,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1538,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1539,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-016_ACCEPT.txt",
+     "tokens": 0
+    },
+    {
+     "seq": 1575,
+     "date": "2026-10-23",
+     "agent": "auditor",
+     "action": "llm:auditor_review",
+     "summary": "verdict PASS, 0 finding(s)",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  },
+  {
+   "id": "APP-20261023-017",
+   "channel": "digital",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "elig_date",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-ELIG-DATE",
+   "last_message": "Entitlement dates do not match the master file",
+   "reason": "REJ-ELIG-DATE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ELIG-DATE",
+     "message": "Entitlement dates do not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear David Lee,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1308,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1377,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1378,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELIG-DATE - Entitlement dates do not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1379,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELIG-DATE",
+     "tokens": 0
+    },
+    {
+     "seq": 1476,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1477,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1478,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1540,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1541,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-017_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 9
+  },
+  {
+   "id": "APP-20261023-018",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Choice PPO",
+   "plan_id": "SYN-H0001-002",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Barbara Taylor,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Choice PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1309,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1380,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1381,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1382,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1383,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1542,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1543,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-018_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 7
+  },
+  {
+   "id": "APP-20261023-019",
+   "channel": "digital",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "missing_signature",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": null,
+   "last_message": null,
+   "reason": "INCOMPLETE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "signature"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Charles Wilson,\n\nWe need more information to finish your enrollment request received on 2026-10-23: signature.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1310,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1384,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1385,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason INCOMPLETE, {\"missing_items\": [\"signature\"]}",
+     "tokens": 0
+    },
+    {
+     "seq": 1479,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Required items are missing",
+     "tokens": 0
+    },
+    {
+     "seq": 1480,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Required items are missing",
+     "tokens": 0
+    },
+    {
+     "seq": 1481,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for signature, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1544,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1545,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-019_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 8
+  },
+  {
+   "id": "APP-20261023-020",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "elig_date",
+   "expected": "CLOSED_INCOMPLETE",
+   "match": false,
+   "last_code": "REJ-ELIG-DATE",
+   "last_message": "Entitlement dates do not match the master file",
+   "reason": "REJ-ELIG-DATE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Harris",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ELIG-DATE",
+     "message": "Entitlement dates do not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear David Johnson,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1311,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1386,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1387,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1388,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELIG-DATE - Entitlement dates do not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1389,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELIG-DATE",
+     "tokens": 0
+    },
+    {
+     "seq": 1482,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1483,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1484,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1546,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1547,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-020_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-021",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "elig_date",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-ELIG-DATE",
+   "last_message": "Entitlement dates do not match the master file",
+   "reason": "REJ-ELIG-DATE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Travis",
+   "election_type": "IEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ELIG-DATE",
+     "message": "Entitlement dates do not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Barbara Thompson,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1312,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1390,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1391,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1392,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELIG-DATE - Entitlement dates do not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1393,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELIG-DATE",
+     "tokens": 0
+    },
+    {
+     "seq": 1485,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1486,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1487,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1548,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1549,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-021_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-022",
+   "channel": "paper",
+   "state": "DENIED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "out_of_area",
+   "expected": "DENIED",
+   "match": true,
+   "last_code": "REJ-AREA",
+   "last_message": "Member's county is outside the plan's service area",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-AREA",
+     "message": "Member's county is outside the plan's service area"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "DENY",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We could not process your enrollment request\n\nDear Linda Moore,\n\nWe are unable to process your enrollment request received on 2026-10-23. The reason: the county where you live is outside the service area of the plan you chose.\n\nYou have the right to ask us to review this decision. Call [PLAN CONTACT NUMBER] for help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1313,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1394,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1395,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1396,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-AREA - Member's county is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1397,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-AREA",
+     "tokens": 0
+    },
+    {
+     "seq": 1488,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "DENY: County is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1489,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose DENY (confidence 0.9): County is outside the plan's service area",
+     "tokens": 0
+    },
+    {
+     "seq": 1490,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as DENIED",
+     "tokens": 0
+    },
+    {
+     "seq": 1550,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We could not process your enrollment request'",
+     "tokens": 0
+    },
+    {
+     "seq": 1551,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "DENY letter from mock, workspace\\letters\\APP-20261023-022_DENY.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-023",
+   "channel": "digital",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "demo_mismatch",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-DEMO",
+   "last_message": "Name, date of birth or sex does not match the master file",
+   "reason": "REJ-DEMO",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-DEMO",
+     "message": "Name, date of birth or sex does not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Linda Iwlliams,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1314,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "digital application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1398,
+     "date": "2026-10-23",
+     "agent": "digital_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1399,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-DEMO - Name, date of birth or sex does not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1400,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-DEMO",
+     "tokens": 0
+    },
+    {
+     "seq": 1491,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1492,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): No document to check identity against",
+     "tokens": 0
+    },
+    {
+     "seq": 1493,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1552,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1553,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-023_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 9
+  },
+  {
+   "id": "APP-20261023-024",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Harris",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Charles Jones,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1315,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1401,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1402,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1403,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1404,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1554,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1555,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-024_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 7
+  },
+  {
+   "id": "APP-20261023-025",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Palmetto Gold PPO",
+   "plan_id": "SYN-H0003-001",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Thomas Moore,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Palmetto Gold PPO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1316,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1405,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: pcp_name, sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1406,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1407,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1408,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1556,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1557,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-025_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 7
+  },
+  {
+   "id": "APP-20261023-026",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "clean",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 0,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Desert Bloom HMO",
+   "plan_id": "SYN-H0003-002",
+   "county": "Maricopa",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Michael Hernandez,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Desert Bloom HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1317,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1409,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1410,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1411,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1412,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1558,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1559,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-026_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 7
+  },
+  {
+   "id": "APP-20261023-027",
+   "channel": "paper",
+   "state": "PENDING_MEMBER",
+   "received": "2026-10-23",
+   "closed": null,
+   "defect": "elig_date",
+   "expected": "ACCEPTED",
+   "match": false,
+   "last_code": "REJ-ELIG-DATE",
+   "last_message": "Entitlement dates do not match the master file",
+   "reason": "REJ-ELIG-DATE",
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [
+    "a copy of the Medicare card"
+   ],
+   "rfi_deadline": "2026-10-28",
+   "plan": "Sunrise Care HMO",
+   "plan_id": "SYN-H0001-001",
+   "county": "Travis",
+   "election_type": "IEP",
+   "effective_date": "2026-11-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-ELIG-DATE",
+     "message": "Entitlement dates do not match the master file"
+    }
+   ],
+   "changes": [],
+   "letters": [
+    {
+     "kind": "RFI",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: We need more information to finish your enrollment\n\nDear Charles Miller,\n\nWe need more information to finish your enrollment request received on 2026-10-23: a copy of the Medicare card.\n\nPlease respond by 2026-10-28. Call [PLAN CONTACT NUMBER] if you need help.\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1318,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1413,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1414,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1415,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-ELIG-DATE - Entitlement dates do not match the master file",
+     "tokens": 0
+    },
+    {
+     "seq": 1416,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-ELIG-DATE",
+     "tokens": 0
+    },
+    {
+     "seq": 1494,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "REQUEST_INFO: Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1495,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose REQUEST_INFO (confidence 0.9): Entitlement dates cannot be verified",
+     "tokens": 0
+    },
+    {
+     "seq": 1496,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "rfi_requested",
+     "summary": "asked the member for a copy of the Medicare card, respond by 2026-10-28",
+     "tokens": 0
+    },
+    {
+     "seq": 1560,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'We need more information to finish your enrollment'",
+     "tokens": 0
+    },
+    {
+     "seq": 1561,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "RFI letter from mock, workspace\\letters\\APP-20261023-027_RFI.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 10
+  },
+  {
+   "id": "APP-20261023-028",
+   "channel": "paper",
+   "state": "ACCEPTED",
+   "received": "2026-10-23",
+   "closed": "2026-10-23",
+   "defect": "pcp_mismatch",
+   "expected": "ACCEPTED",
+   "match": true,
+   "last_code": "ACC",
+   "last_message": "Accepted",
+   "reason": null,
+   "attempts": 1,
+   "flags": [],
+   "missing_info": [],
+   "rfi_deadline": null,
+   "plan": "Lakeshore Prime HMO",
+   "plan_id": "SYN-H0002-001",
+   "county": "Cook",
+   "election_type": "AEP",
+   "effective_date": "2027-01-01",
+   "cms_history": [
+    {
+     "date": "2026-10-23",
+     "code": "REJ-PCP",
+     "message": "Primary care provider is not in the plan network"
+    },
+    {
+     "date": "2026-10-23",
+     "code": "ACC",
+     "message": "Accepted"
+    }
+   ],
+   "changes": [
+    {
+     "field": "pcp_name",
+     "old": "Dr. Priya aNir",
+     "new": "Dr. Priya Nair",
+     "evidence": "My regular doctor is Dr. Priya Nair at the clinic.",
+     "event_seq": 1499
+    }
+   ],
+   "letters": [
+    {
+     "kind": "ACCEPT",
+     "source": "mock",
+     "date": "2026-10-23",
+     "text": "Subject: Your enrollment request was accepted\n\nDear Thomas Smith,\n\nWe received your enrollment request on 2026-10-23 and it has been accepted for Lakeshore Prime HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n",
+     "truncated": false
+    }
+   ],
+   "events": [
+    {
+     "seq": 1319,
+     "date": "2026-10-23",
+     "agent": "applicant_simulator",
+     "action": "submitted",
+     "summary": "paper application arrived",
+     "tokens": 0
+    },
+    {
+     "seq": 1417,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "llm:paper_intake",
+     "summary": "parsed 21 fields, low confidence: sep_reason",
+     "tokens": 0
+    },
+    {
+     "seq": 1418,
+     "date": "2026-10-23",
+     "agent": "paper_intake",
+     "action": "intake_parsed",
+     "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+     "tokens": 0
+    },
+    {
+     "seq": 1419,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "REJ-PCP - Primary care provider is not in the plan network",
+     "tokens": 0
+    },
+    {
+     "seq": 1420,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "to_basket",
+     "summary": "reason REJ-PCP",
+     "tokens": 0
+    },
+    {
+     "seq": 1497,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "llm:resolver",
+     "summary": "FIX: Notes name an in-network provider",
+     "tokens": 0
+    },
+    {
+     "seq": 1498,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "decision",
+     "summary": "chose FIX (confidence 0.9): Notes name an in-network provider",
+     "tokens": 0
+    },
+    {
+     "seq": 1499,
+     "date": "2026-10-23",
+     "agent": "resolver",
+     "action": "fix_applied",
+     "summary": "pcp_name: 'Dr. Priya aNir' -> 'Dr. Priya Nair', evidence 'My regular doctor is Dr. Priya Nair at the clinic.'",
+     "tokens": 0
+    },
+    {
+     "seq": 1500,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "cms_response",
+     "summary": "ACC - Accepted",
+     "tokens": 0
+    },
+    {
+     "seq": 1501,
+     "date": "2026-10-23",
+     "agent": "processor",
+     "action": "disposition",
+     "summary": "case finalised as ACCEPTED",
+     "tokens": 0
+    },
+    {
+     "seq": 1562,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "llm:notice",
+     "summary": "'Your enrollment request was accepted'",
+     "tokens": 0
+    },
+    {
+     "seq": 1563,
+     "date": "2026-10-23",
+     "agent": "notice",
+     "action": "letter_issued",
+     "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261023-028_ACCEPT.txt",
+     "tokens": 0
+    }
+   ],
+   "event_count": 12
+  }
+ ],
+ "case_selection": {
+  "rule": "every case received on the two most recent simulated days, capped, plus the oldest still-open items until the cap is reached",
+  "days": [
+   "2026-10-23",
+   "2026-10-22"
+  ],
+  "limit": 36,
+  "total_cases": 160,
+  "returned": 36
+ },
+ "kpis": {
+  "cases": 160,
+  "channels": {
+   "paper": 97,
+   "digital": 63
+  },
+  "states": {
+   "ACCEPTED": 104,
+   "PENDING_MEMBER": 18,
+   "DENIED": 12,
+   "CLOSED_INCOMPLETE": 11,
+   "CLOSED_DUPLICATE": 9,
+   "ESCALATED": 5,
+   "IN_BASKET": 1
+  },
+  "accepted": 104,
+  "denied": 12,
+  "closed_incomplete": 11,
+  "closed_duplicate": 9,
+  "open": 24,
+  "in_basket": 1,
+  "pending_member": 18,
+  "escalated": 5,
+  "awaiting_intake": 0,
+  "letters": 156,
+  "letter_kinds": {
+   "ACCEPT": 104,
+   "RFI": 29,
+   "DENY": 12,
+   "CLOSED_INCOMPLETE": 11
+  },
+  "ledger_entries": 1577,
+  "ledger_ok": true,
+  "accuracy": 0.9853,
+  "correct": 134,
+  "terminal": 136,
+  "false_accepts": 0,
+  "false_denials": 0,
+  "wrong_fields_on_accept": 0,
+  "s1": 0,
+  "s2": 0,
+  "gate_ok": true,
+  "tokens_used_total": 250132,
+  "tokens_used_today": 0,
+  "token_cap": 2000000,
+  "model_calls": 426,
+  "fixes_applied": 53,
+  "fixes_rejected": 10,
+  "rfi_sent": 29
+ },
+ "before_after": {
+  "case_id": "APP-20261022-002",
+  "channel": "paper",
+  "defect": "wrong_plan",
+  "state": "ACCEPTED",
+  "expected": "ACCEPTED",
+  "changes": [
+   {
+    "field": "plan_id",
+    "old": "SYN-H0001-00X",
+    "new": "SYN-H0001-001",
+    "evidence": "Sunrise Care HMO",
+    "event_seq": 1230
+   }
+  ],
+  "cms_history": [
+   {
+    "date": "2026-10-22",
+    "code": "REJ-PLAN",
+    "message": "Plan ID is not offered"
+   },
+   {
+    "date": "2026-10-22",
+    "code": "ACC",
+    "message": "Accepted"
+   }
+  ],
+  "letters": [
+   {
+    "kind": "ACCEPT",
+    "text": "Subject: Your enrollment request was accepted\n\nDear Richard Martinez,\n\nWe received your enrollment request on 2026-10-22 and it has been accepted for Sunrise Care HMO. The effective date is 2027-01-01.\n\nIf you have questions, call [PLAN CONTACT NUMBER].\n"
+   }
+  ],
+  "events": [
+   {
+    "seq": 1188,
+    "date": "2026-10-22",
+    "agent": "applicant_simulator",
+    "action": "submitted",
+    "summary": "paper application arrived",
+    "tokens": 0
+   },
+   {
+    "seq": 1199,
+    "date": "2026-10-22",
+    "agent": "paper_intake",
+    "action": "llm:paper_intake",
+    "summary": "parsed 21 fields, low confidence: sep_reason",
+    "tokens": 0
+   },
+   {
+    "seq": 1200,
+    "date": "2026-10-22",
+    "agent": "paper_intake",
+    "action": "intake_parsed",
+    "summary": "fields parsed, flagged none, 0 evidence issue(s)",
+    "tokens": 0
+   },
+   {
+    "seq": 1201,
+    "date": "2026-10-22",
+    "agent": "processor",
+    "action": "cms_response",
+    "summary": "REJ-PLAN - Plan ID is not offered",
+    "tokens": 0
+   },
+   {
+    "seq": 1202,
+    "date": "2026-10-22",
+    "agent": "processor",
+    "action": "to_basket",
+    "summary": "reason REJ-PLAN",
+    "tokens": 0
+   },
+   {
+    "seq": 1228,
+    "date": "2026-10-22",
+    "agent": "resolver",
+    "action": "llm:resolver",
+    "summary": "FIX: Plan ID is not offered; the plan name on the form matches a catalog plan",
+    "tokens": 0
+   },
+   {
+    "seq": 1229,
+    "date": "2026-10-22",
+    "agent": "resolver",
+    "action": "decision",
+    "summary": "chose FIX (confidence 0.9): Plan ID is not offered; the plan name on the form matches a catalog plan",
+    "tokens": 0
+   },
+   {
+    "seq": 1230,
+    "date": "2026-10-22",
+    "agent": "resolver",
+    "action": "fix_applied",
+    "summary": "plan_id: 'SYN-H0001-00X' -> 'SYN-H0001-001', evidence 'Sunrise Care HMO'",
+    "tokens": 0
+   },
+   {
+    "seq": 1231,
+    "date": "2026-10-22",
+    "agent": "processor",
+    "action": "cms_response",
+    "summary": "ACC - Accepted",
+    "tokens": 0
+   },
+   {
+    "seq": 1232,
+    "date": "2026-10-22",
+    "agent": "processor",
+    "action": "disposition",
+    "summary": "case finalised as ACCEPTED",
+    "tokens": 0
+   },
+   {
+    "seq": 1266,
+    "date": "2026-10-22",
+    "agent": "notice",
+    "action": "llm:notice",
+    "summary": "'Your enrollment request was accepted'",
+    "tokens": 0
+   },
+   {
+    "seq": 1267,
+    "date": "2026-10-22",
+    "agent": "notice",
+    "action": "letter_issued",
+    "summary": "ACCEPT letter from mock, workspace\\letters\\APP-20261022-002_ACCEPT.txt",
+    "tokens": 0
+   },
+   {
+    "seq": 1285,
+    "date": "2026-10-22",
+    "agent": "auditor",
+    "action": "llm:auditor_review",
+    "summary": "verdict PASS, 0 finding(s)",
+    "tokens": 0
+   }
+  ]
+ },
+ "audit_evidence": {
+  "audit": {
+   "sim_date": "2026-10-23",
+   "ledger_ok": true,
+   "ledger_entries": 1569,
+   "cases_checked": 160,
+   "s1": 0,
+   "s2": 0
+  },
+  "findings": [],
+  "advisory_reviews": [
+   {
+    "case_id": "APP-20261023-002",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   },
+   {
+    "case_id": "APP-20261023-005",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   },
+   {
+    "case_id": "APP-20261023-006",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   },
+   {
+    "case_id": "APP-20261023-009",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   },
+   {
+    "case_id": "APP-20261023-013",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   },
+   {
+    "case_id": "APP-20261023-016",
+    "dropped_unreferenced": 0,
+    "findings": [],
+    "verdict": "PASS"
+   }
+  ],
+  "compliance": {
+   "counts": {
+    "TAT_AT_RISK": 1
+   },
+   "findings": [
+    {
+     "case_id": "APP-20261015-021",
+     "code": "TAT_AT_RISK",
+     "detail": "8 days"
+    }
+   ],
+   "letter_review": [
+    {
+     "case_id": "APP-20261018-004",
+     "issues": [],
+     "pass": true
+    },
+    {
+     "case_id": "APP-20261018-006",
+     "issues": [],
+     "pass": true
+    },
+    {
+     "case_id": "APP-20261023-001",
+     "issues": [],
+     "pass": true
+    }
+   ]
+  },
+  "evaluation": {
+   "terminal": 136,
+   "open": 24,
+   "correct": 134,
+   "outcome_accuracy": 0.9853,
+   "false_accepts": 0,
+   "false_denials": 0,
+   "missed_accepts": 1,
+   "wrong_fields_on_accept": 0
+  }
+ },
+ "config": {
+  "tat_days": 10,
+  "tat_warning_days": 8,
+  "rfi_wait_days": 5,
+  "resolver_max_attempts": 4,
+  "ocr_confidence_threshold": 0.75,
+  "new_applications_per_day": 30,
+  "paper_share": 0.6,
+  "plans": {
+   "SYN-H0001-001": {
+    "name": "Sunrise Care HMO",
+    "type": "HMO",
+    "counties": [
+     "Travis",
+     "Harris"
+    ]
+   },
+   "SYN-H0001-002": {
+    "name": "Sunrise Choice PPO",
+    "type": "PPO",
+    "counties": [
+     "Travis",
+     "Harris",
+     "Maricopa"
+    ]
+   },
+   "SYN-H0002-001": {
+    "name": "Lakeshore Prime HMO",
+    "type": "HMO",
+    "counties": [
+     "Cook"
+    ]
+   },
+   "SYN-H0003-001": {
+    "name": "Palmetto Gold PPO",
+    "type": "PPO",
+    "counties": [
+     "Miami-Dade",
+     "Maricopa"
+    ]
+   },
+   "SYN-H0003-002": {
+    "name": "Desert Bloom HMO",
+    "type": "HMO",
+    "counties": [
+     "Maricopa"
+    ]
+   }
+  },
+  "counties": [
+   "Cook",
+   "Harris",
+   "Maricopa",
+   "Miami-Dade",
+   "Travis"
+  ]
+ },
+ "disclaimer": "Synthetic data only. Every person, Medicare number and plan is fictional and generated from a seed; member IDs, plan IDs and case IDs carry the SYN or APP prefix. The CMS reply codes, election windows, denial reasons and notice wording are simplified stand-ins defined in this repository's config/policy.json - they are NOT real CMS transaction codes or CMS rules, and nothing here is a compliance determination. The 'expected' value shown per case is this simulation's own answer key for scoring accuracy, not a legal outcome. In mock mode the agents are deterministic parsers: the numbers prove the plumbing, guards and audit trail, not model quality."
+}

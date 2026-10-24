@@ -37,7 +37,7 @@
   "ledger_ok": true,
   "ledger_message": "chain intact",
   "entries": 1577,
-  "generated_at": "2026-10-24T04:57:23+00:00",
+  "generated_at": "2026-10-24T06:52:42+00:00",
   "source_files": {
    "config": [
     "config/policy.json",
