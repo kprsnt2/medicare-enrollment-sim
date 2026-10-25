@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: WILSON, ROBERT
+DOB: 1945-04-04   Sex: F
+Medicare No: SYNAS577FC
+Part A effective: 2010-04-01   Part B effective: 2010-04-01
+Address: 520 Pine Rd
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 713-555-8205
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): WILSON ROBERT / DOB 1945-04-04 / SEX F / MBI SYNAS577FC / PART A 2010-04-01 / PART B 2010-04-01

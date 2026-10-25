@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: GARCIA, KAREN
+DOB: 1956-04-13   Sex: M
+Medicare No: SYN67XVLBP
+Part A effective: 2021-04-01   Part B effective: 2021-04-01
+Address: 514 Maple Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-9296
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA KAREN / DOB 1956-04-13 / SEX M / MBI SYN67XVLBP / PART A 2021-04-01 / PART B 2021-04-01
+Attachment B (proof of address): 514 Maple Ave Chicago IL 60602

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "oJhnson",
+  "dob": "1930-11-06",
+  "sex": "F",
+  "mbi": "SYNP8QC9KS",
+  "part_a_eff": "1995-11-01",
+  "part_b_eff": "1995-11-01",
+  "address": "749 Park Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "312-555-0216",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-25",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "OJHNSON MARY / DOB 1930-11-06 / SEX F / MBI SYNP8QC9KS / PART A 1995-11-01 / PART B 1995-11-01"
+ }
+}

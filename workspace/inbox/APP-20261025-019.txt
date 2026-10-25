@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: JACKSON, JAMES
+DOB: 1957-06-04   Sex: F
+Medicare No: SYNUGDGVFC
+Part A effective: 2022-06-01   Part B effective: 2022-06-01
+Address: 320 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 305-555-2539
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON JAMES / DOB 1957-06-04 / SEX F / MBI SYNUGDGVFC / PART A 2022-06-01 / PART B 2022-06-01
+Attachment B (proof of address): 320 Park Ave Chicago IL 60603

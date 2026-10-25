@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: HERNANDEZ, JOHN
+DOB: 1957-11-10   Sex: F
+Medicare No: SYNJB6TT79
+Part A effective: 2022-11-01   Part B effective: 2022-11-01
+Address: 920 Maple Ave
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-0190
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: I moved to this county last month.
+Attachment A (Medicare card copy): HERNANDEZ JOHN / DOB 1957-11-10 / SEX F / MBI SYNJB6TT79 / PART A 2022-11-01 / PART B 2022-11-01

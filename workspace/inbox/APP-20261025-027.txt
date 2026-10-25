@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: THOMAS, CHARLES
+DOB: 1940-06-08   Sex: M
+Medicare No: SYNJN63QQV
+Part A effective: 2005-06-01   Part B effective: 2005-06-01
+Address: 693 Pine Rd
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-7658
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS CHARLES / DOB 1940-06-08 / SEX M / MBI SYNJN63QQV / PART A 2005-06-01 / PART B 2005-06-01
+Attachment B (proof of address): 693 Pine Rd Chicago IL 60602

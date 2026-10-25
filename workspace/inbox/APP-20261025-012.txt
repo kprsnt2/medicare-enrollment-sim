@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: HERNANDEZ, MICHAEL
+DOB: 1949-06-18   Sex: M
+Medicare No: SYNLB5PTL5
+Part A effective: 2014-06-01   Part B effective: 2014-06-01
+Address: 620 Park Ave
+City: Austin   State: TX   ZIP: 60602   County: Travis
+Phone: 713-555-5179
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ MICHAEL / DOB 1949-06-18 / SEX M / MBI SYNLB5PTL5 / PART A 2014-06-01 / PART B 2014-06-01
+Attachment B (proof of address): 620 Park Ave Austin TX 78702

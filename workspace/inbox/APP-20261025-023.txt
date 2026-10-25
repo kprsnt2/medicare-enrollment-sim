@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: MARTIN, MICHAEL
+DOB: 1932-05-28   Sex: F
+Medicare No: SYNPHQQPPZ
+Part A effective: 1997-05-01   Part B effective: 1997-05-01
+Address: 770 Park Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-5215
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): MARTIN MICHAEL / DOB 1932-05-28 / SEX F / MBI SYNPHQQPPZ / PART A 1997-05-01 / PART B 1997-05-01
+Attachment B (proof of address): 770 Park Ave Chicago IL 60602

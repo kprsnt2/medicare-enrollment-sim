@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: MILLER, PATRICIA
+DOB: 1938-11-04   Sex: M
+Medicare No: SYNQFXSAK3
+Part A effective: 2003-11-01   Part B effective: 2003-11-01
+Address: 798 Park Ave
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 512-555-2644
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MILLER PATRICIA / DOB 1938-11-04 / SEX M / MBI SYNQFXSAK3 / PART A 2003-11-01 / PART B 2003-11-01
+Attachment B (proof of address): 798 Park Ave Phoenix AZ 85001

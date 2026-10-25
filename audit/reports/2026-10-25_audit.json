@@ -1,0 +1,55 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261025-002",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      1991
+     ],
+     "severity": "S3",
+     "text": "requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event. The timeline shows an empty evidence field for this change."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261025-007",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261025-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261025-012",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261025-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261025-021",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 220,
+ "findings": [],
+ "ledger_entries": 2113,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-25"
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-25
+Name: WILSON, LINDA
+DOB: 1951-04-23   Sex: M
+Medicare No: SYNTUVYWZN
+Part A effective: 2016-04-01   Part B effective: 2016-04-01
+Address: 177 Lakeview Dr
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 602-555-4868
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): WILSON LINDA / DOB 1951-04-23 / SEX M / MBI SYNTUVYWZN / PART A 2016-04-01 / PART B 2016-04-01
+Attachment B (proof of address): 177 Lakeview Dr Austin TX 78701

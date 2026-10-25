@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Miller",
+  "dob": "1942-11-05",
+  "sex": "F",
+  "mbi": "SYN2K9R8UV",
+  "part_a_eff": "2007-11-01",
+  "part_b_eff": "2007-11-01",
+  "address": "178 Hill St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "312-555-4556",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-25",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "address_proof": "178 Hill St Phoenix AZ 85003"
+ }
+}
