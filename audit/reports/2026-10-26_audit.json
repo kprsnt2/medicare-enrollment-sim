@@ -1,0 +1,65 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261026-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261026-006",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261026-011",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261026-012",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261026-015",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      2297,
+      2298
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without any quoted supporting evidence in the case materials. The resolver rationale references AEP rules, but the applied fix has empty evidence and is not tied to documentary support in the timeline."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261026-017",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      2321,
+      2322
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2026-11-01 without any supporting evidence quote in the fix event. The timeline shows only an internal diagnosis, not quoted source support tied to the application document."
+    }
+   ],
+   "verdict": "FAIL"
+  }
+ ],
+ "cases_checked": 250,
+ "findings": [],
+ "ledger_entries": 2397,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-26"
+}

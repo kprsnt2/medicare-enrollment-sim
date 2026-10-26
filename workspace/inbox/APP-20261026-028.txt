@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: JOHNSON, BARBARA
+DOB: 1947-12-06   Sex: F
+Medicare No: SYN2FWSN48
+Part A effective: 2012-12-01   Part B effective: 2012-12-01
+Address: 867 Maple Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 602-555-4436
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): JOHNSON BARBARA / DOB 1947-12-06 / SEX F / MBI SYN2FWSN48 / PART A 2012-12-01 / PART B 2012-12-01
+Attachment B (proof of address): 867 Maple Ave Austin TX 78702

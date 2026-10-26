@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: JACKSON, HELEN
+DOB: 1931-04-27   Sex: M
+Medicare No: SYN6HVKCZ8
+Part A effective: 1996-04-01   Part B effective: 1996-04-01
+Address: 660 Pine Rd
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-3711
+Plan selected: Lakeshore Prime HMO (SYN-H0002-00X)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON HELEN / DOB 1931-04-27 / SEX M / MBI SYN6HVKCZ8 / PART A 1996-04-01 / PART B 1996-04-01
+Attachment B (proof of address): 660 Pine Rd Chicago IL 60602

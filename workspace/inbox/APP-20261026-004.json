@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Jackson",
+  "dob": "1951-12-27",
+  "sex": "M",
+  "mbi": "SYNMHA74TN",
+  "part_a_eff": "2016-12-01",
+  "part_b_eff": "2016-12-01",
+  "address": "25 Pine Rd",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "512-555-9739",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-26",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JACKSON THOMAS / DOB 1951-12-27 / SEX M / MBI SYNMHA74TN / PART A 2016-12-01 / PART B 2016-12-01"
+ }
+}

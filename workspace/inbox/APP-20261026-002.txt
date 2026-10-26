@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: LEE, SUSAN
+DOB: 1961-12-19   Sex: F
+Medicare No: SYNGAMH3T2
+Part A effective: 2026-12-01   Part B effective: 2026-12-01
+Address: 613 Oak St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-7919
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): LEE SUSAN / DOB 1961-12-19 / SEX F / MBI SYNGAMH3T2 / PART A 2026-12-01 / PART B 2026-12-01
+Attachment B (proof of address): 613 Oak St Houston TX 77002

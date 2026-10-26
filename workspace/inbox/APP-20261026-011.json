@@ -1,0 +1,27 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Anderson",
+  "dob": "1931-04-28",
+  "sex": "M",
+  "mbi": "SYNX9MZ8C9",
+  "part_a_eff": "1996-04-01",
+  "part_b_eff": "1996-04-01",
+  "address": "861 Park Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "713-555-9573",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-26",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {}
+}

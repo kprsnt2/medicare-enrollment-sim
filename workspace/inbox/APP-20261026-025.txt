@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: JOHNSON, JOSEPH
+DOB: 1934-08-14   Sex: F
+Medicare No: SYNTQZMTD7
+Part A effective: 1999-08-01   Part B effective: 1999-08-01
+Address: 88 Oak St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-2620
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON JOSEPH / DOB 1934-08-14 / SEX F / MBI SYNTQZMTD7 / PART A 1999-08-01 / PART B 1999-08-01
+Attachment B (proof of address): 88 Oak St Phoenix AZ 85001

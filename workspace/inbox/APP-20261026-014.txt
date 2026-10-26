@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: HERNANDEZ, ROBERT
+DOB: 1950-04-07   Sex: F
+Medicare No: SYNJ62UXH2
+Part A effective: 2015-04-01   Part B effective: 2015-04-01
+Address: 417 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-8566
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 417 Maple Ave Phoenix AZ 85001

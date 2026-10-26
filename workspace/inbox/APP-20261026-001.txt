@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: LEE, RICHARD
+DOB: 1955-05-15   Sex: F
+Medicare No: SYNV43F828
+Part A effective: 2020-05-01   Part B effective: 2020-05-01
+Address: 182 Park Ave
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 512-555-1122
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE RICHARD / DOB 1955-05-15 / SEX F / MBI SYNV43F828 / PART A 2020-05-01 / PART B 2020-05-01

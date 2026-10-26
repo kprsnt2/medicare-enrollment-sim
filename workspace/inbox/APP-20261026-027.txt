@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-26
+Name: MARTINEZ, JOSEPH
+DOB: 1950-03-27   Sex: M
+Medicare No: SYNZBPY5TG
+Part A effective: 2015-03-01   Part B effective: 2015-03-01
+Address: 589 Park Ave
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-0811
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ JOSEPH / DOB 1950-03-27 / SEX M / MBI SYNZBPY5TG / PART A 2015-03-01 / PART B 2015-03-01
+Attachment B (proof of address): 589 Park Ave Houston TX 77003
