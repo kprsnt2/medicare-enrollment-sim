@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: JOHNSON, HELEN
+DOB: 1934-06-06   Sex: M
+Medicare No: SYN9JF528D
+Part A effective: 1999-06-01   Part B effective: 1999-06-01
+Address: 420 Maple Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-8675
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON HELEN / DOB 1934-06-06 / SEX M / MBI SYN9JF528D / PART A 1999-06-01 / PART B 1999-06-01
+Attachment B (proof of address): 420 Maple Ave Houston TX 77001

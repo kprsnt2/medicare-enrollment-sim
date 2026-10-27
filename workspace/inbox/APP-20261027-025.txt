@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: MARTIN, JOSEPH
+DOB: 1952-06-19   Sex: M
+Medicare No: SYNE6ARYHQ
+Part A effective: 2017-06-01   Part B effective: 2017-06-01
+Address: 228 Lakeview Dr
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-6826
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Dolye
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Chris Doyle at the clinic.
+Attachment A (Medicare card copy): MARTIN JOSEPH / DOB 1952-06-19 / SEX M / MBI SYNE6ARYHQ / PART A 2017-06-01 / PART B 2017-06-01
+Attachment B (proof of address): 228 Lakeview Dr Houston TX 77001

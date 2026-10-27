@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: JONES, DAVID
+DOB: 1933-09-26   Sex: M
+Medicare No: SYNY28PVSE
+Part A effective: 1998-09-01   Part B effective: 1998-09-01
+Address: 829 Elm St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 305-555-5862
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES DAVID / DOB 1933-09-26 / SEX M / MBI SYNY28PVSE / PART A 1998-09-01 / PART B 1998-09-01
+Attachment B (proof of address): 829 Elm St Houston TX 77003

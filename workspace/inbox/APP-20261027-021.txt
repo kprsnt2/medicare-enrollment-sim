@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: LEE, PATRICIA
+DOB: 1947-08-28   Sex: M
+Medicare No: SYNWP574Y8
+Part A effective: 2012-08-01   Part B effective: 2013-08-01
+Address: 781 Elm St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-8540
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE PATRICIA / DOB 1947-08-28 / SEX M / MBI SYNWP574Y8 / PART A 2012-08-01 / PART B 2013-08-01
+Attachment B (proof of address): 781 Elm St Austin TX 78702

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: SMITH, WILLIAM
+DOB: 1932-03-05   Sex: F
+Medicare No: SYNU9LLU85
+Part A effective: 1997-03-01   Part B effective: 1997-03-01
+Address: 797 Elm St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 602-555-6228
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH WILLIAM / DOB 1932-03-05 / SEX F / MBI SYNU9LLU85 / PART A 1997-03-01 / PART B 1997-03-01
+Attachment B (proof of address): 797 Elm St Houston TX 77003

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: GARCIA, THOMAS
+DOB: 1930-03-24   Sex: M
+Medicare No: SYN7A3QDJ2
+Part A effective: 1995-03-01   Part B effective: 1995-03-01
+Address: 80 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-6187
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA THOMAS / DOB 1930-03-24 / SEX M / MBI SYN7A3QDJ2 / PART A 1995-03-01 / PART B 1995-03-01
+Attachment B (proof of address): 80 Lakeview Dr Phoenix AZ 85003

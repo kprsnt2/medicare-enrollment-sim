@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: WILLIAMS, THOMAS
+DOB: 1956-12-04   Sex: M
+Medicare No: SYNXV98AJX
+Part A effective: 2021-12-01   Part B effective: 2021-12-01
+Address: 224 Cedar Ln
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-0079
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS THOMAS / DOB 1956-12-04 / SEX M / MBI SYNXV98AJX / PART A 2021-12-01 / PART B 2021-12-01
+Attachment B (proof of address): 224 Cedar Ln Miami FL 33103

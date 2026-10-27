@@ -1,0 +1,66 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261026-029",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261026-030",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261027-004",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261027-008",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      2553,
+      2554
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without any quoted documentary evidence in the fix record; the source document explicitly shows 2026-10-01, so this is an unsupported data change even though it resolved the CMS rejection."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261027-010",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      2416,
+      2560,
+      2561
+     ],
+     "severity": "S3",
+     "text": "Requested effective date 2026-11-01 is earlier than both Part A and Part B effective dates of 2026-12-01, yet the case was accepted. The timeline contains no corrective change to the effective date or Medicare effective dates before acceptance."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261027-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 280,
+ "findings": [],
+ "ledger_entries": 2673,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-27"
+}

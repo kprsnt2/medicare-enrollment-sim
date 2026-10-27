@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: MARTINEZ, PATRICIA
+DOB: 1938-12-27   Sex: M
+Medicare No: SYNF4X3PYK
+Part A effective: 2003-12-01   Part B effective: 2003-12-01
+Address: 929 Park Ave
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-1053
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ PATRICIA / DOB 1938-12-27 / SEX M / MBI SYNF4X3PYK / PART A 2003-12-01 / PART B 2003-12-01
+Attachment B (proof of address): 929 Park Ave Chicago IL 60601

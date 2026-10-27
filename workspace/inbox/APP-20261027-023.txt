@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: MARTINEZ, MICHAEL
+DOB: l9SB-O6-Z2   Sex: F
+Medicare No: SYNU723YQ9
+Part A effective: 2023-06-01   Part B effective: 2023-06-01
+Address: 162 Oak St
+City: Austin   State: TX   ZIP: 7B7Ol   County: Travis
+Phone: 713-555-1997
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ MICHAEL / DOB 1958-06-22 / SEX F / MBI SYNU723YQ9 / PART A 2023-06-01 / PART B 2023-06-01
+Attachment B (proof of address): 162 Oak St Austin TX 78701

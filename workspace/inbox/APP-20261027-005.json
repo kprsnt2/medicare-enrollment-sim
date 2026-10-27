@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Lee",
+  "dob": "1931-02-27",
+  "sex": "F",
+  "mbi": "SYNZ5MQ3ZZ",
+  "part_a_eff": "1996-02-01",
+  "part_b_eff": "1996-02-01",
+  "address": "648 Oak St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "602-555-0850",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LEE LINDA / DOB 1931-02-27 / SEX F / MBI SYNZ5MQ3ZZ / PART A 1996-02-01 / PART B 1996-02-01"
+ }
+}

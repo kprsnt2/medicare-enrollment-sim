@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Johnson",
+  "dob": "1951-06-14",
+  "sex": "M",
+  "mbi": "SYNNG52H4T",
+  "part_a_eff": "2016-06-01",
+  "part_b_eff": "2016-06-01",
+  "address": "807 Elm St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60602",
+  "county": "Cook",
+  "phone": "305-555-6311",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "JOHNSON MICHAEL / DOB 1951-06-14 / SEX M / MBI SYNNG52H4T / PART A 2016-06-01 / PART B 2016-06-01",
+  "address_proof": "807 Elm St Chicago IL 60602"
+ }
+}

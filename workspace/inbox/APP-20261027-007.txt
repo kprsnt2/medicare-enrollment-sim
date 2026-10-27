@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: THOMPSON, HELEN
+DOB: 1937-09-21   Sex: F
+Medicare No: SYNTTRLP7D
+Part A effective: 2002-09-01   Part B effective: 2002-09-01
+Address: 309 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 713-555-9114
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 309 Maple Ave Phoenix AZ 85003

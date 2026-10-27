@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Miller",
+  "dob": "1947-06-06",
+  "sex": "M",
+  "mbi": "SYN3RDKBAM",
+  "part_a_eff": "2012-06-01",
+  "part_b_eff": "2012-06-01",
+  "address": "145 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "713-555-1293",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MILLER LINDA / DOB 1947-06-06 / SEX M / MBI SYN3RDKBAM / PART A 2012-06-01 / PART B 2012-06-01",
+  "address_proof": "145 Lakeview Dr Phoenix AZ 85003"
+ }
+}

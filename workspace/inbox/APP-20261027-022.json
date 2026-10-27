@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Wilson",
+  "dob": "1947-03-08",
+  "sex": "M",
+  "mbi": "SYN2W8MP8R",
+  "part_a_eff": "2012-03-01",
+  "part_b_eff": "2012-03-01",
+  "address": "934 Pine Rd",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "312-555-1041",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "address_proof": "934 Pine Rd Miami FL 33103"
+ }
+}

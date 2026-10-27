@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: SMITH, THOMAS
+DOB: 1935-12-25   Sex: F
+Medicare No: SYN69DV69Z
+Part A effective: 2000-12-01   Part B effective: 2000-12-01
+Address: 482 Lakeview Dr
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 713-555-8669
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-27
+Name: LEE, DAVID
+DOB: 1949-04-08   Sex: M
+Medicare No: SYNEMB2AFL
+Part A effective: 2014-04-01   Part B effective: 2014-04-01
+Address: 248 Pine Rd
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-8893
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan aRo
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Alan Rao at the clinic.
+Attachment A (Medicare card copy): LEE DAVID / DOB 1949-04-08 / SEX M / MBI SYNEMB2AFL / PART A 2014-04-01 / PART B 2014-04-01
+Attachment B (proof of address): 248 Pine Rd Houston TX 77003

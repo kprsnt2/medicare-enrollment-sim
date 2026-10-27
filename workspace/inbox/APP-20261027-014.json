@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Thomas",
+  "dob": "1932-04-26",
+  "sex": "M",
+  "mbi": "SYNRXKYU93",
+  "part_a_eff": "1997-04-01",
+  "part_b_eff": "1997-04-01",
+  "address": "231 Pine Rd",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60602",
+  "county": "Cook",
+  "phone": "312-555-6961",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "address_proof": "231 Pine Rd Chicago IL 60602"
+ }
+}

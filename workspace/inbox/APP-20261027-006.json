@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Robert",
+  "last_name": "Wilson",
+  "dob": "1961-12-28",
+  "sex": "F",
+  "mbi": "SYNHSB9TXS",
+  "part_a_eff": "2026-12-01",
+  "part_b_eff": "2026-12-01",
+  "address": "943 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "312-555-7474",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Sam Ortiz",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-10-27",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON ROBERT / DOB 1961-12-28 / SEX F / MBI SYNHSB9TXS / PART A 2026-12-01 / PART B 2026-12-01",
+  "address_proof": "943 Oak St Phoenix AZ 85002"
+ }
+}
