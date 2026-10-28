@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: DAVIS, KAREN
+DOB: 1957-07-08   Sex: M
+Medicare No: SYNUSJQHKG
+Part A effective: 2022-07-01   Part B effective: 2022-07-01
+Address: 329 Oak St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-2590
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS KAREN / DOB 1957-07-08 / SEX M / MBI SYNUSJQHKG / PART A 2022-07-01 / PART B 2022-07-01
+Attachment B (proof of address): 329 Oak St Houston TX 77001

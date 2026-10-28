@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: JACKSON, SUSAN
+DOB: 1949-02-25   Sex: F
+Medicare No: SYNM9WR9YE
+Part A effective: 2014-02-01   Part B effective: 2014-02-01
+Address: 640 Hill St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-6156
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON SUSAN / DOB 1949-02-25 / SEX F / MBI SYNM9WR9YE / PART A 2014-02-01 / PART B 2014-02-01
+Attachment B (proof of address): 640 Hill St Houston TX 77002

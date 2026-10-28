@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: THOMAS, WILLIAM
+DOB: 1930-08-25   Sex: M
+Medicare No: SYNAHEUBQK
+Part A effective: 1995-08-01   Part B effective: 1995-08-01
+Address: 952 Maple Ave
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-9120
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS WILLIAM / DOB 1930-08-25 / SEX M / MBI SYNAHEUBQK / PART A 1995-08-01 / PART B 1995-08-01
+Attachment B (proof of address): 952 Maple Ave Chicago IL 60601

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Thomas",
+  "dob": "1931-03-09",
+  "sex": "F",
+  "mbi": "SYNB93GT8R",
+  "part_a_eff": "1996-03-01",
+  "part_b_eff": "1997-03-01",
+  "address": "118 Hill St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "602-555-6629",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-28",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "THOMAS THOMAS / DOB 1931-03-09 / SEX F / MBI SYNB93GT8R / PART A 1996-03-01 / PART B 1997-03-01"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: JONES, LINDA
+DOB: 1956-08-11   Sex: M
+Medicare No: SYNEBVD2QE
+Part A effective: 2021-08-01   Part B effective: 2021-08-01
+Address: 941 Oak St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 602-555-5412
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: My employer coverage ended last month.
+Attachment A (Medicare card copy): JONES LINDA / DOB 1956-08-11 / SEX M / MBI SYNEBVD2QE / PART A 2021-08-01 / PART B 2021-08-01
+Attachment B (proof of address): 941 Oak St Miami FL 33102

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Robert",
+  "last_name": "Jones",
+  "dob": "1945-01-15",
+  "sex": "M",
+  "mbi": "SYNN5NTKKZ",
+  "part_a_eff": "2010-01-01",
+  "part_b_eff": "2010-01-01",
+  "address": "921 Cedar Ln",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "602-555-6154",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-28",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JONES ROBERT / DOB 1945-01-15 / SEX M / MBI SYNN5NTKKZ / PART A 2010-01-01 / PART B 2010-01-01",
+  "address_proof": "921 Cedar Ln Houston TX 77003"
+ }
+}

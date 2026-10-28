@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: BROWN, THOMAS
+DOB: 1938-01-22   Sex: F
+Medicare No: SYNB32NUFU
+Part A effective: 2003-01-01   Part B effective: 2003-01-01
+Address: 236 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 305-555-0938
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN THOMAS / DOB 1938-01-22 / SEX F / MBI SYNB32NUFU / PART A 2003-01-01 / PART B 2003-01-01
+Attachment B (proof of address): 236 Oak St Houston TX 77003

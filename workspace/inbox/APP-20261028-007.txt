@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-28
+Name: HENRANDEZ, HELEN
+DOB: 1946-03-24   Sex: F
+Medicare No: SYN2J2LUPR
+Part A effective: 2011-03-01   Part B effective: 2011-03-01
+Address: 399 Elm St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-2172
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HENRANDEZ HELEN / DOB 1946-03-24 / SEX F / MBI SYN2J2LUPR / PART A 2011-03-01 / PART B 2011-03-01
+Attachment B (proof of address): 399 Elm St Chicago IL 60601

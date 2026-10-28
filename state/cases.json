@@ -12535,7 +12535,7 @@
  },
  "APP-20261023-004": {
   "attempts": 1,
-  "basket_reason": "REJ-DEMO",
+  "basket_reason": null,
   "case_id": "APP-20261023-004",
   "changes": [],
   "channel": "paper",
@@ -12546,7 +12546,7 @@
     "message": "Name, date of birth or sex does not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "129 Cedar Ln",
    "city": "Miami",
@@ -12581,6 +12581,13 @@
     "kind": "RFI",
     "sha": "3ac4601d928d8bd52492ba785161daefe0fe87d74b6812855652752ecb2c3992",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-004_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "9d285d13888b69c611cd536aa25edc16ed9651db12e90a05905e0db4bcff4a98",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -12612,7 +12619,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: ELE, MICHAEL\nDOB: 1940-11-26   Sex: M\nMedicare No: SYN4S64M9F\nPart A effective: 2005-11-01   Part B effective: 2005-11-01\nAddress: 129 Cedar Ln\nCity: Miami   State: FL   ZIP: 33101   County: Miami-Dade\nPhone: 312-555-9949\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): ELE MICHAEL / DOB 1940-11-26 / SEX M / MBI SYN4S64M9F / PART A 2005-11-01 / PART B 2005-11-01\nAttachment B (proof of address): 129 Cedar Ln Miami FL 33101",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-005": {
   "attempts": 1,
@@ -12828,7 +12835,7 @@
  },
  "APP-20261023-007": {
   "attempts": 1,
-  "basket_reason": "REJ-DEMO",
+  "basket_reason": null,
   "case_id": "APP-20261023-007",
   "changes": [],
   "channel": "paper",
@@ -12839,7 +12846,7 @@
     "message": "Name, date of birth or sex does not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "77 Hill St",
    "city": "Miami",
@@ -12874,6 +12881,13 @@
     "kind": "RFI",
     "sha": "223061f285d10aea029eace2a882ac84590d086771ae5b74e1c58667ed862050",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-007_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "004b319836310a28c5344715bbd3a3000e8deaf78b6493f7302fa77871aaf835",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -12905,11 +12919,11 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: JACKSNO, BETTY\nDOB: 1932-07-17   Sex: M\nMedicare No: SYNKHGSL5N\nPart A effective: 1997-07-01   Part B effective: 1997-07-01\nAddress: 77 Hill St\nCity: Miami   State: FL   ZIP: 33103   County: Miami-Dade\nPhone: 305-555-1082\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): JACKSNO BETTY / DOB 1932-07-17 / SEX M / MBI SYNKHGSL5N / PART A 1997-07-01 / PART B 1997-07-01\nAttachment B (proof of address): 77 Hill St Miami FL 33103",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-008": {
   "attempts": 1,
-  "basket_reason": "REJ-DEMO",
+  "basket_reason": null,
   "case_id": "APP-20261023-008",
   "changes": [],
   "channel": "digital",
@@ -12920,7 +12934,7 @@
     "message": "Name, date of birth or sex does not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "906 Park Ave",
    "city": "Houston",
@@ -12955,6 +12969,13 @@
     "kind": "RFI",
     "sha": "74c9aea288ca16272e20548800c3168095a502c10ae265bffa4f3fcff334b9d4",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-008_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "4cbcb5bd3cdaff604f855ffb24d84ab3d46565faddf0085efeed8259ae75d4ae",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -13015,7 +13036,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "first_name: Thomas\nlast_name: Jackson\ndob: 1934-03-06\nsex: M\nmbi: SYN5BXQMFT\npart_a_eff: 1999-03-01\npart_b_eff: 1999-03-01\naddress: 906 Park Ave\ncity: Houston\nstate: TX\nzip: 77001\ncounty: Harris\nphone: 305-555-5200\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-23\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment B (proof of address): 906 Park Ave Houston TX 77001",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-009": {
   "attempts": 1,
@@ -13218,12 +13239,12 @@
  },
  "APP-20261023-011": {
   "attempts": 1,
-  "basket_reason": "INCOMPLETE",
+  "basket_reason": null,
   "case_id": "APP-20261023-011",
   "changes": [],
   "channel": "digital",
   "cms_history": [],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "201 Park Ave",
    "city": "Phoenix",
@@ -13257,6 +13278,13 @@
     "kind": "RFI",
     "sha": "a0071cbdbcaf1ea9ca0b0c14fa5f2a05fd1dd3e34679e5faf230f5f43e66b1de",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-011_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "76cbab591e766d1d7a59263548990f1801ae6364129b66143ac0e3d173222988",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -13321,11 +13349,11 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "first_name: David\nlast_name: Thompson\ndob: 1934-04-24\nsex: M\nmbi: SYN79MBZXZ\npart_a_eff: 1999-04-01\npart_b_eff: 1999-04-01\naddress: 201 Park Ave\ncity: Phoenix\nstate: AZ\nzip: 85003\ncounty: Maricopa\nphone: 512-555-9830\nplan_name: Desert Bloom HMO\nplan_id: SYN-H0003-002\npcp_name: Dr. Joel Park\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-23\nrequested_effective_date: 2027-01-01\nsignature: N\nNotes: -\nAttachment A (Medicare card copy): THOMPSON DAVID / DOB 1934-04-24 / SEX M / MBI SYN79MBZXZ / PART A 1999-04-01 / PART B 1999-04-01\nAttachment B (proof of address): 201 Park Ave Phoenix AZ 85003",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-012": {
   "attempts": 1,
-  "basket_reason": "REJ-DEMO",
+  "basket_reason": null,
   "case_id": "APP-20261023-012",
   "changes": [],
   "channel": "paper",
@@ -13336,7 +13364,7 @@
     "message": "Name, date of birth or sex does not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "14 Pine Rd",
    "city": "Chicago",
@@ -13371,6 +13399,13 @@
     "kind": "RFI",
     "sha": "043d336a5e5ffd49ed2f7f50f1ec2b0b1ef80f904508093f25c1a52975947951",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-012_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "b02e7c7a179ec196810099458eccd016a093a0b61532989745ab6a3f68a5d560",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -13402,7 +13437,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: SMITH, ROBERT\nDOB: 1942-03-20   Sex: M\nMedicare No: SYNZD4TUTC\nPart A effective: 2007-03-01   Part B effective: 2007-03-01\nAddress: 14 Pine Rd\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 305-555-2371\nPlan selected: Lakeshore Prime HMO (SYN-H0002-001)\nPCP: Dr. Tom Becker\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment B (proof of address): 14 Pine Rd Chicago IL 60601",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-013": {
   "attempts": 1,
@@ -13833,7 +13868,7 @@
  },
  "APP-20261023-017": {
   "attempts": 1,
-  "basket_reason": "REJ-ELIG-DATE",
+  "basket_reason": null,
   "case_id": "APP-20261023-017",
   "changes": [],
   "channel": "digital",
@@ -13844,7 +13879,7 @@
     "message": "Entitlement dates do not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "16 Lakeview Dr",
    "city": "Chicago",
@@ -13879,6 +13914,13 @@
     "kind": "RFI",
     "sha": "4494aea9987f459410140ac5e668bfdd370288a586491876a1dc5acc07548b1e",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-017_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "57d555b806ba49fea556405d518f1b5d6d1377e8eed3dd91669d338c22b23274",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -13940,7 +13982,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "first_name: David\nlast_name: Lee\ndob: 1933-03-12\nsex: F\nmbi: SYNVLETETG\npart_a_eff: 1998-03-01\npart_b_eff: 1999-03-01\naddress: 16 Lakeview Dr\ncity: Chicago\nstate: IL\nzip: 60601\ncounty: Cook\nphone: 312-555-1140\nplan_name: Lakeshore Prime HMO\nplan_id: SYN-H0002-001\npcp_name: Dr. Priya Nair\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-23\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): LEE DAVID / DOB 1933-03-12 / SEX F / MBI SYNVLETETG / PART A 1998-03-01 / PART B 1999-03-01\nAttachment B (proof of address): 16 Lakeview Dr Chicago IL 60601",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-018": {
   "attempts": 0,
@@ -14022,12 +14064,12 @@
  },
  "APP-20261023-019": {
   "attempts": 1,
-  "basket_reason": "INCOMPLETE",
+  "basket_reason": null,
   "case_id": "APP-20261023-019",
   "changes": [],
   "channel": "digital",
   "cms_history": [],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "26 Cedar Ln",
    "city": "Phoenix",
@@ -14061,6 +14103,13 @@
     "kind": "RFI",
     "sha": "ee23aaa1bac5d0c2589473b296acb1fab2e61fcd6c1098930d827b89c0b68e8a",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-019_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "0d8d611c98122c0a2dcd7c97f415c7987c753adf9e617c76a0b81b199faae60c",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -14125,11 +14174,11 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "first_name: Charles\nlast_name: Wilson\ndob: 1942-03-09\nsex: F\nmbi: SYNP7U8A4F\npart_a_eff: 2007-03-01\npart_b_eff: 2007-03-01\naddress: 26 Cedar Ln\ncity: Phoenix\nstate: AZ\nzip: 85001\ncounty: Maricopa\nphone: 602-555-7795\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-001\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-23\nrequested_effective_date: 2027-01-01\nsignature: N\nNotes: -\nAttachment A (Medicare card copy): WILSON CHARLES / DOB 1942-03-09 / SEX F / MBI SYNP7U8A4F / PART A 2007-03-01 / PART B 2007-03-01\nAttachment B (proof of address): 26 Cedar Ln Phoenix AZ 85001",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-020": {
   "attempts": 1,
-  "basket_reason": "REJ-ELIG-DATE",
+  "basket_reason": null,
   "case_id": "APP-20261023-020",
   "changes": [],
   "channel": "paper",
@@ -14140,7 +14189,7 @@
     "message": "Entitlement dates do not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "875 Maple Ave",
    "city": "Houston",
@@ -14175,6 +14224,13 @@
     "kind": "RFI",
     "sha": "94b5d32facc6e02d70de9c07ba35687db3720b815710222d58f1ada58d7a41a7",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-020_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "71c53cee5708544a50586c1a06b3d631208947e10b60b9930055e54f6a2acae5",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -14206,11 +14262,11 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: JOHNSON, DAVID\nDOB: 1940-12-01   Sex: F\nMedicare No: SYNYY7LEBF\nPart A effective: 2005-12-01   Part B effective: 2006-12-01\nAddress: 875 Maple Ave\nCity: Houston   State: TX   ZIP: 77001   County: Harris\nPhone: 713-555-7455\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Maya Iyer\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment B (proof of address): 875 Maple Ave Houston TX 77001",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-021": {
   "attempts": 1,
-  "basket_reason": "REJ-ELIG-DATE",
+  "basket_reason": null,
   "case_id": "APP-20261023-021",
   "changes": [],
   "channel": "paper",
@@ -14221,7 +14277,7 @@
     "message": "Entitlement dates do not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "768 Cedar Ln",
    "city": "Austin",
@@ -14256,6 +14312,13 @@
     "kind": "RFI",
     "sha": "6f6bb32569bedcf59a86549746fcb3390db621de96e18cb93314a6010492165b",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-021_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "d38f982045cc6c24666e3122ccced3db6214dcdb5e96d3d33a1b551bb6860d84",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -14287,7 +14350,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: THOMPSON, BARBARA\nDOB: 1961-10-03   Sex: F\nMedicare No: SYNBHS9QPC\nPart A effective: 2026-10-01   Part B effective: 2027-10-01\nAddress: 768 Cedar Ln\nCity: Austin   State: TX   ZIP: 78703   County: Travis\nPhone: 312-555-2975\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Chris Doyle\nElection: IEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: -\nAttachment A (Medicare card copy): THOMPSON BARBARA / DOB 1961-10-03 / SEX F / MBI SYNBHS9QPC / PART A 2026-10-01 / PART B 2027-10-01",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-022": {
   "attempts": 1,
@@ -14370,7 +14433,7 @@
  },
  "APP-20261023-023": {
   "attempts": 1,
-  "basket_reason": "REJ-DEMO",
+  "basket_reason": null,
   "case_id": "APP-20261023-023",
   "changes": [],
   "channel": "digital",
@@ -14381,7 +14444,7 @@
     "message": "Name, date of birth or sex does not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "524 Lakeview Dr",
    "city": "Phoenix",
@@ -14416,6 +14479,13 @@
     "kind": "RFI",
     "sha": "e0911a49396f477263a3daec337b492ea773d641700d0b51d7847f1ecb232871",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-023_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "be25f6670c83d23bc8c24c4babe5f2009012f54d3b857ec379e49f11b73bd379",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -14477,7 +14547,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "first_name: Linda\nlast_name: iWlliams\ndob: 1955-08-20\nsex: M\nmbi: SYNJJWZ9KU\npart_a_eff: 2020-08-01\npart_b_eff: 2020-08-01\naddress: 524 Lakeview Dr\ncity: Phoenix\nstate: AZ\nzip: 85002\ncounty: Maricopa\nphone: 713-555-1687\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-001\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-23\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: I prefer morning phone calls.\nAttachment A (Medicare card copy): IWLLIAMS LINDA / DOB 1955-08-20 / SEX M / MBI SYNJJWZ9KU / PART A 2020-08-01 / PART B 2020-08-01\nAttachment B (proof of address): 524 Lakeview Dr Phoenix AZ 85002",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-024": {
   "attempts": 0,
@@ -14715,7 +14785,7 @@
  },
  "APP-20261023-027": {
   "attempts": 1,
-  "basket_reason": "REJ-ELIG-DATE",
+  "basket_reason": null,
   "case_id": "APP-20261023-027",
   "changes": [],
   "channel": "paper",
@@ -14726,7 +14796,7 @@
     "message": "Entitlement dates do not match the master file"
    }
   ],
-  "disposition_date": null,
+  "disposition_date": "2026-10-28",
   "fields": {
    "address": "823 Hill St",
    "city": "Austin",
@@ -14761,6 +14831,13 @@
     "kind": "RFI",
     "sha": "8a7492c9d2f39fcc4272dfbf4f9bdd888381c95c4c7f03d8e8ae77dbf11c5b99",
     "source": "mock"
+   },
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261023-027_CLOSED_INCOMPLETE.txt",
+    "kind": "CLOSED_INCOMPLETE",
+    "sha": "6afafba57d7fd3ffbb2ba83b93658f448d6d0a553361a7a303208a55678a2470",
+    "source": "openai"
    }
   ],
   "missing_info": [
@@ -14792,7 +14869,7 @@
   "received_date": "2026-10-23",
   "rfi_deadline": "2026-10-28",
   "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-23\nName: MILLER, CHARLES\nDOB: 1962-01-06   Sex: F\nMedicare No: SYNHSDC5BJ\nPart A effective: 2027-01-01   Part B effective: 2028-01-01\nAddress: 823 Hill St\nCity: Austin   State: TX   ZIP: 78702   County: Travis\nPhone: 305-555-3183\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Neha Kulkarni\nElection: IEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: -\nAttachment A (Medicare card copy): MILLER CHARLES / DOB 1962-01-06 / SEX F / MBI SYNHSDC5BJ / PART A 2027-01-01 / PART B 2028-01-01\nAttachment B (proof of address): 823 Hill St Austin TX 78702",
-  "state": "PENDING_MEMBER"
+  "state": "CLOSED_INCOMPLETE"
  },
  "APP-20261023-028": {
   "attempts": 1,
@@ -25850,5 +25927,2746 @@
   "rfi_deadline": null,
   "source_text": "first_name: Helen\nlast_name: Anderson\ndob: 1950-02-16\nsex: M\nmbi: SYNTSPJPQG\npart_a_eff: 2015-02-01\npart_b_eff: 2015-02-01\naddress: 138 Park Ave\ncity: Phoenix\nstate: AZ\nzip: 78701\ncounty: Maricopa\nphone: 713-555-9731\nplan_name: Desert Bloom HMO\nplan_id: SYN-H0003-002\npcp_name: Dr. Sam Ortiz\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-27\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: Please send materials in large print.\nAttachment A (Medicare card copy): ANDERSON HELEN / DOB 1950-02-16 / SEX M / MBI SYNTSPJPQG / PART A 2015-02-01 / PART B 2015-02-01\nAttachment B (proof of address): 138 Park Ave Phoenix AZ 85002",
   "state": "ACCEPTED"
+ },
+ "APP-20261028-001": {
+  "attempts": 1,
+  "basket_reason": "INCOMPLETE",
+  "case_id": "APP-20261028-001",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [],
+  "disposition_date": null,
+  "fields": {
+   "address": "81 Lakeview Dr",
+   "city": "Austin",
+   "county": "Travis",
+   "dob": "1957-12-02",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "KAREN",
+   "last_name": "HERNANDEZ",
+   "mbi": "SYN2K2AVR9",
+   "part_a_eff": "2022-12-01",
+   "part_b_eff": "2022-12-01",
+   "pcp_name": "Dr. Chris Doyle",
+   "phone": "312-555-0387",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "N",
+   "state": "TX",
+   "zip": "78703"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": null,
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-001_RFI.txt",
+    "kind": "RFI",
+    "sha": "972b5c6ea11cd19c99ae5acc3a4d61d51f53fe433d0680d068848eb809a0ee4b",
+    "source": "openai"
+   }
+  ],
+  "missing_info": [
+   "Signed enrollment request form (member signature required)"
+  ],
+  "missing_items": [
+   "signature"
+  ],
+  "original_fields": {
+   "address": "81 Lakeview Dr",
+   "city": "Austin",
+   "county": "Travis",
+   "dob": "1957-12-02",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "KAREN",
+   "last_name": "HERNANDEZ",
+   "mbi": "SYN2K2AVR9",
+   "part_a_eff": "2022-12-01",
+   "part_b_eff": "2022-12-01",
+   "pcp_name": "Dr. Chris Doyle",
+   "phone": "312-555-0387",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "N",
+   "state": "TX",
+   "zip": "78703"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": "2026-11-02",
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: HERNANDEZ, KAREN\nDOB: 1957-12-02   Sex: F\nMedicare No: SYN2K2AVR9\nPart A effective: 2022-12-01   Part B effective: 2022-12-01\nAddress: 81 Lakeview Dr\nCity: Austin   State: TX   ZIP: 78703   County: Travis\nPhone: 312-555-0387\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Chris Doyle\nElection: AEP   Sep reason: -   Signed: No\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): HERNANDEZ KAREN / DOB 1957-12-02 / SEX F / MBI SYN2K2AVR9 / PART A 2022-12-01 / PART B 2022-12-01\nAttachment B (proof of address): 81 Lakeview Dr Austin TX 78703",
+  "state": "PENDING_MEMBER"
+ },
+ "APP-20261028-002": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-002",
+  "changes": [
+   {
+    "event_seq": 2842,
+    "evidence": "Plan selected: Sunrise Care HMO (SYN-H0001-00X)",
+    "field": "plan_id",
+    "new": "SYN-H0001-001",
+    "old": "SYN-H0001-00X"
+   }
+  ],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-PLAN",
+    "date": "2026-10-28",
+    "message": "Plan ID is not offered"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "377 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1932-03-11",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "WILLIAM",
+   "last_name": "ANDERSON",
+   "mbi": "SYNPFQNULL",
+   "part_a_eff": "1997-03-01",
+   "part_b_eff": "1997-03-01",
+   "pcp_name": "Dr. Neha Kulkarni",
+   "phone": "312-555-8073",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-002_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "a9c87cd27e024355e4eec73d9485f5f652762b3b4050eaecbfa829dcd62e0d07",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "377 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1932-03-11",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "WILLIAM",
+   "last_name": "ANDERSON",
+   "mbi": "SYNPFQNULL",
+   "part_a_eff": "1997-03-01",
+   "part_b_eff": "1997-03-01",
+   "pcp_name": "Dr. Neha Kulkarni",
+   "phone": "312-555-8073",
+   "plan_id": "SYN-H0001-00X",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: ANDERSON, WILLIAM\nDOB: 1932-03-11   Sex: F\nMedicare No: SYNPFQNULL\nPart A effective: 1997-03-01   Part B effective: 1997-03-01\nAddress: 377 Elm St\nCity: Houston   State: TX   ZIP: 77002   County: Harris\nPhone: 312-555-8073\nPlan selected: Sunrise Care HMO (SYN-H0001-00X)\nPCP: Dr. Neha Kulkarni\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): ANDERSON WILLIAM / DOB 1932-03-11 / SEX F / MBI SYNPFQNULL / PART A 1997-03-01 / PART B 1997-03-01\nAttachment B (proof of address): 377 Elm St Houston TX 77002",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-003": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-003",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "86 Maple Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1945-01-22",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "RICHARD",
+   "last_name": "MARTINEZ",
+   "mbi": "SYNZ5GYCT4",
+   "part_a_eff": "2010-01-01",
+   "part_b_eff": "2010-01-01",
+   "pcp_name": "",
+   "phone": "602-555-7704",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33103"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "86 Maple Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1945-01-22",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "RICHARD",
+   "last_name": "MARTINEZ",
+   "mbi": "SYNZ5GYCT4",
+   "part_a_eff": "2010-01-01",
+   "part_b_eff": "2010-01-01",
+   "pcp_name": "",
+   "phone": "602-555-7704",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33103"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: MARTINEZ, RICHARD\nDOB: 1945-01-22   Sex: M\nMedicare No: SYNZ5GYCT4\nPart A effective: 2010-01-01   Part B effective: 2010-01-01\nAddress: 86 Maple Ave\nCity: Miami   State: FL   ZIP: 33103   County: Miami-Dade\nPhone: 602-555-7704\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: I prefer morning phone calls.\nAttachment A (Medicare card copy): MARTINEZ RICHARD / DOB 1945-01-22 / SEX M / MBI SYNZ5GYCT4 / PART A 2010-01-01 / PART B 2010-01-01\nAttachment B (proof of address): 86 Maple Ave Miami FL 33103",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-004": {
+  "attempts": 1,
+  "basket_reason": "REJ-NOENT",
+  "case_id": "APP-20261028-004",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-NOENT",
+    "date": "2026-10-28",
+    "message": "Member ID not found on the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "73 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1940-12-27",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "NANCY",
+   "last_name": "JOHNSON",
+   "mbi": "SYNANK9LLS",
+   "part_a_eff": "2005-12-01",
+   "part_b_eff": "2005-12-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "602-555-9032",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-NOENT",
+  "last_message": "Member ID not found on the master file",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-004_RFI.txt",
+    "kind": "RFI",
+    "sha": "80097b4cdaecdf2696fe955dbcbee025b7bad61c3dd7679ffd49319bc80a5551",
+    "source": "openai"
+   }
+  ],
+  "missing_info": [
+   "A corrected Medicare Beneficiary Identifier (MBI) or a clearer copy/photo of the Medicare card showing the MBI"
+  ],
+  "original_fields": {
+   "address": "73 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1940-12-27",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "NANCY",
+   "last_name": "JOHNSON",
+   "mbi": "SYNANK9LLS",
+   "part_a_eff": "2005-12-01",
+   "part_b_eff": "2005-12-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "602-555-9032",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": "2026-11-02",
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: JOHNSON, NANCY\nDOB: 1940-12-27   Sex: F\nMedicare No: SYNANK9LLS\nPart A effective: 2005-12-01   Part B effective: 2005-12-01\nAddress: 73 Cedar Ln\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 602-555-9032\nPlan selected: Lakeshore Prime HMO (SYN-H0002-001)\nPCP: Dr. Laura Weiss\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): JOHNSON NANCY / DOB 1940-12-27 / SEX F / MBI SYNANK9LLS / PART A 2005-12-01 / PART B 2005-12-01\nAttachment B (proof of address): 73 Cedar Ln Chicago IL 60601",
+  "state": "PENDING_MEMBER"
+ },
+ "APP-20261028-005": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-005",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "228 Park Ave",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1950-10-16",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Dorothy",
+   "last_name": "Johnson",
+   "mbi": "SYNMAN7LZH",
+   "part_a_eff": "2015-10-01",
+   "part_b_eff": "2015-10-01",
+   "pcp_name": "",
+   "phone": "312-555-8875",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85001"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-005_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "fc410ceb9cec757eb1ba9ce9bdec1f57bca8a1e51fb541291b2ec5d6241b3287",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "228 Park Ave",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1950-10-16",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Dorothy",
+   "last_name": "Johnson",
+   "mbi": "SYNMAN7LZH",
+   "part_a_eff": "2015-10-01",
+   "part_b_eff": "2015-10-01",
+   "pcp_name": "",
+   "phone": "312-555-8875",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85001"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "228 Park Ave Phoenix AZ 85001",
+    "card_text": "JOHNSON DOROTHY / DOB 1950-10-16 / SEX M / MBI SYNMAN7LZH / PART A 2015-10-01 / PART B 2015-10-01"
+   },
+   "form": {
+    "address": "228 Park Ave",
+    "city": "Phoenix",
+    "county": "Maricopa",
+    "dob": "1950-10-16",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Dorothy",
+    "last_name": "Johnson",
+    "mbi": "SYNMAN7LZH",
+    "part_a_eff": "2015-10-01",
+    "part_b_eff": "2015-10-01",
+    "pcp_name": "",
+    "phone": "312-555-8875",
+    "plan_id": "SYN-H0003-001",
+    "plan_name": "Palmetto Gold PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "AZ",
+    "zip": "85001"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Dorothy\nlast_name: Johnson\ndob: 1950-10-16\nsex: M\nmbi: SYNMAN7LZH\npart_a_eff: 2015-10-01\npart_b_eff: 2015-10-01\naddress: 228 Park Ave\ncity: Phoenix\nstate: AZ\nzip: 85001\ncounty: Maricopa\nphone: 312-555-8875\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-001\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): JOHNSON DOROTHY / DOB 1950-10-16 / SEX M / MBI SYNMAN7LZH / PART A 2015-10-01 / PART B 2015-10-01\nAttachment B (proof of address): 228 Park Ave Phoenix AZ 85001",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-006": {
+  "attempts": 1,
+  "basket_reason": "INCOMPLETE",
+  "case_id": "APP-20261028-006",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [],
+  "disposition_date": null,
+  "fields": {
+   "address": "952 Maple Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1930-08-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "WILLIAM",
+   "last_name": "THOMAS",
+   "mbi": "SYNAHEUBQK",
+   "part_a_eff": "1995-08-01",
+   "part_b_eff": "1995-08-01",
+   "pcp_name": "Dr. Priya Nair",
+   "phone": "512-555-9120",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "N",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": null,
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-006_RFI.txt",
+    "kind": "RFI",
+    "sha": "22186ba6aaa4bb9ea1538fb040476a1788174f5ef11070fc861ef85a04d18317",
+    "source": "openai"
+   }
+  ],
+  "missing_info": [
+   "Signed enrollment request form"
+  ],
+  "missing_items": [
+   "signature"
+  ],
+  "original_fields": {
+   "address": "952 Maple Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1930-08-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "WILLIAM",
+   "last_name": "THOMAS",
+   "mbi": "SYNAHEUBQK",
+   "part_a_eff": "1995-08-01",
+   "part_b_eff": "1995-08-01",
+   "pcp_name": "Dr. Priya Nair",
+   "phone": "512-555-9120",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "N",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": "2026-11-02",
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: THOMAS, WILLIAM\nDOB: 1930-08-25   Sex: M\nMedicare No: SYNAHEUBQK\nPart A effective: 1995-08-01   Part B effective: 1995-08-01\nAddress: 952 Maple Ave\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 512-555-9120\nPlan selected: Lakeshore Prime HMO (SYN-H0002-001)\nPCP: Dr. Priya Nair\nElection: AEP   Sep reason: -   Signed: No\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): THOMAS WILLIAM / DOB 1930-08-25 / SEX M / MBI SYNAHEUBQK / PART A 1995-08-01 / PART B 1995-08-01\nAttachment B (proof of address): 952 Maple Ave Chicago IL 60601",
+  "state": "PENDING_MEMBER"
+ },
+ "APP-20261028-007": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-007",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "399 Elm St",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1946-03-24",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "HELEN",
+   "last_name": "HENRANDEZ",
+   "mbi": "SYN2J2LUPR",
+   "part_a_eff": "2011-03-01",
+   "part_b_eff": "2011-03-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "305-555-2172",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "399 Elm St",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1946-03-24",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "HELEN",
+   "last_name": "HENRANDEZ",
+   "mbi": "SYN2J2LUPR",
+   "part_a_eff": "2011-03-01",
+   "part_b_eff": "2011-03-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "305-555-2172",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: HENRANDEZ, HELEN\nDOB: 1946-03-24   Sex: F\nMedicare No: SYN2J2LUPR\nPart A effective: 2011-03-01   Part B effective: 2011-03-01\nAddress: 399 Elm St\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 305-555-2172\nPlan selected: Lakeshore Prime HMO (SYN-H0002-001)\nPCP: Dr. Laura Weiss\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): HENRANDEZ HELEN / DOB 1946-03-24 / SEX F / MBI SYN2J2LUPR / PART A 2011-03-01 / PART B 2011-03-01\nAttachment B (proof of address): 399 Elm St Chicago IL 60601",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-008": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-008",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "512 Park Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1935-12-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Karen",
+   "last_name": "Thomas",
+   "mbi": "SYNHGF9ZYQ",
+   "part_a_eff": "2000-12-01",
+   "part_b_eff": "2000-12-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "305-555-7036",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60603"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-008_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "452550404422eaf022e7257a56a671f5a27bb92d6ea81582ea78506dc3540900",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "512 Park Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1935-12-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Karen",
+   "last_name": "Thomas",
+   "mbi": "SYNHGF9ZYQ",
+   "part_a_eff": "2000-12-01",
+   "part_b_eff": "2000-12-01",
+   "pcp_name": "Dr. Laura Weiss",
+   "phone": "305-555-7036",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60603"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "512 Park Ave Chicago IL 60603",
+    "card_text": "THOMAS KAREN / DOB 1935-12-03 / SEX F / MBI SYNHGF9ZYQ / PART A 2000-12-01 / PART B 2000-12-01"
+   },
+   "form": {
+    "address": "512 Park Ave",
+    "city": "Chicago",
+    "county": "Cook",
+    "dob": "1935-12-03",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Karen",
+    "last_name": "Thomas",
+    "mbi": "SYNHGF9ZYQ",
+    "part_a_eff": "2000-12-01",
+    "part_b_eff": "2000-12-01",
+    "pcp_name": "Dr. Laura Weiss",
+    "phone": "305-555-7036",
+    "plan_id": "SYN-H0002-001",
+    "plan_name": "Lakeshore Prime HMO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "F",
+    "signature": "Y",
+    "state": "IL",
+    "zip": "60603"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Karen\nlast_name: Thomas\ndob: 1935-12-03\nsex: F\nmbi: SYNHGF9ZYQ\npart_a_eff: 2000-12-01\npart_b_eff: 2000-12-01\naddress: 512 Park Ave\ncity: Chicago\nstate: IL\nzip: 60603\ncounty: Cook\nphone: 305-555-7036\nplan_name: Lakeshore Prime HMO\nplan_id: SYN-H0002-001\npcp_name: Dr. Laura Weiss\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): THOMAS KAREN / DOB 1935-12-03 / SEX F / MBI SYNHGF9ZYQ / PART A 2000-12-01 / PART B 2000-12-01\nAttachment B (proof of address): 512 Park Ave Chicago IL 60603",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-009": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-009",
+  "changes": [
+   {
+    "event_seq": 2834,
+    "evidence": "plan_name: Sunrise Choice PPO",
+    "field": "plan_id",
+    "new": "SYN-H0001-002",
+    "old": "SYN-H0001-00X"
+   }
+  ],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-PLAN",
+    "date": "2026-10-28",
+    "message": "Plan ID is not offered"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "451 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1944-06-02",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "William",
+   "last_name": "Johnson",
+   "mbi": "SYN2AH3QCC",
+   "part_a_eff": "2009-06-01",
+   "part_b_eff": "2009-06-01",
+   "pcp_name": "",
+   "phone": "713-555-2818",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-009_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "83c549e4717c72712aa4988e3f64054ae42269e9c06312a40adf499c0aa9ffff",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "451 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1944-06-02",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "William",
+   "last_name": "Johnson",
+   "mbi": "SYN2AH3QCC",
+   "part_a_eff": "2009-06-01",
+   "part_b_eff": "2009-06-01",
+   "pcp_name": "",
+   "phone": "713-555-2818",
+   "plan_id": "SYN-H0001-00X",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "451 Elm St Houston TX 77001",
+    "card_text": "JOHNSON WILLIAM / DOB 1944-06-02 / SEX M / MBI SYN2AH3QCC / PART A 2009-06-01 / PART B 2009-06-01"
+   },
+   "form": {
+    "address": "451 Elm St",
+    "city": "Houston",
+    "county": "Harris",
+    "dob": "1944-06-02",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "William",
+    "last_name": "Johnson",
+    "mbi": "SYN2AH3QCC",
+    "part_a_eff": "2009-06-01",
+    "part_b_eff": "2009-06-01",
+    "pcp_name": "",
+    "phone": "713-555-2818",
+    "plan_id": "SYN-H0001-00X",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "77001"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: William\nlast_name: Johnson\ndob: 1944-06-02\nsex: M\nmbi: SYN2AH3QCC\npart_a_eff: 2009-06-01\npart_b_eff: 2009-06-01\naddress: 451 Elm St\ncity: Houston\nstate: TX\nzip: 77001\ncounty: Harris\nphone: 713-555-2818\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-00X\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): JOHNSON WILLIAM / DOB 1944-06-02 / SEX M / MBI SYN2AH3QCC / PART A 2009-06-01 / PART B 2009-06-01\nAttachment B (proof of address): 451 Elm St Houston TX 77001",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-010": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-010",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "653 Oak St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1961-12-21",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "CHARLES",
+   "last_name": "MILLER",
+   "mbi": "SYN7LJR9V7",
+   "part_a_eff": "2026-12-01",
+   "part_b_eff": "2026-12-01",
+   "pcp_name": "",
+   "phone": "512-555-3412",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33101"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-010_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "31f825d261ccb7c648854bbdadc64b4820ffda12b59e795b7c6539e7a3fdfe2b",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "653 Oak St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1961-12-21",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "CHARLES",
+   "last_name": "MILLER",
+   "mbi": "SYN7LJR9V7",
+   "part_a_eff": "2026-12-01",
+   "part_b_eff": "2026-12-01",
+   "pcp_name": "",
+   "phone": "512-555-3412",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33101"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: MILLER, CHARLES\nDOB: 1961-12-21   Sex: F\nMedicare No: SYN7LJR9V7\nPart A effective: 2026-12-01   Part B effective: 2026-12-01\nAddress: 653 Oak St\nCity: Miami   State: FL   ZIP: 33101   County: Miami-Dade\nPhone: 512-555-3412\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: IEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: I prefer morning phone calls.\nAttachment A (Medicare card copy): MILLER CHARLES / DOB 1961-12-21 / SEX F / MBI SYN7LJR9V7 / PART A 2026-12-01 / PART B 2026-12-01\nAttachment B (proof of address): 653 Oak St Miami FL 33101",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-011": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-011",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "590 Hill St",
+   "city": "Austin",
+   "county": "Travis",
+   "dob": "1956-04-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Linda",
+   "last_name": "Williams",
+   "mbi": "SYNZHYLQYZ",
+   "part_a_eff": "2021-04-01",
+   "part_b_eff": "2021-04-01",
+   "pcp_name": "",
+   "phone": "602-555-5892",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "78701"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-011_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "f0e0684a9dcf8440728f1e5c95e492395968eadbfc2668425f486e2a16594122",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "590 Hill St",
+   "city": "Austin",
+   "county": "Travis",
+   "dob": "1956-04-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Linda",
+   "last_name": "Williams",
+   "mbi": "SYNZHYLQYZ",
+   "part_a_eff": "2021-04-01",
+   "part_b_eff": "2021-04-01",
+   "pcp_name": "",
+   "phone": "602-555-5892",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "78701"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "590 Hill St Austin TX 78701"
+   },
+   "form": {
+    "address": "590 Hill St",
+    "city": "Austin",
+    "county": "Travis",
+    "dob": "1956-04-25",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Linda",
+    "last_name": "Williams",
+    "mbi": "SYNZHYLQYZ",
+    "part_a_eff": "2021-04-01",
+    "part_b_eff": "2021-04-01",
+    "pcp_name": "",
+    "phone": "602-555-5892",
+    "plan_id": "SYN-H0001-002",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "F",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "78701"
+   },
+   "notes": "Thank you for your help."
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Linda\nlast_name: Williams\ndob: 1956-04-25\nsex: F\nmbi: SYNZHYLQYZ\npart_a_eff: 2021-04-01\npart_b_eff: 2021-04-01\naddress: 590 Hill St\ncity: Austin\nstate: TX\nzip: 78701\ncounty: Travis\nphone: 602-555-5892\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: Thank you for your help.\nAttachment B (proof of address): 590 Hill St Austin TX 78701",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-012": {
+  "attempts": 1,
+  "basket_reason": "INCOMPLETE",
+  "case_id": "APP-20261028-012",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [],
+  "disposition_date": null,
+  "fields": {
+   "address": "877 Maple Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1938-12-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "SUSAN",
+   "last_name": "LOPEZ",
+   "mbi": "SYNV669WCV",
+   "part_a_eff": "2003-12-01",
+   "part_b_eff": "2003-12-01",
+   "pcp_name": "",
+   "phone": "512-555-4960",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "N",
+   "state": "FL",
+   "zip": "33101"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": null,
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-012_RFI.txt",
+    "kind": "RFI",
+    "sha": "445885fef065042068dc1120ab6337be45556e34730bedeef0fd4fb592674a8f",
+    "source": "openai"
+   }
+  ],
+  "missing_info": [
+   "Signed enrollment request form (member signature)"
+  ],
+  "missing_items": [
+   "signature"
+  ],
+  "original_fields": {
+   "address": "877 Maple Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1938-12-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "SUSAN",
+   "last_name": "LOPEZ",
+   "mbi": "SYNV669WCV",
+   "part_a_eff": "2003-12-01",
+   "part_b_eff": "2003-12-01",
+   "pcp_name": "",
+   "phone": "512-555-4960",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "N",
+   "state": "FL",
+   "zip": "33101"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": "2026-11-02",
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: LOPEZ, SUSAN\nDOB: 1938-12-12   Sex: M\nMedicare No: SYNV669WCV\nPart A effective: 2003-12-01   Part B effective: 2003-12-01\nAddress: 877 Maple Ave\nCity: Miami   State: FL   ZIP: 33101   County: Miami-Dade\nPhone: 512-555-4960\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: AEP   Sep reason: -   Signed: No\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): LOPEZ SUSAN / DOB 1938-12-12 / SEX M / MBI SYNV669WCV / PART A 2003-12-01 / PART B 2003-12-01\nAttachment B (proof of address): 877 Maple Ave Miami FL 33101",
+  "state": "PENDING_MEMBER"
+ },
+ "APP-20261028-013": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-013",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "236 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1938-01-22",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "THOMAS",
+   "last_name": "BROWN",
+   "mbi": "SYNB32NUFU",
+   "part_a_eff": "2003-01-01",
+   "part_b_eff": "2003-01-01",
+   "pcp_name": "",
+   "phone": "305-555-0938",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "236 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1938-01-22",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "THOMAS",
+   "last_name": "BROWN",
+   "mbi": "SYNB32NUFU",
+   "part_a_eff": "2003-01-01",
+   "part_b_eff": "2003-01-01",
+   "pcp_name": "",
+   "phone": "305-555-0938",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: BROWN, THOMAS\nDOB: 1938-01-22   Sex: F\nMedicare No: SYNB32NUFU\nPart A effective: 2003-01-01   Part B effective: 2003-01-01\nAddress: 236 Oak St\nCity: Houston   State: TX   ZIP: 77003   County: Harris\nPhone: 305-555-0938\nPlan selected: Sunrise Choice PPO (SYN-H0001-002)\nPCP: -\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): BROWN THOMAS / DOB 1938-01-22 / SEX F / MBI SYNB32NUFU / PART A 2003-01-01 / PART B 2003-01-01\nAttachment B (proof of address): 236 Oak St Houston TX 77003",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-014": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-014",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "921 Cedar Ln",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1945-01-15",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Robert",
+   "last_name": "Jones",
+   "mbi": "SYNN5NTKKZ",
+   "part_a_eff": "2010-01-01",
+   "part_b_eff": "2010-01-01",
+   "pcp_name": "",
+   "phone": "602-555-6154",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-014_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "8c93c85fe026e8145bf68bca1e4a5855690195535bab8d0a30bbda004b2d3d8b",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "921 Cedar Ln",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1945-01-15",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Robert",
+   "last_name": "Jones",
+   "mbi": "SYNN5NTKKZ",
+   "part_a_eff": "2010-01-01",
+   "part_b_eff": "2010-01-01",
+   "pcp_name": "",
+   "phone": "602-555-6154",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "921 Cedar Ln Houston TX 77003",
+    "card_text": "JONES ROBERT / DOB 1945-01-15 / SEX M / MBI SYNN5NTKKZ / PART A 2010-01-01 / PART B 2010-01-01"
+   },
+   "form": {
+    "address": "921 Cedar Ln",
+    "city": "Houston",
+    "county": "Harris",
+    "dob": "1945-01-15",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Robert",
+    "last_name": "Jones",
+    "mbi": "SYNN5NTKKZ",
+    "part_a_eff": "2010-01-01",
+    "part_b_eff": "2010-01-01",
+    "pcp_name": "",
+    "phone": "602-555-6154",
+    "plan_id": "SYN-H0001-002",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "77003"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Robert\nlast_name: Jones\ndob: 1945-01-15\nsex: M\nmbi: SYNN5NTKKZ\npart_a_eff: 2010-01-01\npart_b_eff: 2010-01-01\naddress: 921 Cedar Ln\ncity: Houston\nstate: TX\nzip: 77003\ncounty: Harris\nphone: 602-555-6154\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): JONES ROBERT / DOB 1945-01-15 / SEX M / MBI SYNN5NTKKZ / PART A 2010-01-01 / PART B 2010-01-01\nAttachment B (proof of address): 921 Cedar Ln Houston TX 77003",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-015": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-015",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "329 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1957-07-08",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "KAREN",
+   "last_name": "DAVIS",
+   "mbi": "SYNUSJQHKG",
+   "part_a_eff": "2022-07-01",
+   "part_b_eff": "2022-07-01",
+   "pcp_name": "Dr. Alan Rao",
+   "phone": "713-555-2590",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-015_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "1dac252ac02e88f60e834bfbd5d3c7f38b38bcd5936ec3e4a3142bbea60e495b",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "329 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1957-07-08",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "KAREN",
+   "last_name": "DAVIS",
+   "mbi": "SYNUSJQHKG",
+   "part_a_eff": "2022-07-01",
+   "part_b_eff": "2022-07-01",
+   "pcp_name": "Dr. Alan Rao",
+   "phone": "713-555-2590",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: DAVIS, KAREN\nDOB: 1957-07-08   Sex: M\nMedicare No: SYNUSJQHKG\nPart A effective: 2022-07-01   Part B effective: 2022-07-01\nAddress: 329 Oak St\nCity: Houston   State: TX   ZIP: 77001   County: Harris\nPhone: 713-555-2590\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Alan Rao\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): DAVIS KAREN / DOB 1957-07-08 / SEX M / MBI SYNUSJQHKG / PART A 2022-07-01 / PART B 2022-07-01\nAttachment B (proof of address): 329 Oak St Houston TX 77001",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-016": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-016",
+  "changes": [
+   {
+    "event_seq": 2858,
+    "evidence": "Notes: My employer coverage ended last month.",
+    "field": "election_type",
+    "new": "SEP",
+    "old": "OEP"
+   },
+   {
+    "event_seq": 2859,
+    "evidence": "Notes: My employer coverage ended last month.",
+    "field": "sep_reason",
+    "new": "LOST_EMPLOYER_COVERAGE",
+    "old": ""
+   }
+  ],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-ELECTION",
+    "date": "2026-10-28",
+    "message": "Election period is not valid for this request"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "941 Oak St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1956-08-11",
+   "election_date": "2026-10-28",
+   "election_type": "SEP",
+   "first_name": "LINDA",
+   "last_name": "JONES",
+   "mbi": "SYNEBVD2QE",
+   "part_a_eff": "2021-08-01",
+   "part_b_eff": "2021-08-01",
+   "pcp_name": "",
+   "phone": "602-555-5412",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "LOST_EMPLOYER_COVERAGE",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-016_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "c243cefe36e8a3f212a81dd32994e939a1d9e7bbfb7deda140b301827caee70c",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "941 Oak St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1956-08-11",
+   "election_date": "2026-10-28",
+   "election_type": "OEP",
+   "first_name": "LINDA",
+   "last_name": "JONES",
+   "mbi": "SYNEBVD2QE",
+   "part_a_eff": "2021-08-01",
+   "part_b_eff": "2021-08-01",
+   "pcp_name": "",
+   "phone": "602-555-5412",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: JONES, LINDA\nDOB: 1956-08-11   Sex: M\nMedicare No: SYNEBVD2QE\nPart A effective: 2021-08-01   Part B effective: 2021-08-01\nAddress: 941 Oak St\nCity: Miami   State: FL   ZIP: 33102   County: Miami-Dade\nPhone: 602-555-5412\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: OEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: My employer coverage ended last month.\nAttachment A (Medicare card copy): JONES LINDA / DOB 1956-08-11 / SEX M / MBI SYNEBVD2QE / PART A 2021-08-01 / PART B 2021-08-01\nAttachment B (proof of address): 941 Oak St Miami FL 33102",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-017": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-017",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-ELECTION",
+    "date": "2026-10-28",
+    "message": "Election period is not valid for this request"
+   }
+  ],
+  "deny_code": "REJ-ELECTION",
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "689 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1955-06-16",
+   "election_date": "2026-10-28",
+   "election_type": "OEP",
+   "first_name": "MICHAEL",
+   "last_name": "MARTINEZ",
+   "mbi": "SYN96FY65A",
+   "part_a_eff": "2020-06-01",
+   "part_b_eff": "2020-06-01",
+   "pcp_name": "Dr. Tom Becker",
+   "phone": "312-555-7627",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-ELECTION",
+  "last_message": "Election period is not valid for this request",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-017_DENY.txt",
+    "kind": "DENY",
+    "sha": "7fe876768a6e169ae80ea5a22288d2b1e9bd97de9e478b0cfda4bd5ac45a9a9d",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "689 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1955-06-16",
+   "election_date": "2026-10-28",
+   "election_type": "OEP",
+   "first_name": "MICHAEL",
+   "last_name": "MARTINEZ",
+   "mbi": "SYN96FY65A",
+   "part_a_eff": "2020-06-01",
+   "part_b_eff": "2020-06-01",
+   "pcp_name": "Dr. Tom Becker",
+   "phone": "312-555-7627",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: MARTINEZ, MICHAEL\nDOB: 1955-06-16   Sex: F\nMedicare No: SYN96FY65A\nPart A effective: 2020-06-01   Part B effective: 2020-06-01\nAddress: 689 Cedar Ln\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 312-555-7627\nPlan selected: Lakeshore Prime HMO (SYN-H0002-001)\nPCP: Dr. Tom Becker\nElection: OEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: -\nAttachment A (Medicare card copy): MARTINEZ MICHAEL / DOB 1955-06-16 / SEX F / MBI SYN96FY65A / PART A 2020-06-01 / PART B 2020-06-01\nAttachment B (proof of address): 689 Cedar Ln Chicago IL 60601",
+  "state": "DENIED"
+ },
+ "APP-20261028-018": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-018",
+  "changes": [
+   {
+    "event_seq": 2853,
+    "evidence": "Attachment B (proof of address): 889 Cedar Ln Phoenix AZ 85002",
+    "field": "zip",
+    "new": "85002",
+    "old": "33101"
+   }
+  ],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-ADDR",
+    "date": "2026-10-28",
+    "message": "ZIP code does not match the stated county"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "889 Cedar Ln",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1931-03-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Robert",
+   "last_name": "Lee",
+   "mbi": "SYNKF9Q2C9",
+   "part_a_eff": "1996-03-01",
+   "part_b_eff": "1996-03-01",
+   "pcp_name": "",
+   "phone": "512-555-0936",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-018_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "89feae43da31b277c32ee20751159eb493c4b71776d053089cdcf7ee289752bf",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "889 Cedar Ln",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1931-03-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Robert",
+   "last_name": "Lee",
+   "mbi": "SYNKF9Q2C9",
+   "part_a_eff": "1996-03-01",
+   "part_b_eff": "1996-03-01",
+   "pcp_name": "",
+   "phone": "512-555-0936",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "33101"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "889 Cedar Ln Phoenix AZ 85002",
+    "card_text": "LEE ROBERT / DOB 1931-03-03 / SEX M / MBI SYNKF9Q2C9 / PART A 1996-03-01 / PART B 1996-03-01"
+   },
+   "form": {
+    "address": "889 Cedar Ln",
+    "city": "Phoenix",
+    "county": "Maricopa",
+    "dob": "1931-03-03",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Robert",
+    "last_name": "Lee",
+    "mbi": "SYNKF9Q2C9",
+    "part_a_eff": "1996-03-01",
+    "part_b_eff": "1996-03-01",
+    "pcp_name": "",
+    "phone": "512-555-0936",
+    "plan_id": "SYN-H0003-001",
+    "plan_name": "Palmetto Gold PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "AZ",
+    "zip": "33101"
+   },
+   "notes": "Thank you for your help."
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Robert\nlast_name: Lee\ndob: 1931-03-03\nsex: M\nmbi: SYNKF9Q2C9\npart_a_eff: 1996-03-01\npart_b_eff: 1996-03-01\naddress: 889 Cedar Ln\ncity: Phoenix\nstate: AZ\nzip: 33101\ncounty: Maricopa\nphone: 512-555-0936\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-001\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): LEE ROBERT / DOB 1931-03-03 / SEX M / MBI SYNKF9Q2C9 / PART A 1996-03-01 / PART B 1996-03-01\nAttachment B (proof of address): 889 Cedar Ln Phoenix AZ 85002",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-019": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-019",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "346 Maple Ave",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1934-05-08",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "John",
+   "last_name": "Brown",
+   "mbi": "SYNULWQ9L5",
+   "part_a_eff": "1999-05-01",
+   "part_b_eff": "1999-05-01",
+   "pcp_name": "",
+   "phone": "305-555-5231",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-019_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "1069372a6fb7bb692d1493f8299731a2e50fdbba885f7524b8b8e98c85d4bdda",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "346 Maple Ave",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1934-05-08",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "John",
+   "last_name": "Brown",
+   "mbi": "SYNULWQ9L5",
+   "part_a_eff": "1999-05-01",
+   "part_b_eff": "1999-05-01",
+   "pcp_name": "",
+   "phone": "305-555-5231",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85002"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "346 Maple Ave Phoenix AZ 85002",
+    "card_text": "BROWN JOHN / DOB 1934-05-08 / SEX M / MBI SYNULWQ9L5 / PART A 1999-05-01 / PART B 1999-05-01"
+   },
+   "form": {
+    "address": "346 Maple Ave",
+    "city": "Phoenix",
+    "county": "Maricopa",
+    "dob": "1934-05-08",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "John",
+    "last_name": "Brown",
+    "mbi": "SYNULWQ9L5",
+    "part_a_eff": "1999-05-01",
+    "part_b_eff": "1999-05-01",
+    "pcp_name": "",
+    "phone": "305-555-5231",
+    "plan_id": "SYN-H0001-002",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "AZ",
+    "zip": "85002"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: John\nlast_name: Brown\ndob: 1934-05-08\nsex: M\nmbi: SYNULWQ9L5\npart_a_eff: 1999-05-01\npart_b_eff: 1999-05-01\naddress: 346 Maple Ave\ncity: Phoenix\nstate: AZ\nzip: 85002\ncounty: Maricopa\nphone: 305-555-5231\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): BROWN JOHN / DOB 1934-05-08 / SEX M / MBI SYNULWQ9L5 / PART A 1999-05-01 / PART B 1999-05-01\nAttachment B (proof of address): 346 Maple Ave Phoenix AZ 85002",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-020": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-020",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-AREA",
+    "date": "2026-10-28",
+    "message": "Member's county is outside the plan's service area"
+   }
+  ],
+  "deny_code": "REJ-AREA",
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "525 Park Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1954-01-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "HELEN",
+   "last_name": "THOMAS",
+   "mbi": "SYNUTBZ4Q3",
+   "part_a_eff": "2019-01-01",
+   "part_b_eff": "2019-01-01",
+   "pcp_name": "Dr. Hana Kim",
+   "phone": "602-555-1679",
+   "plan_id": "SYN-H0003-002",
+   "plan_name": "Desert Bloom HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60603"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-AREA",
+  "last_message": "Member's county is outside the plan's service area",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-020_DENY.txt",
+    "kind": "DENY",
+    "sha": "4ad2f21ccae49f9725d0defc0c2d4d8a8c1230f5f999647f54ed3eea65e6e307",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "525 Park Ave",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1954-01-03",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "HELEN",
+   "last_name": "THOMAS",
+   "mbi": "SYNUTBZ4Q3",
+   "part_a_eff": "2019-01-01",
+   "part_b_eff": "2019-01-01",
+   "pcp_name": "Dr. Hana Kim",
+   "phone": "602-555-1679",
+   "plan_id": "SYN-H0003-002",
+   "plan_name": "Desert Bloom HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60603"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: THOMAS, HELEN\nDOB: 1954-01-03   Sex: M\nMedicare No: SYNUTBZ4Q3\nPart A effective: 2019-01-01   Part B effective: 2019-01-01\nAddress: 525 Park Ave\nCity: Chicago   State: IL   ZIP: 60603   County: Cook\nPhone: 602-555-1679\nPlan selected: Desert Bloom HMO (SYN-H0003-002)\nPCP: Dr. Hana Kim\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: Please send materials in large print.\nAttachment A (Medicare card copy): THOMAS HELEN / DOB 1954-01-03 / SEX M / MBI SYNUTBZ4Q3 / PART A 2019-01-01 / PART B 2019-01-01\nAttachment B (proof of address): 525 Park Ave Chicago IL 60603",
+  "state": "DENIED"
+ },
+ "APP-20261028-021": {
+  "attempts": 1,
+  "basket_reason": "REJ-ELIG-DATE",
+  "case_id": "APP-20261028-021",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-ELIG-DATE",
+    "date": "2026-10-28",
+    "message": "Entitlement dates do not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "501 Maple Ave",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1950-07-05",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Helen",
+   "last_name": "Jackson",
+   "mbi": "SYNTAQLQM8",
+   "part_a_eff": "2015-07-01",
+   "part_b_eff": "2016-07-01",
+   "pcp_name": "Dr. Chris Doyle",
+   "phone": "305-555-2241",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-ELIG-DATE",
+  "last_message": "Entitlement dates do not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "501 Maple Ave",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1950-07-05",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Helen",
+   "last_name": "Jackson",
+   "mbi": "SYNTAQLQM8",
+   "part_a_eff": "2015-07-01",
+   "part_b_eff": "2016-07-01",
+   "pcp_name": "Dr. Chris Doyle",
+   "phone": "305-555-2241",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "501 Maple Ave Houston TX 77002",
+    "card_text": "JACKSON HELEN / DOB 1950-07-05 / SEX F / MBI SYNTAQLQM8 / PART A 2015-07-01 / PART B 2016-07-01"
+   },
+   "form": {
+    "address": "501 Maple Ave",
+    "city": "Houston",
+    "county": "Harris",
+    "dob": "1950-07-05",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Helen",
+    "last_name": "Jackson",
+    "mbi": "SYNTAQLQM8",
+    "part_a_eff": "2015-07-01",
+    "part_b_eff": "2016-07-01",
+    "pcp_name": "Dr. Chris Doyle",
+    "phone": "305-555-2241",
+    "plan_id": "SYN-H0001-001",
+    "plan_name": "Sunrise Care HMO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "F",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "77002"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Helen\nlast_name: Jackson\ndob: 1950-07-05\nsex: F\nmbi: SYNTAQLQM8\npart_a_eff: 2015-07-01\npart_b_eff: 2016-07-01\naddress: 501 Maple Ave\ncity: Houston\nstate: TX\nzip: 77002\ncounty: Harris\nphone: 305-555-2241\nplan_name: Sunrise Care HMO\nplan_id: SYN-H0001-001\npcp_name: Dr. Chris Doyle\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): JACKSON HELEN / DOB 1950-07-05 / SEX F / MBI SYNTAQLQM8 / PART A 2015-07-01 / PART B 2016-07-01\nAttachment B (proof of address): 501 Maple Ave Houston TX 77002",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-022": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-022",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "831 Lakeview Dr",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1930-11-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "DOROTHY",
+   "last_name": "SMTIH",
+   "mbi": "SYNVSS6SDY",
+   "part_a_eff": "1995-11-01",
+   "part_b_eff": "1995-11-01",
+   "pcp_name": "Dr. Maya Iyer",
+   "phone": "713-555-8138",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "831 Lakeview Dr",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1930-11-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "DOROTHY",
+   "last_name": "SMTIH",
+   "mbi": "SYNVSS6SDY",
+   "part_a_eff": "1995-11-01",
+   "part_b_eff": "1995-11-01",
+   "pcp_name": "Dr. Maya Iyer",
+   "phone": "713-555-8138",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: SMTIH, DOROTHY\nDOB: 1930-11-12   Sex: F\nMedicare No: SYNVSS6SDY\nPart A effective: 1995-11-01   Part B effective: 1995-11-01\nAddress: 831 Lakeview Dr\nCity: Houston   State: TX   ZIP: 77002   County: Harris\nPhone: 713-555-8138\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Maya Iyer\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: I prefer morning phone calls.\nAttachment A (Medicare card copy): SMTIH DOROTHY / DOB 1930-11-12 / SEX F / MBI SYNVSS6SDY / PART A 1995-11-01 / PART B 1995-11-01\nAttachment B (proof of address): 831 Lakeview Dr Houston TX 77002",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-023": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-023",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "61 Hill St",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1933-03-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Dorothy",
+   "last_name": "Johnson",
+   "mbi": "SYN6TYUS6Z",
+   "part_a_eff": "1998-03-01",
+   "part_b_eff": "1998-03-01",
+   "pcp_name": "Dr. Joel Park",
+   "phone": "512-555-0473",
+   "plan_id": "SYN-H0003-002",
+   "plan_name": "Desert Bloom HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85001"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "61 Hill St",
+   "city": "Phoenix",
+   "county": "Maricopa",
+   "dob": "1933-03-12",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Dorothy",
+   "last_name": "Johnson",
+   "mbi": "SYN6TYUS6Z",
+   "part_a_eff": "1998-03-01",
+   "part_b_eff": "1998-03-01",
+   "pcp_name": "Dr. Joel Park",
+   "phone": "512-555-0473",
+   "plan_id": "SYN-H0003-002",
+   "plan_name": "Desert Bloom HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "AZ",
+   "zip": "85001"
+  },
+  "payload": {
+   "attachments": {
+    "card_text": "JOHNSON DOROTHY / DOB 1933-03-12 / SEX M / MBI SYN6TYUS6Z / PART A 1998-03-01 / PART B 1998-03-01"
+   },
+   "form": {
+    "address": "61 Hill St",
+    "city": "Phoenix",
+    "county": "Maricopa",
+    "dob": "1933-03-12",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Dorothy",
+    "last_name": "Johnson",
+    "mbi": "SYN6TYUS6Z",
+    "part_a_eff": "1998-03-01",
+    "part_b_eff": "1998-03-01",
+    "pcp_name": "Dr. Joel Park",
+    "phone": "512-555-0473",
+    "plan_id": "SYN-H0003-002",
+    "plan_name": "Desert Bloom HMO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "AZ",
+    "zip": "85001"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Dorothy\nlast_name: Johnson\ndob: 1933-03-12\nsex: M\nmbi: SYN6TYUS6Z\npart_a_eff: 1998-03-01\npart_b_eff: 1998-03-01\naddress: 61 Hill St\ncity: Phoenix\nstate: AZ\nzip: 85001\ncounty: Maricopa\nphone: 512-555-0473\nplan_name: Desert Bloom HMO\nplan_id: SYN-H0003-002\npcp_name: Dr. Joel Park\nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): JOHNSON DOROTHY / DOB 1933-03-12 / SEX M / MBI SYN6TYUS6Z / PART A 1998-03-01 / PART B 1998-03-01",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-024": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-024",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "701 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1961-09-28",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "Joseph",
+   "last_name": "Brown",
+   "mbi": "SYNG9NGHEB",
+   "part_a_eff": "2026-09-01",
+   "part_b_eff": "2026-09-01",
+   "pcp_name": "",
+   "phone": "305-555-6113",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-024_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "06c70b5c4404806de8c1fa942eacb88e348508dab694b2af557eda6ef124f591",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "701 Elm St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1961-09-28",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "Joseph",
+   "last_name": "Brown",
+   "mbi": "SYNG9NGHEB",
+   "part_a_eff": "2026-09-01",
+   "part_b_eff": "2026-09-01",
+   "pcp_name": "",
+   "phone": "305-555-6113",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77003"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "701 Elm St Houston TX 77003",
+    "card_text": "BROWN JOSEPH / DOB 1961-09-28 / SEX F / MBI SYNG9NGHEB / PART A 2026-09-01 / PART B 2026-09-01"
+   },
+   "form": {
+    "address": "701 Elm St",
+    "city": "Houston",
+    "county": "Harris",
+    "dob": "1961-09-28",
+    "election_date": "2026-10-28",
+    "election_type": "IEP",
+    "first_name": "Joseph",
+    "last_name": "Brown",
+    "mbi": "SYNG9NGHEB",
+    "part_a_eff": "2026-09-01",
+    "part_b_eff": "2026-09-01",
+    "pcp_name": "",
+    "phone": "305-555-6113",
+    "plan_id": "SYN-H0001-002",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2026-11-01",
+    "sep_reason": "",
+    "sex": "F",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "77003"
+   },
+   "notes": "Thank you for your help."
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Joseph\nlast_name: Brown\ndob: 1961-09-28\nsex: F\nmbi: SYNG9NGHEB\npart_a_eff: 2026-09-01\npart_b_eff: 2026-09-01\naddress: 701 Elm St\ncity: Houston\nstate: TX\nzip: 77003\ncounty: Harris\nphone: 305-555-6113\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: IEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2026-11-01\nsignature: Y\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): BROWN JOSEPH / DOB 1961-09-28 / SEX F / MBI SYNG9NGHEB / PART A 2026-09-01 / PART B 2026-09-01\nAttachment B (proof of address): 701 Elm St Houston TX 77003",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-025": {
+  "attempts": 1,
+  "basket_reason": "REJ-DEMO",
+  "case_id": "APP-20261028-025",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-DEMO",
+    "date": "2026-10-28",
+    "message": "Name, date of birth or sex does not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "691 Park Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1952-06-21",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "PATRICIA",
+   "last_name": "MARTINEZ",
+   "mbi": "SYNM7MP3Y2",
+   "part_a_eff": "2017-06-01",
+   "part_b_eff": "2017-06-01",
+   "pcp_name": "",
+   "phone": "312-555-9075",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-DEMO",
+  "last_message": "Name, date of birth or sex does not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "691 Park Ave",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1952-06-21",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "PATRICIA",
+   "last_name": "MARTINEZ",
+   "mbi": "SYNM7MP3Y2",
+   "part_a_eff": "2017-06-01",
+   "part_b_eff": "2017-06-01",
+   "pcp_name": "",
+   "phone": "312-555-9075",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: MARTINEZ, PATRICIA\nDOB: 1952-06-21   Sex: F\nMedicare No: SYNM7MP3Y2\nPart A effective: 2017-06-01   Part B effective: 2017-06-01\nAddress: 691 Park Ave\nCity: Miami   State: FL   ZIP: 33102   County: Miami-Dade\nPhone: 312-555-9075\nPlan selected: Palmetto Gold PPO (SYN-H0003-001)\nPCP: -\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment B (proof of address): 691 Park Ave Miami FL 33102",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-026": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-026",
+  "changes": [
+   {
+    "event_seq": 2879,
+    "evidence": "Plan selected: Lakeshore Prime HMO (SYN-H0002-00X)",
+    "field": "plan_id",
+    "new": "SYN-H0002-001",
+    "old": "SYN-H0002-00X"
+   }
+  ],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-PLAN",
+    "date": "2026-10-28",
+    "message": "Plan ID is not offered"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "268 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1961-11-17",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "KAREN",
+   "last_name": "THOMPSON",
+   "mbi": "SYNSUJPVET",
+   "part_a_eff": "2026-11-01",
+   "part_b_eff": "2026-11-01",
+   "pcp_name": "Dr. Priya Nair",
+   "phone": "713-555-7185",
+   "plan_id": "SYN-H0002-001",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-026_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "c0e6295c4a2e0a53d59b5cd3a05dc1bd0f900718913f98233447fc3cde4176db",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "268 Cedar Ln",
+   "city": "Chicago",
+   "county": "Cook",
+   "dob": "1961-11-17",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "KAREN",
+   "last_name": "THOMPSON",
+   "mbi": "SYNSUJPVET",
+   "part_a_eff": "2026-11-01",
+   "part_b_eff": "2026-11-01",
+   "pcp_name": "Dr. Priya Nair",
+   "phone": "713-555-7185",
+   "plan_id": "SYN-H0002-00X",
+   "plan_name": "Lakeshore Prime HMO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "IL",
+   "zip": "60601"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: THOMPSON, KAREN\nDOB: 1961-11-17   Sex: F\nMedicare No: SYNSUJPVET\nPart A effective: 2026-11-01   Part B effective: 2026-11-01\nAddress: 268 Cedar Ln\nCity: Chicago   State: IL   ZIP: 60601   County: Cook\nPhone: 713-555-7185\nPlan selected: Lakeshore Prime HMO (SYN-H0002-00X)\nPCP: Dr. Priya Nair\nElection: IEP   Sep reason: -   Signed: Yes\nRequested effective date: 2026-11-01\nNotes: -\nAttachment A (Medicare card copy): THOMPSON KAREN / DOB 1961-11-17 / SEX F / MBI SYNSUJPVET / PART A 2026-11-01 / PART B 2026-11-01\nAttachment B (proof of address): 268 Cedar Ln Chicago IL 60601",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-027": {
+  "attempts": 1,
+  "basket_reason": "REJ-ELIG-DATE",
+  "case_id": "APP-20261028-027",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-ELIG-DATE",
+    "date": "2026-10-28",
+    "message": "Entitlement dates do not match the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "118 Hill St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1931-03-09",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Thomas",
+   "last_name": "Thomas",
+   "mbi": "SYNB93GT8R",
+   "part_a_eff": "1996-03-01",
+   "part_b_eff": "1997-03-01",
+   "pcp_name": "",
+   "phone": "602-555-6629",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33103"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-ELIG-DATE",
+  "last_message": "Entitlement dates do not match the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "118 Hill St",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1931-03-09",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Thomas",
+   "last_name": "Thomas",
+   "mbi": "SYNB93GT8R",
+   "part_a_eff": "1996-03-01",
+   "part_b_eff": "1997-03-01",
+   "pcp_name": "",
+   "phone": "602-555-6629",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33103"
+  },
+  "payload": {
+   "attachments": {
+    "card_text": "THOMAS THOMAS / DOB 1931-03-09 / SEX F / MBI SYNB93GT8R / PART A 1996-03-01 / PART B 1997-03-01"
+   },
+   "form": {
+    "address": "118 Hill St",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "dob": "1931-03-09",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Thomas",
+    "last_name": "Thomas",
+    "mbi": "SYNB93GT8R",
+    "part_a_eff": "1996-03-01",
+    "part_b_eff": "1997-03-01",
+    "pcp_name": "",
+    "phone": "602-555-6629",
+    "plan_id": "SYN-H0003-001",
+    "plan_name": "Palmetto Gold PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "F",
+    "signature": "Y",
+    "state": "FL",
+    "zip": "33103"
+   },
+   "notes": "Thank you for your help."
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Thomas\nlast_name: Thomas\ndob: 1931-03-09\nsex: F\nmbi: SYNB93GT8R\npart_a_eff: 1996-03-01\npart_b_eff: 1997-03-01\naddress: 118 Hill St\ncity: Miami\nstate: FL\nzip: 33103\ncounty: Miami-Dade\nphone: 602-555-6629\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-001\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: Thank you for your help.\nAttachment A (Medicare card copy): THOMAS THOMAS / DOB 1931-03-09 / SEX F / MBI SYNB93GT8R / PART A 1996-03-01 / PART B 1997-03-01",
+  "state": "ESCALATED"
+ },
+ "APP-20261028-028": {
+  "attempts": 0,
+  "basket_reason": null,
+  "case_id": "APP-20261028-028",
+  "changes": [],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "625 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1961-11-20",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "Susan",
+   "last_name": "Lopez",
+   "mbi": "SYNY4BXT8F",
+   "part_a_eff": "2026-11-01",
+   "part_b_eff": "2026-11-01",
+   "pcp_name": "",
+   "phone": "305-555-0060",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-028_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "5f2bebb98ca1290ccff268f8b5922fccd37b3777de60cc154d39fed94f9eaa39",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "625 Oak St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1961-11-20",
+   "election_date": "2026-10-28",
+   "election_type": "IEP",
+   "first_name": "Susan",
+   "last_name": "Lopez",
+   "mbi": "SYNY4BXT8F",
+   "part_a_eff": "2026-11-01",
+   "part_b_eff": "2026-11-01",
+   "pcp_name": "",
+   "phone": "305-555-0060",
+   "plan_id": "SYN-H0001-002",
+   "plan_name": "Sunrise Choice PPO",
+   "requested_effective_date": "2026-11-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77001"
+  },
+  "payload": {
+   "attachments": {
+    "address_proof": "625 Oak St Houston TX 77001",
+    "card_text": "LOPEZ SUSAN / DOB 1961-11-20 / SEX M / MBI SYNY4BXT8F / PART A 2026-11-01 / PART B 2026-11-01"
+   },
+   "form": {
+    "address": "625 Oak St",
+    "city": "Houston",
+    "county": "Harris",
+    "dob": "1961-11-20",
+    "election_date": "2026-10-28",
+    "election_type": "IEP",
+    "first_name": "Susan",
+    "last_name": "Lopez",
+    "mbi": "SYNY4BXT8F",
+    "part_a_eff": "2026-11-01",
+    "part_b_eff": "2026-11-01",
+    "pcp_name": "",
+    "phone": "305-555-0060",
+    "plan_id": "SYN-H0001-002",
+    "plan_name": "Sunrise Choice PPO",
+    "requested_effective_date": "2026-11-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "TX",
+    "zip": "77001"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Susan\nlast_name: Lopez\ndob: 1961-11-20\nsex: M\nmbi: SYNY4BXT8F\npart_a_eff: 2026-11-01\npart_b_eff: 2026-11-01\naddress: 625 Oak St\ncity: Houston\nstate: TX\nzip: 77001\ncounty: Harris\nphone: 305-555-0060\nplan_name: Sunrise Choice PPO\nplan_id: SYN-H0001-002\npcp_name: \nelection_type: IEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2026-11-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): LOPEZ SUSAN / DOB 1961-11-20 / SEX M / MBI SYNY4BXT8F / PART A 2026-11-01 / PART B 2026-11-01\nAttachment B (proof of address): 625 Oak St Houston TX 77001",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-029": {
+  "attempts": 1,
+  "basket_reason": null,
+  "case_id": "APP-20261028-029",
+  "changes": [
+   {
+    "event_seq": 2884,
+    "evidence": "plan_name: Palmetto Gold PPO",
+    "field": "plan_id",
+    "new": "SYN-H0003-001",
+    "old": "SYN-H0003-00X"
+   }
+  ],
+  "channel": "digital",
+  "cms_history": [
+   {
+    "code": "REJ-PLAN",
+    "date": "2026-10-28",
+    "message": "Plan ID is not offered"
+   },
+   {
+    "code": "ACC",
+    "date": "2026-10-28",
+    "message": "Accepted"
+   }
+  ],
+  "disposition_date": "2026-10-28",
+  "fields": {
+   "address": "340 Pine Rd",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1952-06-19",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Patricia",
+   "last_name": "Hernandez",
+   "mbi": "SYN54JSHCP",
+   "part_a_eff": "2017-06-01",
+   "part_b_eff": "2017-06-01",
+   "pcp_name": "",
+   "phone": "602-555-8025",
+   "plan_id": "SYN-H0003-001",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "ACC",
+  "last_message": "Accepted",
+  "letters": [
+   {
+    "date": "2026-10-28",
+    "file": "workspace/letters/APP-20261028-029_ACCEPT.txt",
+    "kind": "ACCEPT",
+    "sha": "af5817d379e6802e6e97b36cd5590704aa1d58bfa15e3759e4cc2f7ccaf2edb8",
+    "source": "openai"
+   }
+  ],
+  "original_fields": {
+   "address": "340 Pine Rd",
+   "city": "Miami",
+   "county": "Miami-Dade",
+   "dob": "1952-06-19",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "Patricia",
+   "last_name": "Hernandez",
+   "mbi": "SYN54JSHCP",
+   "part_a_eff": "2017-06-01",
+   "part_b_eff": "2017-06-01",
+   "pcp_name": "",
+   "phone": "602-555-8025",
+   "plan_id": "SYN-H0003-00X",
+   "plan_name": "Palmetto Gold PPO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "M",
+   "signature": "Y",
+   "state": "FL",
+   "zip": "33102"
+  },
+  "payload": {
+   "attachments": {
+    "card_text": "HERNANDEZ PATRICIA / DOB 1952-06-19 / SEX M / MBI SYN54JSHCP / PART A 2017-06-01 / PART B 2017-06-01"
+   },
+   "form": {
+    "address": "340 Pine Rd",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "dob": "1952-06-19",
+    "election_date": "2026-10-28",
+    "election_type": "AEP",
+    "first_name": "Patricia",
+    "last_name": "Hernandez",
+    "mbi": "SYN54JSHCP",
+    "part_a_eff": "2017-06-01",
+    "part_b_eff": "2017-06-01",
+    "pcp_name": "",
+    "phone": "602-555-8025",
+    "plan_id": "SYN-H0003-00X",
+    "plan_name": "Palmetto Gold PPO",
+    "requested_effective_date": "2027-01-01",
+    "sep_reason": "",
+    "sex": "M",
+    "signature": "Y",
+    "state": "FL",
+    "zip": "33102"
+   },
+   "notes": ""
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "first_name: Patricia\nlast_name: Hernandez\ndob: 1952-06-19\nsex: M\nmbi: SYN54JSHCP\npart_a_eff: 2017-06-01\npart_b_eff: 2017-06-01\naddress: 340 Pine Rd\ncity: Miami\nstate: FL\nzip: 33102\ncounty: Miami-Dade\nphone: 602-555-8025\nplan_name: Palmetto Gold PPO\nplan_id: SYN-H0003-00X\npcp_name: \nelection_type: AEP\nsep_reason: \nelection_date: 2026-10-28\nrequested_effective_date: 2027-01-01\nsignature: Y\nNotes: -\nAttachment A (Medicare card copy): HERNANDEZ PATRICIA / DOB 1952-06-19 / SEX M / MBI SYN54JSHCP / PART A 2017-06-01 / PART B 2017-06-01",
+  "state": "ACCEPTED"
+ },
+ "APP-20261028-030": {
+  "attempts": 0,
+  "basket_reason": "REJ-NOENT",
+  "case_id": "APP-20261028-030",
+  "changes": [],
+  "channel": "paper",
+  "cms_history": [
+   {
+    "code": "REJ-NOENT",
+    "date": "2026-10-28",
+    "message": "Member ID not found on the master file"
+   }
+  ],
+  "disposition_date": null,
+  "fields": {
+   "address": "640 Hill St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1949-02-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "SUSAN",
+   "last_name": "JACKSON",
+   "mbi": "SYNM9WR9YE",
+   "part_a_eff": "2014-02-01",
+   "part_b_eff": "2014-02-01",
+   "pcp_name": "Dr. Neha Kulkarni",
+   "phone": "305-555-6156",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "flags": [],
+  "intake_failures": 0,
+  "last_code": "REJ-NOENT",
+  "last_message": "Member ID not found on the master file",
+  "letters": [],
+  "original_fields": {
+   "address": "640 Hill St",
+   "city": "Houston",
+   "county": "Harris",
+   "dob": "1949-02-25",
+   "election_date": "2026-10-28",
+   "election_type": "AEP",
+   "first_name": "SUSAN",
+   "last_name": "JACKSON",
+   "mbi": "SYNM9WR9YE",
+   "part_a_eff": "2014-02-01",
+   "part_b_eff": "2014-02-01",
+   "pcp_name": "Dr. Neha Kulkarni",
+   "phone": "305-555-6156",
+   "plan_id": "SYN-H0001-001",
+   "plan_name": "Sunrise Care HMO",
+   "requested_effective_date": "2027-01-01",
+   "sep_reason": "",
+   "sex": "F",
+   "signature": "Y",
+   "state": "TX",
+   "zip": "77002"
+  },
+  "received_date": "2026-10-28",
+  "rfi_deadline": null,
+  "source_text": "MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)\nReceived: 2026-10-28\nName: JACKSON, SUSAN\nDOB: 1949-02-25   Sex: F\nMedicare No: SYNM9WR9YE\nPart A effective: 2014-02-01   Part B effective: 2014-02-01\nAddress: 640 Hill St\nCity: Houston   State: TX   ZIP: 77002   County: Harris\nPhone: 305-555-6156\nPlan selected: Sunrise Care HMO (SYN-H0001-001)\nPCP: Dr. Neha Kulkarni\nElection: AEP   Sep reason: -   Signed: Yes\nRequested effective date: 2027-01-01\nNotes: -\nAttachment A (Medicare card copy): JACKSON SUSAN / DOB 1949-02-25 / SEX F / MBI SYNM9WR9YE / PART A 2014-02-01 / PART B 2014-02-01\nAttachment B (proof of address): 640 Hill St Houston TX 77002",
+  "state": "IN_BASKET"
  }
 }

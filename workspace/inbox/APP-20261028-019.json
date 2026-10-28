@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Brown",
+  "dob": "1934-05-08",
+  "sex": "M",
+  "mbi": "SYNULWQ9L5",
+  "part_a_eff": "1999-05-01",
+  "part_b_eff": "1999-05-01",
+  "address": "346 Maple Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "305-555-5231",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-28",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "BROWN JOHN / DOB 1934-05-08 / SEX M / MBI SYNULWQ9L5 / PART A 1999-05-01 / PART B 1999-05-01",
+  "address_proof": "346 Maple Ave Phoenix AZ 85002"
+ }
+}
