@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: SMITH, DAVID
+DOB: 1951-09-15   Sex: M
+Medicare No: SYNHBHLG9E
+Part A effective: 2016-09-01   Part B effective: 2016-09-01
+Address: 815 Maple Ave
+City: Austin   State: TX   ZIP: 787OZ   County: Travis
+Phone: 713-555-8817
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH DAVID / DOB 1951-09-15 / SEX M / MBI SYNHBHLG9E / PART A 2016-09-01 / PART B 2016-09-01
+Attachment B (proof of address): 815 Maple Ave Austin TX 78702

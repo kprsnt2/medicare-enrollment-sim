@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: SMITH, RICHARD
+DOB: 1941-10-27   Sex: F
+Medicare No: SYN3AU6SZJ
+Part A effective: 2006-10-01   Part B effective: 2007-10-01
+Address: 968 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-6601
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH RICHARD / DOB 1941-10-27 / SEX F / MBI SYN3AU6SZJ / PART A 2006-10-01 / PART B 2007-10-01
+Attachment B (proof of address): 968 Lakeview Dr Phoenix AZ 85001

@@ -1,0 +1,62 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261029-003",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261029-006",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261029-007",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      3126
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-10-01 to 2027-01-01 without any quoted documentary evidence in the fix_applied event; the evidence field is blank."
+    },
+    {
+     "event_seqs": [
+      3125
+     ],
+     "severity": "S3",
+     "text": "The resolver's rationale cites derived AEP timing, but this support appears only as an internal diagnosis rather than quoted evidence tied to the application document."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261029-014",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261029-023",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261029-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 340,
+ "findings": [],
+ "ledger_entries": 3266,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-10-29"
+}

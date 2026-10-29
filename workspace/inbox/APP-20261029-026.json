@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Wilson",
+  "dob": "1947-12-26",
+  "sex": "F",
+  "mbi": "SYN64CXMP4",
+  "part_a_eff": "2012-12-01",
+  "part_b_eff": "2012-12-01",
+  "address": "49 Elm St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "713-555-9681",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-29",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "address_proof": "49 Elm St Miami FL 33103"
+ }
+}

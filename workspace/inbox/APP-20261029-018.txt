@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: THOMPSON, CHARLES
+DOB: 1948-02-14   Sex: F
+Medicare No: SYNWEXMGPQ
+Part A effective: 2013-02-01   Part B effective: 2013-02-01
+Address: 731 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-8756
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 731 Oak St Houston TX 77003

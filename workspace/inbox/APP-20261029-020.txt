@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: LEE, BETTY
+DOB: 1961-11-20   Sex: F
+Medicare No: SYNL6EMF3V
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 854 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 602-555-1914
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): LEE BETTY / DOB 1961-11-20 / SEX F / MBI SYNL6EMF3V / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 854 Cedar Ln Phoenix AZ 85003

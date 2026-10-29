@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: MARTINEZ, DOROTHY
+DOB: 1944-07-11   Sex: M
+Medicare No: SYN8KCW6SL
+Part A effective: 2009-07-01   Part B effective: 2009-07-01
+Address: 751 Maple Ave
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-5192
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ DOROTHY / DOB 1944-07-11 / SEX M / MBI SYN8KCW6SL / PART A 2009-07-01 / PART B 2009-07-01
+Attachment B (proof of address): 751 Maple Ave Miami FL 33102

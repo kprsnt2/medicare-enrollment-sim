@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: MOORE, DOROTHY
+DOB: 1956-07-10   Sex: F
+Medicare No: SYN7GJGCB9
+Part A effective: 2021-07-01   Part B effective: 2021-07-01
+Address: 77 Lakeview Dr
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 713-555-3862
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MOORE DOROTHY / DOB 1956-07-10 / SEX F / MBI SYN7GJGCB9 / PART A 2021-07-01 / PART B 2021-07-01
+Attachment B (proof of address): 77 Lakeview Dr Houston TX 77002

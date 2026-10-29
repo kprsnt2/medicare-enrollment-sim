@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Hernandez",
+  "dob": "1947-01-05",
+  "sex": "F",
+  "mbi": "SYNMR9XMFR",
+  "part_a_eff": "2012-01-01",
+  "part_b_eff": "2012-01-01",
+  "address": "491 Cedar Ln",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "713-555-5216",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-29",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "HERNANDEZ JAMES / DOB 1947-01-05 / SEX F / MBI SYNMR9XMFR / PART A 2012-01-01 / PART B 2012-01-01",
+  "address_proof": "491 Cedar Ln Miami FL 33101"
+ }
+}

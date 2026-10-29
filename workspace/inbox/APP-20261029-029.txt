@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: MARTIN, MICHAEL
+DOB: l936-09-2S   Sex: F
+Medicare No: SYNQXCEPUU
+Part A effective: 2001-09-01   Part B effective: 2001-09-01
+Address: 750 Pine Rd
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 713-555-5901
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN MICHAEL / DOB 1936-09-25 / SEX F / MBI SYNQXCEPUU / PART A 2001-09-01 / PART B 2001-09-01
+Attachment B (proof of address): 750 Pine Rd Phoenix AZ 85001

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: MOORE, BETTY
+DOB: 1931-04-13   Sex: F
+Medicare No: SYNEGWUDBP
+Part A effective: 1996-04-01   Part B effective: 1996-04-01
+Address: 403 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-5145
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE BETTY / DOB 1931-04-13 / SEX F / MBI SYNEGWUDBP / PART A 1996-04-01 / PART B 1996-04-01
+Attachment B (proof of address): 403 Lakeview Dr Chicago IL 60601

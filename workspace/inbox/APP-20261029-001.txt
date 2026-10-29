@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: HERNANDEZ, KAREN
+DOB: 1944-01-18   Sex: F
+Medicare No: SYNMY9HXZC
+Part A effective: 2009-01-01   Part B effective: 2009-01-01
+Address: 153 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-4531
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ KAREN / DOB 1944-01-18 / SEX F / MBI SYNMY9HXZC / PART A 2009-01-01 / PART B 2009-01-01
+Attachment B (proof of address): 153 Hill St Chicago IL 60602

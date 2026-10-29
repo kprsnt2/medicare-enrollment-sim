@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: HERNANDEZ, SUSAN
+DOB: 1952-12-11   Sex: M
+Medicare No: SYNA2ANKMQ
+Part A effective: 2017-12-01   Part B effective: 2017-12-01
+Address: 341 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 602-555-1937
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ SUSAN / DOB 1952-12-11 / SEX M / MBI SYNA2ANKMQ / PART A 2017-12-01 / PART B 2017-12-01
+Attachment B (proof of address): 341 Lakeview Dr Phoenix AZ 85002

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Hernandez",
+  "dob": "1931-12-20",
+  "sex": "M",
+  "mbi": "SYNUKNDY3H",
+  "part_a_eff": "1996-12-01",
+  "part_b_eff": "1996-12-01",
+  "address": "395 Cedar Ln",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "602-555-5362",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-29",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "HERNANDEZ MICHAEL / DOB 1931-12-20 / SEX M / MBI SYNUKNDY3H / PART A 1996-12-01 / PART B 1996-12-01",
+  "address_proof": "395 Cedar Ln Austin TX 78701"
+ }
+}

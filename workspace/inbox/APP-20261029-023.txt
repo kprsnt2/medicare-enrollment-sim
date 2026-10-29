@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: JOHNSON, NANCY
+DOB: 1958-01-27   Sex: M
+Medicare No: SYNQYFQ77L
+Part A effective: 2023-01-01   Part B effective: 2023-01-01
+Address: 468 Park Ave
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 602-555-2013
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

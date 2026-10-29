@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: DAVIS, BETTY
+DOB: 1942-02-04   Sex: M
+Medicare No: SYN5TFF8AA
+Part A effective: 2007-02-01   Part B effective: 2007-02-01
+Address: 209 Pine Rd
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-4748
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS BETTY / DOB 1942-02-04 / SEX M / MBI SYN5TFF8AA / PART A 2007-02-01 / PART B 2007-02-01
+Attachment B (proof of address): 209 Pine Rd Houston TX 77002

@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: MARTINZE, HELEN
+DOB: 1943-09-04   Sex: F
+Medicare No: SYN9LH3VXC
+Part A effective: 2008-09-01   Part B effective: 2008-09-01
+Address: 704 Hill St
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-1139
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 704 Hill St Miami FL 33103

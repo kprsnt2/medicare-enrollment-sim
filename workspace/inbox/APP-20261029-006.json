@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Smith",
+  "dob": "1936-01-18",
+  "sex": "F",
+  "mbi": "SYN6WAQM8K",
+  "part_a_eff": "2001-01-01",
+  "part_b_eff": "2001-01-01",
+  "address": "877 Hill St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-4379",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kuklarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-29",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Neha Kulkarni at the clinic.",
+ "attachments": {
+  "card_text": "SMITH JAMES / DOB 1936-01-18 / SEX F / MBI SYN6WAQM8K / PART A 2001-01-01 / PART B 2001-01-01",
+  "address_proof": "877 Hill St Houston TX 77002"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-29
+Name: BROWN, DOROTHY
+DOB: 1961-11-10   Sex: F
+Medicare No: SYNXU2FM3W
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 268 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-5682
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Beckre
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): BROWN DOROTHY / DOB 1961-11-10 / SEX F / MBI SYNXU2FM3W / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 268 Lakeview Dr Chicago IL 60602

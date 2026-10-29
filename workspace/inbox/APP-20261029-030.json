@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Jones",
+  "dob": "1939-08-16",
+  "sex": "M",
+  "mbi": "SYNW44Y7M8",
+  "part_a_eff": "2004-08-01",
+  "part_b_eff": "2004-08-01",
+  "address": "267 Hill St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "305-555-5392",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-29",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JONES BARBARA / DOB 1939-08-16 / SEX M / MBI SYNW44Y7M8 / PART A 2004-08-01 / PART B 2004-08-01",
+  "address_proof": "267 Hill St Houston TX 77002"
+ }
+}
