@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: LOPEZ, THOMAS
+DOB: 1938-08-24   Sex: M
+Medicare No: SYN6UW64KB
+Part A effective: 2003-08-01   Part B effective: 2003-08-01
+Address: 345 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 77002   County: Maricopa
+Phone: 512-555-6731
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ THOMAS / DOB 1938-08-24 / SEX M / MBI SYN6UW64KB / PART A 2003-08-01 / PART B 2003-08-01
+Attachment B (proof of address): 345 Lakeview Dr Phoenix AZ 85003

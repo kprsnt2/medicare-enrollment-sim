@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Martin",
+  "dob": "1942-07-17",
+  "sex": "F",
+  "mbi": "SYN9WHGZLM",
+  "part_a_eff": "2007-07-01",
+  "part_b_eff": "2007-07-01",
+  "address": "978 Maple Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "33102",
+  "county": "Maricopa",
+  "phone": "602-555-0325",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-30",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTIN BARBARA / DOB 1942-07-17 / SEX F / MBI SYN9WHGZLM / PART A 2007-07-01 / PART B 2007-07-01",
+  "address_proof": "978 Maple Ave Phoenix AZ 85001"
+ }
+}

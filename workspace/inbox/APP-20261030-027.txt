@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: MILLER, DAVID
+DOB: 1942-05-23   Sex: F
+Medicare No: SYN3VUZ89U
+Part A effective: 2007-05-01   Part B effective: 2007-05-01
+Address: 738 Park Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-9439
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MILLER DAVID / DOB 1942-05-23 / SEX F / MBI SYN3VUZ89U / PART A 2007-05-01 / PART B 2007-05-01

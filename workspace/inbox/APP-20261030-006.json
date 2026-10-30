@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Joseph",
+  "last_name": "Lopez",
+  "dob": "1949-01-22",
+  "sex": "F",
+  "mbi": "SYNP3HBYAB",
+  "part_a_eff": "2014-01-01",
+  "part_b_eff": "2014-01-01",
+  "address": "973 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "312-555-4845",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-30",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "LOPEZ JOSEPH / DOB 1949-01-22 / SEX F / MBI SYNP3HBYAB / PART A 2014-01-01 / PART B 2014-01-01",
+  "address_proof": "973 Lakeview Dr Houston TX 77001"
+ }
+}

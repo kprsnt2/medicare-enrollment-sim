@@ -1,0 +1,444 @@
+{
+ "counts": {
+  "LETTER_ALTERED_OR_MISSING": 78,
+  "OPEN_OVER_TAT": 5
+ },
+ "findings": [
+  {
+   "case_id": "APP-20261015-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261015-007_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261015-017",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261015-017_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261015-021",
+   "code": "OPEN_OVER_TAT",
+   "detail": "15 days"
+  },
+  {
+   "case_id": "APP-20261015-028",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261015-028_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261016-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261016-004_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261016-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261016-008_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261016-009",
+   "code": "OPEN_OVER_TAT",
+   "detail": "14 days"
+  },
+  {
+   "case_id": "APP-20261016-017",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261016-017_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261017-003",
+   "code": "OPEN_OVER_TAT",
+   "detail": "13 days"
+  },
+  {
+   "case_id": "APP-20261017-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261017-005_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261017-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261017-008_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261017-010",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261017-010_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261017-014",
+   "code": "OPEN_OVER_TAT",
+   "detail": "13 days"
+  },
+  {
+   "case_id": "APP-20261017-026",
+   "code": "OPEN_OVER_TAT",
+   "detail": "13 days"
+  },
+  {
+   "case_id": "APP-20261018-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-001_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261018-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-002_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261018-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-003_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261018-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-004_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261018-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-004_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261018-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-005_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261018-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-006_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261018-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-006_CLOSED_INCOMPLETE.txt"
+  },
+  {
+   "case_id": "APP-20261018-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-007_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261018-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261018-008_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261019-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-001_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261019-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-002_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261019-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-003_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261019-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-004_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261019-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-005_DENY.txt"
+  },
+  {
+   "case_id": "APP-20261019-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-006_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261019-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261019-007_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261020-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-001_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-002_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-003_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261020-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-004_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-005_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-006_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-007_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261020-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261020-008_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-001_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-002_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-003_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-004_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-005_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-006_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261021-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261021-008_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261022-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-001_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261022-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-002_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261022-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-003_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261022-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-004_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261022-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-005_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261022-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-006_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261022-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-007_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261022-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261022-008_DENY.txt"
+  },
+  {
+   "case_id": "APP-20261023-001",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-001_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-002",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-002_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-003",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-003_DENY.txt"
+  },
+  {
+   "case_id": "APP-20261023-004",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-004_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-005",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-005_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-006",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-006_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-007",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-007_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-008",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-008_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-009",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-009_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-010",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-010_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-011",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-011_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-012",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-012_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-013",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-013_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-014",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-014_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-015",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-015_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-016",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-016_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-017",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-017_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-018",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-018_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-019",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-019_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-020",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-020_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-021",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-021_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-022",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-022_DENY.txt"
+  },
+  {
+   "case_id": "APP-20261023-023",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-023_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-024",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-024_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-025",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-025_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-026",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-026_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-027",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-027_RFI.txt"
+  },
+  {
+   "case_id": "APP-20261023-028",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-028_ACCEPT.txt"
+  },
+  {
+   "case_id": "APP-20261023-030",
+   "code": "LETTER_ALTERED_OR_MISSING",
+   "detail": "workspace\\letters\\APP-20261023-030_ACCEPT.txt"
+  }
+ ],
+ "letter_review": [
+  {
+   "case_id": "APP-20261025-001",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261025-004",
+   "issues": [],
+   "pass": true
+  },
+  {
+   "case_id": "APP-20261025-005",
+   "issues": [
+    "The member’s last name appears misspelled/inconsistent: 'Ojhnson' should likely be 'Johnson'.",
+    "The letter says the request was 'closed ... without a decision,' but the available review states are ACCEPTED, DENIED, or PENDING_MEMBER. This outcome is inconsistent with the expected member letter categories.",
+    "The letter does not clearly explain next steps, such as whether the member may submit a new enrollment request after the closure."
+   ],
+   "pass": false
+  }
+ ]
+}

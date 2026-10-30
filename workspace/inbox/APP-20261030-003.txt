@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: JOHNSON, DOROTHY
+DOB: 1941-07-24   Sex: M
+Medicare No: SYNZG95639
+Part A effective: 2006-07-01   Part B effective: 2006-07-01
+Address: 896 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 602-555-6271
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON DOROTHY / DOB 1941-07-24 / SEX M / MBI SYNZG95639 / PART A 2006-07-01 / PART B 2006-07-01

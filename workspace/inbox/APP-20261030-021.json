@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Thompson",
+  "dob": "1957-08-04",
+  "sex": "M",
+  "mbi": "SYNLHNVQD6",
+  "part_a_eff": "2022-08-01",
+  "part_b_eff": "2022-08-01",
+  "address": "465 Oak St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "713-555-8710",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-30",
+  "requested_effective_date": "2026-10-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "address_proof": "465 Oak St Chicago IL 60601"
+ }
+}

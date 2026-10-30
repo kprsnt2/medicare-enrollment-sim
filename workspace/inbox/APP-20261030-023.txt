@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: SMITH, CHARLES
+DOB: 1953-09-02   Sex: M
+Medicare No: SYNQMRTXFU
+Part A effective: 2018-09-01   Part B effective: 2018-09-01
+Address: 179 Oak St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 713-555-2313
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH CHARLES / DOB 1953-09-02 / SEX M / MBI SYNQMRTXFU / PART A 2018-09-01 / PART B 2018-09-01
+Attachment B (proof of address): 179 Oak St Phoenix AZ 85003

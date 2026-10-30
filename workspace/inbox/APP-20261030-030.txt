@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: MARTIN, BETTY
+DOB: 1962-01-05   Sex: F
+Medicare No: SYNUB9KJXM
+Part A effective: 2027-01-01   Part B effective: 2028-01-01
+Address: 195 Oak St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 312-555-7337
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN BETTY / DOB 1962-01-05 / SEX F / MBI SYNUB9KJXM / PART A 2027-01-01 / PART B 2028-01-01

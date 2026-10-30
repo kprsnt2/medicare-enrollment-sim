@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Johnson",
+  "dob": "1954-03-02",
+  "sex": "F",
+  "mbi": "SYNGLWWY4W",
+  "part_a_eff": "2019-03-01",
+  "part_b_eff": "2019-03-01",
+  "address": "757 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-4998",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-30",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JOHNSON BARBARA / DOB 1954-03-02 / SEX F / MBI SYNGLWWY4W / PART A 2019-03-01 / PART B 2019-03-01",
+  "address_proof": "757 Lakeview Dr Houston TX 77002"
+ }
+}

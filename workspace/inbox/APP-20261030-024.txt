@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: THOMSPON, HELEN
+DOB: 1961-11-25   Sex: F
+Medicare No: SYNSPZ5MBH
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 450 Elm St
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 312-555-8769
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): THOMSPON HELEN / DOB 1961-11-25 / SEX F / MBI SYNSPZ5MBH / PART A 2026-11-01 / PART B 2026-11-01

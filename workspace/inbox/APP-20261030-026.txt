@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: ANDERSON, MARY
+DOB: 1938-08-03   Sex: F
+Medicare No: SYNM9FCLQ7
+Part A effective: 2003-08-01   Part B effective: 2003-08-01
+Address: 523 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 312-555-2054
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON MARY / DOB 1938-08-03 / SEX F / MBI SYNM9FCLQ7 / PART A 2003-08-01 / PART B 2003-08-01
+Attachment B (proof of address): 523 Maple Ave Chicago IL 60603

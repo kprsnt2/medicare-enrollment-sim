@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-30
+Name: ANDERSON, BARBARA
+DOB: 1951-04-20   Sex: M
+Medicare No: SYN84DR7DM
+Part A effective: 2016-04-01   Part B effective: 2016-04-01
+Address: 951 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 305-555-4550
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON BARBARA / DOB 1951-04-20 / SEX M / MBI SYN84DR7DM / PART A 2016-04-01 / PART B 2016-04-01
+Attachment B (proof of address): 951 Maple Ave Chicago IL 60603
