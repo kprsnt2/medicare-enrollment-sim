@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: MARTIN, PATRICIA
+DOB: 1937-12-20   Sex: M
+Medicare No: SYNTSJ9TY2
+Part A effective: 2002-12-01   Part B effective: 2002-12-01
+Address: 517 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 713-555-2170
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN PATRICIA / DOB 1937-12-20 / SEX M / MBI SYNTSJ9TY2 / PART A 2002-12-01 / PART B 2002-12-01
+Attachment B (proof of address): 517 Cedar Ln Phoenix AZ 85003

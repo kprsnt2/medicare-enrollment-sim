@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: LOPEZ, ROBERT
+DOB: 1961-12-17   Sex: F
+Medicare No: SYNR6LZSDG
+Part A effective: 2026-12-01   Part B effective: 2026-12-01
+Address: 755 Maple Ave
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-6661
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment B (proof of address): 755 Maple Ave Houston TX 77003

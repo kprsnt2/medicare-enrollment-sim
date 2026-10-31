@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: MARTINEZ, JAMES
+DOB: 1930-11-21   Sex: M
+Medicare No: SYNGYFFQ2E
+Part A effective: 1995-11-01   Part B effective: 1995-11-01
+Address: 323 Maple Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-8775
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 323 Maple Ave Chicago IL 60602

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: LEE, NANCY
+DOB: 1932-06-08   Sex: M
+Medicare No: SYNG4TNMR3
+Part A effective: 1997-06-01   Part B effective: 1997-06-01
+Address: 660 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-1887
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE NANCY / DOB 1932-06-08 / SEX M / MBI SYNG4TNMR3 / PART A 1997-06-01 / PART B 1997-06-01
+Attachment B (proof of address): 660 Lakeview Dr Chicago IL 60601

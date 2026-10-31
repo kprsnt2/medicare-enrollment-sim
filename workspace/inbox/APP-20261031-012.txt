@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: HERNANDEZ, RICHARD
+DOB: 1932-09-14   Sex: F
+Medicare No: SYNZ96QDFC
+Part A effective: 1997-09-01   Part B effective: 1997-09-01
+Address: 50 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-6164
+Plan selected: Desert Bloom HMO (SYN-H0003-00X)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ RICHARD / DOB 1932-09-14 / SEX F / MBI SYNZ96QDFC / PART A 1997-09-01 / PART B 1997-09-01
+Attachment B (proof of address): 50 Maple Ave Phoenix AZ 85002

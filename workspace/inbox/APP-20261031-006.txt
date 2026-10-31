@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: WILSON, BETTY
+DOB: 1943-12-18   Sex: M
+Medicare No: SYNU7X4A4D
+Part A effective: 2008-12-01   Part B effective: 2008-12-01
+Address: 826 Park Ave
+City: Houston   State: TX   ZIP: 33102   County: Harris
+Phone: 512-555-7023
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON BETTY / DOB 1943-12-18 / SEX M / MBI SYNU7X4A4D / PART A 2008-12-01 / PART B 2008-12-01
+Attachment B (proof of address): 826 Park Ave Houston TX 77001

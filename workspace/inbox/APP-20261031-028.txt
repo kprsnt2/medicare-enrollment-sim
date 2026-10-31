@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: BROWN, LINDA
+DOB: 1935-07-12   Sex: M
+Medicare No: SYN2AXUPWW
+Part A effective: 2000-07-01   Part B effective: 2000-07-01
+Address: 207 Maple Ave
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-2750
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN LINDA / DOB 1935-07-12 / SEX M / MBI SYN2AXUPWW / PART A 2000-07-01 / PART B 2000-07-01

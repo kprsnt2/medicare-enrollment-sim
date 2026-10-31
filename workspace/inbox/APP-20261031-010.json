@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Moore",
+  "dob": "1935-10-09",
+  "sex": "M",
+  "mbi": "SYNKZ2DYS4",
+  "part_a_eff": "2000-10-01",
+  "part_b_eff": "2000-10-01",
+  "address": "890 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "713-555-7076",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-10-31",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "MOORE LINDA / DOB 1935-10-09 / SEX M / MBI SYNKZ2DYS4 / PART A 2000-10-01 / PART B 2000-10-01"
+ }
+}

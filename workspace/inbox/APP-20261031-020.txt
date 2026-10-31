@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: SMITH, LINDA
+DOB: 1942-10-05   Sex: M
+Medicare No: SYNYYCB8VY
+Part A effective: 2007-10-01   Part B effective: 2007-10-01
+Address: 115 Lakeview Dr
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 602-555-7503
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 115 Lakeview Dr Miami FL 33103

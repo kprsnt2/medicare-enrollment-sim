@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: JONES, CHARLES
+DOB: 1939-09-05   Sex: M
+Medicare No: SYNXBUPWNE
+Part A effective: 2004-09-01   Part B effective: 2004-09-01
+Address: 734 Hill St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-9548
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES CHARLES / DOB 1939-09-05 / SEX M / MBI SYNXBUPWNE / PART A 2004-09-01 / PART B 2004-09-01
+Attachment B (proof of address): 734 Hill St Houston TX 77002

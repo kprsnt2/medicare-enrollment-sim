@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-10-31
+Name: MOORE, LINDA
+DOB: 1935-03-27   Sex: F
+Medicare No: SYNEE2KY7U
+Part A effective: 2000-03-01   Part B effective: 2000-03-01
+Address: 197 Pine Rd
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-3697
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE LINDA / DOB 1935-03-27 / SEX F / MBI SYNEE2KY7U / PART A 2000-03-01 / PART B 2000-03-01
+Attachment B (proof of address): 197 Pine Rd Miami FL 33103
