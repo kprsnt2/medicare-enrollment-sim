@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: THOMPSON, PATRICIA
+DOB: 1941-12-12   Sex: M
+Medicare No: SYN4YCUWR3
+Part A effective: 2006-12-01   Part B effective: 2006-12-01
+Address: 318 Pine Rd
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 512-555-8466
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON PATRICIA / DOB 1941-12-12 / SEX M / MBI SYN4YCUWR3 / PART A 2006-12-01 / PART B 2006-12-01
+Attachment B (proof of address): 318 Pine Rd Phoenix AZ 85001

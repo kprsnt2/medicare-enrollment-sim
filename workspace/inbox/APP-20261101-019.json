@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Robert",
+  "last_name": "Thompson",
+  "dob": "1945-05-24",
+  "sex": "M",
+  "mbi": "SYNPBS6TZV",
+  "part_a_eff": "2010-05-01",
+  "part_b_eff": "2010-05-01",
+  "address": "638 Maple Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "713-555-9099",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-01",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "THOMPSON ROBERT / DOB 1945-05-24 / SEX M / MBI SYNPBS6TZV / PART A 2010-05-01 / PART B 2010-05-01",
+  "address_proof": "638 Maple Ave Miami FL 33102"
+ }
+}

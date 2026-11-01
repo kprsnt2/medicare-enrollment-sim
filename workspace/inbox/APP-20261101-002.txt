@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: ANDERSON, JOHN
+DOB: 1951-01-28   Sex: M
+Medicare No: SYNR7ZEYXC
+Part A effective: 2016-01-01   Part B effective: 2016-01-01
+Address: 833 Elm St
+City: Phoenix   State: AZ   ZIP: 77003   County: Maricopa
+Phone: 512-555-4963
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): ANDERSON JOHN / DOB 1951-01-28 / SEX M / MBI SYNR7ZEYXC / PART A 2016-01-01 / PART B 2016-01-01
+Attachment B (proof of address): 833 Elm St Phoenix AZ 85002

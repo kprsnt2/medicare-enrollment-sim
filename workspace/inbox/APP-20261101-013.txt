@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: MARTINEZ, CHARLES
+DOB: 1950-01-08   Sex: M
+Medicare No: SYN859LXKC
+Part A effective: 2015-01-01   Part B effective: 2015-01-01
+Address: 818 Lakeview Dr
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-9671
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ CHARLES / DOB 1950-01-08 / SEX M / MBI SYN859LXKC / PART A 2015-01-01 / PART B 2015-01-01

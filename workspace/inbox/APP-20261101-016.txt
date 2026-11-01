@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: JACKSON, MICHAEL
+DOB: 1961-11-18   Sex: F
+Medicare No: SYNYZHUPAJ
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 921 Cedar Ln
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-6172
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom eBcker
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: My regular doctor is Dr. Tom Becker at the clinic.
+Attachment A (Medicare card copy): JACKSON MICHAEL / DOB 1961-11-18 / SEX F / MBI SYNYZHUPAJ / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 921 Cedar Ln Chicago IL 60602

@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: MILLER, ROBERT
+DOB: 1947-05-05   Sex: M
+Medicare No: SYNAAVW7K2
+Part A effective: 2012-05-01   Part B effective: 2012-05-01
+Address: 743 Elm St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-6666
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.

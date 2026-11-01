@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Martin",
+  "dob": "1937-08-01",
+  "sex": "F",
+  "mbi": "SYN7WGVUWG",
+  "part_a_eff": "2002-08-01",
+  "part_b_eff": "2002-08-01",
+  "address": "515 Cedar Ln",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "512-555-9408",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-00X",
+  "pcp_name": "Dr. Alan Rao",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-01",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTIN MARY / DOB 1937-08-01 / SEX F / MBI SYN7WGVUWG / PART A 2002-08-01 / PART B 2002-08-01",
+  "address_proof": "515 Cedar Ln Houston TX 77003"
+ }
+}

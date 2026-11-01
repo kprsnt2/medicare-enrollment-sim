@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: LEE, CHARLES
+DOB: 1932-09-03   Sex: M
+Medicare No: SYNRFUQHFT
+Part A effective: 1997-09-01   Part B effective: 1997-09-01
+Address: 82 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-8988
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE CHARLES / DOB 1932-09-03 / SEX M / MBI SYNRFUQHFT / PART A 1997-09-01 / PART B 1997-09-01
+Attachment B (proof of address): 82 Cedar Ln Phoenix AZ 85003

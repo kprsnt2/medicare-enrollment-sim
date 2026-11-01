@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: SMITH, JOHN
+DOB: 1931-11-06   Sex: F
+Medicare No: SYNV7ZDUQ3
+Part A effective: 1996-11-01   Part B effective: 1996-11-01
+Address: 515 Elm St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-6190
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 515 Elm St Phoenix AZ 85001

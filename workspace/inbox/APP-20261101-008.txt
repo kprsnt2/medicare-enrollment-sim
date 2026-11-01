@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: JOHNSON, NANCY
+DOB: 1949-08-06   Sex: F
+Medicare No: SYNUZRHHEG
+Part A effective: 2014-08-01   Part B effective: 2015-08-01
+Address: 860 Cedar Ln
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 602-555-4633
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON NANCY / DOB 1949-08-06 / SEX F / MBI SYNUZRHHEG / PART A 2014-08-01 / PART B 2015-08-01
+Attachment B (proof of address): 860 Cedar Ln Chicago IL 60603

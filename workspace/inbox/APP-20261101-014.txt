@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: BROWN, JOHN
+DOB: 1951-08-26   Sex: M
+Medicare No: SYN86LKB76
+Part A effective: 2016-08-01   Part B effective: 2016-08-01
+Address: 734 Oak St
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 512-555-3921
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): BROWN JOHN / DOB 1951-08-26 / SEX M / MBI SYN86LKB76 / PART A 2016-08-01 / PART B 2016-08-01
+Attachment B (proof of address): 734 Oak St Miami FL 33103

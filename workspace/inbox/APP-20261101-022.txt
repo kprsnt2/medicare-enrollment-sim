@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: MARTIN, JOSEPH
+DOB: 1931-12-11   Sex: F
+Medicare No: SYNUBL9NKA
+Part A effective: 1996-12-01   Part B effective: 1996-12-01
+Address: 765 Oak St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 713-555-6187
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 765 Oak St Phoenix AZ 85003

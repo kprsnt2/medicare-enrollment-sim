@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-01
+Name: THOMAS, LINDA
+DOB: 1943-07-06   Sex: F
+Medicare No: SYNK9JB5QH
+Part A effective: 2008-07-01   Part B effective: 2008-07-01
+Address: 981 Park Ave
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-9248
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS LINDA / DOB 1943-07-06 / SEX F / MBI SYNK9JB5QH / PART A 2008-07-01 / PART B 2008-07-01
+Attachment B (proof of address): 981 Park Ave Phoenix AZ 85001
