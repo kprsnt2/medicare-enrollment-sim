@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: WILLIAMS, DOROTHY
+DOB: 1935-01-23   Sex: M
+Medicare No: SYNVCKX6SX
+Part A effective: 2000-01-01   Part B effective: 2000-01-01
+Address: 265 Park Ave
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 602-555-7982
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 265 Park Ave Chicago IL 60601

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: MILLER, ROBERT
+DOB: 1938-04-22   Sex: M
+Medicare No: SYNA9H4AG7
+Part A effective: 2003-04-01   Part B effective: 2003-04-01
+Address: 71 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-4617
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: My employer coverage ended last month.
+Attachment A (Medicare card copy): MILLER ROBERT / DOB 1938-04-22 / SEX M / MBI SYNA9H4AG7 / PART A 2003-04-01 / PART B 2003-04-01
+Attachment B (proof of address): 71 Cedar Ln Phoenix AZ 85001

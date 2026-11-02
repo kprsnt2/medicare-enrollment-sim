@@ -1,0 +1,55 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261102-012",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261101-023",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261101-024",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261101-029",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261102-020",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261102-021",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      4300
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without quoted supporting evidence in the fix event. The source document shows AEP with receipt date 2026-11-02 and requested effective date 2026-11-01, but event 4300 lists empty evidence for the field change."
+    }
+   ],
+   "verdict": "FAIL"
+  }
+ ],
+ "cases_checked": 460,
+ "findings": [],
+ "ledger_entries": 4389,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-02"
+}

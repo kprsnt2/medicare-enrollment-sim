@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: ANDERSON, CHARLES
+DOB: 1938-04-21   Sex: M
+Medicare No: SYNA4YM85T
+Part A effective: 2003-04-01   Part B effective: 2003-04-01
+Address: 875 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-2674
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON CHARLES / DOB 1938-04-21 / SEX M / MBI SYNA4YM85T / PART A 2003-04-01 / PART B 2003-04-01
+Attachment B (proof of address): 875 Hill St Chicago IL 60602

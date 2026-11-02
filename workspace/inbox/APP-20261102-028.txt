@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: LEE, BETTY
+DOB: 1961-10-20   Sex: M
+Medicare No: SYNMS8UEHC
+Part A effective: 2026-10-01   Part B effective: 2026-10-01
+Address: 210 Maple Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-0933
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): LEE BETTY / DOB 1961-10-20 / SEX M / MBI SYNMS8UEHC / PART A 2026-10-01 / PART B 2026-10-01
+Attachment B (proof of address): 210 Maple Ave Chicago IL 60602

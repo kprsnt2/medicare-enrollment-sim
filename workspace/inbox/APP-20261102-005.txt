@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: THOMPSON, WILLIAM
+DOB: 1958-09-19   Sex: M
+Medicare No: SYNQNL6BEK
+Part A effective: 2023-09-01   Part B effective: 2023-09-01
+Address: 708 Maple Ave
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 602-555-0787
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON WILLIAM / DOB 1958-09-19 / SEX M / MBI SYNQNL6BEK / PART A 2023-09-01 / PART B 2023-09-01

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: WILSON, JAMES
+DOB: 1944-12-11   Sex: M
+Medicare No: SYN8LJJ6U7
+Part A effective: 2009-12-01   Part B effective: 2009-12-01
+Address: 347 Lakeview Dr
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-6238
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kuklarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Neha Kulkarni at the clinic.
+Attachment A (Medicare card copy): WILSON JAMES / DOB 1944-12-11 / SEX M / MBI SYN8LJJ6U7 / PART A 2009-12-01 / PART B 2009-12-01
+Attachment B (proof of address): 347 Lakeview Dr Houston TX 77003

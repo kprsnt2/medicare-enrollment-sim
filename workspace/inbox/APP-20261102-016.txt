@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: TAYLOR, DOROTHY
+DOB: 1935-07-10   Sex: F
+Medicare No: SYN749NFZB
+Part A effective: 2000-07-01   Part B effective: 2000-07-01
+Address: 184 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 602-555-2507
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR DOROTHY / DOB 1935-07-10 / SEX F / MBI SYN749NFZB / PART A 2000-07-01 / PART B 2000-07-01
+Attachment B (proof of address): 184 Oak St Houston TX 77003

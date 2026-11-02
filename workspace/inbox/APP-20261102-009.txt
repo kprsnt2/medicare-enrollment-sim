@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: LOPEZ, MICHAEL
+DOB: 1938-07-16   Sex: M
+Medicare No: SYN3VDF2E7
+Part A effective: 2003-07-01   Part B effective: 2003-07-01
+Address: 856 Hill St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 713-555-3196
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ MICHAEL / DOB 1938-07-16 / SEX M / MBI SYN3VDF2E7 / PART A 2003-07-01 / PART B 2003-07-01
+Attachment B (proof of address): 856 Hill St Miami FL 33102

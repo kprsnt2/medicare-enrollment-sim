@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: JACKSON, MARY
+DOB: 1948-09-13   Sex: F
+Medicare No: SYNMZRKD7A
+Part A effective: 2013-09-01   Part B effective: 2013-09-01
+Address: 964 Lakeview Dr
+City: Austin   State: TX   ZIP: 7870Z   County: Travis
+Phone: 305-555-6641
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): JACKSON MARY / DOB 1948-09-13 / SEX F / MBI SYNMZRKD7A / PART A 2013-09-01 / PART B 2013-09-01
+Attachment B (proof of address): 964 Lakeview Dr Austin TX 78702

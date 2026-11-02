@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-02
+Name: JOHNSON, MARY
+DOB: 1932-09-16   Sex: F
+Medicare No: SYNVUKNET7
+Part A effective: 1997-09-01   Part B effective: 1997-09-01
+Address: 310 Oak St
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-4803
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON MARY / DOB 1932-09-16 / SEX F / MBI SYNVUKNET7 / PART A 1997-09-01 / PART B 1997-09-01
+Attachment B (proof of address): 310 Oak St Miami FL 33103
