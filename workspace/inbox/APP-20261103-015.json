@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Dorothy",
+  "last_name": "Johnson",
+  "dob": "1931-03-03",
+  "sex": "F",
+  "mbi": "SYNWREK823",
+  "part_a_eff": "1996-03-01",
+  "part_b_eff": "1996-03-01",
+  "address": "748 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "512-555-2871",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-03",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "My old plan was discontinued.",
+ "attachments": {
+  "card_text": "JOHNSON DOROTHY / DOB 1931-03-03 / SEX F / MBI SYNWREK823 / PART A 1996-03-01 / PART B 1996-03-01",
+  "address_proof": "748 Oak St Austin TX 78703"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-03
+Name: MOORE, RICHARD
+DOB: 1934-07-28   Sex: M
+Medicare No: SYNB7TBHVS
+Part A effective: 1999-07-01   Part B effective: 1999-07-01
+Address: 503 Oak St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-8450
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom eBcker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Tom Becker at the clinic.
+Attachment A (Medicare card copy): MOORE RICHARD / DOB 1934-07-28 / SEX M / MBI SYNB7TBHVS / PART A 1999-07-01 / PART B 1999-07-01
+Attachment B (proof of address): 503 Oak St Chicago IL 60601

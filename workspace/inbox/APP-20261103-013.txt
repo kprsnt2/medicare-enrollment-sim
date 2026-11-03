@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-03
+Name: SMITH, CHARLES
+DOB: 1961-10-21   Sex: F
+Medicare No: SYN9WV4DN6
+Part A effective: 2026-10-01   Part B effective: 2026-10-01
+Address: 653 Hill St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-0277
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Chris Doyle
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): SMITH CHARLES / DOB 1961-10-21 / SEX F / MBI SYN9WV4DN6 / PART A 2026-10-01 / PART B 2026-10-01
+Attachment B (proof of address): 653 Hill St Austin TX 78703

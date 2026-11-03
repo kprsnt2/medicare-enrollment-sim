@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-03
+Name: MOORE, BARBARA
+DOB: 1940-12-23   Sex: F
+Medicare No: SYNP337KXA
+Part A effective: 2005-12-01   Part B effective: 2005-12-01
+Address: 99 Hill St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 602-555-1553
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 99 Hill St Chicago IL 60601

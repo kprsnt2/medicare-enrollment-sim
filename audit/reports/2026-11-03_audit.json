@@ -1,0 +1,57 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261103-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261103-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261103-002",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      4548,
+      4578,
+      4579
+     ],
+     "severity": "S3",
+     "text": "An unsupported data change was applied to last_name. The only cited evidence shows the Medicare card name as \"IWLSON CHARLES,\" which does not establish that changing the application last name from \"iWlson\" to all-caps \"IWLSON\" is a valid demographic correction rather than a casing/rendering difference. The later escalation explicitly states there is no valid fix supported by the supplied documents."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261103-007",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261103-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261103-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 490,
+ "findings": [],
+ "ledger_entries": 4672,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-03"
+}

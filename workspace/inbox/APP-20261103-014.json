@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Lee",
+  "dob": "1931-03-03",
+  "sex": "F",
+  "mbi": "SYNSBVNQZE",
+  "part_a_eff": "1996-03-01",
+  "part_b_eff": "1997-03-01",
+  "address": "474 Maple Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "713-555-9574",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-03",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LEE HELEN / DOB 1931-03-03 / SEX F / MBI SYNSBVNQZE / PART A 1996-03-01 / PART B 1997-03-01"
+ }
+}

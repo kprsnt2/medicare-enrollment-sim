@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "iWlson",
+  "dob": "1931-05-18",
+  "sex": "M",
+  "mbi": "SYNEMND3T4",
+  "part_a_eff": "1996-05-01",
+  "part_b_eff": "1996-05-01",
+  "address": "562 Pine Rd",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "312-555-7475",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-03",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "IWLSON CHARLES / DOB 1931-05-18 / SEX M / MBI SYNEMND3T4 / PART A 1996-05-01 / PART B 1996-05-01",
+  "address_proof": "562 Pine Rd Miami FL 33101"
+ }
+}

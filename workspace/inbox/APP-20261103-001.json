@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Wilson",
+  "dob": "1952-05-15",
+  "sex": "F",
+  "mbi": "SYN5W7NYQ8",
+  "part_a_eff": "2017-05-01",
+  "part_b_eff": "2017-05-01",
+  "address": "764 Pine Rd",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "512-555-3675",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Wiess",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-03",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Laura Weiss at the clinic.",
+ "attachments": {
+  "card_text": "WILSON RICHARD / DOB 1952-05-15 / SEX F / MBI SYN5W7NYQ8 / PART A 2017-05-01 / PART B 2017-05-01",
+  "address_proof": "764 Pine Rd Chicago IL 60601"
+ }
+}

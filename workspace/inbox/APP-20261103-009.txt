@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-03
+Name: MOORE, THOMAS
+DOB: 1955-11-28   Sex: M
+Medicare No: SYN2G46TRL
+Part A effective: 2020-11-01   Part B effective: 2020-11-01
+Address: 37 Cedar Ln
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 305-555-5393
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE THOMAS / DOB 1955-11-28 / SEX M / MBI SYN2G46TRL / PART A 2020-11-01 / PART B 2020-11-01

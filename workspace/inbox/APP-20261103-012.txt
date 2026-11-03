@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-03
+Name: MARTIN, PATRICIA
+DOB: 1950-09-12   Sex: M
+Medicare No: SYNMXVUUY8
+Part A effective: 2015-09-01   Part B effective: 2015-09-01
+Address: 175 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-4684
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
