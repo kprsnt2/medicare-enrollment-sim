@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-04
+Name: HERNANDEZ, KAREN
+DOB: 1933-03-28   Sex: M
+Medicare No: SYNFDVCB88
+Part A effective: 1998-03-01   Part B effective: 1998-03-01
+Address: 179 Oak St
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 512-555-0538
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): HERNANDEZ KAREN / DOB 1933-03-28 / SEX M / MBI SYNFDVCB88 / PART A 1998-03-01 / PART B 1998-03-01
+Attachment B (proof of address): 179 Oak St Austin TX 78701

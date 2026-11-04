@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-04
+Name: JOHNSON, SUSAN
+DOB: 1961-10-04   Sex: M
+Medicare No: SYNKF28A78
+Part A effective: 2026-10-01   Part B effective: 2026-10-01
+Address: 824 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 512-555-8427
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON SUSAN / DOB 1961-10-04 / SEX M / MBI SYNKF28A78 / PART A 2026-10-01 / PART B 2026-10-01
+Attachment B (proof of address): 824 Maple Ave Phoenix AZ 85003

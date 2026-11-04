@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-04
+Name: MOORE, JAMES
+DOB: 1954-12-17   Sex: F
+Medicare No: SYNGCSC7LX
+Part A effective: 2019-12-01   Part B effective: 2019-12-01
+Address: 293 Elm St
+City: Phoenix   State: AZ   ZIP: 78701   County: Maricopa
+Phone: 602-555-6409
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE JAMES / DOB 1954-12-17 / SEX F / MBI SYNGCSC7LX / PART A 2019-12-01 / PART B 2019-12-01
+Attachment B (proof of address): 293 Elm St Phoenix AZ 85002

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-04
+Name: SMITH, NANCY
+DOB: 1943-06-01   Sex: M
+Medicare No: SYNCUCT6JR
+Part A effective: 2008-06-01   Part B effective: 2008-06-01
+Address: 732 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-2426
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): SMITH NANCY / DOB 1943-06-01 / SEX M / MBI SYNCUCT6JR / PART A 2008-06-01 / PART B 2008-06-01
+Attachment B (proof of address): 732 Hill St Phoenix AZ 85003

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Garcia",
+  "dob": "1944-08-15",
+  "sex": "F",
+  "mbi": "SYNDHHQ7DF",
+  "part_a_eff": "2009-08-01",
+  "part_b_eff": "2009-08-01",
+  "address": "497 Lakeview Dr",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "305-555-3922",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-04",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "GARCIA THOMAS / DOB 1944-08-15 / SEX F / MBI SYNDHHQ7DF / PART A 2009-08-01 / PART B 2009-08-01",
+  "address_proof": "497 Lakeview Dr Miami FL 33101"
+ }
+}

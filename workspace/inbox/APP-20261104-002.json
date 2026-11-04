@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Anderson",
+  "dob": "1938-02-22",
+  "sex": "M",
+  "mbi": "SYNHABMMGF",
+  "part_a_eff": "2003-02-01",
+  "part_b_eff": "2003-02-01",
+  "address": "811 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "312-555-4820",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-04",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "ANDERSON KAREN / DOB 1938-02-22 / SEX M / MBI SYNHABMMGF / PART A 2003-02-01 / PART B 2003-02-01",
+  "address_proof": "811 Lakeview Dr Houston TX 77002"
+ }
+}
