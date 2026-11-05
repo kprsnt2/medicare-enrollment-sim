@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Garcia",
+  "dob": "1941-12-07",
+  "sex": "M",
+  "mbi": "SYNC6XMUFL",
+  "part_a_eff": "2006-12-01",
+  "part_b_eff": "2006-12-01",
+  "address": "34 Pine Rd",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "512-555-1024",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-05",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA THOMAS / DOB 1941-12-07 / SEX M / MBI SYNC6XMUFL / PART A 2006-12-01 / PART B 2006-12-01"
+ }
+}

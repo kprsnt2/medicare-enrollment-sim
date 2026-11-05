@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-05
+Name: MLILER, JOSEPH
+DOB: 1935-12-02   Sex: M
+Medicare No: SYN8849YPN
+Part A effective: 2000-12-01   Part B effective: 2000-12-01
+Address: 185 Elm St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-6139
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MLILER JOSEPH / DOB 1935-12-02 / SEX M / MBI SYN8849YPN / PART A 2000-12-01 / PART B 2000-12-01
+Attachment B (proof of address): 185 Elm St Houston TX 77003

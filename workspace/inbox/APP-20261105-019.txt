@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-05
+Name: GARCIA, RICHARD
+DOB: l938-lO-09   Sex: M
+Medicare No: SYNDNN4NXK
+Part A effective: 2003-10-01   Part B effective: 2003-10-01
+Address: 54 Maple Ave
+City: Phoenix   State: AZ   ZIP: B50O3   County: Maricopa
+Phone: 305-555-8622
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): GARCIA RICHARD / DOB 1938-10-09 / SEX M / MBI SYNDNN4NXK / PART A 2003-10-01 / PART B 2003-10-01
+Attachment B (proof of address): 54 Maple Ave Phoenix AZ 85003

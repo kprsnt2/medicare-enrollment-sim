@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Hernandez",
+  "dob": "1932-07-01",
+  "sex": "F",
+  "mbi": "SYNTJVMNVB",
+  "part_a_eff": "1997-07-01",
+  "part_b_eff": "1997-07-01",
+  "address": "201 Park Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "77002",
+  "county": "Miami-Dade",
+  "phone": "512-555-0426",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-05",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "address_proof": "201 Park Ave Miami FL 33103"
+ }
+}

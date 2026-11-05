@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-05
+Name: JACKSON, MARY
+DOB: 1936-10-20   Sex: M
+Medicare No: SYN4LQND38
+Part A effective: 2001-10-01   Part B effective: 2002-10-01
+Address: 340 Oak St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-1480
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON MARY / DOB 1936-10-20 / SEX M / MBI SYN4LQND38 / PART A 2001-10-01 / PART B 2002-10-01
+Attachment B (proof of address): 340 Oak St Chicago IL 60602

@@ -1,0 +1,73 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261105-007",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      5126
+     ],
+     "severity": "S3",
+     "text": "Requested effective date was changed from 2026-12-01 to 2027-01-01 without source-text evidence. The applied fix shows empty evidence for this field."
+    },
+    {
+     "event_seqs": [
+      5124,
+      5125
+     ],
+     "severity": "S3",
+     "text": "Election type was changed from OEP to AEP based on policy timing rather than quoted source evidence. The cited evidence only shows the received date, while the source text explicitly says 'Election: OEP'."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261105-008",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261105-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261105-016",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261105-017",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      5065,
+      5155,
+      5156
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without quoted documentary evidence in the fix event. Although the CMS rejection and AEP logic suggest the correction, this timeline does not provide supporting quoted evidence tied to the changed field."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261105-022",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 550,
+ "findings": [],
+ "ledger_entries": 5261,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-05"
+}

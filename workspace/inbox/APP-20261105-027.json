@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Jackson",
+  "dob": "1956-07-25",
+  "sex": "M",
+  "mbi": "SYNTWAK2QM",
+  "part_a_eff": "2021-07-01",
+  "part_b_eff": "2021-07-01",
+  "address": "310 Hill St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "60601",
+  "county": "Travis",
+  "phone": "713-555-3198",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Maya Iyer",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-05",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JACKSON CHARLES / DOB 1956-07-25 / SEX M / MBI SYNTWAK2QM / PART A 2021-07-01 / PART B 2021-07-01",
+  "address_proof": "310 Hill St Austin TX 78701"
+ }
+}

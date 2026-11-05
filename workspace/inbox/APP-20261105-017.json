@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Anderson",
+  "dob": "1935-03-03",
+  "sex": "F",
+  "mbi": "SYNCZXDEYC",
+  "part_a_eff": "2000-03-01",
+  "part_b_eff": "2000-03-01",
+  "address": "471 Hill St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "602-555-5385",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-05",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "ANDERSON JOHN / DOB 1935-03-03 / SEX F / MBI SYNCZXDEYC / PART A 2000-03-01 / PART B 2000-03-01"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-05
+Name: WILSON, SUSAN
+DOB: 1931-12-20   Sex: M
+Medicare No: SYNCAWRSC2
+Part A effective: 1996-12-01   Part B effective: 1996-12-01
+Address: 289 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 305-555-4403
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): WILSON SUSAN / DOB 1931-12-20 / SEX M / MBI SYNCAWRSC2 / PART A 1996-12-01 / PART B 1996-12-01
+Attachment B (proof of address): 289 Hill St Phoenix AZ 85001

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Susan",
+  "last_name": "Johnson",
+  "dob": "1939-11-09",
+  "sex": "M",
+  "mbi": "SYN9JK3GLA",
+  "part_a_eff": "2004-11-01",
+  "part_b_eff": "2004-11-01",
+  "address": "775 Hill St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "713-555-7810",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-05",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JOHNSON SUSAN / DOB 1939-11-09 / SEX M / MBI SYN9JK3GLA / PART A 2004-11-01 / PART B 2004-11-01"
+ }
+}
