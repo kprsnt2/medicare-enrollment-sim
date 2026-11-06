@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JOHNSON, DAVID
+DOB: 1953-10-04   Sex: F
+Medicare No: SYN8PREULG
+Part A effective: 2018-10-01   Part B effective: 2018-10-01
+Address: 814 Cedar Ln
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 512-555-0261
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON DAVID / DOB 1953-10-04 / SEX F / MBI SYN8PREULG / PART A 2018-10-01 / PART B 2018-10-01

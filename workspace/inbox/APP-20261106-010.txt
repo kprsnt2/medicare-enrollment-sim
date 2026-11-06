@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JOHNSON, SUSAN
+DOB: 1951-09-07   Sex: M
+Medicare No: SYNTQD6CWL
+Part A effective: 2016-09-01   Part B effective: 2016-09-01
+Address: 238 Cedar Ln
+City: Houston   State: TX   ZIP: 78703   County: Harris
+Phone: 312-555-1682
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON SUSAN / DOB 1951-09-07 / SEX M / MBI SYNTQD6CWL / PART A 2016-09-01 / PART B 2016-09-01
+Attachment B (proof of address): 238 Cedar Ln Houston TX 77002

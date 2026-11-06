@@ -1,0 +1,56 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261106-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261106-006",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261106-009",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      5416,
+      5417
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event. Although the CMS rejection suggests the original date was inconsistent with AEP, the timeline does not include source-backed evidence tied to the change itself."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261106-010",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261106-013",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261106-014",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 580,
+ "findings": [],
+ "ledger_entries": 5536,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-06"
+}

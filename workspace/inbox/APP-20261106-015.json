@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Moore",
+  "dob": "1944-12-14",
+  "sex": "F",
+  "mbi": "SYNZSHUM3P",
+  "part_a_eff": "2009-12-01",
+  "part_b_eff": "2009-12-01",
+  "address": "931 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "602-555-4409",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-06",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE BARBARA / DOB 1944-12-14 / SEX F / MBI SYNZSHUM3P / PART A 2009-12-01 / PART B 2009-12-01",
+  "address_proof": "931 Lakeview Dr Houston TX 77003"
+ }
+}

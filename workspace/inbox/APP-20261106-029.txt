@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: LOPEZ, JAMES
+DOB: 1930-07-06   Sex: F
+Medicare No: SYNJL2ZTTL
+Part A effective: 1995-07-01   Part B effective: 1995-07-01
+Address: 536 Maple Ave
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 512-555-0410
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): LOPEZ JAMES / DOB 1930-07-06 / SEX F / MBI SYNJL2ZTTL / PART A 1995-07-01 / PART B 1995-07-01
+Attachment B (proof of address): 536 Maple Ave Austin TX 78701

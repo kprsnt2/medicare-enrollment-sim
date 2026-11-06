@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: ANDERSON, MICHAEL
+DOB: 1930-08-03   Sex: F
+Medicare No: SYNA95F59M
+Part A effective: 1995-08-01   Part B effective: 1995-08-01
+Address: 307 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 305-555-9903
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Bekcer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON MICHAEL / DOB 1930-08-03 / SEX F / MBI SYNA95F59M / PART A 1995-08-01 / PART B 1995-08-01
+Attachment B (proof of address): 307 Park Ave Chicago IL 60603

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: LEE, CHARLES
+DOB: 1935-04-26   Sex: F
+Medicare No: SYN3EH8STL
+Part A effective: 2000-04-01   Part B effective: 2000-04-01
+Address: 13 Cedar Ln
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-8605
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE CHARLES / DOB 1935-04-26 / SEX F / MBI SYN3EH8STL / PART A 2000-04-01 / PART B 2000-04-01
+Attachment B (proof of address): 13 Cedar Ln Chicago IL 60603

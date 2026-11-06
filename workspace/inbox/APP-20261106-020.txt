@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JONES, BETTY
+DOB: 1956-06-14   Sex: M
+Medicare No: SYNTCV85S7
+Part A effective: 2021-06-01   Part B effective: 2021-06-01
+Address: 533 Hill St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 512-555-7858
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES BETTY / DOB 1956-06-14 / SEX M / MBI SYNTCV85S7 / PART A 2021-06-01 / PART B 2021-06-01
+Attachment B (proof of address): 533 Hill St Chicago IL 60601

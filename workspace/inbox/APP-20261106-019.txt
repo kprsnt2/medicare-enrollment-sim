@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JOHNSON, KAREN
+DOB: 1950-12-21   Sex: F
+Medicare No: SYNVTW2Q5D
+Part A effective: 2015-12-01   Part B effective: 2016-12-01
+Address: 872 Cedar Ln
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 512-555-4180
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON KAREN / DOB 1950-12-21 / SEX F / MBI SYNVTW2Q5D / PART A 2015-12-01 / PART B 2016-12-01
+Attachment B (proof of address): 872 Cedar Ln Chicago IL 60603

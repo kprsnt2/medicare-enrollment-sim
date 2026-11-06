@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JACKSON, KAREN
+DOB: l946-09-07   Sex: F
+Medicare No: SYN6CYYURR
+Part A effective: 2011-09-01   Part B effective: 2011-09-01
+Address: 821 Lakeview Dr
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 312-555-1270
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JACKSON KAREN / DOB 1946-09-07 / SEX F / MBI SYN6CYYURR / PART A 2011-09-01 / PART B 2011-09-01
+Attachment B (proof of address): 821 Lakeview Dr Miami FL 33103

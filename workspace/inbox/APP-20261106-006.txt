@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JONES, BARBARA
+DOB: 1946-09-02   Sex: M
+Medicare No: SYNANKXXMC
+Part A effective: 2011-09-01   Part B effective: 2011-09-01
+Address: 412 Pine Rd
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 312-555-6654
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JONES BARBARA / DOB 1946-09-02 / SEX M / MBI SYNANKXXMC / PART A 2011-09-01 / PART B 2011-09-01
+Attachment B (proof of address): 412 Pine Rd Phoenix AZ 85002

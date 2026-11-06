@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: JACKSON, NANCY
+DOB: 1955-03-19   Sex: M
+Medicare No: SYNVDWY2XK
+Part A effective: 2020-03-01   Part B effective: 2020-03-01
+Address: 123 Lakeview Dr
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-4660
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 123 Lakeview Dr Austin TX 78702

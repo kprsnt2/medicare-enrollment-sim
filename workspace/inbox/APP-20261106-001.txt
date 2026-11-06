@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-06
+Name: THOMPSON, RICHARD
+DOB: 1933-12-22   Sex: F
+Medicare No: SYNZEFQYUL
+Part A effective: 1998-12-01   Part B effective: 1998-12-01
+Address: 353 Hill St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 602-555-2028
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON RICHARD / DOB 1933-12-22 / SEX F / MBI SYNZEFQYUL / PART A 1998-12-01 / PART B 1998-12-01
+Attachment B (proof of address): 353 Hill St Miami FL 33102
