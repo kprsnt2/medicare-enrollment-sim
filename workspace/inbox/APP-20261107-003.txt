@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: JONES, MICHAEL
+DOB: 1946-05-13   Sex: F
+Medicare No: SYNXDSMSJD
+Part A effective: 2011-05-01   Part B effective: 2011-05-01
+Address: 55 Pine Rd
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-9108
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES MICHAEL / DOB 1946-05-13 / SEX F / MBI SYNXDSMSJD / PART A 2011-05-01 / PART B 2011-05-01

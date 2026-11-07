@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: THOMAS, RICHARD
+DOB: 1961-09-18   Sex: F
+Medicare No: SYN7EY8FRD
+Part A effective: 2026-09-01   Part B effective: 2026-09-01
+Address: 482 Cedar Ln
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-1411
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): THOMAS RICHARD / DOB 1961-09-18 / SEX F / MBI SYN7EY8FRD / PART A 2026-09-01 / PART B 2026-09-01
+Attachment B (proof of address): 482 Cedar Ln Houston TX 77001

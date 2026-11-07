@@ -1,0 +1,57 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261107-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261107-010",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261107-011",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261107-018",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261107-020",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      5748,
+      5749,
+      5750
+     ],
+     "severity": "S3",
+     "text": "Application was accepted with requested effective date 2026-12-01 even though Part A and Part B effective dates are 2027-01-01, so the requested enrollment effective date precedes Medicare entitlement shown in the record."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261106-030",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 610,
+ "findings": [],
+ "ledger_entries": 5817,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-07"
+}

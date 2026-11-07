@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Dorothy",
+  "last_name": "Wilson",
+  "dob": "1933-05-19",
+  "sex": "F",
+  "mbi": "SYNA55ZQQC",
+  "part_a_eff": "1998-05-01",
+  "part_b_eff": "1998-05-01",
+  "address": "224 Elm St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "512-555-1186",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Sam Otriz",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-07",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON DOROTHY / DOB 1933-05-19 / SEX F / MBI SYNA55ZQQC / PART A 1998-05-01 / PART B 1998-05-01",
+  "address_proof": "224 Elm St Phoenix AZ 85001"
+ }
+}

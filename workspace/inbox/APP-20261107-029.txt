@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: LOPEZ, JOHN
+DOB: 1948-04-24   Sex: F
+Medicare No: SYNKL2J7PV
+Part A effective: 2013-04-01   Part B effective: 2013-04-01
+Address: 39 Maple Ave
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-5374
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ JOHN / DOB 1948-04-24 / SEX F / MBI SYNKL2J7PV / PART A 2013-04-01 / PART B 2013-04-01
+Attachment B (proof of address): 39 Maple Ave Houston TX 77003

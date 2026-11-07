@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: JOHNSON, PATRICIA
+DOB: 1962-01-04   Sex: F
+Medicare No: SYNEUMESPU
+Part A effective: 2027-01-01   Part B effective: 2027-01-01
+Address: 597 Oak St
+City: Houston   State: TX   ZIP: 77O0l   County: Harris
+Phone: 602-555-0243
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON PATRICIA / DOB 1962-01-04 / SEX F / MBI SYNEUME5PU / PART A 2027-01-01 / PART B 2027-01-01
+Attachment B (proof of address): 597 Oak St Houston TX 77001

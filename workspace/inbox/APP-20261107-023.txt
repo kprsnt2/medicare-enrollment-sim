@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: MARTIN, WILLIAM
+DOB: 1957-11-06   Sex: M
+Medicare No: SYNJBBDQ9V
+Part A effective: 2022-11-01   Part B effective: 2022-11-01
+Address: 488 Lakeview Dr
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-9934
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN WILLIAM / DOB 1957-11-06 / SEX M / MBI SYNJBBDQ9V / PART A 2022-11-01 / PART B 2022-11-01
+Attachment B (proof of address): 488 Lakeview Dr Houston TX 77002

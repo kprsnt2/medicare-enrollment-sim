@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: SMITH, THOMAS
+DOB: l948-O3-22   Sex: M
+Medicare No: SYNFQG34MQ
+Part A effective: 2013-03-01   Part B effective: 2013-03-01
+Address: 327 Oak St
+City: Houston   State: TX   ZIP: 77O02   County: Harris
+Phone: 602-555-7833
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH THOMAS / DOB 1948-03-22 / SEX M / MBI SYNFQG34MQ / PART A 2013-03-01 / PART B 2013-03-01
+Attachment B (proof of address): 327 Oak St Houston TX 77002

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-07
+Name: JOHNSON, WILLIAM
+DOB: 1947-07-05   Sex: F
+Medicare No: SYNUJDNWJW
+Part A effective: 2012-07-01   Part B effective: 2012-07-01
+Address: 872 Oak St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-3298
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON WILLIAM / DOB 1947-07-05 / SEX F / MBI SYNUJDNWJW / PART A 2012-07-01 / PART B 2012-07-01
+Attachment B (proof of address): 872 Oak St Chicago IL 60601
