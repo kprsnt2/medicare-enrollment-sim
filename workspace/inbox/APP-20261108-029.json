@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Thomas",
+  "dob": "1948-07-11",
+  "sex": "F",
+  "mbi": "SYNGQD7P4S",
+  "part_a_eff": "2013-07-01",
+  "part_b_eff": "2013-07-01",
+  "address": "33 Oak St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "512-555-4080",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMAS MARY / DOB 1948-07-11 / SEX F / MBI SYNGQD7P4S / PART A 2013-07-01 / PART B 2013-07-01",
+  "address_proof": "33 Oak St Houston TX 77003"
+ }
+}

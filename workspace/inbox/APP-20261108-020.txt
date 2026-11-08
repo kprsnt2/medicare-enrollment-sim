@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-08
+Name: MILLER, JOHN
+DOB: 1941-04-21   Sex: M
+Medicare No: SYNDXRWN3U
+Part A effective: 2006-04-01   Part B effective: 2007-04-01
+Address: 730 Hill St
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 602-555-2735
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment B (proof of address): 730 Hill St Miami FL 33101

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Martinez",
+  "dob": "1941-10-01",
+  "sex": "F",
+  "mbi": "SYNJMAG52X",
+  "part_a_eff": "2006-10-01",
+  "part_b_eff": "2006-10-01",
+  "address": "697 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "60602",
+  "county": "Maricopa",
+  "phone": "602-555-6952",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Hana Kim",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTINEZ HELEN / DOB 1941-10-01 / SEX F / MBI SYNJMAG52X / PART A 2006-10-01 / PART B 2006-10-01",
+  "address_proof": "697 Lakeview Dr Phoenix AZ 85003"
+ }
+}

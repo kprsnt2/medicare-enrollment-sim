@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Dorothy",
+  "last_name": "Lee",
+  "dob": "1949-03-15",
+  "sex": "F",
+  "mbi": "SYNPPA6U8U",
+  "part_a_eff": "2014-03-01",
+  "part_b_eff": "2014-03-01",
+  "address": "685 Park Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "512-555-5235",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "LEE DOROTHY / DOB 1949-03-15 / SEX F / MBI SYNPPA6U8U / PART A 2014-03-01 / PART B 2014-03-01",
+  "address_proof": "685 Park Ave Houston TX 77002"
+ }
+}

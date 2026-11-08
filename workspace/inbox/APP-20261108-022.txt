@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-08
+Name: MILLER, HELEN
+DOB: 1947-09-07   Sex: M
+Medicare No: SYNW3GVK8V
+Part A effective: 2012-09-01   Part B effective: 2013-09-01
+Address: 197 Oak St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 713-555-2276
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 197 Oak St Phoenix AZ 85001

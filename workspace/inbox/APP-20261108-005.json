@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Thompson",
+  "dob": "1958-06-24",
+  "sex": "M",
+  "mbi": "SYNHKHCUVZ",
+  "part_a_eff": "2023-06-01",
+  "part_b_eff": "2023-06-01",
+  "address": "383 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78702",
+  "county": "Travis",
+  "phone": "312-555-1103",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "THOMPSON HELEN / DOB 1958-06-24 / SEX M / MBI SYNHKHCUVZ / PART A 2023-06-01 / PART B 2023-06-01",
+  "address_proof": "383 Oak St Austin TX 78702"
+ }
+}

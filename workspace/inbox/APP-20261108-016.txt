@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-08
+Name: MOORE, JOSEPH
+DOB: 1958-11-22   Sex: F
+Medicare No: SYNRNX3Y8V
+Part A effective: 2023-11-01   Part B effective: 2023-11-01
+Address: 679 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 602-555-1723
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 679 Lakeview Dr Chicago IL 60601

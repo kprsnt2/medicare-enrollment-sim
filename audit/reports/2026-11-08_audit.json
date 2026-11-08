@@ -1,0 +1,63 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261108-014",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      6002
+     ],
+     "severity": "S3",
+     "text": "Requested effective date was changed from 2026-12-01 to 2027-01-01 without any quoted supporting evidence in the fix event. The source form explicitly shows 2026-12-01, and seq 6002 provides empty evidence for overriding it."
+    },
+    {
+     "event_seqs": [
+      6000,
+      6001
+     ],
+     "severity": "S2",
+     "text": "Election type was changed from OEP to AEP based on a rule/diagnosis rather than quoted evidence from the source document. The cited evidence at seq 6001 quotes the form as 'Election: OEP', which supports the original value, not the changed value AEP."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261108-004",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261108-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261108-017",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261108-024",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261108-027",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 640,
+ "findings": [],
+ "ledger_entries": 6089,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-08"
+}

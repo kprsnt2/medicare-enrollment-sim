@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Lee",
+  "dob": "1939-09-01",
+  "sex": "F",
+  "mbi": "SYNSF6T9YE",
+  "part_a_eff": "2004-09-01",
+  "part_b_eff": "2004-09-01",
+  "address": "63 Cedar Ln",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "512-555-9337",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LEE LINDA / DOB 1939-09-01 / SEX F / MBI SYNSF6T9YE / PART A 2004-09-01 / PART B 2004-09-01",
+  "address_proof": "63 Cedar Ln Miami FL 33103"
+ }
+}

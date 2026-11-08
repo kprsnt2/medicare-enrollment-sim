@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-08
+Name: MOORE, MARY
+DOB: 1938-03-22   Sex: M
+Medicare No: SYN3R6VXRN
+Part A effective: 2003-03-01   Part B effective: 2003-03-01
+Address: 406 Pine Rd
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-8243
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MOORE MARY / DOB 1938-03-22 / SEX M / MBI SYN3R6VXRN / PART A 2003-03-01 / PART B 2003-03-01
+Attachment B (proof of address): 406 Pine Rd Chicago IL 60602

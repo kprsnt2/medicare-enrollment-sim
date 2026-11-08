@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Thomas",
+  "dob": "1961-10-10",
+  "sex": "M",
+  "mbi": "SYNX489KNM",
+  "part_a_eff": "2026-10-01",
+  "part_b_eff": "2026-10-01",
+  "address": "848 Cedar Ln",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "312-555-8891",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Maya Ieyr",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "THOMAS JAMES / DOB 1961-10-10 / SEX M / MBI SYNX489KNM / PART A 2026-10-01 / PART B 2026-10-01",
+  "address_proof": "848 Cedar Ln Houston TX 77001"
+ }
+}

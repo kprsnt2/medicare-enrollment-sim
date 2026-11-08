@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Lee",
+  "dob": "1953-10-27",
+  "sex": "F",
+  "mbi": "SYNU75SBUF",
+  "part_a_eff": "2018-10-01",
+  "part_b_eff": "2018-10-01",
+  "address": "910 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "77003",
+  "county": "Maricopa",
+  "phone": "713-555-6955",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "LEE JAMES / DOB 1953-10-27 / SEX F / MBI SYNU75SBUF / PART A 2018-10-01 / PART B 2018-10-01",
+  "address_proof": "910 Lakeview Dr Phoenix AZ 85002"
+ }
+}

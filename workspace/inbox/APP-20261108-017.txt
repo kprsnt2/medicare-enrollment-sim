@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-08
+Name: THOMAS, RICHARD
+DOB: 1955-09-13   Sex: F
+Medicare No: SYNJNWJGEV
+Part A effective: 2020-09-01   Part B effective: 2020-09-01
+Address: 392 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-4035
+Plan selected: Lakeshore Prime HMO (SYN-H0002-00X)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS RICHARD / DOB 1955-09-13 / SEX F / MBI SYNJNWJGEV / PART A 2020-09-01 / PART B 2020-09-01
+Attachment B (proof of address): 392 Hill St Chicago IL 60602

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Jones",
+  "dob": "1951-02-24",
+  "sex": "F",
+  "mbi": "SYNVS3LBUV",
+  "part_a_eff": "2016-02-01",
+  "part_b_eff": "2016-02-01",
+  "address": "230 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "312-555-2862",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Alan Rao",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JONES MICHAEL / DOB 1951-02-24 / SEX F / MBI SYNVS3LBUV / PART A 2016-02-01 / PART B 2016-02-01"
+ }
+}

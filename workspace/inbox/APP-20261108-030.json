@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Taylor",
+  "dob": "1943-05-13",
+  "sex": "M",
+  "mbi": "SYN3V2HZKP",
+  "part_a_eff": "2008-05-01",
+  "part_b_eff": "2009-05-01",
+  "address": "665 Elm St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "305-555-7393",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-08",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "TAYLOR PATRICIA / DOB 1943-05-13 / SEX M / MBI SYN3V2HZKP / PART A 2008-05-01 / PART B 2009-05-01",
+  "address_proof": "665 Elm St Miami FL 33101"
+ }
+}
