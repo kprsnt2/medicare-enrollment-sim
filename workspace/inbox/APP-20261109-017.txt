@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: JOHNSON, BETTY
+DOB: 1942-09-28   Sex: F
+Medicare No: SYNCF6N26C
+Part A effective: 2007-09-01   Part B effective: 2007-09-01
+Address: 408 Lakeview Dr
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-1961
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JOHNSON BETTY / DOB 1942-09-28 / SEX F / MBI SYNCF6N26C / PART A 2007-09-01 / PART B 2007-09-01
+Attachment B (proof of address): 408 Lakeview Dr Austin TX 78702

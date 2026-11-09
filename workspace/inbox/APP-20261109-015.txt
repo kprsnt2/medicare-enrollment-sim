@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: LEE, ROBERT
+DOB: 1948-07-13   Sex: M
+Medicare No: SYN5BDM45S
+Part A effective: 2013-07-01   Part B effective: 2013-07-01
+Address: 759 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-1043
+Plan selected: Desert Bloom HMO (SYN-H0003-00X)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE ROBERT / DOB 1948-07-13 / SEX M / MBI SYN5BDM45S / PART A 2013-07-01 / PART B 2013-07-01

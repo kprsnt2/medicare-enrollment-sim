@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: DAVIS, JOSEPH
+DOB: 1935-09-05   Sex: F
+Medicare No: SYNHZ3NW74
+Part A effective: 2000-09-01   Part B effective: 2000-09-01
+Address: 965 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 713-555-4032
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS JOSEPH / DOB 1935-09-05 / SEX F / MBI SYNHZ3NW74 / PART A 2000-09-01 / PART B 2000-09-01

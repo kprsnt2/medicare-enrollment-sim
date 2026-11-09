@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Garcia",
+  "dob": "1935-05-08",
+  "sex": "M",
+  "mbi": "SYNCS3U4D9",
+  "part_a_eff": "2000-05-01",
+  "part_b_eff": "2000-05-01",
+  "address": "259 Park Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "312-555-1021",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-09",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "GARCIA BETTY / DOB 1935-05-08 / SEX M / MBI SYNCS3U4D9 / PART A 2000-05-01 / PART B 2000-05-01",
+  "address_proof": "259 Park Ave Miami FL 33102"
+ }
+}

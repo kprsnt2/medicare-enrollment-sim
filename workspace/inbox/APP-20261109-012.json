@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Thomas",
+  "dob": "1931-01-17",
+  "sex": "M",
+  "mbi": "SYNDULT5AS",
+  "part_a_eff": "1996-01-01",
+  "part_b_eff": "1996-01-01",
+  "address": "195 Hill St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "305-555-6746",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-09",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMAS RICHARD / DOB 1931-01-17 / SEX M / MBI SYNDULT5AS / PART A 1996-01-01 / PART B 1996-01-01"
+ }
+}

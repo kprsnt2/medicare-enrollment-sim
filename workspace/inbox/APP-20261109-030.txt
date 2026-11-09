@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: TAYLOR, ROBERT
+DOB: 1935-09-10   Sex: M
+Medicare No: SYN6XEWV2C
+Part A effective: 2000-09-01   Part B effective: 2000-09-01
+Address: 700 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-9084
+Plan selected: Desert Bloom HMO (SYN-H0003-00X)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 700 Hill St Phoenix AZ 85001

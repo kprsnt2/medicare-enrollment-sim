@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Lee",
+  "dob": "1958-12-23",
+  "sex": "M",
+  "mbi": "SYNB5EK7LF",
+  "part_a_eff": "2023-12-01",
+  "part_b_eff": "2023-12-01",
+  "address": "66 Pine Rd",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "512-555-4832",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-00X",
+  "pcp_name": "Dr. Priya Nair",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-09",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LEE WILLIAM / DOB 1958-12-23 / SEX M / MBI SYNB5EK7LF / PART A 2023-12-01 / PART B 2023-12-01",
+  "address_proof": "66 Pine Rd Chicago IL 60603"
+ }
+}

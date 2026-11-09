@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: SMITH, HELEN
+DOB: 1933-10-16   Sex: M
+Medicare No: SYNQS3EPNF
+Part A effective: 1998-10-01   Part B effective: 1998-10-01
+Address: 643 Lakeview Dr
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-9543
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

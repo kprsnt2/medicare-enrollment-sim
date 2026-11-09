@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-09
+Name: LEE, KAREN
+DOB: 1942-07-26   Sex: M
+Medicare No: SYN9P6DFX9
+Part A effective: 2007-07-01   Part B effective: 2008-07-01
+Address: 763 Hill St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-9383
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE KAREN / DOB 1942-07-26 / SEX M / MBI SYN9P6DFX9 / PART A 2007-07-01 / PART B 2008-07-01
+Attachment B (proof of address): 763 Hill St Austin TX 78703
