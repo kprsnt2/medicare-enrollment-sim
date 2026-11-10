@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: JACKSON, HELEN
+DOB: 1937-11-03   Sex: F
+Medicare No: SYN7VXZMA6
+Part A effective: 2002-11-01   Part B effective: 2002-11-01
+Address: 154 Hill St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-5178
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON HELEN / DOB 1937-11-03 / SEX F / MBI SYN7VXZMA6 / PART A 2002-11-01 / PART B 2002-11-01
+Attachment B (proof of address): 154 Hill St Miami FL 33102

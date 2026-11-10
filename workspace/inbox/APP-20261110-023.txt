@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: MILLER, SUSAN
+DOB: 1930-08-24   Sex: F
+Medicare No: SYNENCPX5H
+Part A effective: 1995-08-01   Part B effective: 1995-08-01
+Address: 711 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-0999
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Thank you for your help.
+Attachment A (Medicare card copy): MILLER SUSAN / DOB 1930-08-24 / SEX F / MBI SYNENCPX5H / PART A 1995-08-01 / PART B 1995-08-01
+Attachment B (proof of address): 711 Hill St Chicago IL 60602

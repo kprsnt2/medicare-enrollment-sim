@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: LEE, PATRICIA
+DOB: 1946-06-02   Sex: M
+Medicare No: SYNZS766P7
+Part A effective: 2011-06-01   Part B effective: 2011-06-01
+Address: 176 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 512-555-2678
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE PATRICIA / DOB 1946-06-02 / SEX M / MBI SYNZS766P7 / PART A 2011-06-01 / PART B 2011-06-01

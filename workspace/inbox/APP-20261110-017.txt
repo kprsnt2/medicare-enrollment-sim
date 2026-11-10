@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: SMITH, LINDA
+DOB: 1931-06-11   Sex: M
+Medicare No: SYN7ADUFUG
+Part A effective: 1996-06-01   Part B effective: 1996-06-01
+Address: 531 Hill St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 312-555-3759
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH LINDA / DOB 1931-06-11 / SEX M / MBI SYN7ADUFUG / PART A 1996-06-01 / PART B 1996-06-01

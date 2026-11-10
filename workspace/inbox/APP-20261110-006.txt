@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: MARTINEZ, ROBERT
+DOB: 1940-02-08   Sex: M
+Medicare No: SYNC6ZJE48
+Part A effective: 2005-02-01   Part B effective: 2005-02-01
+Address: 930 Pine Rd
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 602-555-5375
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 930 Pine Rd Chicago IL 60603

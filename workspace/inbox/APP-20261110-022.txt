@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: THOMAS, BARBARA
+DOB: 1955-12-02   Sex: M
+Medicare No: SYNBBW7D7G
+Part A effective: 2020-12-01   Part B effective: 2020-12-01
+Address: 741 Cedar Ln
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 512-555-8256
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMAS BARBARA / DOB 1955-12-02 / SEX M / MBI SYNBBW7D7G / PART A 2020-12-01 / PART B 2020-12-01

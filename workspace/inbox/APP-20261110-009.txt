@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: MILLER, MARY
+DOB: 1951-03-27   Sex: M
+Medicare No: SYNNKRCXV8
+Part A effective: 2016-03-01   Part B effective: 2016-03-01
+Address: 701 Elm St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 312-555-3991
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 701 Elm St Phoenix AZ 85002

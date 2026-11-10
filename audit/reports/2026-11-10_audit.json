@@ -1,0 +1,65 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261110-007",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261110-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261110-004",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261110-018",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261110-019",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      6556,
+      6557
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without quoted documentary evidence tied to the application. The fix notes cite policy/derived dates, but the recorded evidence field is blank."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261110-023",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      6561,
+      6562
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any supporting quoted evidence in the record. The fix entry has empty evidence, so the field change is unsupported by the timeline even though CMS later accepted it."
+    }
+   ],
+   "verdict": "FAIL"
+  }
+ ],
+ "cases_checked": 700,
+ "findings": [],
+ "ledger_entries": 6639,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-10"
+}

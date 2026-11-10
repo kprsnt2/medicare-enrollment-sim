@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: THOMPSON, PATRICIA
+DOB: 1945-06-12   Sex: M
+Medicare No: SYNCQEWCBR
+Part A effective: 2010-06-01   Part B effective: 2010-06-01
+Address: 361 Lakeview Dr
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-2697
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): THOMPSON PATRICIA / DOB 1945-06-12 / SEX M / MBI SYNCQEWCBR / PART A 2010-06-01 / PART B 2010-06-01
+Attachment B (proof of address): 361 Lakeview Dr Miami FL 33103

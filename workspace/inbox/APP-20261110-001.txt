@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: LEE, WILLIAM
+DOB: 1935-11-05   Sex: M
+Medicare No: SYNFRA6CDR
+Part A effective: 2000-11-01   Part B effective: 2000-11-01
+Address: 379 Oak St
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 305-555-5991
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): LEE WILLIAM / DOB 1935-11-05 / SEX M / MBI SYNFRA6CDR / PART A 2000-11-01 / PART B 2000-11-01
+Attachment B (proof of address): 379 Oak St Austin TX 78701

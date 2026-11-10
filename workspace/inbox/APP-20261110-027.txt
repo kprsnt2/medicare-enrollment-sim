@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: MOORE, THOMAS
+DOB: 1947-03-09   Sex: M
+Medicare No: SYN577G5A2
+Part A effective: 2012-03-01   Part B effective: 2012-03-01
+Address: 974 Pine Rd
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-2986
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE THOMAS / DOB 1947-03-09 / SEX M / MBI SYN577G5A2 / PART A 2012-03-01 / PART B 2012-03-01
+Attachment B (proof of address): 974 Pine Rd Austin TX 78702

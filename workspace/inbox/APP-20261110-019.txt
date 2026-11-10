@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-10
+Name: GARCIA, THOMAS
+DOB: 1957-09-04   Sex: M
+Medicare No: SYN9J2E9S5
+Part A effective: 2022-09-01   Part B effective: 2022-09-01
+Address: 447 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 312-555-7317
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA THOMAS / DOB 1957-09-04 / SEX M / MBI SYN9J2E9S5 / PART A 2022-09-01 / PART B 2022-09-01
+Attachment B (proof of address): 447 Cedar Ln Phoenix AZ 85002

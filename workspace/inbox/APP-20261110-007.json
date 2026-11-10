@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Garcia",
+  "dob": "1957-06-12",
+  "sex": "M",
+  "mbi": "SYNL3PC4NW",
+  "part_a_eff": "2022-06-01",
+  "part_b_eff": "2022-06-01",
+  "address": "254 Elm St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "713-555-3246",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-10",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "My old plan was discontinued.",
+ "attachments": {
+  "address_proof": "254 Elm St Houston TX 77002"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Susan",
+  "last_name": "Lopez",
+  "dob": "1952-08-12",
+  "sex": "F",
+  "mbi": "SYNQKFN2P4",
+  "part_a_eff": "2017-08-01",
+  "part_b_eff": "2017-08-01",
+  "address": "287 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "312-555-9158",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-10",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "LOPEZ SUSAN / DOB 1952-08-12 / SEX F / MBI SYNQKFN2P4 / PART A 2017-08-01 / PART B 2017-08-01",
+  "address_proof": "287 Pine Rd Houston TX 77002"
+ }
+}
