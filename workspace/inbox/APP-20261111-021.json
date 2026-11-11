@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Michael",
+  "last_name": "Jones",
+  "dob": "1950-03-23",
+  "sex": "F",
+  "mbi": "SYNAGQLP7U",
+  "part_a_eff": "2015-03-01",
+  "part_b_eff": "2015-03-01",
+  "address": "865 Elm St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "512-555-6035",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Wiess",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-11",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Laura Weiss at the clinic.",
+ "attachments": {
+  "card_text": "JONES MICHAEL / DOB 1950-03-23 / SEX F / MBI SYNAGQLP7U / PART A 2015-03-01 / PART B 2015-03-01"
+ }
+}

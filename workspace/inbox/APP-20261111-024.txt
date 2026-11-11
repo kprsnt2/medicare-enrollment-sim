@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: MARTINEZ, RICHARD
+DOB: 1939-06-28   Sex: M
+Medicare No: SYNCMEV5YB
+Part A effective: 2004-06-01   Part B effective: 2004-06-01
+Address: 685 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-3245
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kmi
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ RICHARD / DOB 1939-06-28 / SEX M / MBI SYNCMEV5YB / PART A 2004-06-01 / PART B 2004-06-01
+Attachment B (proof of address): 685 Hill St Phoenix AZ 85003

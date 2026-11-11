@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: LOPEZ, RICHARD
+DOB: 1956-06-23   Sex: M
+Medicare No: SYN5CD8WBM
+Part A effective: 2021-06-01   Part B effective: 2021-06-01
+Address: 147 Cedar Ln
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-4887
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ RICHARD / DOB 1956-06-23 / SEX M / MBI SYN5CD8WBM / PART A 2021-06-01 / PART B 2021-06-01
+Attachment B (proof of address): 147 Cedar Ln Chicago IL 60602

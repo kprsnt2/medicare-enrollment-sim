@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: BROWN, WILLIAM
+DOB: 1934-11-17   Sex: M
+Medicare No: SYNWJKSGP8
+Part A effective: 1999-11-01   Part B effective: 1999-11-01
+Address: 136 Cedar Ln
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-0736
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): BROWN WILLIAM / DOB 1934-11-17 / SEX M / MBI SYNWJKSGP8 / PART A 1999-11-01 / PART B 1999-11-01
+Attachment B (proof of address): 136 Cedar Ln Austin TX 78702

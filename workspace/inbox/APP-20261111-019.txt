@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: JOHNSON, THOMAS
+DOB: 1956-11-27   Sex: M
+Medicare No: SYNZWEHH5P
+Part A effective: 2021-11-01   Part B effective: 2021-11-01
+Address: 440 Elm St
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 305-555-8960
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON THOMAS / DOB 1956-11-27 / SEX M / MBI SYNZWEHH5P / PART A 2021-11-01 / PART B 2021-11-01
+Attachment B (proof of address): 440 Elm St Chicago IL 60603

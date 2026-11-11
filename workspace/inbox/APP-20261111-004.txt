@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: HERNANDEZ, HELEN
+DOB: 1957-09-06   Sex: F
+Medicare No: SYNVW58R43
+Part A effective: 2022-09-01   Part B effective: 2022-09-01
+Address: 86 Cedar Ln
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 305-555-0112
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): HERNANDEZ HELEN / DOB 1957-09-06 / SEX F / MBI SYNVW58R43 / PART A 2022-09-01 / PART B 2022-09-01
+Attachment B (proof of address): 86 Cedar Ln Miami FL 33102

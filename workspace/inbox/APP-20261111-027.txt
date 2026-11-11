@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: HERNANDEZ, MARY
+DOB: 1945-07-12   Sex: F
+Medicare No: SYN9B7L39Q
+Part A effective: 2010-07-01   Part B effective: 2010-07-01
+Address: 217 Park Ave
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 602-555-6206
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ MARY / DOB 1945-07-12 / SEX F / MBI SYN9B7L39Q / PART A 2010-07-01 / PART B 2010-07-01

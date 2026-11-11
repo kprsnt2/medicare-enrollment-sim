@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: BROWN, RICHARD
+DOB: 1935-05-19   Sex: M
+Medicare No: SYNRQ5469X
+Part A effective: 2000-05-01   Part B effective: 2000-05-01
+Address: 99 Oak St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 312-555-9772
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment B (proof of address): 99 Oak St Chicago IL 60601

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Lopez",
+  "dob": "1933-10-19",
+  "sex": "F",
+  "mbi": "SYNFU4MPMP",
+  "part_a_eff": "1998-10-01",
+  "part_b_eff": "1998-10-01",
+  "address": "585 Oak St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "312-555-8365",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-11",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LOPEZ RICHARD / DOB 1933-10-19 / SEX F / MBI SYNFU4MPMP / PART A 1998-10-01 / PART B 1998-10-01",
+  "address_proof": "585 Oak St Miami FL 33103"
+ }
+}

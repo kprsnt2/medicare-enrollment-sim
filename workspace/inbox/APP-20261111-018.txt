@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-11
+Name: JONES, BARBARA
+DOB: 1931-03-14   Sex: F
+Medicare No: SYNANMMDVS
+Part A effective: 1996-03-01   Part B effective: 1996-03-01
+Address: 489 Pine Rd
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 312-555-1516
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): JONES BARBARA / DOB 1931-03-14 / SEX F / MBI SYNANMMDVS / PART A 1996-03-01 / PART B 1996-03-01
+Attachment B (proof of address): 489 Pine Rd Chicago IL 60603

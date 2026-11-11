@@ -1,0 +1,56 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261111-018",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      6813,
+      6814
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted documentary evidence tied to the application materials. The fix record explicitly shows empty evidence, so the field change is unsupported by the case file even if CMS later accepted it."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261111-021",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261111-022",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261111-007",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261111-010",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261111-023",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 730,
+ "findings": [],
+ "ledger_entries": 6907,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-11"
+}
