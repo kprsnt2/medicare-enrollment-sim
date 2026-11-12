@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: ANDERSON, DAVID
+DOB: 1941-01-08   Sex: F
+Medicare No: SYNVB7AAWG
+Part A effective: 2006-01-01   Part B effective: 2006-01-01
+Address: 627 Cedar Ln
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 305-555-0208
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment B (proof of address): 627 Cedar Ln Phoenix AZ 85003

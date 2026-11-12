@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: WILSON, JOHN
+DOB: 1939-06-19   Sex: M
+Medicare No: SYNA9M8VPW
+Part A effective: 2004-06-01   Part B effective: 2004-06-01
+Address: 253 Oak St
+City: Chicago   State: IL   ZIP: 78702   County: Cook
+Phone: 512-555-1864
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 253 Oak St Chicago IL 60602

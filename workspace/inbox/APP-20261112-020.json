@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Thompson",
+  "dob": "1936-07-18",
+  "sex": "F",
+  "mbi": "SYNQBFLGF6",
+  "part_a_eff": "2001-07-01",
+  "part_b_eff": "2001-07-01",
+  "address": "608 Park Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "305-555-2886",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Sam Ortiz",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-12",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMPSON LINDA / DOB 1936-07-18 / SEX F / MBI SYNQBFLGF6 / PART A 2001-07-01 / PART B 2001-07-01",
+  "address_proof": "608 Park Ave Phoenix AZ 85002"
+ }
+}

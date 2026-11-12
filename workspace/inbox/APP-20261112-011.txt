@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: DAVIS, JAMES
+DOB: 1934-10-02   Sex: F
+Medicare No: SYNF4JYAMQ
+Part A effective: 1999-10-01   Part B effective: 1999-10-01
+Address: 694 Oak St
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 602-555-3396
+Plan selected: Palmetto Gold PPO (SYN-H0003-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS JAMES / DOB 1934-10-02 / SEX F / MBI SYNF4JYAMQ / PART A 1999-10-01 / PART B 1999-10-01
+Attachment B (proof of address): 694 Oak St Miami FL 33103

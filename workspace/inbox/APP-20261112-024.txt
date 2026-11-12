@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: ANDERSON, RICHARD
+DOB: 1939-06-08   Sex: F
+Medicare No: SYNLL52TDQ
+Part A effective: 2004-06-01   Part B effective: 2004-06-01
+Address: 446 Hill St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-7387
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON RICHARD / DOB 1939-06-08 / SEX F / MBI SYNLL52TDQ / PART A 2004-06-01 / PART B 2004-06-01
+Attachment B (proof of address): 446 Hill St Houston TX 77001

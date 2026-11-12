@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: JACKSON, HELEN
+DOB: 1953-04-21   Sex: F
+Medicare No: SYNGDPUMMZ
+Part A effective: 2018-04-01   Part B effective: 2018-04-01
+Address: 19 Park Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-8217
+Plan selected: Palmetto Gold PPO (SYN-H0003-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 19 Park Ave Phoenix AZ 85003

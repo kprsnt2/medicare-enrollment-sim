@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: JONES, WILLIAM
+DOB: 1931-11-10   Sex: M
+Medicare No: SYNXTB3NA8
+Part A effective: 1996-11-01   Part B effective: 1996-11-01
+Address: 703 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 713-555-7275
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel aPrk
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JONES WILLIAM / DOB 1931-11-10 / SEX M / MBI SYNXTB3NA8 / PART A 1996-11-01 / PART B 1996-11-01
+Attachment B (proof of address): 703 Hill St Phoenix AZ 85001

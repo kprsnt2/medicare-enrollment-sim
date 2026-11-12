@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: LEE, PATRICIA
+DOB: 1949-05-21   Sex: F
+Medicare No: SYNZMH87HY
+Part A effective: 2014-05-01   Part B effective: 2014-05-01
+Address: 865 Hill St
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 312-555-8271
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 865 Hill St Miami FL 33103

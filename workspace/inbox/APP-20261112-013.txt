@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: WILSON, THOMAS
+DOB: 1943-04-24   Sex: F
+Medicare No: SYNRD4GYWU
+Part A effective: 2008-04-01   Part B effective: 2008-04-01
+Address: 616 Oak St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-2607
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON THOMAS / DOB 1943-04-24 / SEX F / MBI SYNRD4GYWU / PART A 2008-04-01 / PART B 2008-04-01
+Attachment B (proof of address): 616 Oak St Phoenix AZ 85002

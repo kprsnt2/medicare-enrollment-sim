@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: ANDRESON, MARY
+DOB: 1953-06-20   Sex: F
+Medicare No: SYNNJ8KNR5
+Part A effective: 2018-06-01   Part B effective: 2018-06-01
+Address: 570 Oak St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 713-555-9461
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 570 Oak St Phoenix AZ 85002

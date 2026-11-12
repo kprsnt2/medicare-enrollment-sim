@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: TAYLOR, DOROTHY
+DOB: 1958-03-04   Sex: F
+Medicare No: SYNZ3UJHEJ
+Part A effective: 2023-03-01   Part B effective: 2024-03-01
+Address: 706 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 512-555-4349
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 706 Maple Ave Phoenix AZ 85003

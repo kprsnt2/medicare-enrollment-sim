@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: LOPEZ, RICHARD
+DOB: 1931-08-03   Sex: F
+Medicare No: SYNG84C2CD
+Part A effective: 1996-08-01   Part B effective: 1996-08-01
+Address: 428 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 602-555-4600
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): LOPEZ RICHARD / DOB 1931-08-03 / SEX F / MBI SYNG84C2CD / PART A 1996-08-01 / PART B 1996-08-01
+Attachment B (proof of address): 428 Maple Ave Chicago IL 60603

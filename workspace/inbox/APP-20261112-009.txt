@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: WILSON, LINDA
+DOB: 1931-05-06   Sex: F
+Medicare No: SYNFSJCVH7
+Part A effective: 1996-05-01   Part B effective: 1996-05-01
+Address: 795 Park Ave
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-8051
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON LINDA / DOB 1931-05-06 / SEX F / MBI SYNFSJCVH7 / PART A 1996-05-01 / PART B 1996-05-01
+Attachment B (proof of address): 795 Park Ave Miami FL 33102

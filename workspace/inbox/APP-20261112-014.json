@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Anderson",
+  "dob": "1957-07-08",
+  "sex": "F",
+  "mbi": "SYNU7VG5ZD",
+  "part_a_eff": "2022-07-01",
+  "part_b_eff": "2022-07-01",
+  "address": "475 Lakeview Dr",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "312-555-5063",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-12",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "ANDERSON HELEN / DOB 1957-07-08 / SEX F / MBI SYNU7VG5ZD / PART A 2022-07-01 / PART B 2022-07-01",
+  "address_proof": "475 Lakeview Dr Austin TX 78701"
+ }
+}

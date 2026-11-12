@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: MARTINEZ, PATRICIA
+DOB: 1952-07-10   Sex: M
+Medicare No: SYNCSMAPVD
+Part A effective: 2017-07-01   Part B effective: 2017-07-01
+Address: 930 Hill St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 602-555-5213
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ PATRICIA / DOB 1952-07-10 / SEX M / MBI SYNCSMAPVD / PART A 2017-07-01 / PART B 2017-07-01

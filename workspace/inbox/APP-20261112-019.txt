@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-12
+Name: JOHNSON, DOROTHY
+DOB: 1946-12-02   Sex: F
+Medicare No: SYNK25B3NW
+Part A effective: 2011-12-01   Part B effective: 2011-12-01
+Address: 380 Pine Rd
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 713-555-4669
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON DOROTHY / DOB 1946-12-02 / SEX F / MBI SYNK25B3NW / PART A 2011-12-01 / PART B 2011-12-01
+Attachment B (proof of address): 380 Pine Rd Chicago IL 60601
