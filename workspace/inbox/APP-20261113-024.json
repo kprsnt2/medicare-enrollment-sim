@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Linda",
+  "last_name": "Wilson",
+  "dob": "1942-12-11",
+  "sex": "M",
+  "mbi": "SYNWDCEZSD",
+  "part_a_eff": "2007-12-01",
+  "part_b_eff": "2007-12-01",
+  "address": "640 Maple Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33102",
+  "county": "Miami-Dade",
+  "phone": "602-555-6730",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-13",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "WILSON LINDA / DOB 1942-12-11 / SEX M / MBI SYNWDCEZSD / PART A 2007-12-01 / PART B 2007-12-01",
+  "address_proof": "640 Maple Ave Miami FL 33102"
+ }
+}

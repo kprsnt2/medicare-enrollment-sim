@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: HERNANDEZ, RICHARD
+DOB: 1962-01-27   Sex: F
+Medicare No: SYNJUSM8VE
+Part A effective: 2027-01-01   Part B effective: 2027-01-01
+Address: 171 Elm St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 312-555-6783
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: IEP   Sep reason: -   Signed: No
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ RICHARD / DOB 1962-01-27 / SEX F / MBI SYNJUSM8VE / PART A 2027-01-01 / PART B 2027-01-01
+Attachment B (proof of address): 171 Elm St Chicago IL 60601

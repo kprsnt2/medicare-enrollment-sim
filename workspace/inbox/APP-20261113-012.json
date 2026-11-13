@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Moore",
+  "dob": "1944-02-04",
+  "sex": "F",
+  "mbi": "SYNV9757TJ",
+  "part_a_eff": "2009-02-01",
+  "part_b_eff": "2009-02-01",
+  "address": "716 Elm St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "512-555-3328",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-13",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE KAREN / DOB 1944-02-04 / SEX F / MBI SYNV9757TJ / PART A 2009-02-01 / PART B 2009-02-01"
+ }
+}

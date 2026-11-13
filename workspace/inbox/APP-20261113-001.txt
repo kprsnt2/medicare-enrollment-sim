@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: BROWN, NANCY
+DOB: 1930-12-23   Sex: F
+Medicare No: SYNREWW636
+Part A effective: 1995-12-01   Part B effective: 1995-12-01
+Address: 482 Elm St
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-1860
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN NANCY / DOB 1930-12-23 / SEX F / MBI SYNREWW636 / PART A 1995-12-01 / PART B 1995-12-01
+Attachment B (proof of address): 482 Elm St Austin TX 78703

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Lopez",
+  "dob": "1932-10-08",
+  "sex": "F",
+  "mbi": "SYN2CCDBAV",
+  "part_a_eff": "1997-10-01",
+  "part_b_eff": "1997-10-01",
+  "address": "585 Lakeview Dr",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78702",
+  "county": "Travis",
+  "phone": "305-555-1129",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-13",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LOPEZ HELEN / DOB 1932-10-08 / SEX F / MBI SYN2CCDBAV / PART A 1997-10-01 / PART B 1997-10-01",
+  "address_proof": "585 Lakeview Dr Austin TX 78702"
+ }
+}

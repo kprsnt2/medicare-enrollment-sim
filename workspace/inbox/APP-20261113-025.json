@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Nancy",
+  "last_name": "Garcia",
+  "dob": "1931-04-12",
+  "sex": "F",
+  "mbi": "SYN4QQDV7D",
+  "part_a_eff": "1996-04-01",
+  "part_b_eff": "1996-04-01",
+  "address": "700 Maple Ave",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "713-555-5256",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-13",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Thank you for your help.",
+ "attachments": {
+  "card_text": "GARCIA NANCY / DOB 1931-04-12 / SEX F / MBI SYN4QQDV7D / PART A 1996-04-01 / PART B 1996-04-01",
+  "address_proof": "700 Maple Ave Austin TX 78701"
+ }
+}

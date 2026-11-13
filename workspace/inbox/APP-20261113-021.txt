@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: WILLIAMS, MARY
+DOB: 1948-12-23   Sex: M
+Medicare No: SYNN6WNK4P
+Part A effective: 2013-12-01   Part B effective: 2013-12-01
+Address: 66 Park Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 512-555-4917
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS MARY / DOB 1948-12-23 / SEX M / MBI SYNN6WNK4P / PART A 2013-12-01 / PART B 2013-12-01
+Attachment B (proof of address): 66 Park Ave Phoenix AZ 85003

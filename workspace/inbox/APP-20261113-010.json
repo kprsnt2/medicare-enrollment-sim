@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Martin",
+  "dob": "1933-11-07",
+  "sex": "F",
+  "mbi": "SYNQYY3LJ2",
+  "part_a_eff": "1998-11-01",
+  "part_b_eff": "1999-11-01",
+  "address": "718 Lakeview Dr",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "512-555-5831",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-13",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "MARTIN WILLIAM / DOB 1933-11-07 / SEX F / MBI SYNQYY3LJ2 / PART A 1998-11-01 / PART B 1999-11-01"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: GARCIA, NANCY
+DOB: 1956-07-18   Sex: M
+Medicare No: SYNFR7R726
+Part A effective: 2021-07-01   Part B effective: 2021-07-01
+Address: 831 Lakeview Dr
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 602-555-2241
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA NANCY / DOB 1956-07-18 / SEX M / MBI SYNFR7R726 / PART A 2021-07-01 / PART B 2021-07-01
+Attachment B (proof of address): 831 Lakeview Dr Austin TX 78703

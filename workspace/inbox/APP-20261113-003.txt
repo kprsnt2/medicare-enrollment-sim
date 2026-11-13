@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: WILSON, JOSEPH
+DOB: 1942-09-18   Sex: M
+Medicare No: SYNCT586KQ
+Part A effective: 2007-09-01   Part B effective: 2007-09-01
+Address: 863 Maple Ave
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 713-555-7897
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON JOSEPH / DOB 1942-09-18 / SEX M / MBI SYNCT586KQ / PART A 2007-09-01 / PART B 2007-09-01
+Attachment B (proof of address): 863 Maple Ave Miami FL 33102

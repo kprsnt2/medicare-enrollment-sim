@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-13
+Name: THOMPSON, KAREN
+DOB: 1941-11-11   Sex: F
+Medicare No: SYNQ79DTXF
+Part A effective: 2006-11-01   Part B effective: 2006-11-01
+Address: 786 Cedar Ln
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 602-555-7894
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON KAREN / DOB 1941-11-11 / SEX F / MBI SYNQ79DTXF / PART A 2006-11-01 / PART B 2006-11-01
+Attachment B (proof of address): 786 Cedar Ln Austin TX 78702
