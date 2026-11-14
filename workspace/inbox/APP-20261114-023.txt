@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: GARCIA, BARBARA
+DOB: 1943-12-19   Sex: F
+Medicare No: SYNHSWKCGP
+Part A effective: 2008-12-01   Part B effective: 2009-12-01
+Address: 833 Hill St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-2956
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): GARCIA BARBARA / DOB 1943-12-19 / SEX F / MBI SYNHSWKCGP / PART A 2008-12-01 / PART B 2009-12-01
+Attachment B (proof of address): 833 Hill St Houston TX 77003

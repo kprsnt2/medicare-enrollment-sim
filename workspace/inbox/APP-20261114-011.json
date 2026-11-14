@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Hernandez",
+  "dob": "1953-10-01",
+  "sex": "M",
+  "mbi": "SYNR7CC48K",
+  "part_a_eff": "2018-10-01",
+  "part_b_eff": "2018-10-01",
+  "address": "611 Hill St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "312-555-7242",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-14",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "HERNANDEZ DAVID / DOB 1953-10-01 / SEX M / MBI SYNR7CC48K / PART A 2018-10-01 / PART B 2018-10-01",
+  "address_proof": "611 Hill St Phoenix AZ 85003"
+ }
+}

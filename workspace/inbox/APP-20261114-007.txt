@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: TAYLOR, KAREN
+DOB: 1947-07-26   Sex: F
+Medicare No: SYNBPJDED6
+Part A effective: 2012-07-01   Part B effective: 2012-07-01
+Address: 715 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 512-555-0544
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 715 Hill St Phoenix AZ 85001

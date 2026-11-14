@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: HERNANDEZ, LINDA
+DOB: 1948-11-10   Sex: F
+Medicare No: SYNY32SXM9
+Part A effective: 2013-11-01   Part B effective: 2013-11-01
+Address: 61 Cedar Ln
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 602-555-5235
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): HERNANDEZ LINDA / DOB 1948-11-10 / SEX F / MBI SYNY32SXM9 / PART A 2013-11-01 / PART B 2013-11-01
+Attachment B (proof of address): 61 Cedar Ln Chicago IL 60602

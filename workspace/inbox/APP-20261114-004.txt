@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: HERNANDEZ, ROBERT
+DOB: 1957-03-07   Sex: M
+Medicare No: SYNZ4TJHV3
+Part A effective: 2022-03-01   Part B effective: 2022-03-01
+Address: 353 Oak St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 512-555-7401
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.
+Attachment B (proof of address): 353 Oak St Miami FL 33102

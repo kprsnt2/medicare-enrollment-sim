@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: BORWN, BARBARA
+DOB: 1950-12-13   Sex: F
+Medicare No: SYNN2JDQQN
+Part A effective: 2015-12-01   Part B effective: 2015-12-01
+Address: 744 Maple Ave
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-9207
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BORWN BARBARA / DOB 1950-12-13 / SEX F / MBI SYNN2JDQQN / PART A 2015-12-01 / PART B 2015-12-01

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: GARCIA, JOSEPH
+DOB: l947-O8-07   Sex: F
+Medicare No: SYND6Z9WZB
+Part A effective: 2012-08-01   Part B effective: 2012-08-01
+Address: 110 Hill St
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 512-555-6931
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): GARCIA JOSEPH / DOB 1947-08-07 / SEX F / MBI SYND629WZB / PART A 2012-08-01 / PART B 2012-08-01
+Attachment B (proof of address): 110 Hill St Austin TX 78701

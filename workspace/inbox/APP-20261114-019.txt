@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: THOMPSON, DOROTHY
+DOB: 1931-11-28   Sex: M
+Medicare No: SYNX55ND8N
+Part A effective: 1996-11-01   Part B effective: 1997-11-01
+Address: 557 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-8867
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): THOMPSON DOROTHY / DOB 1931-11-28 / SEX M / MBI SYNX55ND8N / PART A 1996-11-01 / PART B 1997-11-01
+Attachment B (proof of address): 557 Maple Ave Chicago IL 60603

@@ -1,0 +1,56 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261113-029",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      7615,
+      7616
+     ],
+     "severity": "S2",
+     "text": "The requested effective date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event. Although the diagnosis references AEP timing, the applied change itself has empty evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261114-014",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261114-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261114-018",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261114-022",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261114-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 820,
+ "findings": [],
+ "ledger_entries": 7724,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-14"
+}

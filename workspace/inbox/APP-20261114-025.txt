@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-14
+Name: THOMPSON, MARY
+DOB: 1935-07-08   Sex: M
+Medicare No: SYNRWY23ML
+Part A effective: 2000-07-01   Part B effective: 2001-07-01
+Address: 803 Elm St
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 305-555-3099
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON MARY / DOB 1935-07-08 / SEX M / MBI SYNRWY23ML / PART A 2000-07-01 / PART B 2001-07-01
+Attachment B (proof of address): 803 Elm St Miami FL 33101
