@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: MARTINEZ, JOHN
+DOB: 1955-11-10   Sex: M
+Medicare No: SYNDWP3PQZ
+Part A effective: 2020-11-01   Part B effective: 2020-11-01
+Address: 359 Hill St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 312-555-3885
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ JOHN / DOB 1955-11-10 / SEX M / MBI SYNDWP3PQZ / PART A 2020-11-01 / PART B 2020-11-01
+Attachment B (proof of address): 359 Hill St Phoenix AZ 85002

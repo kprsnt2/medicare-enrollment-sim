@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Moore",
+  "dob": "1961-11-22",
+  "sex": "M",
+  "mbi": "SYN5JENRK6",
+  "part_a_eff": "2026-11-01",
+  "part_b_eff": "2026-11-01",
+  "address": "297 Pine Rd",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "713-555-6302",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Priya Nair",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-15",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MOORE THOMAS / DOB 1961-11-22 / SEX M / MBI SYN5JENRK6 / PART A 2026-11-01 / PART B 2026-11-01",
+  "address_proof": "297 Pine Rd Chicago IL 60603"
+ }
+}

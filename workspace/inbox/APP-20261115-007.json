@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Joseph",
+  "last_name": "Johnson",
+  "dob": "1939-06-24",
+  "sex": "F",
+  "mbi": "SYN48BFRXT",
+  "part_a_eff": "2004-06-01",
+  "part_b_eff": "2004-06-01",
+  "address": "591 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "512-555-7249",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-15",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JOHNSON JOSEPH / DOB 1939-06-24 / SEX F / MBI SYN48BFRXT / PART A 2004-06-01 / PART B 2004-06-01"
+ }
+}

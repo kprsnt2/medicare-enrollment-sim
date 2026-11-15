@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: THOMAS, JOHN
+DOB: 1962-01-07   Sex: M
+Medicare No: SYNLH72689
+Part A effective: 2027-01-01   Part B effective: 2027-01-01
+Address: 23 Maple Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-3242
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulakrni
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: My regular doctor is Dr. Neha Kulkarni at the clinic.
+Attachment A (Medicare card copy): THOMAS JOHN / DOB 1962-01-07 / SEX M / MBI SYNLH72689 / PART A 2027-01-01 / PART B 2027-01-01
+Attachment B (proof of address): 23 Maple Ave Austin TX 78703

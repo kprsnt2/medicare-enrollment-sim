@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: TAYLOR, PATRICIA
+DOB: 1934-O7-Ol   Sex: F
+Medicare No: SYNNX2GNNX
+Part A effective: 1999-07-01   Part B effective: 1999-07-01
+Address: 295 Oak St
+City: Phoenix   State: AZ   ZIP: B50OZ   County: Maricopa
+Phone: 713-555-5774
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR PATRICIA / DOB 1934-07-01 / SEX F / MBI SYNNX2GNNX / PART A 1999-07-01 / PART B 1999-07-01
+Attachment B (proof of address): 295 Oak St Phoenix AZ 85002

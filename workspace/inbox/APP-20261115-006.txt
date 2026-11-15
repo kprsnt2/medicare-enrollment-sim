@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: ANDERSON, HELEN
+DOB: 1930-01-19   Sex: F
+Medicare No: SYNRW8FM9G
+Part A effective: 1995-01-01   Part B effective: 1995-01-01
+Address: 184 Maple Ave
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 602-555-0445
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): ANDERSON HELEN / DOB 1930-01-19 / SEX F / MBI SYNRW8FM9G / PART A 1995-01-01 / PART B 1995-01-01
+Attachment B (proof of address): 184 Maple Ave Miami FL 33103

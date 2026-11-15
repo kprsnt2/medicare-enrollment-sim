@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: HERNANDEZ, THOMAS
+DOB: 1945-07-13   Sex: M
+Medicare No: SYN7TJMNSV
+Part A effective: 2010-07-01   Part B effective: 2010-07-01
+Address: 677 Elm St
+City: Houston   State: TX   ZIP: 85002   County: Harris
+Phone: 512-555-6793
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ THOMAS / DOB 1945-07-13 / SEX M / MBI SYN7TJMNSV / PART A 2010-07-01 / PART B 2010-07-01
+Attachment B (proof of address): 677 Elm St Houston TX 77003

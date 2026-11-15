@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Thompson",
+  "dob": "1961-10-05",
+  "sex": "F",
+  "mbi": "SYNKPKN3TP",
+  "part_a_eff": "2026-10-01",
+  "part_b_eff": "2026-10-01",
+  "address": "346 Pine Rd",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "602-555-3199",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-15",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "THOMPSON BARBARA / DOB 1961-10-05 / SEX F / MBI SYNKPKN3TP / PART A 2026-10-01 / PART B 2026-10-01",
+  "address_proof": "346 Pine Rd Austin TX 78703"
+ }
+}

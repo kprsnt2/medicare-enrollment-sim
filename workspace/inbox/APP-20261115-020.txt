@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: ANDERSON, NANCY
+DOB: 1936-11-01   Sex: M
+Medicare No: SYNNSN4ZC5
+Part A effective: 2001-11-01   Part B effective: 2001-11-01
+Address: 761 Elm St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-5571
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON NANCY / DOB 1936-11-01 / SEX M / MBI SYNNSN4ZC5 / PART A 2001-11-01 / PART B 2001-11-01
+Attachment B (proof of address): 761 Elm St Phoenix AZ 85001

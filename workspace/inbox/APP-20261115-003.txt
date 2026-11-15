@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: JACKSON, MICHAEL
+DOB: 1942-07-26   Sex: M
+Medicare No: SYNSSW3EUS
+Part A effective: 2007-07-01   Part B effective: 2007-07-01
+Address: 231 Cedar Ln
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 602-555-2928
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON MICHAEL / DOB 1942-07-26 / SEX M / MBI SYNSSW3EUS / PART A 2007-07-01 / PART B 2007-07-01
+Attachment B (proof of address): 231 Cedar Ln Miami FL 33103

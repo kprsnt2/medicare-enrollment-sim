@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: LOPEZ, RICHARD
+DOB: 1937-07-06   Sex: M
+Medicare No: SYNF7HWKSS
+Part A effective: 2002-07-01   Part B effective: 2002-07-01
+Address: 476 Cedar Ln
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 512-555-9061
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LOPEZ RICHARD / DOB 1937-07-06 / SEX M / MBI SYNF7HWKSS / PART A 2002-07-01 / PART B 2002-07-01
+Attachment B (proof of address): 476 Cedar Ln Miami FL 33102

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: JONES, THOMAS
+DOB: 1941-09-19   Sex: F
+Medicare No: SYNY2H5DUB
+Part A effective: 2006-09-01   Part B effective: 2006-09-01
+Address: 530 Park Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-5756
+Plan selected: Lakeshore Prime HMO (SYN-H0002-00X)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES THOMAS / DOB 1941-09-19 / SEX F / MBI SYNY2H5DUB / PART A 2006-09-01 / PART B 2006-09-01
+Attachment B (proof of address): 530 Park Ave Chicago IL 60602

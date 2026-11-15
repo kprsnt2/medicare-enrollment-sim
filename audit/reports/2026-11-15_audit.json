@@ -1,0 +1,114 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261115-003",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      7876
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-12-01 to 2027-01-01 without any quoted supporting evidence in the timeline. The applied fix has empty evidence."
+    },
+    {
+     "event_seqs": [
+      7875
+     ],
+     "severity": "S2",
+     "text": "The election_type was changed from OEP to AEP based only on the received date, but the source document explicitly states 'Election: OEP'. There is no quoted evidence from the application supporting AEP; this is an inferred correction rather than a document-supported one."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261115-013",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      7920
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-12-01 to 2027-01-01 without any quoted supporting evidence in the record. The fix entry for this field has empty evidence."
+    },
+    {
+     "event_seqs": [
+      7919,
+      7920,
+      7921,
+      7922
+     ],
+     "severity": "S3",
+     "text": "The accepted outcome depends on changing election_type from OEP to AEP and requested_effective_date to 2027-01-01, but only the election_type change is tied to quoted evidence from the source text. There is no event with quoted evidence supporting the new effective date."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261115-015",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      7914
+     ],
+     "severity": "S3",
+     "text": "requested_effective_date was changed from 2026-12-01 to 2027-01-01 without any cited supporting evidence in the timeline. The fix record has an empty evidence field, so this change is not tied to quoted support."
+    },
+    {
+     "event_seqs": [
+      7912,
+      7913
+     ],
+     "severity": "S3",
+     "text": "election_type was changed from OEP to AEP based only on the election date and resolver diagnosis; there is no quoted evidence in the case documents supporting that the applicant selected AEP rather than OEP. The original submission/source text explicitly shows OEP."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261114-028",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      7884
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted documentary evidence in the fix record; the source form explicitly shows 2026-11-01, and seq 7884 lists empty evidence."
+    },
+    {
+     "event_seqs": [
+      7883,
+      7884,
+      7885,
+      7886
+     ],
+     "severity": "S3",
+     "text": "The case was accepted after altering the requested_effective_date based on resolver policy reasoning rather than documented evidence from the submitted materials. The acceptance depends on that unsupported change."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261115-001",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261115-009",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 850,
+ "findings": [],
+ "ledger_entries": 8015,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-15"
+}

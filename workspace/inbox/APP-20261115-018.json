@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Taylor",
+  "dob": "1954-10-18",
+  "sex": "M",
+  "mbi": "SYNMHVC4FC",
+  "part_a_eff": "2019-10-01",
+  "part_b_eff": "2019-10-01",
+  "address": "408 Park Ave",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "602-555-8754",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Priya Nair",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-15",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "TAYLOR BARBARA / DOB 1954-10-18 / SEX M / MBI SYNMHVC4FC / PART A 2019-10-01 / PART B 2019-10-01",
+  "address_proof": "408 Park Ave Chicago IL 60601"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-15
+Name: MARTIN, MARY
+DOB: 1936-01-07   Sex: M
+Medicare No: SYNXX3J2B9
+Part A effective: 2001-01-01   Part B effective: 2001-01-01
+Address: 799 Park Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-1468
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN MARY / DOB 1936-01-07 / SEX M / MBI SYNXX3J2B9 / PART A 2001-01-01 / PART B 2001-01-01
+Attachment B (proof of address): 799 Park Ave Chicago IL 60602
