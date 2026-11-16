@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Martinez",
+  "dob": "1961-11-09",
+  "sex": "M",
+  "mbi": "SYNUWDRXJM",
+  "part_a_eff": "2026-11-01",
+  "part_b_eff": "2026-11-01",
+  "address": "858 Cedar Ln",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "78703",
+  "county": "Maricopa",
+  "phone": "713-555-6243",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Sam Ortiz",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-16",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "MARTINEZ MARY / DOB 1961-11-09 / SEX M / MBI SYNUWDRXJM / PART A 2026-11-01 / PART B 2026-11-01",
+  "address_proof": "858 Cedar Ln Phoenix AZ 85003"
+ }
+}

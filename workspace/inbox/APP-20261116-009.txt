@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: JOHNSON, PATRICIA
+DOB: 1930-11-01   Sex: M
+Medicare No: SYNURE4EL8
+Part A effective: 1995-11-01   Part B effective: 1995-11-01
+Address: 86 Maple Ave
+City: Phoenix   State: AZ   ZIP: 33102   County: Maricopa
+Phone: 602-555-8774
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 86 Maple Ave Phoenix AZ 85001

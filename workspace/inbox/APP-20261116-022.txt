@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: GARCIA, BARBARA
+DOB: 1934-05-09   Sex: M
+Medicare No: SYN2BWTAJH
+Part A effective: 1999-05-01   Part B effective: 1999-05-01
+Address: 375 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-8843
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): GARCIA BARBARA / DOB 1934-05-09 / SEX M / MBI SYN2BWTAJH / PART A 1999-05-01 / PART B 1999-05-01
+Attachment B (proof of address): 375 Maple Ave Phoenix AZ 85002

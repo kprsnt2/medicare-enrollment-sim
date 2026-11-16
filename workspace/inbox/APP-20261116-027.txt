@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: BROWN, PATRICIA
+DOB: 1943-03-24   Sex: F
+Medicare No: SYNWB3XM4N
+Part A effective: 2008-03-01   Part B effective: 2008-03-01
+Address: 210 Oak St
+City: Houston   State: TX   ZIP: 60601   County: Harris
+Phone: 602-555-9517
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN PATRICIA / DOB 1943-03-24 / SEX F / MBI SYNWB3XM4N / PART A 2008-03-01 / PART B 2008-03-01
+Attachment B (proof of address): 210 Oak St Houston TX 77002

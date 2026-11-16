@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Brown",
+  "dob": "1949-09-13",
+  "sex": "F",
+  "mbi": "SYNA87KZZ6",
+  "part_a_eff": "2014-09-01",
+  "part_b_eff": "2014-09-01",
+  "address": "705 Elm St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60602",
+  "county": "Cook",
+  "phone": "312-555-9277",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Priya Nair",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-16",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "BROWN CHARLES / DOB 1949-09-13 / SEX F / MBI SYNA87KZZ6 / PART A 2014-09-01 / PART B 2014-09-01",
+  "address_proof": "705 Elm St Chicago IL 60602"
+ }
+}

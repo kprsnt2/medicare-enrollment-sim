@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: DAVIS, RICHARD
+DOB: 1958-03-15   Sex: M
+Medicare No: SYNKLG7YEC
+Part A effective: 2023-03-01   Part B effective: 2023-03-01
+Address: 368 Maple Ave
+City: Phoenix   State: AZ   ZIP: 78702   County: Maricopa
+Phone: 713-555-9120
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS RICHARD / DOB 1958-03-15 / SEX M / MBI SYNKLG7YEC / PART A 2023-03-01 / PART B 2023-03-01
+Attachment B (proof of address): 368 Maple Ave Phoenix AZ 85002

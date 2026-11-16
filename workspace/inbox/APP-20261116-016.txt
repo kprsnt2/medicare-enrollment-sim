@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: LEE, JAMES
+DOB: 1943-11-03   Sex: M
+Medicare No: SYNM93M9QM
+Part A effective: 2008-11-01   Part B effective: 2008-11-01
+Address: 505 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 305-555-4882
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE JAMES / DOB 1943-11-03 / SEX M / MBI SYNM93M9QM / PART A 2008-11-01 / PART B 2008-11-01
+Attachment B (proof of address): 505 Hill St Phoenix AZ 85003

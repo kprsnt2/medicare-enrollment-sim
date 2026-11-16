@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: MOORE, WILLIAM
+DOB: 1954-09-11   Sex: F
+Medicare No: SYNN4XJZ3N
+Part A effective: 2019-09-01   Part B effective: 2019-09-01
+Address: 132 Maple Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 312-555-5378
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MOORE WILLIAM / DOB 1954-09-11 / SEX F / MBI SYNN4XJZ3N / PART A 2019-09-01 / PART B 2019-09-01
+Attachment B (proof of address): 132 Maple Ave Chicago IL 60602

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-16
+Name: GARCIA, PATRICIA
+DOB: 1955-07-01   Sex: M
+Medicare No: SYNUK6KUME
+Part A effective: 2020-07-01   Part B effective: 2020-07-01
+Address: 201 Oak St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 602-555-2695
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kmi
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: My regular doctor is Dr. Hana Kim at the clinic.
+Attachment A (Medicare card copy): GARCIA PATRICIA / DOB 1955-07-01 / SEX M / MBI SYNUK6KUME / PART A 2020-07-01 / PART B 2020-07-01
+Attachment B (proof of address): 201 Oak St Phoenix AZ 85002

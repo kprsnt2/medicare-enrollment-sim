@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Thompson",
+  "dob": "1942-05-12",
+  "sex": "M",
+  "mbi": "SYNCMPQGU3",
+  "part_a_eff": "2007-05-01",
+  "part_b_eff": "2007-05-01",
+  "address": "898 Pine Rd",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "512-555-1660",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-16",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMPSON JOHN / DOB 1942-05-12 / SEX M / MBI SYNCMPQGU3 / PART A 2007-05-01 / PART B 2007-05-01",
+  "address_proof": "898 Pine Rd Miami FL 33101"
+ }
+}
