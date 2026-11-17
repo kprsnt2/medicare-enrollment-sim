@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: MARTIN, THOMAS
+DOB: 1953-O8-l7   Sex: M
+Medicare No: SYNSKEMFCA
+Part A effective: 2018-08-01   Part B effective: 2018-08-01
+Address: 284 Elm St
+City: Phoenix   State: AZ   ZIP: 8SOOl   County: Maricopa
+Phone: 602-555-8537
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN THOMAS / DOB 1953-08-17 / SEX M / MBI SYNSKEMFCA / PART A 2018-08-01 / PART B 2018-08-01
+Attachment B (proof of address): 284 Elm St Phoenix AZ 85001

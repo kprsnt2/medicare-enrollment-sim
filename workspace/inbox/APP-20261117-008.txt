@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: MOORE, DOROTHY
+DOB: 1946-06-23   Sex: F
+Medicare No: SYNSFDA52X
+Part A effective: 2011-06-01   Part B effective: 2011-06-01
+Address: 196 Oak St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-2580
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 196 Oak St Houston TX 77002

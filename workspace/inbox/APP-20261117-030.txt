@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: LOPEZ, MARY
+DOB: 1930-04-10   Sex: F
+Medicare No: SYNW5SUAUC
+Part A effective: 1995-04-01   Part B effective: 1995-04-01
+Address: 971 Elm St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-5261
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): LOPEZ MARY / DOB 1930-04-10 / SEX F / MBI SYNW5SUAUC / PART A 1995-04-01 / PART B 1995-04-01
+Attachment B (proof of address): 971 Elm St Houston TX 77002

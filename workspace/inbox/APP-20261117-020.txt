@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: WILLIAMS, CHARLES
+DOB: 1957-04-26   Sex: F
+Medicare No: SYN9Q9NGNB
+Part A effective: 2022-04-01   Part B effective: 2022-04-01
+Address: 449 Lakeview Dr
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 602-555-9146
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): WILLIAMS CHARLES / DOB 1957-04-26 / SEX F / MBI SYN9Q9NGNB / PART A 2022-04-01 / PART B 2022-04-01
+Attachment B (proof of address): 449 Lakeview Dr Phoenix AZ 85003

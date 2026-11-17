@@ -1,0 +1,74 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261117-002",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      8476,
+      8477
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event. The resolver provides rationale, but seq 8477 shows empty evidence for the field change."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261117-003",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261117-010",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      8481,
+      8482
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any supporting documentary evidence quoted from the application or attachments. The only support shown is an internal diagnosis about AEP timing, and the fix_applied event has empty evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261117-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261117-017",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261117-020",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      8524,
+      8525
+     ],
+     "severity": "S3",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event; the application source shows the original requested date only, and the resolver justification is not evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  }
+ ],
+ "cases_checked": 910,
+ "findings": [],
+ "ledger_entries": 8604,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-17"
+}

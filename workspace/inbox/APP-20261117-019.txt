@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: MILLER, ROBERT
+DOB: 1930-01-23   Sex: F
+Medicare No: SYNMZ7SUHA
+Part A effective: 1995-01-01   Part B effective: 1995-01-01
+Address: 833 Maple Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-7257
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): MILLER ROBERT / DOB 1930-01-23 / SEX F / MBI SYNMZ7SUHA / PART A 1995-01-01 / PART B 1995-01-01
+Attachment B (proof of address): 833 Maple Ave Chicago IL 60603

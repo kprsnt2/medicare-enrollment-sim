@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Smith",
+  "dob": "1951-05-04",
+  "sex": "F",
+  "mbi": "SYN72BLHAW",
+  "part_a_eff": "2016-05-01",
+  "part_b_eff": "2016-05-01",
+  "address": "487 Elm St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "713-555-2312",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-17",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "SMITH BETTY / DOB 1951-05-04 / SEX F / MBI SYN72BLHAW / PART A 2016-05-01 / PART B 2016-05-01",
+  "address_proof": "487 Elm St Phoenix AZ 85003"
+ }
+}

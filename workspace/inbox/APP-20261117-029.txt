@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: WILSON, DOROTHY
+DOB: 1957-12-06   Sex: M
+Medicare No: SYN28NJ63L
+Part A effective: 2022-12-01   Part B effective: 2022-12-01
+Address: 704 Lakeview Dr
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-9971
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON DOROTHY / DOB 1957-12-06 / SEX M / MBI SYN28NJ63L / PART A 2022-12-01 / PART B 2022-12-01
+Attachment B (proof of address): 704 Lakeview Dr Houston TX 77001

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: MARTINEZ, DAVID
+DOB: 1934-12-20   Sex: M
+Medicare No: SYNTCJ7FZC
+Part A effective: 1999-12-01   Part B effective: 1999-12-01
+Address: 651 Elm St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 512-555-5893
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): MARTINEZ DAVID / DOB 1934-12-20 / SEX M / MBI SYNTCJ7FZC / PART A 1999-12-01 / PART B 1999-12-01
+Attachment B (proof of address): 651 Elm St Austin TX 78702

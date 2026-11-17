@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-17
+Name: WILSON, ROBERT
+DOB: 1946-01-01   Sex: F
+Medicare No: SYNXABM4QS
+Part A effective: 2011-01-01   Part B effective: 2011-01-01
+Address: 506 Maple Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 305-555-2545
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): WILSON ROBERT / DOB 1946-01-01 / SEX F / MBI SYNXABM4QS / PART A 2011-01-01 / PART B 2011-01-01
+Attachment B (proof of address): 506 Maple Ave Austin TX 78702
