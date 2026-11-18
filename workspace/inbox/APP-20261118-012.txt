@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: HERNANDEZ, DAVID
+DOB: 1940-01-10   Sex: M
+Medicare No: SYNFLM6DBQ
+Part A effective: 2005-01-01   Part B effective: 2006-01-01
+Address: 648 Elm St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 305-555-1899
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment B (proof of address): 648 Elm St Chicago IL 60601

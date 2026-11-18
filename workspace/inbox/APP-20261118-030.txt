@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: JACKSON, WILLIAM
+DOB: 1930-0S-22   Sex: F
+Medicare No: SYNQNP3Z6Q
+Part A effective: 1995-05-01   Part B effective: 1995-05-01
+Address: 28 Park Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-3518
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON WILLIAM / DOB 1930-05-22 / SEX F / MBI SYNQNP326Q / PART A 1995-05-01 / PART B 1995-05-01
+Attachment B (proof of address): 28 Park Ave Austin TX 78702

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Taylor",
+  "dob": "1962-01-04",
+  "sex": "F",
+  "mbi": "SYNA52RYJR",
+  "part_a_eff": "2027-01-01",
+  "part_b_eff": "2027-01-01",
+  "address": "74 Lakeview Dr",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "305-555-4569",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura eWiss",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-18",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Laura Weiss at the clinic.",
+ "attachments": {
+  "card_text": "TAYLOR JAMES / DOB 1962-01-04 / SEX F / MBI SYNA52RYJR / PART A 2027-01-01 / PART B 2027-01-01"
+ }
+}

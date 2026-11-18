@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: DAVIS, JAMES
+DOB: 1961-10-12   Sex: M
+Medicare No: SYNKG4NTDT
+Part A effective: 2026-10-01   Part B effective: 2026-10-01
+Address: 413 Maple Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-6720
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Chris Doyle
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS JAMES / DOB 1961-10-12 / SEX M / MBI SYNKG4NTDT / PART A 2026-10-01 / PART B 2026-10-01

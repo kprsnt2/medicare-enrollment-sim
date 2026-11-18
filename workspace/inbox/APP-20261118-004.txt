@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: WILSON, THOMAS
+DOB: 1945-01-02   Sex: F
+Medicare No: SYNWVXUSK3
+Part A effective: 2010-01-01   Part B effective: 2010-01-01
+Address: 209 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-5149
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON THOMAS / DOB 1945-01-02 / SEX F / MBI SYNWVXUSK3 / PART A 2010-01-01 / PART B 2010-01-01
+Attachment B (proof of address): 209 Oak St Houston TX 77003

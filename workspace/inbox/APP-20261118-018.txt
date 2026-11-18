@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: LEE, JAMES
+DOB: 1950-03-11   Sex: M
+Medicare No: SYN49M5RAT
+Part A effective: 2015-03-01   Part B effective: 2015-03-01
+Address: 645 Cedar Ln
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-3454
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

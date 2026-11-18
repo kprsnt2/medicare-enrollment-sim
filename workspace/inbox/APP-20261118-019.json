@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Martin",
+  "dob": "1935-05-14",
+  "sex": "F",
+  "mbi": "SYN7D4GHKC",
+  "part_a_eff": "2000-05-01",
+  "part_b_eff": "2000-05-01",
+  "address": "585 Elm St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "305-555-7384",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-18",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTIN JAMES / DOB 1935-05-14 / SEX F / MBI SYN7D4GHKC / PART A 2000-05-01 / PART B 2000-05-01",
+  "address_proof": "585 Elm St Miami FL 33101"
+ }
+}

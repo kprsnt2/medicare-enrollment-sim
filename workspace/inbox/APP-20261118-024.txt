@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: DAVIS, BARBARA
+DOB: 1952-12-02   Sex: M
+Medicare No: SYNZKJQHPW
+Part A effective: 2017-12-01   Part B effective: 2017-12-01
+Address: 995 Lakeview Dr
+City: Houston   State: TX   ZIP: 85002   County: Harris
+Phone: 305-555-4731
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS BARBARA / DOB 1952-12-02 / SEX M / MBI SYNZKJQHPW / PART A 2017-12-01 / PART B 2017-12-01
+Attachment B (proof of address): 995 Lakeview Dr Houston TX 77001

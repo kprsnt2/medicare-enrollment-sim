@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: JACKSON, NANCY
+DOB: 1949-11-03   Sex: M
+Medicare No: SYNND86D84
+Part A effective: 2014-11-01   Part B effective: 2014-11-01
+Address: 428 Oak St
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-7244
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JACKSON NANCY / DOB 1949-11-03 / SEX M / MBI SYNND86D84 / PART A 2014-11-01 / PART B 2014-11-01

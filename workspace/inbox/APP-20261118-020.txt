@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-18
+Name: TAYLOR, DAVID
+DOB: 1957-09-09   Sex: M
+Medicare No: SYN4K4MYBF
+Part A effective: 2022-09-01   Part B effective: 2022-09-01
+Address: 957 Elm St
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 312-555-3361
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Chris Doyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): TAYLOR DAVID / DOB 1957-09-09 / SEX M / MBI SYN4K4MYBF / PART A 2022-09-01 / PART B 2022-09-01
+Attachment B (proof of address): 957 Elm St Houston TX 77001
