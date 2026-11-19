@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-19
+Name: MARTIN, JOHN
+DOB: 1934-01-06   Sex: M
+Medicare No: SYNPYTDXKY
+Part A effective: 1999-01-01   Part B effective: 1999-01-01
+Address: 127 Hill St
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-7098
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN JOHN / DOB 1934-01-06 / SEX M / MBI SYNPYTDXKY / PART A 1999-01-01 / PART B 1999-01-01
+Attachment B (proof of address): 127 Hill St Miami FL 33102

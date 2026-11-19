@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Davis",
+  "dob": "1962-01-03",
+  "sex": "M",
+  "mbi": "SYNMJ5RKK9",
+  "part_a_eff": "2027-01-01",
+  "part_b_eff": "2027-01-01",
+  "address": "138 Cedar Ln",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "713-555-9854",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-19",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "DAVIS RICHARD / DOB 1962-01-03 / SEX M / MBI SYNMJ5RKK9 / PART A 2027-01-01 / PART B 2027-01-01",
+  "address_proof": "138 Cedar Ln Houston TX 77003"
+ }
+}

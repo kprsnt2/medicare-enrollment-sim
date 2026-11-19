@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-19
+Name: DAVIS, MICHAEL
+DOB: 1943-01-02   Sex: F
+Medicare No: SYNAZX6B92
+Part A effective: 2008-01-01   Part B effective: 2008-01-01
+Address: 818 Park Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 602-555-6327
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): DAVIS MICHAEL / DOB 1943-01-02 / SEX F / MBI SYNAZX6B92 / PART A 2008-01-01 / PART B 2008-01-01
+Attachment B (proof of address): 818 Park Ave Austin TX 78702

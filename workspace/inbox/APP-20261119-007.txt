@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-19
+Name: BROWN, SUSAN
+DOB: 1949-04-16   Sex: M
+Medicare No: SYNZPEFBDX
+Part A effective: 2014-04-01   Part B effective: 2014-04-01
+Address: 298 Pine Rd
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 713-555-3910
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN SUSAN / DOB 1949-04-16 / SEX M / MBI SYNZPEFBDX / PART A 2014-04-01 / PART B 2014-04-01
+Attachment B (proof of address): 298 Pine Rd Phoenix AZ 85002

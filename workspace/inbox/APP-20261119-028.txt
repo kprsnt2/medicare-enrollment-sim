@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-19
+Name: DAVIS, BETTY
+DOB: 1950-03-17   Sex: M
+Medicare No: SYNMN2Q7AW
+Part A effective: 2015-03-01   Part B effective: 2015-03-01
+Address: 928 Park Ave
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 602-555-5987
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): DAVIS BETTY / DOB 1950-03-17 / SEX M / MBI SYNMN2Q7AW / PART A 2015-03-01 / PART B 2015-03-01
+Attachment B (proof of address): 928 Park Ave Miami FL 33103

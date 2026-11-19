@@ -1,0 +1,27 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Johnson",
+  "dob": "1944-07-21",
+  "sex": "F",
+  "mbi": "SYN3XFC9SL",
+  "part_a_eff": "2009-07-01",
+  "part_b_eff": "2009-07-01",
+  "address": "386 Pine Rd",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "312-555-4888",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-19",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {}
+}

@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Taylor",
+  "dob": "1938-10-22",
+  "sex": "F",
+  "mbi": "SYNELTW2YR",
+  "part_a_eff": "2003-10-01",
+  "part_b_eff": "2003-10-01",
+  "address": "953 Elm St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "77001",
+  "county": "Maricopa",
+  "phone": "312-555-7156",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-19",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "address_proof": "953 Elm St Phoenix AZ 85002"
+ }
+}

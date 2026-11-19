@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-19
+Name: HERNANDEZ, RICHARD
+DOB: 1962-01-26   Sex: M
+Medicare No: SYNCJGAARN
+Part A effective: 2027-01-01   Part B effective: 2027-01-01
+Address: 909 Lakeview Dr
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-1594
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ RICHARD / DOB 1962-01-26 / SEX M / MBI SYNCJGAARN / PART A 2027-01-01 / PART B 2027-01-01
+Attachment B (proof of address): 909 Lakeview Dr Miami FL 33102
