@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Dorothy",
+  "last_name": "Garcia",
+  "dob": "1933-11-13",
+  "sex": "M",
+  "mbi": "SYNKHS7FYB",
+  "part_a_eff": "1998-11-01",
+  "part_b_eff": "1998-11-01",
+  "address": "90 Hill St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "312-555-7207",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "My old plan was discontinued.",
+ "attachments": {
+  "card_text": "GARCIA DOROTHY / DOB 1933-11-13 / SEX M / MBI SYNKHS7FYB / PART A 1998-11-01 / PART B 1998-11-01",
+  "address_proof": "90 Hill St Houston TX 77003"
+ }
+}

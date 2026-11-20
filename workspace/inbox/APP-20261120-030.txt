@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: LEE, BARBARA
+DOB: 1955-11-05   Sex: M
+Medicare No: SYNAFRY5GJ
+Part A effective: 2020-11-01   Part B effective: 2021-11-01
+Address: 359 Lakeview Dr
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 512-555-4051
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE BARBARA / DOB 1955-11-05 / SEX M / MBI SYNAFRY5GJ / PART A 2020-11-01 / PART B 2021-11-01
+Attachment B (proof of address): 359 Lakeview Dr Houston TX 77002

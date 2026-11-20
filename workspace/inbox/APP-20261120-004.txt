@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: JACKSON, MARY
+DOB: 1945-11-02   Sex: M
+Medicare No: SYNTPJZ4QT
+Part A effective: 2010-11-01   Part B effective: 2010-11-01
+Address: 301 Pine Rd
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 512-555-3339
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 301 Pine Rd Miami FL 33103

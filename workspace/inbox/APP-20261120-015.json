@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Miller",
+  "dob": "1961-11-02",
+  "sex": "F",
+  "mbi": "SYNSYREWCU",
+  "part_a_eff": "2026-11-01",
+  "part_b_eff": "2026-11-01",
+  "address": "593 Lakeview Dr",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "312-555-3665",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Sam Ortiz",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "address_proof": "593 Lakeview Dr Phoenix AZ 85002"
+ }
+}

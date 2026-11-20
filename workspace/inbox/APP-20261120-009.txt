@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: ANDERSON, MARY
+DOB: 1931-02-27   Sex: M
+Medicare No: SYNMGQ2JNF
+Part A effective: 1996-02-01   Part B effective: 1996-02-01
+Address: 747 Park Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 312-555-1855
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Neha Kulkarni
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON MARY / DOB 1931-02-27 / SEX M / MBI SYNMGQ2JNF / PART A 1996-02-01 / PART B 1996-02-01
+Attachment B (proof of address): 747 Park Ave Houston TX 77001

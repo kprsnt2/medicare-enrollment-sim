@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: LEE, DAVID
+DOB: 1951-04-15   Sex: M
+Medicare No: SYNQGQ8NLA
+Part A effective: 2016-04-01   Part B effective: 2016-04-01
+Address: 52 Park Ave
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 602-555-6583
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): LEE DAVID / DOB 1951-04-15 / SEX M / MBI SYNQGQ8NLA / PART A 2016-04-01 / PART B 2016-04-01
+Attachment B (proof of address): 52 Park Ave Phoenix AZ 85001

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Smith",
+  "dob": "1955-06-22",
+  "sex": "F",
+  "mbi": "SYNBPBK2L6",
+  "part_a_eff": "2020-06-01",
+  "part_b_eff": "2020-06-01",
+  "address": "432 Lakeview Dr",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "305-555-7468",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "I moved to this county last month.",
+ "attachments": {
+  "card_text": "SMITH WILLIAM / DOB 1955-06-22 / SEX F / MBI SYNBPBK2L6 / PART A 2020-06-01 / PART B 2020-06-01",
+  "address_proof": "432 Lakeview Dr Miami FL 33103"
+ }
+}

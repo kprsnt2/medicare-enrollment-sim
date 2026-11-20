@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: JOHNSON, JAMES
+DOB: 1941-12-14   Sex: M
+Medicare No: SYNJQVYQ6P
+Part A effective: 2006-12-01   Part B effective: 2006-12-01
+Address: 796 Lakeview Dr
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-8935
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON JAMES / DOB 1941-12-14 / SEX M / MBI SYNJQVYQ6P / PART A 2006-12-01 / PART B 2006-12-01
+Attachment B (proof of address): 796 Lakeview Dr Austin TX 78702

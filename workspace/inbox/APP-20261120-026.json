@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Thompson",
+  "dob": "1952-12-10",
+  "sex": "F",
+  "mbi": "SYNY8GZMAE",
+  "part_a_eff": "2017-12-01",
+  "part_b_eff": "2017-12-01",
+  "address": "145 Hill St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "713-555-6905",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "THOMPSON PATRICIA / DOB 1952-12-10 / SEX F / MBI SYNY8GZMAE / PART A 2017-12-01 / PART B 2017-12-01",
+  "address_proof": "145 Hill St Phoenix AZ 85001"
+ }
+}

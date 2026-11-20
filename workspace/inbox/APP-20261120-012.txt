@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: TAYLOR, PATRICIA
+DOB: 1931-10-10   Sex: F
+Medicare No: SYNXEAPEXQ
+Part A effective: 1996-10-01   Part B effective: 1996-10-01
+Address: 212 Maple Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-4101
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): TAYLOR PATRICIA / DOB 1931-10-10 / SEX F / MBI SYNXEAPEXQ / PART A 1996-10-01 / PART B 1996-10-01
+Attachment B (proof of address): 212 Maple Ave Austin TX 78703

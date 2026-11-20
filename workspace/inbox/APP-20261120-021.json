@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Susan",
+  "last_name": "Hernandez",
+  "dob": "1946-04-27",
+  "sex": "F",
+  "mbi": "SYNFF8DP8H",
+  "part_a_eff": "2011-04-01",
+  "part_b_eff": "2011-04-01",
+  "address": "293 Lakeview Dr",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "713-555-9244",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "HERNANDEZ SUSAN / DOB 1946-04-27 / SEX F / MBI SYNFF8DP8H / PART A 2011-04-01 / PART B 2011-04-01"
+ }
+}

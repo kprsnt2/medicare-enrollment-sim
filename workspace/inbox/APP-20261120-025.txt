@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-20
+Name: JOHNSON, NANCY
+DOB: 1941-11-14   Sex: F
+Medicare No: SYNLB6XRYR
+Part A effective: 2006-11-01   Part B effective: 2006-11-01
+Address: 215 Lakeview Dr
+City: Miami   State: FL   ZIP: 33102   County: Miami-Dade
+Phone: 312-555-3854
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

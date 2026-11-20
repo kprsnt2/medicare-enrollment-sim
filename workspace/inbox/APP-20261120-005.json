@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Martinez",
+  "dob": "1934-06-07",
+  "sex": "F",
+  "mbi": "SYNF7DPQ6K",
+  "part_a_eff": "1999-06-01",
+  "part_b_eff": "1999-06-01",
+  "address": "859 Cedar Ln",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "713-555-4896",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-20",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTINEZ DAVID / DOB 1934-06-07 / SEX F / MBI SYNF7DPQ6K / PART A 1999-06-01 / PART B 1999-06-01",
+  "address_proof": "859 Cedar Ln Chicago IL 60603"
+ }
+}
