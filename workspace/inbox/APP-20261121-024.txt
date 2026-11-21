@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-21
+Name: MOORE, LINDA
+DOB: 1942-04-24   Sex: F
+Medicare No: SYNQS9EMMS
+Part A effective: 2007-04-01   Part B effective: 2007-04-01
+Address: 881 Pine Rd
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 713-555-2913
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE LINDA / DOB 1942-04-24 / SEX F / MBI SYNQS9EMMS / PART A 2007-04-01 / PART B 2007-04-01
+Attachment B (proof of address): 881 Pine Rd Chicago IL 60602

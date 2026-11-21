@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Barbara",
+  "last_name": "Garcia",
+  "dob": "1939-10-21",
+  "sex": "M",
+  "mbi": "SYNGCBHDY5",
+  "part_a_eff": "2004-10-01",
+  "part_b_eff": "2004-10-01",
+  "address": "553 Maple Ave",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "602-555-2274",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Laura Weiss",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-21",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA BARBARA / DOB 1939-10-21 / SEX M / MBI SYNGCBHDY5 / PART A 2004-10-01 / PART B 2004-10-01"
+ }
+}

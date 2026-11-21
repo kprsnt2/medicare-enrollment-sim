@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-21
+Name: MILLER, THOMAS
+DOB: 1961-11-04   Sex: F
+Medicare No: SYNWBWLUSH
+Part A effective: 2026-11-01   Part B effective: 2026-11-01
+Address: 389 Park Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-6757
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: IEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): MILLER THOMAS / DOB 1961-11-04 / SEX F / MBI SYNWBWLUSH / PART A 2026-11-01 / PART B 2026-11-01
+Attachment B (proof of address): 389 Park Ave Phoenix AZ 85003

@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-21
+Name: JACKSON, JOHN
+DOB: 1930-07-14   Sex: M
+Medicare No: SYNSBW7PQ6
+Part A effective: 1995-07-01   Part B effective: 1995-07-01
+Address: 726 Cedar Ln
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 312-555-1262
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 726 Cedar Ln Austin TX 78703

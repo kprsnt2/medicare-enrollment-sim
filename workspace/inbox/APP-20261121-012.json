@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Lee",
+  "dob": "1942-10-22",
+  "sex": "F",
+  "mbi": "SYNPGHAZL7",
+  "part_a_eff": "2007-10-01",
+  "part_b_eff": "2007-10-01",
+  "address": "445 Cedar Ln",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "713-555-8830",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Beckre",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-21",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "LEE KAREN / DOB 1942-10-22 / SEX F / MBI SYNPGHAZL7 / PART A 2007-10-01 / PART B 2007-10-01"
+ }
+}

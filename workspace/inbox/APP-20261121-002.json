@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Robert",
+  "last_name": "Jones",
+  "dob": "1932-09-20",
+  "sex": "M",
+  "mbi": "SYNZBH2FRZ",
+  "part_a_eff": "1997-09-01",
+  "part_b_eff": "1998-09-01",
+  "address": "523 Hill St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85002",
+  "county": "Maricopa",
+  "phone": "602-555-3185",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-21",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "address_proof": "523 Hill St Phoenix AZ 85002"
+ }
+}

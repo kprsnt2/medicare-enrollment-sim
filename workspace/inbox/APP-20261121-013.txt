@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-21
+Name: JOHNSON, JOSEPH
+DOB: 1950-04-06   Sex: M
+Medicare No: SYN7CBGACB
+Part A effective: 2015-04-01   Part B effective: 2015-04-01
+Address: 306 Oak St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 602-555-0054
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JOHNSON JOSEPH / DOB 1950-04-06 / SEX M / MBI SYN7CBGACB / PART A 2015-04-01 / PART B 2015-04-01
+Attachment B (proof of address): 306 Oak St Austin TX 78702
