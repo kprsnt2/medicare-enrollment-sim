@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: JACKSON, DAVID
+DOB: 1932-05-17   Sex: F
+Medicare No: SYNBRZV6Z5
+Part A effective: 1997-05-01   Part B effective: 1997-05-01
+Address: 805 Oak St
+City: Chicago   State: IL   ZIP: 6O6O1   County: Cook
+Phone: 312-555-7805
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): JACKSON DAVID / DOB 1932-05-17 / SEX F / MBI SYNBR2V6Z5 / PART A 1997-05-01 / PART B 1997-05-01
+Attachment B (proof of address): 805 Oak St Chicago IL 60601

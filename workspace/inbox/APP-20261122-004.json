@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Charles",
+  "last_name": "Johnson",
+  "dob": "1948-06-12",
+  "sex": "M",
+  "mbi": "SYNREKQHXX",
+  "part_a_eff": "2013-06-01",
+  "part_b_eff": "2013-06-01",
+  "address": "182 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "312-555-4334",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-00X",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JOHNSON CHARLES / DOB 1948-06-12 / SEX M / MBI SYNREKQHXX / PART A 2013-06-01 / PART B 2013-06-01",
+  "address_proof": "182 Oak St Phoenix AZ 85001"
+ }
+}

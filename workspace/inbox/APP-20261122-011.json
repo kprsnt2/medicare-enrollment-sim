@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Jackson",
+  "dob": "1950-12-16",
+  "sex": "M",
+  "mbi": "SYN7W6K6MB",
+  "part_a_eff": "2015-12-01",
+  "part_b_eff": "2015-12-01",
+  "address": "462 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77001",
+  "county": "Harris",
+  "phone": "305-555-4289",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-22",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "JACKSON MARY / DOB 1950-12-16 / SEX M / MBI SYN7W6K6MB / PART A 2015-12-01 / PART B 2015-12-01",
+  "address_proof": "462 Pine Rd Houston TX 77001"
+ }
+}

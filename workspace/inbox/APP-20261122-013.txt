@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: THOMPSON, JAMES
+DOB: 1947-09-09   Sex: M
+Medicare No: SYNVNA7JEL
+Part A effective: 2012-09-01   Part B effective: 2012-09-01
+Address: 423 Hill St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 602-555-5530
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON JAMES / DOB 1947-09-09 / SEX M / MBI SYNVNA7JEL / PART A 2012-09-01 / PART B 2012-09-01
+Attachment B (proof of address): 423 Hill St Phoenix AZ 85003

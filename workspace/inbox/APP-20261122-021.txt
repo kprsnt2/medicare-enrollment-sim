@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: THOMPSON, JAMES
+DOB: 1945-09-28   Sex: M
+Medicare No: SYN5Y8BBWS
+Part A effective: 2010-09-01   Part B effective: 2010-09-01
+Address: 776 Park Ave
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 312-555-3451
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): THOMPSON JAMES / DOB 1945-09-28 / SEX M / MBI SYN5Y8BBWS / PART A 2010-09-01 / PART B 2010-09-01
+Attachment B (proof of address): 776 Park Ave Houston TX 77002

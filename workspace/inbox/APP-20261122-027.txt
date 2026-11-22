@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: THOMPSON, JOHN
+DOB: 1950-01-21   Sex: F
+Medicare No: SYNWAMNN2P
+Part A effective: 2015-01-01   Part B effective: 2015-01-01
+Address: 347 Hill St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 713-555-8707
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON JOHN / DOB 1950-01-21 / SEX F / MBI SYNWAMNN2P / PART A 2015-01-01 / PART B 2015-01-01
+Attachment B (proof of address): 347 Hill St Chicago IL 60601

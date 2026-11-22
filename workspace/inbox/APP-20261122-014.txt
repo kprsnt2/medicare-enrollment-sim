@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: THOMPSON, SUSAN
+DOB: 1948-08-15   Sex: M
+Medicare No: SYN9F37JS8
+Part A effective: 2013-08-01   Part B effective: 2013-08-01
+Address: 806 Oak St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 312-555-1506
+Plan selected: Sunrise Choice PPO (SYN-H0001-00X)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON SUSAN / DOB 1948-08-15 / SEX M / MBI SYN9F37JS8 / PART A 2013-08-01 / PART B 2013-08-01
+Attachment B (proof of address): 806 Oak St Austin TX 78702

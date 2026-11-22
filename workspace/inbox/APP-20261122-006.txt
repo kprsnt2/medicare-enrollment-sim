@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: THOMAS, RICHARD
+DOB: 1939-07-23   Sex: F
+Medicare No: SYNSD8VHFS
+Part A effective: 2004-07-01   Part B effective: 2004-07-01
+Address: 900 Park Ave
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 602-555-7394
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): THOMAS RICHARD / DOB 1939-07-23 / SEX F / MBI SYNSD8VHFS / PART A 2004-07-01 / PART B 2004-07-01
+Attachment B (proof of address): 900 Park Ave Chicago IL 60603

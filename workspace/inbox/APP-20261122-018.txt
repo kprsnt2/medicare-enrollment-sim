@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-22
+Name: TAYLOR, MICHAEL
+DOB: 1942-12-18   Sex: M
+Medicare No: SYNMUBUTNY
+Part A effective: 2007-12-01   Part B effective: 2007-12-01
+Address: 114 Park Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-3821
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR MICHAEL / DOB 1942-12-18 / SEX M / MBI SYNMUBUTNY / PART A 2007-12-01 / PART B 2007-12-01
+Attachment B (proof of address): 114 Park Ave Chicago IL 60602
