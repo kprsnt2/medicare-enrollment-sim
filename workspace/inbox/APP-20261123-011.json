@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "James",
+  "last_name": "Taylor",
+  "dob": "1946-03-09",
+  "sex": "M",
+  "mbi": "SYNWPYXRV9",
+  "part_a_eff": "2011-03-01",
+  "part_b_eff": "2011-03-01",
+  "address": "131 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "713-555-3092",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "TAYLOR JAMES / DOB 1946-03-09 / SEX M / MBI SYNWPYXRV9 / PART A 2011-03-01 / PART B 2011-03-01",
+  "address_proof": "131 Oak St Austin TX 78703"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Anderson",
+  "dob": "1930-09-16",
+  "sex": "M",
+  "mbi": "SYN7AVM8CH",
+  "part_a_eff": "1995-09-01",
+  "part_b_eff": "1995-09-01",
+  "address": "470 Maple Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "512-555-0036",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "ANDERSON DAVID / DOB 1930-09-16 / SEX M / MBI SYN7AVM8CH / PART A 1995-09-01 / PART B 1995-09-01",
+  "address_proof": "470 Maple Ave Houston TX 77003"
+ }
+}

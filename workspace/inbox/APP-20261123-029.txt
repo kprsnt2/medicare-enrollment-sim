@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-23
+Name: TAYLOR, KAREN
+DOB: 1935-01-23   Sex: M
+Medicare No: SYN5GTFD44
+Part A effective: 2000-01-01   Part B effective: 2000-01-01
+Address: 656 Pine Rd
+City: Houston   State: TX   ZIP: 77003   County: Harris
+Phone: 312-555-4598
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: I prefer morning phone calls.
+Attachment A (Medicare card copy): TAYLOR KAREN / DOB 1935-01-23 / SEX M / MBI SYN5GTFD44 / PART A 2000-01-01 / PART B 2000-01-01

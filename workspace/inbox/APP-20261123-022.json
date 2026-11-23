@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Joseph",
+  "last_name": "Garcia",
+  "dob": "1946-06-27",
+  "sex": "M",
+  "mbi": "SYNBTDX9NH",
+  "part_a_eff": "2011-06-01",
+  "part_b_eff": "2011-06-01",
+  "address": "239 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78703",
+  "county": "Travis",
+  "phone": "312-555-6992",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-23",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "GARCIA JOSEPH / DOB 1946-06-27 / SEX M / MBI SYNBTDX9NH / PART A 2011-06-01 / PART B 2011-06-01",
+  "address_proof": "239 Oak St Austin TX 78703"
+ }
+}

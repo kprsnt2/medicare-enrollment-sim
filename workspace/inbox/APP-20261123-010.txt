@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-23
+Name: SMITH, LINDA
+DOB: 1944-07-19   Sex: F
+Medicare No: SYNF847HMF
+Part A effective: 2009-07-01   Part B effective: 2009-07-01
+Address: 572 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-2683
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: OEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-12-01
+Notes: -
+Attachment A (Medicare card copy): SMITH LINDA / DOB 1944-07-19 / SEX F / MBI SYNF847HMF / PART A 2009-07-01 / PART B 2009-07-01
+Attachment B (proof of address): 572 Hill St Chicago IL 60602

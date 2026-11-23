@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-23
+Name: JONES, ROBERT
+DOB: l947-06-07   Sex: F
+Medicare No: SYNEAB4PJS
+Part A effective: 2012-06-01   Part B effective: 2012-06-01
+Address: 256 Cedar Ln
+City: Austin   State: TX   ZIP: 78701   County: Travis
+Phone: 312-555-5882
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JONES ROBERT / DOB 1947-06-07 / SEX F / MBI SYNEAB4PJ5 / PART A 2012-06-01 / PART B 2012-06-01
+Attachment B (proof of address): 256 Cedar Ln Austin TX 78701

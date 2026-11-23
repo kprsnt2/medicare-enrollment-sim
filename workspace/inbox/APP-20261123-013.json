@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Hernandez",
+  "dob": "1939-05-18",
+  "sex": "M",
+  "mbi": "SYNPUZ7RRH",
+  "part_a_eff": "2004-05-01",
+  "part_b_eff": "2004-05-01",
+  "address": "391 Park Ave",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "512-555-8102",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Alan Rao",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-23",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "HERNANDEZ JOHN / DOB 1939-05-18 / SEX M / MBI SYNPUZ7RRH / PART A 2004-05-01 / PART B 2004-05-01",
+  "address_proof": "391 Park Ave Houston TX 77002"
+ }
+}
