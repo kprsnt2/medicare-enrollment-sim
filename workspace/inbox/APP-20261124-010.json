@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Helen",
+  "last_name": "Miller",
+  "dob": "1956-07-25",
+  "sex": "M",
+  "mbi": "SYNHRVQDNH",
+  "part_a_eff": "2021-07-01",
+  "part_b_eff": "2021-07-01",
+  "address": "32 Oak St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60603",
+  "county": "Cook",
+  "phone": "602-555-6234",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Becker",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MILLER HELEN / DOB 1956-07-25 / SEX M / MBI SYNHRVQDNH / PART A 2021-07-01 / PART B 2021-07-01",
+  "address_proof": "32 Oak St Chicago IL 60603"
+ }
+}

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-24
+Name: ANDERSON, WILLIAM
+DOB: 1932-02-06   Sex: M
+Medicare No: SYNRK8JJFP
+Part A effective: 1997-02-01   Part B effective: 1997-02-01
+Address: 272 Elm St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 512-555-8952
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: No
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON WILLIAM / DOB 1932-02-06 / SEX M / MBI SYNRK8JJFP / PART A 1997-02-01 / PART B 1997-02-01
+Attachment B (proof of address): 272 Elm St Chicago IL 60602

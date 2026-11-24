@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-24
+Name: ANDERSON, THOMAS
+DOB: 1934-11-25   Sex: F
+Medicare No: SYNZ8C57NX
+Part A effective: 1999-11-01   Part B effective: 1999-11-01
+Address: 372 Elm St
+City: Chicago   State: IL   ZIP: 33102   County: Cook
+Phone: 512-555-0355
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): ANDERSON THOMAS / DOB 1934-11-25 / SEX F / MBI SYNZ8C57NX / PART A 1999-11-01 / PART B 1999-11-01
+Attachment B (proof of address): 372 Elm St Chicago IL 60603

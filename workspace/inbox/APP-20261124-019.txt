@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-24
+Name: HERNANDEZ, LINDA
+DOB: 1932-01-18   Sex: M
+Medicare No: SYNABD2WX9
+Part A effective: 1997-01-01   Part B effective: 1997-01-01
+Address: 916 Oak St
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 713-555-7012
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): HERNANDEZ LINDA / DOB 1932-01-18 / SEX M / MBI SYNABD2WX9 / PART A 1997-01-01 / PART B 1997-01-01

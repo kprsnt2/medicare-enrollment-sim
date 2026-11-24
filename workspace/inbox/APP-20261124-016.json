@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Betty",
+  "last_name": "Taylor",
+  "dob": "1932-12-06",
+  "sex": "M",
+  "mbi": "SYNBRGUQVB",
+  "part_a_eff": "1997-12-01",
+  "part_b_eff": "1998-12-01",
+  "address": "559 Oak St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "713-555-7471",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Maya Iyer",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "TAYLOR BETTY / DOB 1932-12-06 / SEX M / MBI SYNBRGUQVB / PART A 1997-12-01 / PART B 1998-12-01"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Hernandez",
+  "dob": "1936-02-11",
+  "sex": "F",
+  "mbi": "SYNXHBJMNB",
+  "part_a_eff": "2001-02-01",
+  "part_b_eff": "2001-02-01",
+  "address": "270 Park Ave",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "312-555-6459",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-24",
+  "requested_effective_date": "2027-01-01",
+  "signature": "N"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "HERNANDEZ PATRICIA / DOB 1936-02-11 / SEX F / MBI SYNXHBJMNB / PART A 2001-02-01 / PART B 2001-02-01",
+  "address_proof": "270 Park Ave Miami FL 33101"
+ }
+}

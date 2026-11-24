@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-24
+Name: TOHMPSON, MARY
+DOB: 1945-12-21   Sex: M
+Medicare No: SYNJGNCTT3
+Part A effective: 2010-12-01   Part B effective: 2010-12-01
+Address: 797 Hill St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 305-555-9849
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Hana Kim
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TOHMPSON MARY / DOB 1945-12-21 / SEX M / MBI SYNJGNCTT3 / PART A 2010-12-01 / PART B 2010-12-01
+Attachment B (proof of address): 797 Hill St Phoenix AZ 85002
