@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: TAYLOR, RICHARD
+DOB: 1933-04-22   Sex: M
+Medicare No: SYNV96KKF7
+Part A effective: 1998-04-01   Part B effective: 1998-04-01
+Address: 331 Park Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 305-555-4263
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR RICHARD / DOB 1933-04-22 / SEX M / MBI SYNV96KKF7 / PART A 1998-04-01 / PART B 1998-04-01

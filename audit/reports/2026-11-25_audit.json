@@ -1,0 +1,56 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261125-029",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261125-003",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261125-007",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      10731,
+      10732
+     ],
+     "severity": "S3",
+     "text": "The requested effective date was changed from 2026-11-01 to 2027-01-01 without any quoted supporting evidence in the fix event. The source form shows AEP and receipt date 2026-11-25, but the actual change event contains empty evidence, so the modification is not tied to documented evidence in the timeline."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261125-011",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261125-012",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261125-017",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 1150,
+ "findings": [],
+ "ledger_entries": 10851,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-25"
+}

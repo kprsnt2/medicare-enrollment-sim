@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: THOMAS, JAMES
+DOB: 1931-11-08   Sex: F
+Medicare No: SYNXUXDFXP
+Part A effective: 1996-11-01   Part B effective: 1996-11-01
+Address: 81 Pine Rd
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-9207
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 81 Pine Rd Houston TX 77002

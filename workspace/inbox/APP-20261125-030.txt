@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: JOHNSON, ROBERT
+DOB: 1945-01-04   Sex: M
+Medicare No: SYNNCYG2RU
+Part A effective: 2010-01-01   Part B effective: 2011-01-01
+Address: 264 Park Ave
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-1066
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): JOHNSON ROBERT / DOB 1945-01-04 / SEX M / MBI SYNNCYG2RU / PART A 2010-01-01 / PART B 2011-01-01
+Attachment B (proof of address): 264 Park Ave Phoenix AZ 85003

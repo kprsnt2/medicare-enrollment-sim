@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: WILSON, MICHAEL
+DOB: 1950-05-17   Sex: F
+Medicare No: SYNU2FTQSS
+Part A effective: 2015-05-01   Part B effective: 2015-05-01
+Address: 762 Hill St
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-7940
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: I prefer morning phone calls.
+Attachment B (proof of address): 762 Hill St Chicago IL 60602

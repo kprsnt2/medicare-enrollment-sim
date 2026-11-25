@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Brown",
+  "dob": "1932-07-08",
+  "sex": "M",
+  "mbi": "SYN477GCKM",
+  "part_a_eff": "1997-07-01",
+  "part_b_eff": "1997-07-01",
+  "address": "425 Pine Rd",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "305-555-2137",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-25",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "BROWN KAREN / DOB 1932-07-08 / SEX M / MBI SYN477GCKM / PART A 1997-07-01 / PART B 1997-07-01",
+  "address_proof": "425 Pine Rd Houston TX 77002"
+ }
+}

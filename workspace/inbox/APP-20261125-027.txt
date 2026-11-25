@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: THOMPSON, NANCY
+DOB: 1934-06-26   Sex: M
+Medicare No: SYNED9D6KU
+Part A effective: 1999-06-01   Part B effective: 1999-06-01
+Address: 401 Maple Ave
+City: Phoenix   State: AZ   ZIP: 78701   County: Maricopa
+Phone: 713-555-3367
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): THOMPSON NANCY / DOB 1934-06-26 / SEX M / MBI SYNED9D6KU / PART A 1999-06-01 / PART B 1999-06-01
+Attachment B (proof of address): 401 Maple Ave Phoenix AZ 85002

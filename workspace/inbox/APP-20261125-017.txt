@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: MOORE, DOROTHY
+DOB: 1931-02-20   Sex: M
+Medicare No: SYNFH7VHTK
+Part A effective: 1996-02-01   Part B effective: 1996-02-01
+Address: 33 Hill St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 312-555-8763
+Plan selected: Sunrise Care HMO (SYN-H0001-00X)
+PCP: Dr. Maya Iyer
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE DOROTHY / DOB 1931-02-20 / SEX M / MBI SYNFH7VHTK / PART A 1996-02-01 / PART B 1996-02-01
+Attachment B (proof of address): 33 Hill St Houston TX 77002

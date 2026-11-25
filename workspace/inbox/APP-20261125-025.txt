@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: HERNANDEZ, BARBARA
+DOB: 1930-12-28   Sex: M
+Medicare No: SYNUCHF6F7
+Part A effective: 1995-12-01   Part B effective: 1995-12-01
+Address: 62 Maple Ave
+City: Austin   State: TX   ZIP: 78702   County: Travis
+Phone: 512-555-3038
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): HERNANDEZ BARBARA / DOB 1930-12-28 / SEX M / MBI SYNUCHF6F7 / PART A 1995-12-01 / PART B 1995-12-01
+Attachment B (proof of address): 62 Maple Ave Austin TX 78702

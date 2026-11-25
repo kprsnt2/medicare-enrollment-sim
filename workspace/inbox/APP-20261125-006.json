@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Richard",
+  "last_name": "Hernandez",
+  "dob": "1942-04-12",
+  "sex": "F",
+  "mbi": "SYNLHSTR6X",
+  "part_a_eff": "2007-04-01",
+  "part_b_eff": "2007-04-01",
+  "address": "255 Hill St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77003",
+  "county": "Harris",
+  "phone": "305-555-3780",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Alan aRo",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-25",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "HERNANDEZ RICHARD / DOB 1942-04-12 / SEX F / MBI SYNLHSTR6X / PART A 2007-04-01 / PART B 2007-04-01",
+  "address_proof": "255 Hill St Houston TX 77003"
+ }
+}

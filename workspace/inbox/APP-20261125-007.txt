@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-25
+Name: WILSON, DOROTHY
+DOB: 1942-02-07   Sex: M
+Medicare No: SYN969XMZZ
+Part A effective: 2007-02-01   Part B effective: 2007-02-01
+Address: 256 Maple Ave
+City: Austin   State: TX   ZIP: 78703   County: Travis
+Phone: 305-555-8290
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: -
+Attachment A (Medicare card copy): WILSON DOROTHY / DOB 1942-02-07 / SEX M / MBI SYN969XMZZ / PART A 2007-02-01 / PART B 2007-02-01
+Attachment B (proof of address): 256 Maple Ave Austin TX 78703
