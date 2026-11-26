@@ -1,0 +1,65 @@
+{
+ "advisory_llm_review": [
+  {
+   "case_id": "APP-20261126-010",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      11018
+     ],
+     "severity": "S3",
+     "text": "requested_effective_date was changed from 2026-12-01 to 2027-01-01 without any supporting evidence quote in the timeline. The fix event has empty evidence, so this field change is unsupported by cited documentation."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261126-003",
+   "dropped_unreferenced": 0,
+   "findings": [
+    {
+     "event_seqs": [
+      10909,
+      10998,
+      10999
+     ],
+     "severity": "S2",
+     "text": "The requested_effective_date was changed from 2026-11-01 to 2027-01-01 without any quoted documentary evidence in the fix event. Although CMS rejected the original date for AEP and the corrected outcome may be policy-consistent, the timeline shows the fix was applied with empty evidence."
+    }
+   ],
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "APP-20261126-007",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261126-015",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261126-016",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "APP-20261126-019",
+   "dropped_unreferenced": 0,
+   "findings": [],
+   "verdict": "PASS"
+  }
+ ],
+ "cases_checked": 1180,
+ "findings": [],
+ "ledger_entries": 11140,
+ "ledger_ok": true,
+ "s1": 0,
+ "s2": 0,
+ "sim_date": "2026-11-26"
+}

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "William",
+  "last_name": "Martin",
+  "dob": "1961-12-01",
+  "sex": "M",
+  "mbi": "SYNRWJRWLR",
+  "part_a_eff": "2026-12-01",
+  "part_b_eff": "2026-12-01",
+  "address": "590 Oak St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "602-555-2351",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-26",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTIN WILLIAM / DOB 1961-12-01 / SEX M / MBI SYNRWJRWLR / PART A 2026-12-01 / PART B 2026-12-01",
+  "address_proof": "590 Oak St Miami FL 33103"
+ }
+}

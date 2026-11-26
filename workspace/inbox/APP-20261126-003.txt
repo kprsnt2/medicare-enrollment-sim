@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-26
+Name: MARTINEZ, DAVID
+DOB: 1930-03-12   Sex: F
+Medicare No: SYNR5CA6HB
+Part A effective: 1995-03-01   Part B effective: 1995-03-01
+Address: 629 Elm St
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 602-555-8839
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Priya Nair
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2026-11-01
+Notes: Thank you for your help.
+Attachment B (proof of address): 629 Elm St Chicago IL 60601

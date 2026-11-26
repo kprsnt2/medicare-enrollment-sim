@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Joseph",
+  "last_name": "Miller",
+  "dob": "1935-02-17",
+  "sex": "F",
+  "mbi": "SYNKL7URX8",
+  "part_a_eff": "2000-02-01",
+  "part_b_eff": "2000-02-01",
+  "address": "904 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "713-555-1923",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-26",
+  "requested_effective_date": "2026-11-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "MILLER JOSEPH / DOB 1935-02-17 / SEX F / MBI SYNKL7URX8 / PART A 2000-02-01 / PART B 2000-02-01",
+  "address_proof": "904 Oak St Phoenix AZ 85003"
+ }
+}

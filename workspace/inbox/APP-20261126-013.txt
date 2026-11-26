@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-26
+Name: TAYLOR, JOSEPH
+DOB: 1956-06-13   Sex: F
+Medicare No: SYN2B3PKSA
+Part A effective: 2021-06-01   Part B effective: 2021-06-01
+Address: 495 Lakeview Dr
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-0604
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Chris oDyle
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): TAYLOR JOSEPH / DOB 1956-06-13 / SEX F / MBI SYN2B3PKSA / PART A 2021-06-01 / PART B 2021-06-01

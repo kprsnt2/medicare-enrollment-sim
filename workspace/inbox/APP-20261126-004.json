@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "John",
+  "last_name": "Anderson",
+  "dob": "1948-09-18",
+  "sex": "F",
+  "mbi": "SYN7KQRZQZ",
+  "part_a_eff": "2013-09-01",
+  "part_b_eff": "2013-09-01",
+  "address": "573 Maple Ave",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "512-555-5064",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-26",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "ANDERSON JOHN / DOB 1948-09-18 / SEX F / MBI SYN7KQRZQZ / PART A 2013-09-01 / PART B 2013-09-01",
+  "address_proof": "573 Maple Ave Austin TX 78701"
+ }
+}

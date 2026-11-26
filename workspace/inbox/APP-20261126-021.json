@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Karen",
+  "last_name": "Jackson",
+  "dob": "1941-07-11",
+  "sex": "M",
+  "mbi": "SYNEV7Q4KX",
+  "part_a_eff": "2006-07-01",
+  "part_b_eff": "2006-07-01",
+  "address": "154 Elm St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33103",
+  "county": "Miami-Dade",
+  "phone": "512-555-8444",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-26",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JACKSON KAREN / DOB 1941-07-11 / SEX M / MBI SYNEV7Q4KX / PART A 2006-07-01 / PART B 2006-07-01",
+  "address_proof": "154 Elm St Miami FL 33103"
+ }
+}

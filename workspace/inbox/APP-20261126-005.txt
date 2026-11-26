@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-26
+Name: WILLIAMS, DOROTHY
+DOB: 1947-01-07   Sex: M
+Medicare No: SYNKYWWAFA
+Part A effective: 2012-01-01   Part B effective: 2012-01-01
+Address: 82 Cedar Ln
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 312-555-8586
+Plan selected: Sunrise Care HMO (SYN-H0001-001)
+PCP: Dr. Alan Rao
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS DOROTHY / DOB 1947-01-07 / SEX M / MBI SYNKYWWAFA / PART A 2012-01-01 / PART B 2012-01-01
+Attachment B (proof of address): 82 Cedar Ln Houston TX 77001

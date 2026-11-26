@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-26
+Name: IMLLER, HELEN
+DOB: 1931-01-09   Sex: F
+Medicare No: SYNM7H45DD
+Part A effective: 1996-01-01   Part B effective: 1996-01-01
+Address: 639 Hill St
+City: Houston   State: TX   ZIP: 77002   County: Harris
+Phone: 305-555-8521
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): IMLLER HELEN / DOB 1931-01-09 / SEX F / MBI SYNM7H45DD / PART A 1996-01-01 / PART B 1996-01-01
+Attachment B (proof of address): 639 Hill St Houston TX 77002

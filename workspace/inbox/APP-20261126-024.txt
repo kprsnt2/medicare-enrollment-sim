@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-26
+Name: WILLIAMS, JAMES
+DOB: 1934-07-24   Sex: M
+Medicare No: SYNZFDSWU6
+Part A effective: 1999-07-01   Part B effective: 1999-07-01
+Address: 327 Park Ave
+City: Chicago   State: IL   ZIP: 77003   County: Cook
+Phone: 305-555-2231
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILLIAMS JAMES / DOB 1934-07-24 / SEX M / MBI SYNZFDSWU6 / PART A 1999-07-01 / PART B 1999-07-01
+Attachment B (proof of address): 327 Park Ave Chicago IL 60601

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Joseph",
+  "last_name": "Brown",
+  "dob": "1935-02-26",
+  "sex": "M",
+  "mbi": "SYNCHL3ST3",
+  "part_a_eff": "2000-02-01",
+  "part_b_eff": "2001-02-01",
+  "address": "626 Cedar Ln",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77002",
+  "county": "Harris",
+  "phone": "512-555-1250",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Maya Iyer",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-26",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "Please send materials in large print.",
+ "attachments": {
+  "card_text": "BROWN JOSEPH / DOB 1935-02-26 / SEX M / MBI SYNCHL3ST3 / PART A 2000-02-01 / PART B 2001-02-01",
+  "address_proof": "626 Cedar Ln Houston TX 77002"
+ }
+}
