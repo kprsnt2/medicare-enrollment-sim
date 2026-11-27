@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: HERNANDEZ, BETTY
+DOB: 1954-01-21   Sex: M
+Medicare No: SYND7FJGZE
+Part A effective: 2019-01-01   Part B effective: 2020-01-01
+Address: 197 Maple Ave
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 512-555-4728
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 197 Maple Ave Phoenix AZ 85002

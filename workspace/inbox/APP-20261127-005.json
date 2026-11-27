@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Mary",
+  "last_name": "Taylor",
+  "dob": "1931-01-10",
+  "sex": "M",
+  "mbi": "SYN9R8HLB6",
+  "part_a_eff": "1996-01-01",
+  "part_b_eff": "1996-01-01",
+  "address": "511 Maple Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85001",
+  "county": "Maricopa",
+  "phone": "602-555-7568",
+  "plan_name": "Desert Bloom HMO",
+  "plan_id": "SYN-H0003-002",
+  "pcp_name": "Dr. Joel Park",
+  "election_type": "OEP",
+  "sep_reason": "",
+  "election_date": "2026-11-27",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "I moved to this county last month.",
+ "attachments": {
+  "card_text": "TAYLOR MARY / DOB 1931-01-10 / SEX M / MBI SYN9R8HLB6 / PART A 1996-01-01 / PART B 1996-01-01",
+  "address_proof": "511 Maple Ave Phoenix AZ 85001"
+ }
+}

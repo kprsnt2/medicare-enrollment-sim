@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: WILSON, KAREN
+DOB: 1951-11-25   Sex: M
+Medicare No: SYNS8BRTC8
+Part A effective: 2016-11-01   Part B effective: 2016-11-01
+Address: 19 Lakeview Dr
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 305-555-7602
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): WILSON KAREN / DOB 1951-11-25 / SEX M / MBI SYNS8BRTC8 / PART A 2016-11-01 / PART B 2016-11-01
+Attachment B (proof of address): 19 Lakeview Dr Miami FL 33101

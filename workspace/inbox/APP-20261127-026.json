@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Taylor",
+  "dob": "1962-01-13",
+  "sex": "M",
+  "mbi": "SYNM7NFMUN",
+  "part_a_eff": "2027-01-01",
+  "part_b_eff": "2027-01-01",
+  "address": "738 Oak St",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "county": "Cook",
+  "phone": "512-555-5347",
+  "plan_name": "Lakeshore Prime HMO",
+  "plan_id": "SYN-H0002-001",
+  "pcp_name": "Dr. Tom Bekcer",
+  "election_type": "IEP",
+  "sep_reason": "",
+  "election_date": "2026-11-27",
+  "requested_effective_date": "2026-12-01",
+  "signature": "Y"
+ },
+ "notes": "My regular doctor is Dr. Tom Becker at the clinic.",
+ "attachments": {
+  "address_proof": "738 Oak St Chicago IL 60601"
+ }
+}

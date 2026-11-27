@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: LOPEZ, HELEN
+DOB: 1931-06-24   Sex: F
+Medicare No: SYNNZ4E2ML
+Part A effective: 1996-06-01   Part B effective: 1996-06-01
+Address: 587 Elm St
+City: Phoenix   State: AZ   ZIP: 85003   County: Maricopa
+Phone: 312-555-7672
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -

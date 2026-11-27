@@ -1,0 +1,27 @@
+{
+ "form": {
+  "first_name": "Patricia",
+  "last_name": "Williams",
+  "dob": "1958-07-15",
+  "sex": "M",
+  "mbi": "SYNJQK3979",
+  "part_a_eff": "2023-07-01",
+  "part_b_eff": "2023-07-01",
+  "address": "791 Oak St",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85003",
+  "county": "Maricopa",
+  "phone": "512-555-2107",
+  "plan_name": "Sunrise Choice PPO",
+  "plan_id": "SYN-H0001-002",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {}
+}

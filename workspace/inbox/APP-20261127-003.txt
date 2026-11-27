@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: SMITH, THOMAS
+DOB: 1938-12-20   Sex: F
+Medicare No: SYNW8C5ZT6
+Part A effective: 2003-12-01   Part B effective: 2003-12-01
+Address: 818 Park Ave
+City: Houston   State: TX   ZIP: 77001   County: Harris
+Phone: 713-555-7336
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): SMITH THOMAS / DOB 1938-12-20 / SEX F / MBI SYNW8C5ZT6 / PART A 2003-12-01 / PART B 2003-12-01
+Attachment B (proof of address): 818 Park Ave Houston TX 77001

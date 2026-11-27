@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: MARTIN, JOHN
+DOB: 1938-03-22   Sex: M
+Medicare No: SYNSHB2HP4
+Part A effective: 2003-03-01   Part B effective: 2003-03-01
+Address: 891 Park Ave
+City: Chicago   State: IL   ZIP: 60602   County: Cook
+Phone: 305-555-9159
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Laura Weiss
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTIN JOHN / DOB 1938-03-22 / SEX M / MBI SYNSHB2HP4 / PART A 2003-03-01 / PART B 2003-03-01
+Attachment B (proof of address): 891 Park Ave Chicago IL 60602

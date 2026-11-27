@@ -1,0 +1,163 @@
+{
+ "audit_s1": 0,
+ "audit_s2": 0,
+ "basket_at_resolve_start": 23,
+ "compliance": {
+  "LETTER_ALTERED_OR_MISSING": 78,
+  "OPEN_OVER_TAT": 141,
+  "TAT_AT_RISK": 10
+ },
+ "evaluation": {
+  "by_defect": {
+   "clean": {
+    "correct": 393,
+    "open": 0,
+    "terminal": 393
+   },
+   "demo_mismatch": {
+    "correct": 18,
+    "open": 88,
+    "terminal": 25
+   },
+   "duplicate": {
+    "correct": 60,
+    "open": 0,
+    "terminal": 60
+   },
+   "election_invalid": {
+    "correct": 62,
+    "open": 0,
+    "terminal": 72
+   },
+   "elig_date": {
+    "correct": 76,
+    "open": 47,
+    "terminal": 80
+   },
+   "mbi_typo": {
+    "correct": 3,
+    "open": 34,
+    "terminal": 17
+   },
+   "missing_signature": {
+    "correct": 52,
+    "open": 9,
+    "terminal": 52
+   },
+   "ocr_noise": {
+    "correct": 44,
+    "open": 0,
+    "terminal": 44
+   },
+   "out_of_area": {
+    "correct": 66,
+    "open": 1,
+    "terminal": 68
+   },
+   "pcp_mismatch": {
+    "correct": 38,
+    "open": 24,
+    "terminal": 38
+   },
+   "wrong_plan": {
+    "correct": 86,
+    "open": 0,
+    "terminal": 86
+   },
+   "zip_typo": {
+    "correct": 71,
+    "open": 1,
+    "terminal": 71
+   }
+  },
+  "correct": 969,
+  "false_accepts": 9,
+  "false_denials": 0,
+  "missed_accepts": 25,
+  "open": 204,
+  "outcome_accuracy": 0.9632,
+  "terminal": 1006,
+  "wrong_fields_on_accept": 0
+ },
+ "gate_ok": true,
+ "halted_for_budget": false,
+ "ledger_ok": true,
+ "llm_calls_today": 71,
+ "mode": "live",
+ "model": "gpt-5.4",
+ "new_applications": 30,
+ "oldest_open": [
+  {
+   "case_id": "APP-20261015-021",
+   "reason": "REJ-PCP",
+   "received": "2026-10-15",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261016-009",
+   "reason": "REJ-PCP",
+   "received": "2026-10-16",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261017-003",
+   "reason": "REJ-PCP",
+   "received": "2026-10-17",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261017-014",
+   "reason": "OCR_LOW_CONFIDENCE",
+   "received": "2026-10-17",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261017-026",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-17",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261023-029",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-23",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261024-003",
+   "reason": "REJ-DEMO",
+   "received": "2026-10-24",
+   "state": "ESCALATED"
+  },
+  {
+   "case_id": "APP-20261024-022",
+   "reason": "REJ-NOENT",
+   "received": "2026-10-24",
+   "state": "ESCALATED"
+  }
+ ],
+ "sim_date": "2026-11-27",
+ "states": {
+  "ACCEPTED": 727,
+  "CLOSED_DUPLICATE": 60,
+  "CLOSED_INCOMPLETE": 112,
+  "DENIED": 107,
+  "ESCALATED": 187,
+  "IN_BASKET": 3,
+  "PENDING_MEMBER": 14
+ },
+ "timings_seconds": {
+  "applicants": 0.0,
+  "audit": 1.16,
+  "compliance": 1.23,
+  "evaluate": 0.01,
+  "intake": 27.98,
+  "notices": 7.75,
+  "resolve": 10.26,
+  "rfi_expiry": 0.0,
+  "total": 48.4
+ },
+ "token_cap": 2000000,
+ "tokens_used_today": 82281,
+ "workers": 8
+}

@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "David",
+  "last_name": "Hernandez",
+  "dob": "1951-07-20",
+  "sex": "M",
+  "mbi": "SYNZ9QLCWS",
+  "part_a_eff": "2016-07-01",
+  "part_b_eff": "2016-07-01",
+  "address": "945 Oak St",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78701",
+  "county": "Travis",
+  "phone": "305-555-4624",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Chris Doyle",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-27",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "I prefer morning phone calls.",
+ "attachments": {
+  "card_text": "HERNANDEZ DAVID / DOB 1951-07-20 / SEX M / MBI SYNZ9QLCWS / PART A 2016-07-01 / PART B 2016-07-01",
+  "address_proof": "945 Oak St Austin TX 78701"
+ }
+}

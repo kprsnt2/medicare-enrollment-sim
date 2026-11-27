@@ -1,0 +1,14 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: LOPEZ, DAVID
+DOB: 1939-09-17   Sex: M
+Medicare No: SYNHZZYHXS
+Part A effective: 2004-09-01   Part B effective: 2004-09-01
+Address: 170 Cedar Ln
+City: Chicago   State: IL   ZIP: 60603   County: Cook
+Phone: 713-555-3168
+Plan selected: Lakeshore Prime HMO (SYN-H0002-001)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Thank you for your help.

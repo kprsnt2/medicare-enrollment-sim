@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-27
+Name: MARTINEZ, NANCY
+DOB: 1945-12-12   Sex: M
+Medicare No: SYNY8QYMM9
+Part A effective: 2010-12-01   Part B effective: 2010-12-01
+Address: 730 Hill St
+City: Phoenix   State: AZ   ZIP: 85001   County: Maricopa
+Phone: 312-555-9470
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Sam Ortiz
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MARTINEZ NANCY / DOB 1945-12-12 / SEX M / MBI SYNY8QYMM9 / PART A 2010-12-01 / PART B 2010-12-01
+Attachment B (proof of address): 730 Hill St Phoenix AZ 85001
