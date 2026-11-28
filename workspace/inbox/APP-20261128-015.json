@@ -1,0 +1,29 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Martinez",
+  "dob": "1945-01-08",
+  "sex": "M",
+  "mbi": "SYNKZ5YGP9",
+  "part_a_eff": "2010-01-01",
+  "part_b_eff": "2010-01-01",
+  "address": "33 Oak St",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33101",
+  "county": "Miami-Dade",
+  "phone": "602-555-1478",
+  "plan_name": "Palmetto Gold PPO",
+  "plan_id": "SYN-H0003-001",
+  "pcp_name": "",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-28",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "MARTINEZ THOMAS / DOB 1945-01-08 / SEX M / MBI SYNKZ5YGP9 / PART A 2010-01-01 / PART B 2010-01-01"
+ }
+}

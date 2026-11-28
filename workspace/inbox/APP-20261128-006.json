@@ -1,0 +1,30 @@
+{
+ "form": {
+  "first_name": "Thomas",
+  "last_name": "Jones",
+  "dob": "1940-10-03",
+  "sex": "M",
+  "mbi": "SYNJ9TFNJ6",
+  "part_a_eff": "2005-10-01",
+  "part_b_eff": "2005-10-01",
+  "address": "496 Hill St",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "60601",
+  "county": "Harris",
+  "phone": "713-555-7294",
+  "plan_name": "Sunrise Care HMO",
+  "plan_id": "SYN-H0001-001",
+  "pcp_name": "Dr. Neha Kulkarni",
+  "election_type": "AEP",
+  "sep_reason": "",
+  "election_date": "2026-11-28",
+  "requested_effective_date": "2027-01-01",
+  "signature": "Y"
+ },
+ "notes": "",
+ "attachments": {
+  "card_text": "JONES THOMAS / DOB 1940-10-03 / SEX M / MBI SYNJ9TFNJ6 / PART A 2005-10-01 / PART B 2005-10-01",
+  "address_proof": "496 Hill St Houston TX 77002"
+ }
+}

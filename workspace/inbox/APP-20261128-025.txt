@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-28
+Name: JACKSON, WILLIAM
+DOB: 1958-10-14   Sex: F
+Medicare No: SYN8XG7RV7
+Part A effective: 2023-10-01   Part B effective: 2023-10-01
+Address: 446 Pine Rd
+City: Chicago   State: IL   ZIP: 60601   County: Cook
+Phone: 312-555-2131
+Plan selected: Lakeshore Prime HMO (SYN-H0002-00X)
+PCP: Dr. Tom Becker
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): JACKSON WILLIAM / DOB 1958-10-14 / SEX F / MBI SYN8XG7RV7 / PART A 2023-10-01 / PART B 2023-10-01

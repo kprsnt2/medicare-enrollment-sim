@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-28
+Name: BROWN, ROBERT
+DOB: 1950-12-13   Sex: F
+Medicare No: SYNLMLLWGM
+Part A effective: 2015-12-01   Part B effective: 2015-12-01
+Address: 809 Pine Rd
+City: Miami   State: FL   ZIP: 33101   County: Miami-Dade
+Phone: 713-555-0565
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): BROWN ROBERT / DOB 1950-12-13 / SEX F / MBI SYNLMLLWGM / PART A 2015-12-01 / PART B 2015-12-01

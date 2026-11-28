@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-28
+Name: JACKSON, CHARLES
+DOB: 1957-06-28   Sex: M
+Medicare No: SYNURYPXCS
+Part A effective: 2022-06-01   Part B effective: 2022-06-01
+Address: 31 Cedar Ln
+City: Miami   State: FL   ZIP: 33103   County: Miami-Dade
+Phone: 713-555-6503
+Plan selected: Palmetto Gold PPO (SYN-H0003-001)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment B (proof of address): 31 Cedar Ln Miami FL 33103

@@ -1,0 +1,16 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-28
+Name: THOMPSON, THOMAS
+DOB: 1939-10-19   Sex: M
+Medicare No: SYN3NK4SQM
+Part A effective: 2004-10-01   Part B effective: 2004-10-01
+Address: 160 Elm St
+City: Phoenix   State: AZ   ZIP: BS00Z   County: Maricopa
+Phone: 713-555-4204
+Plan selected: Sunrise Choice PPO (SYN-H0001-002)
+PCP: -
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: Please send materials in large print.
+Attachment A (Medicare card copy): THOMPSON THOMAS / DOB 1939-10-19 / SEX M / MBI SYN3NK45QM / PART A 2004-10-01 / PART B 2004-10-01
+Attachment B (proof of address): 160 Elm St Phoenix AZ 85002

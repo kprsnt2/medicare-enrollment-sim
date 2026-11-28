@@ -1,0 +1,15 @@
+MEDICARE ADVANTAGE ENROLLMENT REQUEST FORM (SYNTHETIC - NOT A REAL FORM)
+Received: 2026-11-28
+Name: MOORE, JOHN
+DOB: 1936-03-07   Sex: M
+Medicare No: SYNCST55YM
+Part A effective: 2001-03-01   Part B effective: 2001-03-01
+Address: 549 Elm St
+City: Phoenix   State: AZ   ZIP: 85002   County: Maricopa
+Phone: 602-555-5398
+Plan selected: Desert Bloom HMO (SYN-H0003-002)
+PCP: Dr. Joel Park
+Election: AEP   Sep reason: -   Signed: Yes
+Requested effective date: 2027-01-01
+Notes: -
+Attachment A (Medicare card copy): MOORE JOHN / DOB 1936-03-07 / SEX M / MBI SYNCST55YM / PART A 2001-03-01 / PART B 2001-03-01
